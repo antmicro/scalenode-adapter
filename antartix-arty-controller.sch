@@ -575,6 +575,296 @@ Text Notes 6625 6125 0    118  ~ 0
 Current monitor
 Text Notes 1800 1650 0    50   ~ 0
 TODO: add 3V3 source from Node board
-Text Notes 9700 3300 0    50   ~ 0
-TODO: add VBUS power controller
+$Comp
+L antmicroPMICPowerDistributionSwitchesLoadDrivers:TPS2051BDBVR U?
+U 1 1 60245BB5
+P 10425 1650
+F 0 "U?" H 10425 1937 60  0000 C CNN
+F 1 "TPS2051BDBVR" H 10425 1831 60  0000 C CNN
+F 2 "antmicro-footprints:SOT-753" H 10625 1850 60  0001 L CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftps2051b" H 10625 1950 60  0001 L CNN
+F 4 "TPS2051BDBVR" H 10625 2150 60  0001 L CNN "MPN"
+F 5 "Texas Instruments" H 10625 2750 60  0001 L CNN "Manufacturer"
+	1    10425 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10125 1650 9500 1650
+Text Label 9500 1650 0    50   ~ 0
+USB1_EN
+Wire Wire Line
+	11350 1650 10725 1650
+Text Label 11125 1650 0    50   ~ 0
+OC_N1
+Wire Wire Line
+	10125 1750 9825 1750
+Text GLabel 9825 1750 0    50   Input ~ 0
+VCC5V0
+Wire Wire Line
+	11025 1750 10725 1750
+Text GLabel 11025 1750 2    50   Input ~ 0
+VBUS1_S
+$Comp
+L power:GND #PWR?
+U 1 1 6025B752
+P 10425 1950
+F 0 "#PWR?" H 10425 1700 50  0001 C CNN
+F 1 "GND" H 10430 1777 50  0000 C CNN
+F 2 "" H 10425 1950 50  0001 C CNN
+F 3 "" H 10425 1950 50  0001 C CNN
+	1    10425 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroPMICPowerDistributionSwitchesLoadDrivers:TPS2051BDBVR U?
+U 1 1 602601CF
+P 10425 2525
+F 0 "U?" H 10425 2812 60  0000 C CNN
+F 1 "TPS2051BDBVR" H 10425 2706 60  0000 C CNN
+F 2 "antmicro-footprints:SOT-753" H 10625 2725 60  0001 L CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftps2051b" H 10625 2825 60  0001 L CNN
+F 4 "TPS2051BDBVR" H 10625 3025 60  0001 L CNN "MPN"
+F 5 "Texas Instruments" H 10625 3625 60  0001 L CNN "Manufacturer"
+	1    10425 2525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10125 2525 9500 2525
+Text Label 9500 2525 0    50   ~ 0
+USB2_EN
+Wire Wire Line
+	11350 2525 10725 2525
+Text Label 11125 2525 0    50   ~ 0
+OC_N2
+Wire Wire Line
+	10125 2625 9825 2625
+Text GLabel 9825 2625 0    50   Input ~ 0
+VCC5V0
+Wire Wire Line
+	11025 2625 10725 2625
+Text GLabel 11025 2625 2    50   Input ~ 0
+VBUS2_S
+$Comp
+L power:GND #PWR?
+U 1 1 602601DD
+P 10425 2825
+F 0 "#PWR?" H 10425 2575 50  0001 C CNN
+F 1 "GND" H 10430 2652 50  0000 C CNN
+F 2 "" H 10425 2825 50  0001 C CNN
+F 3 "" H 10425 2825 50  0001 C CNN
+	1    10425 2825
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroPMICPowerDistributionSwitchesLoadDrivers:TPS2051BDBVR U?
+U 1 1 60268173
+P 10425 3425
+F 0 "U?" H 10425 3712 60  0000 C CNN
+F 1 "TPS2051BDBVR" H 10425 3606 60  0000 C CNN
+F 2 "antmicro-footprints:SOT-753" H 10625 3625 60  0001 L CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftps2051b" H 10625 3725 60  0001 L CNN
+F 4 "TPS2051BDBVR" H 10625 3925 60  0001 L CNN "MPN"
+F 5 "Texas Instruments" H 10625 4525 60  0001 L CNN "Manufacturer"
+	1    10425 3425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10125 3425 9500 3425
+Text Label 9500 3425 0    50   ~ 0
+USB3_EN
+Wire Wire Line
+	11350 3425 10725 3425
+Text Label 11125 3425 0    50   ~ 0
+OC_N3
+Wire Wire Line
+	10125 3525 9825 3525
+Text GLabel 9825 3525 0    50   Input ~ 0
+VCC5V0
+Wire Wire Line
+	11025 3525 10725 3525
+Text GLabel 11025 3525 2    50   Input ~ 0
+VBUS3_S
+$Comp
+L power:GND #PWR?
+U 1 1 60268181
+P 10425 3725
+F 0 "#PWR?" H 10425 3475 50  0001 C CNN
+F 1 "GND" H 10430 3552 50  0000 C CNN
+F 2 "" H 10425 3725 50  0001 C CNN
+F 3 "" H 10425 3725 50  0001 C CNN
+	1    10425 3725
+	1    0    0    -1  
+$EndComp
+Text Notes 9850 1100 0    118  ~ 0
+Power switches
+Text GLabel 8425 7100 2    50   Input ~ 0
+SCL0
+Text GLabel 8425 7200 2    50   Input ~ 0
+SDA0
+Wire Wire Line
+	8425 7100 8075 7100
+Wire Wire Line
+	8425 7200 8075 7200
+$Comp
+L antmicroResistorsmisc:R_0R01_1206 R?
+U 1 1 6028CD2F
+P 6200 7600
+F 0 "R?" H 6200 7387 60  0000 C CNN
+F 1 "R_0R01_1206" H 6200 7450 60  0001 C CNN
+F 2 "antmicro-footprints:1206-res" H 6400 7800 60  0001 L CNN
+F 3 "" H 6200 7600 50  0001 C CNN
+F 4 "PANASONIC" H 6400 8000 60  0001 L CNN "Manufacturer"
+F 5 "ERJMP2KF10MU" H 6400 7900 60  0001 L CNN "MPN"
+F 6 "0R01" H 6200 7485 50  0000 C CNN "Val"
+	1    6200 7600
+	-1   0    0    1   
+$EndComp
+$Comp
+L antmicroResistorsmisc:R_0R01_1206 R?
+U 1 1 6028C64E
+P 6200 7300
+F 0 "R?" H 6200 7087 60  0000 C CNN
+F 1 "R_0R01_1206" H 6200 7150 60  0001 C CNN
+F 2 "antmicro-footprints:1206-res" H 6400 7500 60  0001 L CNN
+F 3 "" H 6200 7300 50  0001 C CNN
+F 4 "PANASONIC" H 6400 7700 60  0001 L CNN "Manufacturer"
+F 5 "ERJMP2KF10MU" H 6400 7600 60  0001 L CNN "MPN"
+F 6 "0R01" H 6200 7185 50  0000 C CNN "Val"
+	1    6200 7300
+	-1   0    0    1   
+$EndComp
+$Comp
+L antmicroResistorsmisc:R_0R01_1206 R?
+U 1 1 6028C199
+P 6200 7000
+F 0 "R?" H 6200 6787 60  0000 C CNN
+F 1 "R_0R01_1206" H 6200 6850 60  0001 C CNN
+F 2 "antmicro-footprints:1206-res" H 6400 7200 60  0001 L CNN
+F 3 "" H 6200 7000 50  0001 C CNN
+F 4 "PANASONIC" H 6400 7400 60  0001 L CNN "Manufacturer"
+F 5 "ERJMP2KF10MU" H 6400 7300 60  0001 L CNN "MPN"
+F 6 "0R01" H 6200 6885 50  0000 C CNN "Val"
+	1    6200 7000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6475 7000 6350 7000
+Wire Wire Line
+	6475 7100 6050 7100
+Wire Wire Line
+	6050 7100 6050 7000
+Wire Wire Line
+	6475 7300 6350 7300
+Wire Wire Line
+	6475 7400 6050 7400
+Wire Wire Line
+	6050 7400 6050 7300
+Wire Wire Line
+	6475 7600 6350 7600
+Wire Wire Line
+	6475 7700 6050 7700
+Wire Wire Line
+	6050 7700 6050 7600
+Connection ~ 6050 7000
+Wire Wire Line
+	6050 7300 5950 7300
+Connection ~ 6050 7300
+Wire Wire Line
+	5950 7000 6050 7000
+Wire Wire Line
+	6050 7600 5950 7600
+Connection ~ 6050 7600
+Text GLabel 5950 7000 0    50   Input ~ 0
+VBUS1_S
+Text GLabel 5950 7300 0    50   Input ~ 0
+VBUS2_S
+Text GLabel 5950 7600 0    50   Input ~ 0
+VBUS3_S
+Wire Wire Line
+	6050 7400 5950 7400
+Wire Wire Line
+	5950 7100 6050 7100
+Wire Wire Line
+	6050 7700 5950 7700
+Text GLabel 5950 7100 0    50   Input ~ 0
+VBUS1
+Text GLabel 5950 7400 0    50   Input ~ 0
+VBUS2
+Text GLabel 5950 7700 0    50   Input ~ 0
+VBUS3
+Connection ~ 6050 7100
+Connection ~ 6050 7400
+Connection ~ 6050 7700
+Wire Wire Line
+	8075 6800 8075 6700
+Connection ~ 8075 6700
+Wire Wire Line
+	8075 6700 8075 6425
+Wire Wire Line
+	8075 7400 8675 7400
+Wire Wire Line
+	8075 7500 8675 7500
+$Comp
+L power:GND #PWR?
+U 1 1 602E0008
+P 8325 7000
+F 0 "#PWR?" H 8325 6750 50  0001 C CNN
+F 1 "GND" H 8330 6827 50  0000 C CNN
+F 2 "" H 8325 7000 50  0001 C CNN
+F 3 "" H 8325 7000 50  0001 C CNN
+	1    8325 7000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8325 7000 8075 7000
+$Comp
+L power:GND #PWR?
+U 1 1 602E46BB
+P 8075 8425
+F 0 "#PWR?" H 8075 8175 50  0001 C CNN
+F 1 "GND" H 8080 8252 50  0000 C CNN
+F 2 "" H 8075 8425 50  0001 C CNN
+F 3 "" H 8075 8425 50  0001 C CNN
+	1    8075 8425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8075 8200 8075 8425
+$Comp
+L antmicroCapacitors0402:C_100n_0402 C?
+U 1 1 602EC178
+P 8450 6475
+F 0 "C?" H 8565 6520 60  0000 L CNN
+F 1 "C_100n_0402" H 8450 6325 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 8650 6675 60  0001 L CNN
+F 3 "" H 8450 6475 50  0001 C CNN
+F 4 "Walsin" H 8650 6875 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 8650 6775 60  0001 L CNN "MPN"
+F 6 "100n" H 8565 6422 50  0000 L CNN "Val"
+	1    8450 6475
+	1    0    0    -1  
+$EndComp
+Text GLabel 8450 6325 1    50   Input ~ 0
+VCC5V0
+$Comp
+L power:GND #PWR?
+U 1 1 602EC17F
+P 8450 6625
+F 0 "#PWR?" H 8450 6375 50  0001 C CNN
+F 1 "GND" H 8455 6452 50  0000 C CNN
+F 2 "" H 8450 6625 50  0001 C CNN
+F 3 "" H 8450 6625 50  0001 C CNN
+	1    8450 6625
+	1    0    0    -1  
+$EndComp
+Text GLabel 8075 6425 1    50   Input ~ 0
+VCC5V0
+Text Notes 5475 8525 0    50   ~ 0
+TODO: decide what to do with unconnected nets
+Text Notes 8875 6450 0    50   ~ 0
+TODO: decide whether it's better to connect to 3V3 or 5V0
+Text Notes 2950 2650 0    50   ~ 0
+TODO: connect GPIOs to peripherals
+Text Notes 12875 2150 0    50   ~ 0
+TODO: add 3x USB 2.0 type A connectors (vertical right-angle) 
 $EndSCHEMATC
