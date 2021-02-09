@@ -865,6 +865,149 @@ Text Notes 8875 6450 0    50   ~ 0
 TODO: decide whether it's better to connect to 3V3 or 5V0
 Text Notes 2950 2650 0    50   ~ 0
 TODO: connect GPIOs to peripherals
-Text Notes 12875 2150 0    50   ~ 0
-TODO: add 3x USB 2.0 type A connectors (vertical right-angle) 
+Wire Wire Line
+	3700 2200 4275 2200
+Text Label 4275 2200 2    50   ~ 0
+RESET_N
+$Comp
+L antmicroUSBDVIHDMIConnectors:73725-0110BLF J?
+U 1 1 60449899
+P 13300 3575
+F 0 "J?" H 13420 4087 60  0000 C CNN
+F 1 "73725-0110BLF" H 13420 3981 60  0000 C CNN
+F 2 "antmicro-footprints:USB_A_Female_Vertical_RA_73725-0110BLF" H 13500 3775 60  0001 L CNN
+F 3 "http://www.amphenol-icc.com/media/wysiwyg/files/drawing/73725.pdf" H 13500 3875 60  0001 L CNN
+F 4 "73725-0110BLF" H 13500 4075 60  0001 L CNN "MPN"
+F 5 "Amphenol ICC (FCI)" H 13500 4675 60  0001 L CNN "Manufacturer"
+	1    13300 3575
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroUSBDVIHDMIConnectors:73725-0110BLF J?
+U 1 1 6044A36C
+P 13275 4950
+F 0 "J?" H 13395 5462 60  0000 C CNN
+F 1 "73725-0110BLF" H 13400 5350 60  0000 C CNN
+F 2 "antmicro-footprints:USB_A_Female_Vertical_RA_73725-0110BLF" H 13475 5150 60  0001 L CNN
+F 3 "http://www.amphenol-icc.com/media/wysiwyg/files/drawing/73725.pdf" H 13475 5250 60  0001 L CNN
+F 4 "73725-0110BLF" H 13475 5450 60  0001 L CNN "MPN"
+F 5 "Amphenol ICC (FCI)" H 13475 6050 60  0001 L CNN "Manufacturer"
+	1    13275 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroUSBDVIHDMIConnectors:73725-0110BLF J?
+U 1 1 6044BF40
+P 13300 6300
+F 0 "J?" H 13420 6812 60  0000 C CNN
+F 1 "73725-0110BLF" H 13420 6706 60  0000 C CNN
+F 2 "antmicro-footprints:USB_A_Female_Vertical_RA_73725-0110BLF" H 13500 6500 60  0001 L CNN
+F 3 "http://www.amphenol-icc.com/media/wysiwyg/files/drawing/73725.pdf" H 13500 6600 60  0001 L CNN
+F 4 "73725-0110BLF" H 13500 6800 60  0001 L CNN "MPN"
+F 5 "Amphenol ICC (FCI)" H 13500 7400 60  0001 L CNN "Manufacturer"
+	1    13300 6300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13600 3475 14150 3475
+Wire Wire Line
+	13600 3575 14150 3575
+Text Label 14150 3475 2    50   ~ 0
+USB1_D_N
+Text Label 14150 3575 2    50   ~ 0
+USB1_D_P
+Wire Wire Line
+	13575 4850 14125 4850
+Wire Wire Line
+	13575 4950 14125 4950
+Text Label 14125 4950 2    50   ~ 0
+USB2_D_N
+Text Label 14125 4850 2    50   ~ 0
+USB2_D_P
+Wire Wire Line
+	13600 6200 14150 6200
+Wire Wire Line
+	13600 6300 14150 6300
+Text Label 14150 6200 2    50   ~ 0
+USB3_D_N
+Text Label 14150 6300 2    50   ~ 0
+USB3_D_P
+Wire Wire Line
+	13575 4750 13700 4750
+Wire Wire Line
+	13400 5275 13400 5425
+Wire Wire Line
+	13400 5425 13700 5425
+Wire Wire Line
+	13700 4750 13700 5425
+Wire Wire Line
+	13700 5425 13700 5500
+Connection ~ 13700 5425
+$Comp
+L power:GND #PWR?
+U 1 1 6048FF7A
+P 13700 5500
+F 0 "#PWR?" H 13700 5250 50  0001 C CNN
+F 1 "GND" H 13705 5327 50  0000 C CNN
+F 2 "" H 13700 5500 50  0001 C CNN
+F 3 "" H 13700 5500 50  0001 C CNN
+	1    13700 5500
+	1    0    0    -1  
+$EndComp
+Text GLabel 14100 5050 2    50   Input ~ 0
+VCC5V0
+Wire Wire Line
+	13575 5050 14100 5050
+Wire Wire Line
+	13600 3375 13725 3375
+Wire Wire Line
+	13425 3900 13425 4050
+Wire Wire Line
+	13425 4050 13725 4050
+Wire Wire Line
+	13725 3375 13725 4050
+Wire Wire Line
+	13725 4050 13725 4125
+Connection ~ 13725 4050
+$Comp
+L power:GND #PWR?
+U 1 1 604BD8F1
+P 13725 4125
+F 0 "#PWR?" H 13725 3875 50  0001 C CNN
+F 1 "GND" H 13730 3952 50  0000 C CNN
+F 2 "" H 13725 4125 50  0001 C CNN
+F 3 "" H 13725 4125 50  0001 C CNN
+	1    13725 4125
+	1    0    0    -1  
+$EndComp
+Text GLabel 14125 3675 2    50   Input ~ 0
+VCC5V0
+Wire Wire Line
+	13600 3675 14125 3675
+Wire Wire Line
+	13600 6100 13725 6100
+Wire Wire Line
+	13425 6625 13425 6775
+Wire Wire Line
+	13425 6775 13725 6775
+Wire Wire Line
+	13725 6100 13725 6775
+Wire Wire Line
+	13725 6775 13725 6850
+Connection ~ 13725 6775
+$Comp
+L power:GND #PWR?
+U 1 1 604C3EB2
+P 13725 6850
+F 0 "#PWR?" H 13725 6600 50  0001 C CNN
+F 1 "GND" H 13730 6677 50  0000 C CNN
+F 2 "" H 13725 6850 50  0001 C CNN
+F 3 "" H 13725 6850 50  0001 C CNN
+	1    13725 6850
+	1    0    0    -1  
+$EndComp
+Text GLabel 14125 6400 2    50   Input ~ 0
+VCC5V0
+Wire Wire Line
+	13600 6400 14125 6400
 $EndSCHEMATC
