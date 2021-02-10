@@ -238,9 +238,9 @@ F 3 "" H 8075 2975 50  0001 L BNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6375 3275 5550 3275
+	6375 3275 5625 3275
 Wire Wire Line
-	6375 3375 5550 3375
+	6375 3375 5800 3375
 Text GLabel 5550 3275 0    50   Input ~ 0
 SCL0
 Text GLabel 5550 3375 0    50   Input ~ 0
@@ -249,25 +249,25 @@ Wire Wire Line
 	8425 2275 8975 2275
 Wire Wire Line
 	8425 2375 8975 2375
-Text Label 8600 2275 0    50   ~ 0
+Text Label 8975 2275 2    50   ~ 0
 USB1_D_N
-Text Label 8600 2375 0    50   ~ 0
+Text Label 8975 2375 2    50   ~ 0
 USB1_D_P
 Wire Wire Line
 	8425 2475 8975 2475
 Wire Wire Line
 	8425 2575 8975 2575
-Text Label 8600 2475 0    50   ~ 0
+Text Label 8975 2475 2    50   ~ 0
 USB2_D_N
-Text Label 8600 2575 0    50   ~ 0
+Text Label 8975 2575 2    50   ~ 0
 USB2_D_P
 Wire Wire Line
 	8425 2675 8975 2675
 Wire Wire Line
 	8425 2775 8975 2775
-Text Label 8600 2675 0    50   ~ 0
+Text Label 8975 2675 2    50   ~ 0
 USB3_D_N
-Text Label 8600 2775 0    50   ~ 0
+Text Label 8975 2775 2    50   ~ 0
 USB3_D_P
 Text GLabel 8575 1975 2    50   Input ~ 0
 Arty_USB_P
@@ -705,54 +705,6 @@ Wire Wire Line
 	8425 7100 8075 7100
 Wire Wire Line
 	8425 7200 8075 7200
-$Comp
-L antmicroResistorsmisc:R_0R01_1206 R?
-U 1 1 6028CD2F
-P 6200 7600
-F 0 "R?" H 6200 7387 60  0000 C CNN
-F 1 "R_0R01_1206" H 6200 7450 60  0001 C CNN
-F 2 "antmicro-footprints:1206-res" H 6400 7800 60  0001 L CNN
-F 3 "" H 6200 7600 50  0001 C CNN
-F 4 "PANASONIC" H 6400 8000 60  0001 L CNN "Manufacturer"
-F 5 "ERJMP2KF10MU" H 6400 7900 60  0001 L CNN "MPN"
-F 6 "0R01" H 6200 7485 50  0000 C CNN "Val"
-	1    6200 7600
-	-1   0    0    1   
-$EndComp
-$Comp
-L antmicroResistorsmisc:R_0R01_1206 R?
-U 1 1 6028C64E
-P 6200 7300
-F 0 "R?" H 6200 7087 60  0000 C CNN
-F 1 "R_0R01_1206" H 6200 7150 60  0001 C CNN
-F 2 "antmicro-footprints:1206-res" H 6400 7500 60  0001 L CNN
-F 3 "" H 6200 7300 50  0001 C CNN
-F 4 "PANASONIC" H 6400 7700 60  0001 L CNN "Manufacturer"
-F 5 "ERJMP2KF10MU" H 6400 7600 60  0001 L CNN "MPN"
-F 6 "0R01" H 6200 7185 50  0000 C CNN "Val"
-	1    6200 7300
-	-1   0    0    1   
-$EndComp
-$Comp
-L antmicroResistorsmisc:R_0R01_1206 R?
-U 1 1 6028C199
-P 6200 7000
-F 0 "R?" H 6200 6787 60  0000 C CNN
-F 1 "R_0R01_1206" H 6200 6850 60  0001 C CNN
-F 2 "antmicro-footprints:1206-res" H 6400 7200 60  0001 L CNN
-F 3 "" H 6200 7000 50  0001 C CNN
-F 4 "PANASONIC" H 6400 7400 60  0001 L CNN "Manufacturer"
-F 5 "ERJMP2KF10MU" H 6400 7300 60  0001 L CNN "MPN"
-F 6 "0R01" H 6200 6885 50  0000 C CNN "Val"
-	1    6200 7000
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	6475 7000 6350 7000
-Wire Wire Line
-	6475 7100 6050 7100
-Wire Wire Line
-	6050 7100 6050 7000
 Wire Wire Line
 	6475 7300 6350 7300
 Wire Wire Line
@@ -765,17 +717,12 @@ Wire Wire Line
 	6475 7700 6050 7700
 Wire Wire Line
 	6050 7700 6050 7600
-Connection ~ 6050 7000
 Wire Wire Line
 	6050 7300 5950 7300
 Connection ~ 6050 7300
 Wire Wire Line
-	5950 7000 6050 7000
-Wire Wire Line
 	6050 7600 5950 7600
 Connection ~ 6050 7600
-Text GLabel 5950 7000 0    50   Input ~ 0
-VBUS1_S
 Text GLabel 5950 7300 0    50   Input ~ 0
 VBUS2_S
 Text GLabel 5950 7600 0    50   Input ~ 0
@@ -783,16 +730,11 @@ VBUS3_S
 Wire Wire Line
 	6050 7400 5950 7400
 Wire Wire Line
-	5950 7100 6050 7100
-Wire Wire Line
 	6050 7700 5950 7700
-Text GLabel 5950 7100 0    50   Input ~ 0
-VBUS1
 Text GLabel 5950 7400 0    50   Input ~ 0
 VBUS2
 Text GLabel 5950 7700 0    50   Input ~ 0
 VBUS3
-Connection ~ 6050 7100
 Connection ~ 6050 7400
 Connection ~ 6050 7700
 Wire Wire Line
@@ -866,7 +808,7 @@ TODO: decide whether it's better to connect to 3V3 or 5V0
 Text Notes 2950 2650 0    50   ~ 0
 TODO: connect GPIOs to peripherals
 Wire Wire Line
-	3700 2200 4275 2200
+	3675 2200 4275 2200
 Text Label 4275 2200 2    50   ~ 0
 RESET_N
 $Comp
@@ -954,8 +896,6 @@ F 3 "" H 13700 5500 50  0001 C CNN
 	1    13700 5500
 	1    0    0    -1  
 $EndComp
-Text GLabel 14100 5050 2    50   Input ~ 0
-VCC5V0
 Wire Wire Line
 	13575 5050 14100 5050
 Wire Wire Line
@@ -980,8 +920,6 @@ F 3 "" H 13725 4125 50  0001 C CNN
 	1    13725 4125
 	1    0    0    -1  
 $EndComp
-Text GLabel 14125 3675 2    50   Input ~ 0
-VCC5V0
 Wire Wire Line
 	13600 3675 14125 3675
 Wire Wire Line
@@ -1006,8 +944,296 @@ F 3 "" H 13725 6850 50  0001 C CNN
 	1    13725 6850
 	1    0    0    -1  
 $EndComp
-Text GLabel 14125 6400 2    50   Input ~ 0
-VCC5V0
 Wire Wire Line
 	13600 6400 14125 6400
+Text Label 8675 7400 2    50   ~ 0
+SLOW_~ALERT
+Text Label 8675 7500 2    50   ~ 0
+~PWRDN
+Wire Wire Line
+	3675 2300 4275 2300
+Wire Wire Line
+	3675 2400 4275 2400
+Text Label 4275 2300 2    50   ~ 0
+SLOW_~ALERT
+Text Label 4275 2400 2    50   ~ 0
+~PWRDN
+$Comp
+L antmicroResistors0402:R_100k_0402 R?
+U 1 1 60539E05
+P 5400 1550
+F 0 "R?" V 5355 1620 60  0000 L CNN
+F 1 "R_100k_0402" H 5400 1400 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 5600 1750 60  0001 L CNN
+F 3 "" H 5400 1550 50  0001 C CNN
+F 4 "VISHAY" H 5600 1950 60  0001 L CNN "Manufacturer"
+F 5 "CRCW0402100KFKEDHP" H 5600 1850 60  0001 L CNN "MPN"
+F 6 "100k" V 5453 1620 50  0000 L CNN "Val"
+	1    5400 1550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5400 1775 5400 1700
+Wire Wire Line
+	5400 1775 6375 1775
+$Comp
+L antmicroResistors0402:R_100k_0402 R?
+U 1 1 60547255
+P 5400 1975
+F 0 "R?" V 5355 2045 60  0000 L CNN
+F 1 "R_100k_0402" H 5400 1825 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 5600 2175 60  0001 L CNN
+F 3 "" H 5400 1975 50  0001 C CNN
+F 4 "VISHAY" H 5600 2375 60  0001 L CNN "Manufacturer"
+F 5 "CRCW0402100KFKEDHP" H 5600 2275 60  0001 L CNN "MPN"
+F 6 "100k" V 5453 2045 50  0000 L CNN "Val"
+	1    5400 1975
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5400 1825 5400 1775
+Connection ~ 5400 1775
+$Comp
+L power:GND #PWR?
+U 1 1 6054F545
+P 5400 2225
+F 0 "#PWR?" H 5400 1975 50  0001 C CNN
+F 1 "GND" V 5405 2097 50  0000 R CNN
+F 2 "" H 5400 2225 50  0001 C CNN
+F 3 "" H 5400 2225 50  0001 C CNN
+	1    5400 2225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 2225 5400 2125
+$Comp
+L antmicroResistors0402:R_10k_0402 R?
+U 1 1 60569FB7
+P 5625 3075
+F 0 "R?" V 5475 3100 60  0000 L CNN
+F 1 "R_10k_0402" H 5625 2925 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 5825 3275 60  0001 L CNN
+F 3 "" H 5625 3075 50  0001 C CNN
+F 4 "VISHAY" H 5825 3475 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040210K0FKEDHP" H 5825 3375 60  0001 L CNN "MPN"
+F 6 "10k" V 5775 3100 50  0000 L CNN "Val"
+	1    5625 3075
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicroResistors0402:R_10k_0402 R?
+U 1 1 60576D2E
+P 5800 3075
+F 0 "R?" V 5650 3100 60  0000 L CNN
+F 1 "R_10k_0402" H 5800 2925 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 6000 3275 60  0001 L CNN
+F 3 "" H 5800 3075 50  0001 C CNN
+F 4 "VISHAY" H 6000 3475 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040210K0FKEDHP" H 6000 3375 60  0001 L CNN "MPN"
+F 6 "10k" V 5950 3100 50  0000 L CNN "Val"
+	1    5800 3075
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5800 3225 5800 3375
+Connection ~ 5800 3375
+Wire Wire Line
+	5800 3375 5550 3375
+Wire Wire Line
+	5625 3225 5625 3275
+Connection ~ 5625 3275
+Wire Wire Line
+	5625 3275 5550 3275
+Wire Wire Line
+	5800 2925 5800 2850
+Wire Wire Line
+	5800 2850 5625 2850
+Wire Wire Line
+	5625 2850 5625 2925
+Wire Wire Line
+	5625 2850 5550 2850
+Text GLabel 5550 2850 0    50   Input ~ 0
+VCC3V3
+Connection ~ 5625 2850
+Wire Wire Line
+	8425 2875 8525 2875
+Wire Wire Line
+	8425 2975 8525 2975
+Text GLabel 8975 2975 2    50   Input ~ 0
+VCC3V3
+Text GLabel 8975 2875 2    50   Input ~ 0
+VCC3V3
+$Comp
+L antmicroResistors0402:R_10k_0402 R?
+U 1 1 605B078B
+P 8675 2975
+F 0 "R?" H 8475 3025 60  0000 C CNN
+F 1 "R_10k_0402" H 8675 2825 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 8875 3175 60  0001 L CNN
+F 3 "" H 8675 2975 50  0001 C CNN
+F 4 "VISHAY" H 8875 3375 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040210K0FKEDHP" H 8875 3275 60  0001 L CNN "MPN"
+F 6 "10k" H 8850 2925 50  0000 C CNN "Val"
+	1    8675 2975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8825 2975 8975 2975
+$Comp
+L antmicroResistors0402:R_10k_0402 R?
+U 1 1 605B0F10
+P 8675 2875
+F 0 "R?" H 8475 2925 60  0000 C CNN
+F 1 "R_10k_0402" H 8675 2725 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 8875 3075 60  0001 L CNN
+F 3 "" H 8675 2875 50  0001 C CNN
+F 4 "VISHAY" H 8875 3275 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040210K0FKEDHP" H 8875 3175 60  0001 L CNN "MPN"
+F 6 "10k" H 8850 2825 50  0000 C CNN "Val"
+	1    8675 2875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8825 2875 8975 2875
+Wire Wire Line
+	1350 2200 800  2200
+Wire Wire Line
+	1350 2300 800  2300
+Wire Wire Line
+	1350 2400 800  2400
+Text Label 800  2200 0    50   ~ 0
+USB1_EN
+Text Label 800  2300 0    50   ~ 0
+USB2_EN
+Text Label 800  2400 0    50   ~ 0
+USB3_EN
+NoConn ~ 6375 2375
+Wire Wire Line
+	6375 3075 6000 3075
+Text Label 6000 3075 0    50   ~ 0
+HS_IND
+Text Label 3325 8550 2    50   ~ 0
+HS_IND
+Wire Wire Line
+	3325 8550 2675 8550
+$Comp
+L antmicroResistors0402:R_47k_0402 R?
+U 1 1 605FC760
+P 2675 8275
+F 0 "R?" V 2630 8345 60  0000 L CNN
+F 1 "R_47k_0402" H 2675 8125 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 2875 8475 60  0001 L CNN
+F 3 "" H 2675 8275 50  0001 C CNN
+F 4 "MULTICOMP" H 2875 8675 60  0001 L CNN "Manufacturer"
+F 5 "MCMR04X4702FTL" H 2875 8575 60  0001 L CNN "MPN"
+F 6 "47k" V 2728 8345 50  0000 L CNN "Val"
+	1    2675 8275
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2675 8550 2675 8425
+$Comp
+L antmicroLEDIndicationDiscrete:LG_L29K-G2J1-24-Z D?
+U 1 1 606053A8
+P 2325 8325
+F 0 "D?" V 2175 8425 60  0000 L CNN
+F 1 "LG_L29K-G2J1-24-Z" H 2125 8150 60  0000 L CNN
+F 2 "antmicro-footprints:LED_0603" H 2525 8525 60  0001 L CNN
+F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 2525 8625 60  0001 L CNN
+F 4 "LG L29K-G2J1-24-Z" H 2525 8825 60  0001 L CNN "MPN"
+F 5 "OSRAM Opto Semiconductors Inc." H 2525 9425 60  0001 L CNN "Manufacturer"
+	1    2325 8325
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2325 8550 2675 8550
+Wire Wire Line
+	2325 8425 2325 8550
+Connection ~ 2675 8550
+Wire Wire Line
+	2325 8125 2325 8025
+Wire Wire Line
+	2325 8025 2675 8025
+Wire Wire Line
+	2675 8025 2675 8125
+Text GLabel 2325 7925 1    50   Input ~ 0
+VCC3V3
+Wire Wire Line
+	2325 8025 2325 7925
+Connection ~ 2325 8025
+Text Notes 1925 7275 0    118  ~ 0
+High Speed Indicator
+Text Notes 8500 3225 0    50   ~ 0
+TODO:Decide what to do with these pins
+NoConn ~ 6375 2875
+Text GLabel 14125 3675 2    50   Input ~ 0
+VBUS1_S
+Text GLabel 14100 5050 2    50   Input ~ 0
+VBUS2_S
+Text GLabel 14125 6400 2    50   Input ~ 0
+VBUS3_S
+Text GLabel 5400 1250 1    50   Input ~ 0
+VCC3V3
+Wire Wire Line
+	5400 1400 5400 1250
+$Comp
+L antmicroResistorsmisc:R_0R01_1206 R?
+U 1 1 6028CD2F
+P 6200 7600
+F 0 "R?" H 6200 7387 60  0000 C CNN
+F 1 "R_0R01_1206" H 6200 7450 60  0001 C CNN
+F 2 "antmicro-footprints:1206-res" H 6400 7800 60  0001 L CNN
+F 3 "" H 6200 7600 50  0001 C CNN
+F 4 "PANASONIC" H 6400 8000 60  0001 L CNN "Manufacturer"
+F 5 "ERJMP2KF10MU" H 6400 7900 60  0001 L CNN "MPN"
+F 6 "0R01" H 6200 7485 50  0000 C CNN "Val"
+	1    6200 7600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6475 7000 6350 7000
+$Comp
+L antmicroResistorsmisc:R_0R01_1206 R?
+U 1 1 6028C64E
+P 6200 7300
+F 0 "R?" H 6200 7087 60  0000 C CNN
+F 1 "R_0R01_1206" H 6200 7150 60  0001 C CNN
+F 2 "antmicro-footprints:1206-res" H 6400 7500 60  0001 L CNN
+F 3 "" H 6200 7300 50  0001 C CNN
+F 4 "PANASONIC" H 6400 7700 60  0001 L CNN "Manufacturer"
+F 5 "ERJMP2KF10MU" H 6400 7600 60  0001 L CNN "MPN"
+F 6 "0R01" H 6200 7185 50  0000 C CNN "Val"
+	1    6200 7300
+	-1   0    0    1   
+$EndComp
+$Comp
+L antmicroResistorsmisc:R_0R01_1206 R?
+U 1 1 6028C199
+P 6200 7000
+F 0 "R?" H 6200 6787 60  0000 C CNN
+F 1 "R_0R01_1206" H 6200 6850 60  0001 C CNN
+F 2 "antmicro-footprints:1206-res" H 6400 7200 60  0001 L CNN
+F 3 "" H 6200 7000 50  0001 C CNN
+F 4 "PANASONIC" H 6400 7400 60  0001 L CNN "Manufacturer"
+F 5 "ERJMP2KF10MU" H 6400 7300 60  0001 L CNN "MPN"
+F 6 "0R01" H 6200 6885 50  0000 C CNN "Val"
+	1    6200 7000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6475 7100 6050 7100
+Connection ~ 6050 7000
+Connection ~ 6050 7100
+Wire Wire Line
+	6050 7100 6050 7000
+Wire Wire Line
+	5950 7100 6050 7100
+Text GLabel 5950 7100 0    50   Input ~ 0
+VBUS1
+Text Notes 12775 2750 0    118  ~ 0
+USB A connectors
+Wire Wire Line
+	5950 7000 6050 7000
+Text GLabel 5950 7000 0    50   Input ~ 0
+VBUS1_S
 $EndSCHEMATC
