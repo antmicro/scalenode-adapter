@@ -597,36 +597,14 @@ Wire Wire Line
 	7925 8750 7575 8750
 Wire Wire Line
 	7925 8850 7575 8850
-Wire Wire Line
-	5975 8950 5850 8950
-Wire Wire Line
-	5975 9050 5550 9050
-Wire Wire Line
-	5550 9050 5550 8950
-Wire Wire Line
-	5975 9250 5850 9250
-Wire Wire Line
-	5975 9350 5550 9350
-Wire Wire Line
-	5550 9350 5550 9250
-Wire Wire Line
-	5550 8950 5450 8950
-Wire Wire Line
-	5550 9250 5450 9250
-Text GLabel 5450 8950 0    50   Input ~ 0
+Text GLabel 5425 8875 0    50   Input ~ 0
 VBUS2_S
-Text GLabel 5450 9250 0    50   Input ~ 0
+Text GLabel 4575 9175 0    50   Input ~ 0
 VBUS3_S
-Wire Wire Line
-	5550 9050 5450 9050
-Wire Wire Line
-	5550 9350 5450 9350
-Text GLabel 5450 9050 0    50   Input ~ 0
+Text GLabel 5425 9175 0    50   Input ~ 0
 VBUS2
-Text GLabel 5450 9350 0    50   Input ~ 0
+Text GLabel 4575 9475 0    50   Input ~ 0
 VBUS3
-Connection ~ 5550 9050
-Connection ~ 5550 9350
 Wire Wire Line
 	7575 9050 8175 9050
 Wire Wire Line
@@ -900,11 +878,11 @@ Connection ~ 1850 7825
 Text Notes 1025 7350 0    118  ~ 0
 LED indicators
 Text GLabel 12300 1975 2    50   Input ~ 0
-VBUS1_S
+VBUS1
 Text GLabel 13800 2000 2    50   Input ~ 0
-VBUS2_S
+VBUS2
 Text GLabel 15250 2000 2    50   Input ~ 0
-VBUS3_S
+VBUS3
 Text GLabel 4800 1250 1    50   Input ~ 0
 VCC3V3
 Wire Wire Line
@@ -912,61 +890,50 @@ Wire Wire Line
 $Comp
 L antartix-arty-controller:R_0R01_1206 R8
 U 1 1 6028CD2F
-P 5700 9250
-F 0 "R8" H 5700 9037 60  0000 C CNN
-F 1 "R_0R01_1206" H 5700 9100 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:1206-res" H 5900 9450 60  0001 L CNN
-F 3 "" H 5700 9250 50  0001 C CNN
-F 4 "PANASONIC" H 5900 9650 60  0001 L CNN "Manufacturer"
-F 5 "ERJMP2KF10MU" H 5900 9550 60  0001 L CNN "MPN"
-F 6 "0R01" H 5700 9135 50  0000 C CNN "Val"
-	1    5700 9250
-	-1   0    0    1   
+P 4725 9325
+F 0 "R8" H 4725 9112 60  0000 C CNN
+F 1 "R_0R01_1206" H 4725 9175 60  0001 C CNN
+F 2 "antartix-arty-controller-footprints:1206-res" H 4925 9525 60  0001 L CNN
+F 3 "" H 4725 9325 50  0001 C CNN
+F 4 "PANASONIC" H 4925 9725 60  0001 L CNN "Manufacturer"
+F 5 "ERJMP2KF10MU" H 4925 9625 60  0001 L CNN "MPN"
+F 6 "0R01" H 4725 9210 50  0000 C CNN "Val"
+	1    4725 9325
+	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	5975 8650 5850 8650
 $Comp
 L antartix-arty-controller:R_0R01_1206 R7
 U 1 1 6028C64E
-P 5700 8950
-F 0 "R7" H 5700 8737 60  0000 C CNN
-F 1 "R_0R01_1206" H 5700 8800 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:1206-res" H 5900 9150 60  0001 L CNN
-F 3 "" H 5700 8950 50  0001 C CNN
-F 4 "PANASONIC" H 5900 9350 60  0001 L CNN "Manufacturer"
-F 5 "ERJMP2KF10MU" H 5900 9250 60  0001 L CNN "MPN"
-F 6 "0R01" H 5700 8835 50  0000 C CNN "Val"
-	1    5700 8950
-	-1   0    0    1   
+P 4725 8725
+F 0 "R7" H 4725 8512 60  0000 C CNN
+F 1 "R_0R01_1206" H 4725 8575 60  0001 C CNN
+F 2 "antartix-arty-controller-footprints:1206-res" H 4925 8925 60  0001 L CNN
+F 3 "" H 4725 8725 50  0001 C CNN
+F 4 "PANASONIC" H 4925 9125 60  0001 L CNN "Manufacturer"
+F 5 "ERJMP2KF10MU" H 4925 9025 60  0001 L CNN "MPN"
+F 6 "0R01" H 4725 8610 50  0000 C CNN "Val"
+	1    4725 8725
+	0    -1   -1   0   
 $EndComp
 $Comp
 L antartix-arty-controller:R_0R01_1206 R6
 U 1 1 6028C199
-P 5700 8650
-F 0 "R6" H 5700 8437 60  0000 C CNN
-F 1 "R_0R01_1206" H 5700 8500 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:1206-res" H 5900 8850 60  0001 L CNN
-F 3 "" H 5700 8650 50  0001 C CNN
-F 4 "PANASONIC" H 5900 9050 60  0001 L CNN "Manufacturer"
-F 5 "ERJMP2KF10MU" H 5900 8950 60  0001 L CNN "MPN"
-F 6 "0R01" H 5700 8535 50  0000 C CNN "Val"
-	1    5700 8650
-	-1   0    0    1   
+P 5575 9025
+F 0 "R6" H 5575 8812 60  0000 C CNN
+F 1 "R_0R01_1206" H 5575 8875 60  0001 C CNN
+F 2 "antartix-arty-controller-footprints:1206-res" H 5775 9225 60  0001 L CNN
+F 3 "" H 5575 9025 50  0001 C CNN
+F 4 "PANASONIC" H 5775 9425 60  0001 L CNN "Manufacturer"
+F 5 "ERJMP2KF10MU" H 5775 9325 60  0001 L CNN "MPN"
+F 6 "0R01" H 5575 8910 50  0000 C CNN "Val"
+	1    5575 9025
+	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	5975 8750 5550 8750
-Connection ~ 5550 8750
-Wire Wire Line
-	5550 8750 5550 8650
-Wire Wire Line
-	5450 8750 5550 8750
-Text GLabel 5450 8750 0    50   Input ~ 0
+Text GLabel 4575 8875 0    50   Input ~ 0
 VBUS1
 Text Notes 12875 1025 0    118  ~ 0
 USB A connectors
-Wire Wire Line
-	5450 8650 5550 8650
-Text GLabel 5450 8650 0    50   Input ~ 0
+Text GLabel 4575 8575 0    50   Input ~ 0
 VBUS1_S
 $Comp
 L antartix-arty-controller:FT2232D IC1
@@ -1870,7 +1837,7 @@ $EndComp
 Wire Wire Line
 	12625 3650 12950 3650
 Text GLabel 14550 3650 2    50   Input ~ 0
-VBUS4_S
+VBUS4
 Wire Wire Line
 	13350 3650 14550 3650
 Connection ~ 1325 7825
@@ -1974,7 +1941,7 @@ $EndComp
 Wire Wire Line
 	12225 4450 12225 4550
 Text GLabel 15750 3500 1    50   Input ~ 0
-VBUS4_S
+VBUS4
 Wire Wire Line
 	15800 2400 15800 2300
 $Comp
@@ -2005,7 +1972,7 @@ F 3 "" H 15800 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 15800 1875 1    50   Input ~ 0
-VBUS3_S
+VBUS3
 Wire Notes Line
 	11575 2800 16075 2800
 Text Notes 12900 3025 0    118  ~ 0
@@ -2040,7 +2007,7 @@ F 3 "" H 12825 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 12825 1875 1    50   Input ~ 0
-VBUS1_S
+VBUS1
 Wire Wire Line
 	14325 2425 14325 2325
 $Comp
@@ -2071,7 +2038,7 @@ F 3 "" H 14325 2425 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 14325 1900 1    50   Input ~ 0
-VBUS2_S
+VBUS2
 Wire Notes Line
 	4025 475  4025 6600
 Wire Notes Line
@@ -2130,32 +2097,23 @@ Wire Wire Line
 	4800 3375 5775 3375
 Wire Wire Line
 	5975 9550 5850 9550
-Wire Wire Line
-	5975 9650 5550 9650
-Wire Wire Line
-	5550 9650 5550 9550
-Wire Wire Line
-	5550 9550 5450 9550
-Text GLabel 5450 9550 0    50   Input ~ 0
+Text GLabel 5425 9475 0    50   Input ~ 0
 VBUS4_S
-Wire Wire Line
-	5550 9650 5450 9650
-Text GLabel 5450 9650 0    50   Input ~ 0
+Text GLabel 5425 9775 0    50   Input ~ 0
 VBUS4
-Connection ~ 5550 9650
 $Comp
 L antartix-arty-controller:R_0R01_1206 R14
 U 1 1 61B3495C
-P 5700 9550
-F 0 "R14" H 5700 9337 60  0000 C CNN
-F 1 "R_0R01_1206" H 5700 9400 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:1206-res" H 5900 9750 60  0001 L CNN
-F 3 "" H 5700 9550 50  0001 C CNN
-F 4 "PANASONIC" H 5900 9950 60  0001 L CNN "Manufacturer"
-F 5 "ERJMP2KF10MU" H 5900 9850 60  0001 L CNN "MPN"
-F 6 "0R01" H 5700 9435 50  0000 C CNN "Val"
-	1    5700 9550
-	-1   0    0    1   
+P 5575 9625
+F 0 "R14" H 5575 9412 60  0000 C CNN
+F 1 "R_0R01_1206" H 5575 9475 60  0001 C CNN
+F 2 "antartix-arty-controller-footprints:1206-res" H 5775 9825 60  0001 L CNN
+F 3 "" H 5575 9625 50  0001 C CNN
+F 4 "PANASONIC" H 5775 10025 60  0001 L CNN "Manufacturer"
+F 5 "ERJMP2KF10MU" H 5775 9925 60  0001 L CNN "MPN"
+F 6 "0R01" H 5575 9510 50  0000 C CNN "Val"
+	1    5575 9625
+	0    -1   -1   0   
 $EndComp
 $Comp
 L antartix-arty-controller:LG_L29K-G2J1-24-Z D2
@@ -2462,10 +2420,10 @@ Connection ~ 2525 2025
 Wire Wire Line
 	2525 2025 2525 1925
 $Comp
-L antartix-arty-controller:GND #PWR?
+L antartix-arty-controller:GND #PWR0101
 U 1 1 60563464
 P 2800 1925
-F 0 "#PWR?" H 2800 1675 50  0001 C CNN
+F 0 "#PWR0101" H 2800 1675 50  0001 C CNN
 F 1 "GND" V 2805 1797 50  0000 R CNN
 F 2 "" H 2800 1925 50  0001 C CNN
 F 3 "" H 2800 1925 50  0001 C CNN
@@ -2556,10 +2514,10 @@ Text Label 1425 3225 0    50   ~ 0
 Text Label 1425 3525 0    50   ~ 0
 3V3_SSD
 $Comp
-L antmicroResistorsmisc:R_0R_0805 R?
+L antmicroResistorsmisc:R_0R_0805 R28
 U 1 1 6082F090
 P 1275 3225
-F 0 "R?" H 1150 3325 60  0000 C CNN
+F 0 "R28" H 1150 3325 60  0000 C CNN
 F 1 "R_0R_0805" H 1275 3075 60  0001 C CNN
 F 2 "antmicro-footprints:0805-res" H 1475 3425 60  0001 L CNN
 F 3 "" H 1275 3225 50  0001 C CNN
@@ -2571,10 +2529,10 @@ F 7 "DNP" H 1275 3225 50  0000 C CNN "Populate"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistorsmisc:R_0R_0805 R?
+L antmicroResistorsmisc:R_0R_0805 R29
 U 1 1 6082F5D5
 P 1275 3525
-F 0 "R?" H 1150 3650 60  0000 C CNN
+F 0 "R29" H 1150 3650 60  0000 C CNN
 F 1 "R_0R_0805" H 1275 3375 60  0001 C CNN
 F 2 "antmicro-footprints:0805-res" H 1475 3725 60  0001 L CNN
 F 3 "" H 1275 3525 50  0001 C CNN
@@ -2613,10 +2571,10 @@ Connection ~ 1625 1925
 Wire Wire Line
 	1625 1925 1875 1925
 $Comp
-L antmicroResistors0402:R_12k_0402 R?
+L antmicroResistors0402:R_12k_0402 R31
 U 1 1 60A2CDD5
 P 7975 3725
-F 0 "R?" V 8020 3655 60  0000 R CNN
+F 0 "R31" V 8020 3655 60  0000 R CNN
 F 1 "R_12k_0402" H 7975 3575 60  0001 C CNN
 F 2 "antmicro-footprints:0402-res" H 8175 3925 60  0001 L CNN
 F 3 "" H 7975 3725 50  0001 C CNN
@@ -2640,10 +2598,10 @@ Wire Wire Line
 Wire Wire Line
 	900  8450 1325 8450
 $Comp
-L antartix-arty-controller:R_47k_0402 R?
+L antartix-arty-controller:R_47k_0402 R30
 U 1 1 60AE7F33
 P 1600 8800
-F 0 "R?" V 1555 8870 60  0000 L CNN
+F 0 "R30" V 1555 8870 60  0000 L CNN
 F 1 "R_47k_0402" H 1600 8650 60  0001 C CNN
 F 2 "antartix-arty-controller-footprints:0402-res" H 1800 9000 60  0001 L CNN
 F 3 "" H 1600 8800 50  0001 C CNN
@@ -2656,10 +2614,10 @@ $EndComp
 Wire Wire Line
 	1325 8800 1450 8800
 $Comp
-L antartix-arty-controller:LG_L29K-G2J1-24-Z D?
+L antartix-arty-controller:LG_L29K-G2J1-24-Z D7
 U 1 1 60AE7F3C
 P 1550 8450
-F 0 "D?" V 1400 8550 60  0000 L CNN
+F 0 "D7" V 1400 8550 60  0000 L CNN
 F 1 "LG_L29K-G2J1-24-Z" H 275 8300 60  0000 L CNN
 F 2 "antartix-arty-controller-footprints:LED_0603" H 1750 8650 60  0001 L CNN
 F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 1750 8750 60  0001 L CNN
@@ -2690,4 +2648,74 @@ Wire Wire Line
 	7825 3175 8375 3175
 Text Label 900  8450 0    50   ~ 0
 SUSP_IND
+Wire Wire Line
+	5850 9550 5850 9475
+Wire Wire Line
+	5850 9475 5575 9475
+Wire Wire Line
+	5975 9650 5850 9650
+Wire Wire Line
+	5850 9650 5850 9775
+Wire Wire Line
+	5850 9775 5575 9775
+Wire Wire Line
+	5000 9250 5000 9175
+Wire Wire Line
+	5000 9175 4725 9175
+Wire Wire Line
+	5000 9350 5000 9475
+Wire Wire Line
+	5000 9475 4725 9475
+Wire Wire Line
+	5000 9250 5975 9250
+Wire Wire Line
+	5000 9350 5975 9350
+Wire Wire Line
+	4725 9175 4575 9175
+Wire Wire Line
+	4725 9475 4575 9475
+Connection ~ 4725 9175
+Connection ~ 4725 9475
+Wire Wire Line
+	5975 8950 5850 8950
+Wire Wire Line
+	5850 8950 5850 8875
+Wire Wire Line
+	5975 9050 5850 9050
+Wire Wire Line
+	5850 9050 5850 9175
+Connection ~ 5575 9775
+Connection ~ 5575 9475
+Wire Wire Line
+	5575 9775 5425 9775
+Wire Wire Line
+	5575 9475 5425 9475
+Wire Wire Line
+	5850 9175 5575 9175
+Wire Wire Line
+	5850 8875 5575 8875
+Wire Wire Line
+	5575 9175 5425 9175
+Wire Wire Line
+	5575 8875 5425 8875
+Connection ~ 5575 9175
+Connection ~ 5575 8875
+Wire Wire Line
+	5000 8650 5000 8575
+Wire Wire Line
+	5000 8575 4725 8575
+Wire Wire Line
+	5000 8750 5000 8875
+Wire Wire Line
+	5000 8875 4725 8875
+Wire Wire Line
+	5000 8650 5975 8650
+Wire Wire Line
+	5000 8750 5975 8750
+Wire Wire Line
+	4725 8575 4575 8575
+Wire Wire Line
+	4725 8875 4575 8875
+Connection ~ 4725 8575
+Connection ~ 4725 8875
 $EndSCHEMATC
