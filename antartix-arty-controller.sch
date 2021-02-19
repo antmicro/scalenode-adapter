@@ -27,9 +27,9 @@ F 5 "SAMTEC" H 2050 -525 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 Text GLabel 1650 2325 0    50   Input ~ 0
-Arty_USB_P
+RP_USB_P
 Text GLabel 1650 2425 0    50   Input ~ 0
-Arty_USB_N
+RP_USB_N
 Text GLabel 1500 1925 0    50   Input ~ 0
 VCC5V0
 Text GLabel 1425 2625 0    50   Input ~ 0
@@ -169,9 +169,9 @@ USB3_D_N
 Text Label 8375 2775 2    50   ~ 0
 USB3_D_P
 Text GLabel 7975 1975 2    50   Input ~ 0
-Arty_USB_P
+RP_USB_P
 Text GLabel 7975 2075 2    50   Input ~ 0
-Arty_USB_N
+RP_USB_N
 Wire Wire Line
 	7825 1975 7975 1975
 Wire Wire Line
@@ -1372,41 +1372,33 @@ Wire Wire Line
 	5775 2875 5225 2875
 Text Label 5225 2875 0    50   ~ 0
 USB4_EN
-Wire Wire Line
-	14875 4575 14200 4575
-Wire Wire Line
-	14875 4675 14200 4675
-Text Label 14200 4675 0    50   ~ 0
-USB_D_FTDI_P
-Text Label 14200 4575 0    50   ~ 0
-USB_D_FTDI_N
 $Comp
 L antartix-arty-controller:R_0R_0402 R24
 U 1 1 60AD6937
-P 15025 4675
-F 0 "R24" H 14875 4725 60  0000 C CNN
-F 1 "R_0R_0402" H 15025 4525 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-res" H 15225 4875 60  0001 L CNN
-F 3 "" H 15025 4675 50  0001 C CNN
-F 4 "PANASONIC" H 15225 5075 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 15225 4975 60  0001 L CNN "MPN"
-F 6 "0R" H 15200 4625 50  0000 C CNN "Val"
-	1    15025 4675
-	1    0    0    -1  
+P 1275 2075
+F 0 "R24" H 1075 2025 60  0000 C CNN
+F 1 "R_0R_0402" H 1275 1925 60  0001 C CNN
+F 2 "antartix-arty-controller-footprints:0402-res" H 1475 2275 60  0001 L CNN
+F 3 "" H 1275 2075 50  0001 C CNN
+F 4 "PANASONIC" H 1475 2475 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 1475 2375 60  0001 L CNN "MPN"
+F 6 "0R" H 925 2025 50  0000 C CNN "Val"
+	1    1275 2075
+	-1   0    0    1   
 $EndComp
 $Comp
 L antartix-arty-controller:R_0R_0402 R23
 U 1 1 60AD8374
-P 15025 4575
-F 0 "R23" H 14875 4625 60  0000 C CNN
-F 1 "R_0R_0402" H 15025 4425 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-res" H 15225 4775 60  0001 L CNN
-F 3 "" H 15025 4575 50  0001 C CNN
-F 4 "PANASONIC" H 15225 4975 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 15225 4875 60  0001 L CNN "MPN"
-F 6 "0R" H 15200 4525 50  0000 C CNN "Val"
-	1    15025 4575
-	1    0    0    -1  
+P 1275 2175
+F 0 "R23" H 1075 2125 60  0000 C CNN
+F 1 "R_0R_0402" H 1275 2025 60  0001 C CNN
+F 2 "antartix-arty-controller-footprints:0402-res" H 1475 2375 60  0001 L CNN
+F 3 "" H 1275 2175 50  0001 C CNN
+F 4 "PANASONIC" H 1475 2575 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 1475 2475 60  0001 L CNN "MPN"
+F 6 "0R" H 925 2125 50  0000 C CNN "Val"
+	1    1275 2175
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	7825 2875 8375 2875
@@ -1417,12 +1409,12 @@ USB_D_FTDI_P
 Text Label 8375 2875 2    50   ~ 0
 USB_D_FTDI_N
 Wire Wire Line
-	15175 4575 15925 4575
+	1125 2175 550  2175
 Wire Wire Line
-	15175 4675 15925 4675
-Text Label 15925 4675 2    50   ~ 0
+	1125 2075 550  2075
+Text Label 575  2075 0    50   ~ 0
 USB_D_CON_P
-Text Label 15925 4575 2    50   ~ 0
+Text Label 575  2175 0    50   ~ 0
 USB_D_CON_N
 $Comp
 L antartix-arty-controller:GND #PWR07
@@ -2265,9 +2257,9 @@ F 3 "" H 2800 1925 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	1950 2325 1650 2325
+	1950 2325 1800 2325
 Wire Wire Line
-	1950 2425 1650 2425
+	1950 2425 1725 2425
 Wire Wire Line
 	1950 2225 1875 2225
 Wire Wire Line
@@ -2764,4 +2756,18 @@ Wire Wire Line
 Wire Wire Line
 	900  3625 900  3525
 Connection ~ 900  3525
+Wire Wire Line
+	1425 2175 1725 2175
+Wire Wire Line
+	1725 2175 1725 2425
+Connection ~ 1725 2425
+Wire Wire Line
+	1725 2425 1650 2425
+Wire Wire Line
+	1800 2325 1800 2075
+Wire Wire Line
+	1800 2075 1425 2075
+Connection ~ 1800 2325
+Wire Wire Line
+	1800 2325 1650 2325
 $EndSCHEMATC
