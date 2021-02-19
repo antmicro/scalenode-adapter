@@ -597,14 +597,6 @@ Wire Wire Line
 	7925 8750 7575 8750
 Wire Wire Line
 	7925 8850 7575 8850
-Text GLabel 5425 8875 0    50   Input ~ 0
-VBUS2_S
-Text GLabel 4575 9175 0    50   Input ~ 0
-VBUS3_S
-Text GLabel 5425 9175 0    50   Input ~ 0
-VBUS2
-Text GLabel 4575 9475 0    50   Input ~ 0
-VBUS3
 Wire Wire Line
 	7575 9050 8175 9050
 Wire Wire Line
@@ -667,22 +659,6 @@ VCC5V0
 Text Label 3200 2225 2    50   ~ 0
 RESET_N
 Wire Wire Line
-	12225 1775 12675 1775
-Wire Wire Line
-	12225 1875 12675 1875
-Text Label 12675 1875 2    50   ~ 0
-USB1_D_N
-Text Label 12675 1775 2    50   ~ 0
-USB1_D_P
-Wire Wire Line
-	13725 1800 14175 1800
-Wire Wire Line
-	13725 1900 14175 1900
-Text Label 14175 1900 2    50   ~ 0
-USB2_D_N
-Text Label 14175 1800 2    50   ~ 0
-USB2_D_P
-Wire Wire Line
 	15175 1800 15625 1800
 Wire Wire Line
 	15175 1900 15625 1900
@@ -690,36 +666,6 @@ Text Label 15625 1800 2    50   ~ 0
 USB3_D_N
 Text Label 15625 1900 2    50   ~ 0
 USB3_D_P
-Wire Wire Line
-	13725 1700 13750 1700
-$Comp
-L antartix-arty-controller:GND #PWR0118
-U 1 1 6048FF7A
-P 13750 2450
-F 0 "#PWR0118" H 13750 2200 50  0001 C CNN
-F 1 "GND" H 13755 2277 50  0000 C CNN
-F 2 "" H 13750 2450 50  0001 C CNN
-F 3 "" H 13750 2450 50  0001 C CNN
-	1    13750 2450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	13725 2000 13800 2000
-Wire Wire Line
-	12225 1675 12250 1675
-$Comp
-L antartix-arty-controller:GND #PWR0119
-U 1 1 604BD8F1
-P 12250 2425
-F 0 "#PWR0119" H 12250 2175 50  0001 C CNN
-F 1 "GND" H 12255 2252 50  0000 C CNN
-F 2 "" H 12250 2425 50  0001 C CNN
-F 3 "" H 12250 2425 50  0001 C CNN
-	1    12250 2425
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	12225 1975 12300 1975
 Wire Wire Line
 	15175 1700 15200 1700
 $Comp
@@ -877,10 +823,6 @@ Wire Wire Line
 Connection ~ 1850 7825
 Text Notes 1025 7350 0    118  ~ 0
 LED indicators
-Text GLabel 12300 1975 2    50   Input ~ 0
-VBUS1
-Text GLabel 13800 2000 2    50   Input ~ 0
-VBUS2
 Text GLabel 15250 2000 2    50   Input ~ 0
 VBUS3
 Text GLabel 4800 1250 1    50   Input ~ 0
@@ -929,12 +871,8 @@ F 6 "0R01" H 5575 8910 50  0000 C CNN "Val"
 	1    5575 9025
 	0    -1   -1   0   
 $EndComp
-Text GLabel 4575 8875 0    50   Input ~ 0
-VBUS1
 Text Notes 12875 1025 0    118  ~ 0
 USB A connectors
-Text GLabel 4575 8575 0    50   Input ~ 0
-VBUS1_S
 $Comp
 L antartix-arty-controller:FT2232D IC1
 U 1 1 602DA3FC
@@ -959,11 +897,11 @@ WP_FTDI
 Wire Wire Line
 	13225 7300 12075 7300
 Text Label 12075 7300 0    50   ~ 0
-USB_D_N_FTDI
+USB_D_FTDI_N
 Wire Wire Line
 	13225 7400 12675 7400
 Text Label 12075 7400 0    50   ~ 0
-USB_D_P_FTDI
+USB_D_FTDI_P
 $Comp
 L antartix-arty-controller:R_0R_0402 R19
 U 1 1 6034E365
@@ -1383,9 +1321,9 @@ Wire Wire Line
 Wire Wire Line
 	12625 3850 13400 3850
 Text Label 14375 3850 2    50   ~ 0
-USB_D_P_CON
+USB_D_CON_P
 Text Label 14375 3750 2    50   ~ 0
-USB_D_N_CON
+USB_D_CON_N
 $Comp
 L antartix-arty-controller:TPS2051BDBVR U7
 U 1 1 609810E7
@@ -1439,9 +1377,9 @@ Wire Wire Line
 Wire Wire Line
 	14875 4675 14200 4675
 Text Label 14200 4675 0    50   ~ 0
-USB_D_P_FTDI
+USB_D_FTDI_P
 Text Label 14200 4575 0    50   ~ 0
-USB_D_N_FTDI
+USB_D_FTDI_N
 $Comp
 L antartix-arty-controller:R_0R_0402 R24
 U 1 1 60AD6937
@@ -1475,17 +1413,17 @@ Wire Wire Line
 Wire Wire Line
 	7825 2975 8375 2975
 Text Label 8375 2975 2    50   ~ 0
-USB_D_P_FTDI
+USB_D_FTDI_P
 Text Label 8375 2875 2    50   ~ 0
-USB_D_N_FTDI
+USB_D_FTDI_N
 Wire Wire Line
 	15175 4575 15925 4575
 Wire Wire Line
 	15175 4675 15925 4675
 Text Label 15925 4675 2    50   ~ 0
-USB_D_P_CON
+USB_D_CON_P
 Text Label 15925 4575 2    50   ~ 0
-USB_D_N_CON
+USB_D_CON_N
 $Comp
 L antartix-arty-controller:GND #PWR07
 U 1 1 60CA7EA7
@@ -1977,68 +1915,6 @@ Wire Notes Line
 	11575 2800 16075 2800
 Text Notes 12900 3025 0    118  ~ 0
 Micro USB connector
-Wire Wire Line
-	12825 2400 12825 2300
-$Comp
-L antartix-arty-controller:C_100n_0402 C22
-U 1 1 6179FF1E
-P 12825 2150
-F 0 "C22" H 12850 2250 60  0000 L CNN
-F 1 "C_100n_0402" H 12825 2000 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-cap" H 13025 2350 60  0001 L CNN
-F 3 "" H 12825 2150 50  0001 C CNN
-F 4 "Walsin" H 13025 2550 60  0001 L CNN "Manufacturer"
-F 5 "0402X104K6R3CT" H 13025 2450 60  0001 L CNN "MPN"
-F 6 "100n" H 12850 2050 50  0000 L CNN "Val"
-	1    12825 2150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	12825 2000 12825 1875
-$Comp
-L antartix-arty-controller:GND #PWR023
-U 1 1 6179FF25
-P 12825 2400
-F 0 "#PWR023" H 12825 2150 50  0001 C CNN
-F 1 "GND" H 12830 2227 50  0000 C CNN
-F 2 "" H 12825 2400 50  0001 C CNN
-F 3 "" H 12825 2400 50  0001 C CNN
-	1    12825 2400
-	1    0    0    -1  
-$EndComp
-Text GLabel 12825 1875 1    50   Input ~ 0
-VBUS1
-Wire Wire Line
-	14325 2425 14325 2325
-$Comp
-L antartix-arty-controller:C_100n_0402 C24
-U 1 1 617D36BC
-P 14325 2175
-F 0 "C24" H 14350 2275 60  0000 L CNN
-F 1 "C_100n_0402" H 14325 2025 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-cap" H 14525 2375 60  0001 L CNN
-F 3 "" H 14325 2175 50  0001 C CNN
-F 4 "Walsin" H 14525 2575 60  0001 L CNN "Manufacturer"
-F 5 "0402X104K6R3CT" H 14525 2475 60  0001 L CNN "MPN"
-F 6 "100n" H 14350 2075 50  0000 L CNN "Val"
-	1    14325 2175
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	14325 2025 14325 1900
-$Comp
-L antartix-arty-controller:GND #PWR026
-U 1 1 617D36C3
-P 14325 2425
-F 0 "#PWR026" H 14325 2175 50  0001 C CNN
-F 1 "GND" H 14330 2252 50  0000 C CNN
-F 2 "" H 14325 2425 50  0001 C CNN
-F 3 "" H 14325 2425 50  0001 C CNN
-	1    14325 2425
-	1    0    0    -1  
-$EndComp
-Text GLabel 14325 1900 1    50   Input ~ 0
-VBUS2
 Wire Notes Line
 	4025 475  4025 6600
 Wire Notes Line
@@ -2049,8 +1925,6 @@ Text GLabel 15725 5900 2    50   Input ~ 0
 SDA0
 Text Label 14775 5800 0    50   ~ 0
 SCL_FTDI
-Text Label 14775 5900 0    50   ~ 0
-SDA_FTDI
 Wire Wire Line
 	15725 5800 15550 5800
 Wire Wire Line
@@ -2097,10 +1971,6 @@ Wire Wire Line
 	4800 3375 5775 3375
 Wire Wire Line
 	5975 9550 5850 9550
-Text GLabel 5425 9475 0    50   Input ~ 0
-VBUS4_S
-Text GLabel 5425 9775 0    50   Input ~ 0
-VBUS4
 $Comp
 L antartix-arty-controller:R_0R01_1206 R14
 U 1 1 61B3495C
@@ -2320,42 +2190,6 @@ Wire Wire Line
 Wire Wire Line
 	7575 8075 7575 8450
 $Comp
-L antmicroUSBDVIHDMIConnectors:614004185023 J2
-U 1 1 6035EA9E
-P 11825 1875
-F 0 "J2" H 11749 1394 50  0000 C CNN
-F 1 "614004185023" H 11749 1485 50  0000 C CNN
-F 2 "614004185023" H 11825 1875 50  0001 L BNN
-F 3 "" H 11825 1875 50  0001 L BNN
-	1    11825 1875
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	12250 1675 12250 2425
-Wire Wire Line
-	12225 1575 12250 1575
-Wire Wire Line
-	12250 1575 12250 1675
-Connection ~ 12250 1675
-$Comp
-L antmicroUSBDVIHDMIConnectors:614004185023 J3
-U 1 1 603BB87F
-P 13325 1900
-F 0 "J3" H 13249 1419 50  0000 C CNN
-F 1 "614004185023" H 13249 1510 50  0000 C CNN
-F 2 "614004185023" H 13325 1900 50  0001 L BNN
-F 3 "" H 13325 1900 50  0001 L BNN
-	1    13325 1900
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	13750 1700 13750 2450
-Wire Wire Line
-	13725 1600 13750 1600
-Wire Wire Line
-	13750 1600 13750 1700
-Connection ~ 13750 1700
-$Comp
 L antmicroUSBDVIHDMIConnectors:614004185023 J4
 U 1 1 6040A505
 P 14775 1900
@@ -2547,8 +2381,6 @@ Wire Wire Line
 Wire Wire Line
 	900  3225 900  3100
 Wire Wire Line
-	1125 3525 900  3525
-Wire Wire Line
 	900  3525 900  3225
 Connection ~ 900  3225
 Text Label 1200 3025 0    50   ~ 0
@@ -2718,4 +2550,218 @@ Wire Wire Line
 	4725 8875 4575 8875
 Connection ~ 4725 8575
 Connection ~ 4725 8875
+Text Label 5675 9250 0    50   ~ 0
+SNS3_P
+Text Label 5675 9350 0    50   ~ 0
+SNS3_N
+Text Label 5675 9475 0    50   ~ 0
+SNS4_P
+Text Label 5675 9775 0    50   ~ 0
+SNS4_N
+Text GLabel 4575 9475 0    50   Input ~ 0
+VBUS3
+Text GLabel 4575 9175 0    50   Input ~ 0
+VBUS3_S
+Text GLabel 5425 8875 0    50   Input ~ 0
+VBUS2_S
+Text GLabel 5425 9175 0    50   Input ~ 0
+VBUS2
+Text GLabel 4575 8875 0    50   Input ~ 0
+VBUS1
+Text GLabel 4575 8575 0    50   Input ~ 0
+VBUS1_S
+Connection ~ 13750 1700
+Wire Wire Line
+	13750 1600 13750 1700
+Wire Wire Line
+	13725 1600 13750 1600
+Wire Wire Line
+	13750 1700 13750 2450
+$Comp
+L antmicroUSBDVIHDMIConnectors:614004185023 J3
+U 1 1 603BB87F
+P 13325 1900
+F 0 "J3" H 13249 1419 50  0000 C CNN
+F 1 "614004185023" H 13249 1510 50  0000 C CNN
+F 2 "614004185023" H 13325 1900 50  0001 L BNN
+F 3 "" H 13325 1900 50  0001 L BNN
+	1    13325 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L antartix-arty-controller:GND #PWR026
+U 1 1 617D36C3
+P 14325 2425
+F 0 "#PWR026" H 14325 2175 50  0001 C CNN
+F 1 "GND" H 14330 2252 50  0000 C CNN
+F 2 "" H 14325 2425 50  0001 C CNN
+F 3 "" H 14325 2425 50  0001 C CNN
+	1    14325 2425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14325 2025 14325 1900
+$Comp
+L antartix-arty-controller:C_100n_0402 C24
+U 1 1 617D36BC
+P 14325 2175
+F 0 "C24" H 14350 2275 60  0000 L CNN
+F 1 "C_100n_0402" H 14325 2025 60  0001 C CNN
+F 2 "antartix-arty-controller-footprints:0402-cap" H 14525 2375 60  0001 L CNN
+F 3 "" H 14325 2175 50  0001 C CNN
+F 4 "Walsin" H 14525 2575 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 14525 2475 60  0001 L CNN "MPN"
+F 6 "100n" H 14350 2075 50  0000 L CNN "Val"
+	1    14325 2175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14325 2425 14325 2325
+Wire Wire Line
+	13725 2000 13800 2000
+$Comp
+L antartix-arty-controller:GND #PWR0118
+U 1 1 6048FF7A
+P 13750 2450
+F 0 "#PWR0118" H 13750 2200 50  0001 C CNN
+F 1 "GND" H 13755 2277 50  0000 C CNN
+F 2 "" H 13750 2450 50  0001 C CNN
+F 3 "" H 13750 2450 50  0001 C CNN
+	1    13750 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13725 1700 13750 1700
+Text Label 14175 1800 2    50   ~ 0
+USB2_D_P
+Text Label 14175 1900 2    50   ~ 0
+USB2_D_N
+Wire Wire Line
+	13725 1900 14175 1900
+Wire Wire Line
+	13725 1800 14175 1800
+Text GLabel 14325 1900 1    50   Input ~ 0
+VBUS2
+Text GLabel 12825 1875 1    50   Input ~ 0
+VBUS1
+$Comp
+L antartix-arty-controller:GND #PWR023
+U 1 1 6179FF25
+P 12825 2400
+F 0 "#PWR023" H 12825 2150 50  0001 C CNN
+F 1 "GND" H 12830 2227 50  0000 C CNN
+F 2 "" H 12825 2400 50  0001 C CNN
+F 3 "" H 12825 2400 50  0001 C CNN
+	1    12825 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12825 2000 12825 1875
+$Comp
+L antartix-arty-controller:C_100n_0402 C22
+U 1 1 6179FF1E
+P 12825 2150
+F 0 "C22" H 12850 2250 60  0000 L CNN
+F 1 "C_100n_0402" H 12825 2000 60  0001 C CNN
+F 2 "antartix-arty-controller-footprints:0402-cap" H 13025 2350 60  0001 L CNN
+F 3 "" H 12825 2150 50  0001 C CNN
+F 4 "Walsin" H 13025 2550 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 13025 2450 60  0001 L CNN "MPN"
+F 6 "100n" H 12850 2050 50  0000 L CNN "Val"
+	1    12825 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12825 2400 12825 2300
+Connection ~ 12250 1675
+Wire Wire Line
+	12250 1575 12250 1675
+Wire Wire Line
+	12225 1575 12250 1575
+Wire Wire Line
+	12250 1675 12250 2425
+$Comp
+L antmicroUSBDVIHDMIConnectors:614004185023 J2
+U 1 1 6035EA9E
+P 11825 1875
+F 0 "J2" H 11749 1394 50  0000 C CNN
+F 1 "614004185023" H 11749 1485 50  0000 C CNN
+F 2 "614004185023" H 11825 1875 50  0001 L BNN
+F 3 "" H 11825 1875 50  0001 L BNN
+	1    11825 1875
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	12225 1975 12300 1975
+$Comp
+L antartix-arty-controller:GND #PWR0119
+U 1 1 604BD8F1
+P 12250 2425
+F 0 "#PWR0119" H 12250 2175 50  0001 C CNN
+F 1 "GND" H 12255 2252 50  0000 C CNN
+F 2 "" H 12250 2425 50  0001 C CNN
+F 3 "" H 12250 2425 50  0001 C CNN
+	1    12250 2425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12225 1675 12250 1675
+Text Label 12675 1775 2    50   ~ 0
+USB1_D_P
+Text Label 12675 1875 2    50   ~ 0
+USB1_D_N
+Wire Wire Line
+	12225 1875 12675 1875
+Wire Wire Line
+	12225 1775 12675 1775
+Text GLabel 13800 2000 2    50   Input ~ 0
+VBUS2
+Text GLabel 12300 1975 2    50   Input ~ 0
+VBUS1
+Text Label 5675 9175 0    50   ~ 0
+SNS2_N
+Text Label 5675 8875 0    50   ~ 0
+SNS2_P
+Text Label 5175 8750 0    50   ~ 0
+SNS1_N
+Text Label 5175 8650 0    50   ~ 0
+SNS1_P
+Text GLabel 5425 9475 0    50   Input ~ 0
+VBUS4_S
+Text GLabel 5425 9775 0    50   Input ~ 0
+VBUS4
+Text Label 14775 5900 0    50   ~ 0
+SDA_FTDI
+Wire Wire Line
+	900  3975 900  3925
+$Comp
+L antartix-arty-controller:C_100n_0402 C27
+U 1 1 614E77A9
+P 900 3775
+F 0 "C27" H 925 3875 60  0000 L CNN
+F 1 "C_100n_0402" H 900 3625 60  0001 C CNN
+F 2 "antartix-arty-controller-footprints:0402-cap" H 1100 3975 60  0001 L CNN
+F 3 "" H 900 3775 50  0001 C CNN
+F 4 "Walsin" H 1100 4175 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 1100 4075 60  0001 L CNN "MPN"
+F 6 "100n" H 925 3675 50  0000 L CNN "Val"
+	1    900  3775
+	1    0    0    -1  
+$EndComp
+$Comp
+L antartix-arty-controller:GND #PWR030
+U 1 1 614E77AF
+P 900 3975
+F 0 "#PWR030" H 900 3725 50  0001 C CNN
+F 1 "GND" H 905 3802 50  0000 C CNN
+F 2 "" H 900 3975 50  0001 C CNN
+F 3 "" H 900 3975 50  0001 C CNN
+	1    900  3975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1125 3525 900  3525
+Wire Wire Line
+	900  3625 900  3525
+Connection ~ 900  3525
 $EndSCHEMATC
