@@ -1931,8 +1931,6 @@ Wire Wire Line
 	4475 3300 5450 3300
 Wire Wire Line
 	4475 3400 5450 3400
-Wire Wire Line
-	5975 9550 5400 9550
 $Comp
 L antartix-arty-controller:R_0R01_1206 R14
 U 1 1 61B3495C
@@ -2442,8 +2440,6 @@ Wire Wire Line
 Wire Wire Line
 	5400 9475 5125 9475
 Wire Wire Line
-	5975 9650 5400 9650
-Wire Wire Line
 	5400 9650 5400 9775
 Wire Wire Line
 	5400 9775 5125 9775
@@ -2456,21 +2452,13 @@ Wire Wire Line
 Wire Wire Line
 	4525 9475 4250 9475
 Wire Wire Line
-	4525 9250 5975 9250
-Wire Wire Line
-	4525 9350 5975 9350
-Wire Wire Line
 	4250 9175 4100 9175
 Wire Wire Line
 	4250 9475 4100 9475
 Connection ~ 4250 9175
 Connection ~ 4250 9475
 Wire Wire Line
-	5975 8950 5400 8950
-Wire Wire Line
 	5400 8950 5400 8875
-Wire Wire Line
-	5975 9050 5400 9050
 Wire Wire Line
 	5400 9050 5400 9175
 Connection ~ 5125 9775
@@ -3155,10 +3143,10 @@ Wire Wire Line
 Wire Wire Line
 	9100 2850 9225 2850
 $Comp
-L antmicroCapacitors0603:C_100n_0603 C?
+L antmicroCapacitors0603:C_100n_0603 C29
 U 1 1 610BE8A4
 P 9225 3050
-F 0 "C?" H 9340 3095 60  0000 L CNN
+F 0 "C29" H 9340 3095 60  0000 L CNN
 F 1 "C_100n_0603" H 9225 2900 60  0001 C CNN
 F 2 "antmicro-footprints:0603-cap" H 9425 3250 60  0001 L CNN
 F 3 "" H 9225 3050 50  0001 C CNN
@@ -3178,10 +3166,10 @@ Wire Wire Line
 Wire Wire Line
 	9100 1750 9225 1750
 $Comp
-L antartix-arty-controller:GND #PWR?
+L antartix-arty-controller:GND #PWR0122
 U 1 1 6118428C
 P 9225 2175
-F 0 "#PWR?" H 9225 1925 50  0001 C CNN
+F 0 "#PWR0122" H 9225 1925 50  0001 C CNN
 F 1 "GND" H 9230 2002 50  0000 C CNN
 F 2 "" H 9225 2175 50  0001 C CNN
 F 3 "" H 9225 2175 50  0001 C CNN
@@ -3189,10 +3177,10 @@ F 3 "" H 9225 2175 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0603:C_100n_0603 C?
+L antmicroCapacitors0603:C_100n_0603 C28
 U 1 1 611846BB
 P 9225 1950
-F 0 "C?" H 9340 1995 60  0000 L CNN
+F 0 "C28" H 9340 1995 60  0000 L CNN
 F 1 "C_100n_0603" H 9225 1800 60  0001 C CNN
 F 2 "antmicro-footprints:0603-cap" H 9425 2150 60  0001 L CNN
 F 3 "" H 9225 1950 50  0001 C CNN
@@ -3210,10 +3198,10 @@ Connection ~ 9225 1750
 Wire Wire Line
 	9225 1750 9400 1750
 $Comp
-L antartix-arty-controller:GND #PWR?
+L antartix-arty-controller:GND #PWR0123
 U 1 1 611C9C34
 P 9225 4525
-F 0 "#PWR?" H 9225 4275 50  0001 C CNN
+F 0 "#PWR0123" H 9225 4275 50  0001 C CNN
 F 1 "GND" H 9230 4352 50  0000 C CNN
 F 2 "" H 9225 4525 50  0001 C CNN
 F 3 "" H 9225 4525 50  0001 C CNN
@@ -3221,10 +3209,10 @@ F 3 "" H 9225 4525 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0603:C_100n_0603 C?
+L antmicroCapacitors0603:C_100n_0603 C30
 U 1 1 611CA211
 P 9225 4300
-F 0 "C?" H 9340 4345 60  0000 L CNN
+F 0 "C30" H 9340 4345 60  0000 L CNN
 F 1 "C_100n_0603" H 9225 4150 60  0001 C CNN
 F 2 "antmicro-footprints:0603-cap" H 9425 4500 60  0001 L CNN
 F 3 "" H 9225 4300 50  0001 C CNN
@@ -3242,10 +3230,10 @@ Connection ~ 9225 4100
 Wire Wire Line
 	9225 4100 9425 4100
 $Comp
-L antartix-arty-controller:GND #PWR?
+L antartix-arty-controller:GND #PWR0125
 U 1 1 6121FD95
 P 9225 5800
-F 0 "#PWR?" H 9225 5550 50  0001 C CNN
+F 0 "#PWR0125" H 9225 5550 50  0001 C CNN
 F 1 "GND" H 9230 5627 50  0000 C CNN
 F 2 "" H 9225 5800 50  0001 C CNN
 F 3 "" H 9225 5800 50  0001 C CNN
@@ -3253,10 +3241,10 @@ F 3 "" H 9225 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0603:C_100n_0603 C?
+L antmicroCapacitors0603:C_100n_0603 C31
 U 1 1 612201C0
 P 9225 5575
-F 0 "C?" H 9340 5620 60  0000 L CNN
+F 0 "C31" H 9340 5620 60  0000 L CNN
 F 1 "C_100n_0603" H 9225 5425 60  0001 C CNN
 F 2 "antmicro-footprints:0603-cap" H 9425 5775 60  0001 L CNN
 F 3 "" H 9225 5575 50  0001 C CNN
@@ -3273,4 +3261,16 @@ Wire Wire Line
 Connection ~ 9225 5375
 Wire Wire Line
 	9225 5375 9450 5375
+Wire Wire Line
+	5975 9050 5400 9050
+Wire Wire Line
+	5975 8950 5400 8950
+Wire Wire Line
+	4525 9350 5975 9350
+Wire Wire Line
+	4525 9250 5975 9250
+Wire Wire Line
+	5975 9650 5400 9650
+Wire Wire Line
+	5975 9550 5400 9550
 $EndSCHEMATC
