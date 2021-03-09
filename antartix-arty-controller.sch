@@ -3629,4 +3629,6 @@ U 604C47E1
 F0 "antartix hdmi adapter" 50
 F1 "antartix-hdmi-adapter.sch" 50
 $EndSheet
+Text Label 1425 3225 0    50   ~ 0
+3V3_RPI
 $EndSCHEMATC
