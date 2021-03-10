@@ -64,9 +64,9 @@ HDMI0_SCL
 Text GLabel 2900 3475 2    50   Input ~ 0
 HDMI0_HOTPLUG
 Text GLabel 2900 1975 2    50   Input ~ 0
-GPIO14
+TXD0
 Text GLabel 2900 2075 2    50   Input ~ 0
-GPIO15
+RXD0
 Wire Wire Line
 	2025 1975 1650 1975
 Wire Wire Line
