@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 3 3
+Sheet 3 4
 Title ""
 Date ""
 Rev ""
@@ -3991,4 +3991,10 @@ Wire Wire Line
 	15100 7850 14725 7850
 Wire Wire Line
 	15100 7950 14725 7950
+Text GLabel 3200 2375 2    50   Input ~ 0
+USB1_EN
+Text GLabel 3200 2475 2    50   Input ~ 0
+USB2_EN
+Text GLabel 3200 2575 2    50   Input ~ 0
+USB3_EN
 $EndSCHEMATC
