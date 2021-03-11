@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 2 3
+Sheet 2 4
 Title ""
 Date ""
 Rev ""
@@ -467,125 +467,6 @@ F 3 "" H 7275 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroUSBDVIHDMIConnectors:685119134923 J9
-U 1 1 604E9CC4
-P 10450 2625
-AR Path="/604C47E1/604E9CC4" Ref="J9"  Part="1" 
-AR Path="/60603DE8/604E9CC4" Ref="J?"  Part="1" 
-F 0 "J9" H 10450 3562 60  0000 C CNN
-F 1 "685119134923" H 10450 3456 60  0000 C CNN
-F 2 "antmicro-footprints:HDMI_A_Female_685119134923" H 10650 2825 60  0001 L CNN
-F 3 "https://en.wikipedia.org/wiki/HDMI" H 10650 2925 60  0001 L CNN
-F 4 "685119134923" H 10650 3125 60  0001 L CNN "MPN"
-F 5 "Amphenol" H 10650 3725 60  0001 L CNN "Manufacturer"
-F 6 "DNP" H 10450 3650 50  0000 C CNN "Populate"
-	1    10450 2625
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10050 2175 9350 2175
-Wire Wire Line
-	10050 2275 9350 2275
-Wire Wire Line
-	10050 2475 9350 2475
-Wire Wire Line
-	10050 2575 9350 2575
-Wire Wire Line
-	10050 2775 9350 2775
-Wire Wire Line
-	10050 2875 9350 2875
-Wire Wire Line
-	10050 3075 9350 3075
-Wire Wire Line
-	11550 2325 10850 2325
-Wire Wire Line
-	11550 2425 10850 2425
-Wire Wire Line
-	11550 2625 10850 2625
-Wire Wire Line
-	11550 2725 10850 2725
-Wire Wire Line
-	11550 2925 10850 2925
-Wire Wire Line
-	11550 3025 10850 3025
-Wire Wire Line
-	10050 2375 9900 2375
-Wire Wire Line
-	10050 2675 9900 2675
-Wire Wire Line
-	9900 2375 9900 2675
-Connection ~ 9900 2675
-Wire Wire Line
-	9900 2675 9900 2975
-Wire Wire Line
-	10050 2975 9900 2975
-Connection ~ 9900 2975
-Wire Wire Line
-	9900 2975 9900 3575
-Wire Wire Line
-	10850 2225 11025 2225
-Wire Wire Line
-	11025 2225 11025 2525
-Wire Wire Line
-	10850 2525 11025 2525
-Connection ~ 11025 2525
-Wire Wire Line
-	11025 2525 11025 3575
-NoConn ~ 10850 2825
-Wire Wire Line
-	10150 3425 10150 3575
-$Comp
-L power:GND #PWR073
-U 1 1 604E9CE6
-P 9900 3575
-AR Path="/604C47E1/604E9CE6" Ref="#PWR073"  Part="1" 
-AR Path="/60603DE8/604E9CE6" Ref="#PWR?"  Part="1" 
-F 0 "#PWR073" H 9900 3325 50  0001 C CNN
-F 1 "GND" H 9905 3402 50  0000 C CNN
-F 2 "" H 9900 3575 50  0001 C CNN
-F 3 "" H 9900 3575 50  0001 C CNN
-	1    9900 3575
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR074
-U 1 1 604E9CEC
-P 10150 3575
-AR Path="/604C47E1/604E9CEC" Ref="#PWR074"  Part="1" 
-AR Path="/60603DE8/604E9CEC" Ref="#PWR?"  Part="1" 
-F 0 "#PWR074" H 10150 3325 50  0001 C CNN
-F 1 "GND" H 10155 3402 50  0000 C CNN
-F 2 "" H 10150 3575 50  0001 C CNN
-F 3 "" H 10150 3575 50  0001 C CNN
-	1    10150 3575
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR075
-U 1 1 604E9CF2
-P 11025 3575
-AR Path="/604C47E1/604E9CF2" Ref="#PWR075"  Part="1" 
-AR Path="/60603DE8/604E9CF2" Ref="#PWR?"  Part="1" 
-F 0 "#PWR075" H 11025 3325 50  0001 C CNN
-F 1 "GND" H 11030 3402 50  0000 C CNN
-F 2 "" H 11025 3575 50  0001 C CNN
-F 3 "" H 11025 3575 50  0001 C CNN
-	1    11025 3575
-	1    0    0    -1  
-$EndComp
-Text GLabel 11550 2325 2    50   Input ~ 0
-HDMI1_D1_P
-Text GLabel 11550 2425 2    50   Input ~ 0
-HDMI1_D1_N
-Text GLabel 9350 2475 0    50   Input ~ 0
-HDMI1_D0_P
-Text GLabel 9350 2575 0    50   Input ~ 0
-HDMI1_D0_N
-Text GLabel 11550 2625 2    50   Input ~ 0
-HDMI1_CK_P
-Text GLabel 11550 2725 2    50   BiDi ~ 0
-HDMI1_CK_N
-$Comp
 L antmicroTVSDiodes:TPD8S009DSMR IC3
 U 1 1 604E9D00
 P 11425 4825
@@ -600,71 +481,6 @@ F 5 "Texas Instruments" H 11475 5425 50  0001 C CNN "Manufacturer"
 F 6 "DNP" H 11450 5425 50  0000 C CNN "Populate"
 	1    11425 4825
 	1    0    0    -1  
-$EndComp
-$Comp
-L antmicroTestPoints:TP_SMD1MM TP6
-U 1 1 604E9D06
-P 9250 2775
-AR Path="/604C47E1/604E9D06" Ref="TP6"  Part="1" 
-AR Path="/60603DE8/604E9D06" Ref="TP?"  Part="1" 
-F 0 "TP6" V 9155 2822 50  0000 C CNN
-F 1 "TP_SMD1MM" H 9250 2675 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 9450 2975 60  0001 L CNN
-F 3 "" H 9450 3075 60  0001 L CNN
-	1    9250 2775
-	0    1    1    0   
-$EndComp
-$Comp
-L antmicroTestPoints:TP_SMD1MM TP7
-U 1 1 604E9D0C
-P 9250 2875
-AR Path="/604C47E1/604E9D0C" Ref="TP7"  Part="1" 
-AR Path="/60603DE8/604E9D0C" Ref="TP?"  Part="1" 
-F 0 "TP7" V 9155 2922 50  0000 C CNN
-F 1 "TP_SMD1MM" H 9250 2775 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 9450 3075 60  0001 L CNN
-F 3 "" H 9450 3175 60  0001 L CNN
-	1    9250 2875
-	0    1    1    0   
-$EndComp
-$Comp
-L antmicroTestPoints:TP_SMD1MM TP8
-U 1 1 604E9D12
-P 9250 3075
-AR Path="/604C47E1/604E9D12" Ref="TP8"  Part="1" 
-AR Path="/60603DE8/604E9D12" Ref="TP?"  Part="1" 
-F 0 "TP8" V 9155 3122 50  0000 C CNN
-F 1 "TP_SMD1MM" H 9250 2975 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 9450 3275 60  0001 L CNN
-F 3 "" H 9450 3375 60  0001 L CNN
-	1    9250 3075
-	0    1    1    0   
-$EndComp
-$Comp
-L antmicroTestPoints:TP_SMD1MM TP9
-U 1 1 604E9D18
-P 11650 2925
-AR Path="/604C47E1/604E9D18" Ref="TP9"  Part="1" 
-AR Path="/60603DE8/604E9D18" Ref="TP?"  Part="1" 
-F 0 "TP9" V 11650 2875 50  0000 R CNN
-F 1 "TP_SMD1MM" H 11650 2825 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 11850 3125 60  0001 L CNN
-F 3 "" H 11850 3225 60  0001 L CNN
-	1    11650 2925
-	0    -1   -1   0   
-$EndComp
-$Comp
-L antmicroTestPoints:TP_SMD1MM TP10
-U 1 1 604E9D1E
-P 11650 3025
-AR Path="/604C47E1/604E9D1E" Ref="TP10"  Part="1" 
-AR Path="/60603DE8/604E9D1E" Ref="TP?"  Part="1" 
-F 0 "TP10" V 11650 2975 50  0000 R CNN
-F 1 "TP_SMD1MM" H 11650 2925 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 11850 3225 60  0001 L CNN
-F 3 "" H 11850 3325 60  0001 L CNN
-	1    11650 3025
-	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	11125 4675 11025 4675
@@ -724,10 +540,6 @@ Text GLabel 10425 4875 0    50   Input ~ 0
 HDMI1_D1_P
 Text GLabel 10425 5075 0    50   Input ~ 0
 HDMI1_D1_N
-Text GLabel 9350 2275 0    50   Input ~ 0
-HDMI1_D2_N
-Text GLabel 9350 2175 0    50   Input ~ 0
-HDMI1_D2_P
 Text GLabel 10425 4775 0    50   Input ~ 0
 HDMI1_D2_N
 Text GLabel 10425 4575 0    50   Input ~ 0
@@ -831,4 +643,106 @@ Text GLabel 950  3775 0    50   Input ~ 0
 VCC3V3
 Wire Wire Line
 	1025 3775 950  3775
+$Comp
+L antartix-arty-controller:R_470R_0402 R?
+U 1 1 616A7868
+P 9650 2725
+AR Path="/616A7868" Ref="R?"  Part="1" 
+AR Path="/60924187/616A7868" Ref="R?"  Part="1" 
+F 0 "R?" H 9450 2775 60  0000 C CNN
+F 1 "R_470R_0402" H 9650 2575 60  0001 C CNN
+F 2 "antartix-arty-controller-footprints:0402-res" H 9850 2925 60  0001 L CNN
+F 3 "" H 9650 2725 50  0001 C CNN
+F 4 "VISHAY" H 9850 3125 60  0001 L CNN "Manufacturer"
+F 5 "CRCW0402470RFKED" H 9850 3025 60  0001 L CNN "MPN"
+F 6 "470R" H 9650 2625 50  0000 C CNN "Val"
+	1    9650 2725
+	1    0    0    -1  
+$EndComp
+$Comp
+L antartix-arty-controller:GND #PWR?
+U 1 1 616A786E
+P 9300 2725
+AR Path="/616A786E" Ref="#PWR?"  Part="1" 
+AR Path="/60924187/616A786E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9300 2475 50  0001 C CNN
+F 1 "GND" H 9305 2552 50  0000 C CNN
+F 2 "" H 9300 2725 50  0001 C CNN
+F 3 "" H 9300 2725 50  0001 C CNN
+	1    9300 2725
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9500 2725 9300 2725
+Wire Wire Line
+	9800 2725 9850 2725
+$Comp
+L antartix-arty-controller:LG_L29K-G2J1-24-Z D?
+U 1 1 616A7878
+P 9950 2725
+AR Path="/616A7878" Ref="D?"  Part="1" 
+AR Path="/60924187/616A7878" Ref="D?"  Part="1" 
+F 0 "D?" H 10000 2625 60  0000 C CNN
+F 1 "LG_L29K-G2J1-24-Z" H 9350 2900 60  0000 C CNN
+F 2 "antartix-arty-controller-footprints:LED_0603" H 10150 2925 60  0001 L CNN
+F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 10150 3025 60  0001 L CNN
+F 4 "LG L29K-G2J1-24-Z" H 10150 3225 60  0001 L CNN "MPN"
+F 5 "OSRAM Opto Semiconductors Inc." H 10150 3825 60  0001 L CNN "Manufacturer"
+	1    9950 2725
+	-1   0    0    1   
+$EndComp
+$Comp
+L antartix-arty-controller:R_470R_0402 R?
+U 1 1 616A7883
+P 9650 2325
+AR Path="/616A7883" Ref="R?"  Part="1" 
+AR Path="/60924187/616A7883" Ref="R?"  Part="1" 
+F 0 "R?" H 9450 2375 60  0000 C CNN
+F 1 "R_470R_0402" H 9650 2175 60  0001 C CNN
+F 2 "antartix-arty-controller-footprints:0402-res" H 9850 2525 60  0001 L CNN
+F 3 "" H 9650 2325 50  0001 C CNN
+F 4 "VISHAY" H 9850 2725 60  0001 L CNN "Manufacturer"
+F 5 "CRCW0402470RFKED" H 9850 2625 60  0001 L CNN "MPN"
+F 6 "470R" H 9650 2225 50  0000 C CNN "Val"
+	1    9650 2325
+	1    0    0    -1  
+$EndComp
+$Comp
+L antartix-arty-controller:GND #PWR?
+U 1 1 616A7889
+P 9300 2325
+AR Path="/616A7889" Ref="#PWR?"  Part="1" 
+AR Path="/60924187/616A7889" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9300 2075 50  0001 C CNN
+F 1 "GND" H 9305 2152 50  0000 C CNN
+F 2 "" H 9300 2325 50  0001 C CNN
+F 3 "" H 9300 2325 50  0001 C CNN
+	1    9300 2325
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9500 2325 9300 2325
+Wire Wire Line
+	9800 2325 9850 2325
+$Comp
+L antartix-arty-controller:LG_L29K-G2J1-24-Z D?
+U 1 1 616A7894
+P 9950 2325
+AR Path="/616A7894" Ref="D?"  Part="1" 
+AR Path="/60924187/616A7894" Ref="D?"  Part="1" 
+F 0 "D?" H 10000 2225 60  0000 C CNN
+F 1 "LG_L29K-G2J1-24-Z" H 9350 2500 60  0000 C CNN
+F 2 "antartix-arty-controller-footprints:LED_0603" H 10150 2525 60  0001 L CNN
+F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 10150 2625 60  0001 L CNN
+F 4 "LG L29K-G2J1-24-Z" H 10150 2825 60  0001 L CNN "MPN"
+F 5 "OSRAM Opto Semiconductors Inc." H 10150 3425 60  0001 L CNN "Manufacturer"
+	1    9950 2325
+	-1   0    0    1   
+$EndComp
+Text Notes 11125 2675 0    50   ~ 0
+TODO:Pick GPIOs for LEDS
+Wire Wire Line
+	10150 2325 10550 2325
+Wire Wire Line
+	10150 2725 10550 2725
 $EndSCHEMATC
