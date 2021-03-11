@@ -466,97 +466,6 @@ F 3 "" H 7275 5950 50  0001 C CNN
 	1    7275 5950
 	1    0    0    -1  
 $EndComp
-$Comp
-L antmicroTVSDiodes:TPD8S009DSMR IC3
-U 1 1 604E9D00
-P 11425 4825
-AR Path="/604C47E1/604E9D00" Ref="IC3"  Part="1" 
-AR Path="/60603DE8/604E9D00" Ref="IC?"  Part="1" 
-F 0 "IC3" H 11450 5340 50  0000 C CNN
-F 1 "TPD8S009DSMR" H 11450 5249 50  0000 C CNN
-F 2 "antmicro-footprints:R-PDSO-N15" H 12825 4475 50  0001 C CNN
-F 3 "" H 13125 4375 50  0001 C CNN
-F 4 "TPD8S009DSMR" H 11375 5325 50  0001 C CNN "MPN"
-F 5 "Texas Instruments" H 11475 5425 50  0001 C CNN "Manufacturer"
-F 6 "DNP" H 11450 5425 50  0000 C CNN "Populate"
-	1    11425 4825
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11125 4675 11025 4675
-Wire Wire Line
-	11025 5575 11125 5575
-Wire Wire Line
-	11025 4675 11025 4975
-Connection ~ 11025 5575
-Wire Wire Line
-	11025 5575 11025 5950
-Wire Wire Line
-	11125 5275 11025 5275
-Connection ~ 11025 5275
-Wire Wire Line
-	11025 5275 11025 5575
-Wire Wire Line
-	11125 4975 11025 4975
-Connection ~ 11025 4975
-Wire Wire Line
-	11025 4975 11025 5275
-Wire Wire Line
-	11775 5425 11875 5425
-Wire Wire Line
-	11875 4825 11775 4825
-Wire Wire Line
-	11875 4275 11875 4825
-Connection ~ 11875 4825
-Wire Wire Line
-	11875 4825 11875 5425
-Text GLabel 11875 4275 1    50   Input ~ 0
-VCC3V3
-Wire Wire Line
-	11125 4575 10425 4575
-Wire Wire Line
-	11125 4775 10425 4775
-Wire Wire Line
-	11125 4875 10425 4875
-Wire Wire Line
-	11125 5075 10425 5075
-Wire Wire Line
-	11125 5175 10425 5175
-Wire Wire Line
-	11125 5375 10425 5375
-Wire Wire Line
-	11125 5475 10425 5475
-Wire Wire Line
-	11125 5675 10425 5675
-Text GLabel 10425 5475 0    50   Input ~ 0
-HDMI1_CK_P
-Text GLabel 10425 5675 0    50   Input ~ 0
-HDMI1_CK_N
-Text GLabel 10425 5175 0    50   Input ~ 0
-HDMI1_D0_P
-Text GLabel 10425 5375 0    50   Input ~ 0
-HDMI1_D0_N
-Text GLabel 10425 4875 0    50   Input ~ 0
-HDMI1_D1_P
-Text GLabel 10425 5075 0    50   Input ~ 0
-HDMI1_D1_N
-Text GLabel 10425 4775 0    50   Input ~ 0
-HDMI1_D2_N
-Text GLabel 10425 4575 0    50   Input ~ 0
-HDMI1_D2_P
-$Comp
-L power:GND #PWR076
-U 1 1 604E9D47
-P 11025 5950
-AR Path="/604C47E1/604E9D47" Ref="#PWR076"  Part="1" 
-AR Path="/60603DE8/604E9D47" Ref="#PWR?"  Part="1" 
-F 0 "#PWR076" H 11025 5700 50  0001 C CNN
-F 1 "GND" H 11030 5777 50  0000 C CNN
-F 2 "" H 11025 5950 50  0001 C CNN
-F 3 "" H 11025 5950 50  0001 C CNN
-	1    11025 5950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6300 2475 5600 2475
 Wire Wire Line
@@ -649,7 +558,8 @@ U 1 1 616A7868
 P 9650 2725
 AR Path="/616A7868" Ref="R?"  Part="1" 
 AR Path="/60924187/616A7868" Ref="R?"  Part="1" 
-F 0 "R?" H 9450 2775 60  0000 C CNN
+AR Path="/604C47E1/616A7868" Ref="R39"  Part="1" 
+F 0 "R39" H 9450 2775 60  0000 C CNN
 F 1 "R_470R_0402" H 9650 2575 60  0001 C CNN
 F 2 "antartix-arty-controller-footprints:0402-res" H 9850 2925 60  0001 L CNN
 F 3 "" H 9650 2725 50  0001 C CNN
@@ -665,7 +575,8 @@ U 1 1 616A786E
 P 9300 2725
 AR Path="/616A786E" Ref="#PWR?"  Part="1" 
 AR Path="/60924187/616A786E" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 9300 2475 50  0001 C CNN
+AR Path="/604C47E1/616A786E" Ref="#PWR0101"  Part="1" 
+F 0 "#PWR0101" H 9300 2475 50  0001 C CNN
 F 1 "GND" H 9305 2552 50  0000 C CNN
 F 2 "" H 9300 2725 50  0001 C CNN
 F 3 "" H 9300 2725 50  0001 C CNN
@@ -682,7 +593,8 @@ U 1 1 616A7878
 P 9950 2725
 AR Path="/616A7878" Ref="D?"  Part="1" 
 AR Path="/60924187/616A7878" Ref="D?"  Part="1" 
-F 0 "D?" H 10000 2625 60  0000 C CNN
+AR Path="/604C47E1/616A7878" Ref="D9"  Part="1" 
+F 0 "D9" H 10000 2625 60  0000 C CNN
 F 1 "LG_L29K-G2J1-24-Z" H 9350 2900 60  0000 C CNN
 F 2 "antartix-arty-controller-footprints:LED_0603" H 10150 2925 60  0001 L CNN
 F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 10150 3025 60  0001 L CNN
@@ -697,7 +609,8 @@ U 1 1 616A7883
 P 9650 2325
 AR Path="/616A7883" Ref="R?"  Part="1" 
 AR Path="/60924187/616A7883" Ref="R?"  Part="1" 
-F 0 "R?" H 9450 2375 60  0000 C CNN
+AR Path="/604C47E1/616A7883" Ref="R38"  Part="1" 
+F 0 "R38" H 9450 2375 60  0000 C CNN
 F 1 "R_470R_0402" H 9650 2175 60  0001 C CNN
 F 2 "antartix-arty-controller-footprints:0402-res" H 9850 2525 60  0001 L CNN
 F 3 "" H 9650 2325 50  0001 C CNN
@@ -713,7 +626,8 @@ U 1 1 616A7889
 P 9300 2325
 AR Path="/616A7889" Ref="#PWR?"  Part="1" 
 AR Path="/60924187/616A7889" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 9300 2075 50  0001 C CNN
+AR Path="/604C47E1/616A7889" Ref="#PWR0102"  Part="1" 
+F 0 "#PWR0102" H 9300 2075 50  0001 C CNN
 F 1 "GND" H 9305 2152 50  0000 C CNN
 F 2 "" H 9300 2325 50  0001 C CNN
 F 3 "" H 9300 2325 50  0001 C CNN
@@ -730,7 +644,8 @@ U 1 1 616A7894
 P 9950 2325
 AR Path="/616A7894" Ref="D?"  Part="1" 
 AR Path="/60924187/616A7894" Ref="D?"  Part="1" 
-F 0 "D?" H 10000 2225 60  0000 C CNN
+AR Path="/604C47E1/616A7894" Ref="D8"  Part="1" 
+F 0 "D8" H 10000 2225 60  0000 C CNN
 F 1 "LG_L29K-G2J1-24-Z" H 9350 2500 60  0000 C CNN
 F 2 "antartix-arty-controller-footprints:LED_0603" H 10150 2525 60  0001 L CNN
 F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 10150 2625 60  0001 L CNN
