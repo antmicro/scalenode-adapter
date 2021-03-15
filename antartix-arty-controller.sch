@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 4
+Sheet 1 3
 Title ""
 Date ""
 Rev ""
@@ -24,11 +24,5 @@ S 10300 4750 1375 950
 U 60924187
 F0 "antartix usb adapter" 50
 F1 "antartix-usb-adapter.sch" 50
-$EndSheet
-$Sheet
-S 8100 4900 1450 825 
-U 61753C0A
-F0 "Aux power supply" 50
-F1 "aux-power-supply.sch" 50
 $EndSheet
 $EndSCHEMATC

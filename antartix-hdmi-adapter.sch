@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 2 4
+Sheet 2 3
 Title ""
 Date ""
 Rev ""
@@ -1075,4 +1075,398 @@ Connection ~ 7475 4225
 Connection ~ 7200 4225
 Wire Wire Line
 	7200 4225 7475 4225
+$Comp
+L Connector:Screw_Terminal_01x08 J?
+U 1 1 607A6D06
+P 8800 9975
+AR Path="/604C47E1/607A6D06" Ref="J?"  Part="1" 
+AR Path="/60924187/607A6D06" Ref="J?"  Part="1" 
+AR Path="/61753C0A/607A6D06" Ref="J?"  Part="1" 
+F 0 "J?" H 8718 9350 50  0000 C CNN
+F 1 "Screw_Terminal_01x08" H 8718 9441 50  0000 C CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_8-G-3.5_1x08_P3.50mm_Vertical" H 8800 9975 50  0001 C CNN
+F 3 "~" H 8800 9975 50  0001 C CNN
+	1    8800 9975
+	-1   0    0    1   
+$EndComp
+Text Notes 8475 10475 0    50   ~ 0
+TODO:Replace with some small pitch terminal
+Wire Wire Line
+	9000 9575 9775 9575
+Wire Wire Line
+	9000 9775 9800 9775
+Text Label 9800 9775 2    50   ~ 0
+VCC_9V_OUT_1
+Wire Wire Line
+	9000 9875 9800 9875
+Wire Wire Line
+	9000 9975 9800 9975
+Wire Wire Line
+	9000 10075 9800 10075
+Text Label 9800 10075 2    50   ~ 0
+VCC_9V_IN
+Text Label 9800 9875 2    50   ~ 0
+VCC_9V_OUT_2
+Text Label 9800 9975 2    50   ~ 0
+VCC_9V_OUT_3
+Text Label 9775 9575 2    50   ~ 0
+GND1
+Wire Wire Line
+	9000 9675 9775 9675
+Text Label 9775 9675 2    50   ~ 0
+GND2
+Wire Wire Line
+	9000 10175 9775 10175
+Text Label 9775 10175 2    50   ~ 0
+GND3
+Wire Wire Line
+	9000 10275 9775 10275
+Text Label 9775 10275 2    50   ~ 0
+GND_IN
+Text Notes 8475 10575 0    50   ~ 0
+TODO:Replace with MC 1,5/ 8-G-3,5  + MCVW 1,5/8-ST-3,5 
+Text Notes 8450 10925 0    50   ~ 0
+TODO:Replace with  	3-794680-8 + 794617-8 + 1-794610-1 
+$Comp
+L antmicroPMICPowerDistributionSwitchesLoadDrivers:FDC6330L Q?
+U 1 1 607C0734
+P 13250 5725
+AR Path="/604C47E1/607C0734" Ref="Q?"  Part="1" 
+AR Path="/60924187/607C0734" Ref="Q?"  Part="1" 
+AR Path="/61753C0A/607C0734" Ref="Q?"  Part="1" 
+F 0 "Q?" H 12750 6000 50  0000 C CNN
+F 1 "FDC6330L" H 13475 6000 50  0000 C CNN
+F 2 "antmicro-footprints:FDC6330L" H 13250 5725 50  0001 L BNN
+F 3 "" H 13250 5725 50  0001 L BNN
+F 4 "ON Semiconductor" H 13250 5725 50  0001 L BNN "MANUFACTURER"
+F 5 "FDC6330L" H 13200 6000 50  0001 C CNN "MPN"
+	1    13250 5725
+	1    0    0    -1  
+$EndComp
+Text Label 14950 5625 2    50   ~ 0
+VCC_9V_OUT_1
+Wire Wire Line
+	13850 5825 14075 5825
+Wire Wire Line
+	13850 5625 13925 5625
+Wire Wire Line
+	13850 5725 13925 5725
+Wire Wire Line
+	13925 5725 13925 5625
+Connection ~ 13925 5625
+Text GLabel 12250 5825 0    50   Input ~ 0
+USB1_EN
+Wire Wire Line
+	13925 5625 14375 5625
+$Comp
+L antmicroCapacitors0402:C_470p_0402 C?
+U 1 1 607EC605
+P 14225 5325
+F 0 "C?" V 13967 5325 60  0000 C CNN
+F 1 "C_470p_0402" H 14225 5175 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 14425 5525 60  0001 L CNN
+F 3 "" H 14225 5325 50  0001 C CNN
+F 4 "WALSIN" H 14425 5725 60  0001 L CNN "Manufacturer"
+F 5 "0402B471K250CT" H 14425 5625 60  0001 L CNN "MPN"
+F 6 "470p" V 14065 5325 50  0000 C CNN "Val"
+	1    14225 5325
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14075 5825 14075 5325
+Wire Wire Line
+	14375 5325 14375 5625
+Connection ~ 14375 5625
+Wire Wire Line
+	14375 5625 14950 5625
+$Comp
+L antartix-arty-controller:R_47k_0402 R?
+U 1 1 60815383
+P 13075 5325
+F 0 "R?" H 13075 5538 60  0000 C CNN
+F 1 "R_47k_0402" H 13075 5175 60  0001 C CNN
+F 2 "antartix-arty-controller-footprints:0402-res" H 13275 5525 60  0001 L CNN
+F 3 "" H 13075 5325 50  0001 C CNN
+F 4 "MULTICOMP" H 13275 5725 60  0001 L CNN "Manufacturer"
+F 5 "MCMR04X4702FTL" H 13275 5625 60  0001 L CNN "MPN"
+F 6 "47k" H 13075 5440 50  0000 C CNN "Val"
+	1    13075 5325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13225 5325 14075 5325
+Connection ~ 14075 5325
+Wire Wire Line
+	12250 5825 12550 5825
+Wire Wire Line
+	12550 5625 12450 5625
+Text Label 12275 5625 2    50   ~ 0
+VCC_9V_IN
+Wire Wire Line
+	12925 5325 12450 5325
+Wire Wire Line
+	12450 5325 12450 5625
+Connection ~ 12450 5625
+Wire Wire Line
+	12450 5625 11875 5625
+$Comp
+L antmicroResistors0402:R_1k_0402 R?
+U 1 1 607C073F
+P 14075 6075
+AR Path="/60924187/607C073F" Ref="R?"  Part="1" 
+AR Path="/61753C0A/607C073F" Ref="R?"  Part="1" 
+AR Path="/604C47E1/607C073F" Ref="R?"  Part="1" 
+F 0 "R?" V 14050 6200 60  0000 C CNN
+F 1 "R_1k_0402" H 14075 5925 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 14275 6275 60  0001 L CNN
+F 3 "" H 14075 6075 50  0001 C CNN
+F 4 "BOURNS" H 14275 6475 60  0001 L CNN "Manufacturer"
+F 5 "CR0402-FX-1001GLF" H 14275 6375 60  0001 L CNN "MPN"
+F 6 "1k" V 14150 6200 50  0000 C CNN "Val"
+	1    14075 6075
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 608A9956
+P 14075 6225
+AR Path="/604C47E1/608A9956" Ref="#PWR?"  Part="1" 
+AR Path="/60603DE8/608A9956" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 14075 5975 50  0001 C CNN
+F 1 "GND" H 14080 6052 50  0000 C CNN
+F 2 "" H 14075 6225 50  0001 C CNN
+F 3 "" H 14075 6225 50  0001 C CNN
+	1    14075 6225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13850 5925 14075 5925
+$Comp
+L antmicroPMICPowerDistributionSwitchesLoadDrivers:FDC6330L Q?
+U 1 1 608BCD9E
+P 13250 7200
+AR Path="/604C47E1/608BCD9E" Ref="Q?"  Part="1" 
+AR Path="/60924187/608BCD9E" Ref="Q?"  Part="1" 
+AR Path="/61753C0A/608BCD9E" Ref="Q?"  Part="1" 
+F 0 "Q?" H 12750 7475 50  0000 C CNN
+F 1 "FDC6330L" H 13475 7475 50  0000 C CNN
+F 2 "antmicro-footprints:FDC6330L" H 13250 7200 50  0001 L BNN
+F 3 "" H 13250 7200 50  0001 L BNN
+F 4 "ON Semiconductor" H 13250 7200 50  0001 L BNN "MANUFACTURER"
+F 5 "FDC6330L" H 13200 7475 50  0001 C CNN "MPN"
+	1    13250 7200
+	1    0    0    -1  
+$EndComp
+Text Label 14950 7100 2    50   ~ 0
+VCC_9V_OUT_2
+Wire Wire Line
+	13850 7300 14075 7300
+Wire Wire Line
+	13850 7100 13925 7100
+Wire Wire Line
+	13850 7200 13925 7200
+Wire Wire Line
+	13925 7200 13925 7100
+Connection ~ 13925 7100
+Wire Wire Line
+	13925 7100 14375 7100
+$Comp
+L antmicroCapacitors0402:C_470p_0402 C?
+U 1 1 608BCDAF
+P 14225 6800
+F 0 "C?" V 13967 6800 60  0000 C CNN
+F 1 "C_470p_0402" H 14225 6650 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 14425 7000 60  0001 L CNN
+F 3 "" H 14225 6800 50  0001 C CNN
+F 4 "WALSIN" H 14425 7200 60  0001 L CNN "Manufacturer"
+F 5 "0402B471K250CT" H 14425 7100 60  0001 L CNN "MPN"
+F 6 "470p" V 14065 6800 50  0000 C CNN "Val"
+	1    14225 6800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14075 7300 14075 6800
+Wire Wire Line
+	14375 6800 14375 7100
+Connection ~ 14375 7100
+Wire Wire Line
+	14375 7100 14950 7100
+$Comp
+L antartix-arty-controller:R_47k_0402 R?
+U 1 1 608BCDBC
+P 13075 6800
+F 0 "R?" H 13075 7013 60  0000 C CNN
+F 1 "R_47k_0402" H 13075 6650 60  0001 C CNN
+F 2 "antartix-arty-controller-footprints:0402-res" H 13275 7000 60  0001 L CNN
+F 3 "" H 13075 6800 50  0001 C CNN
+F 4 "MULTICOMP" H 13275 7200 60  0001 L CNN "Manufacturer"
+F 5 "MCMR04X4702FTL" H 13275 7100 60  0001 L CNN "MPN"
+F 6 "47k" H 13075 6915 50  0000 C CNN "Val"
+	1    13075 6800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13225 6800 14075 6800
+Connection ~ 14075 6800
+Wire Wire Line
+	12250 7300 12550 7300
+Wire Wire Line
+	12550 7100 12450 7100
+Text Label 12275 7100 2    50   ~ 0
+VCC_9V_IN
+Wire Wire Line
+	12925 6800 12450 6800
+Wire Wire Line
+	12450 6800 12450 7100
+Connection ~ 12450 7100
+Wire Wire Line
+	12450 7100 11875 7100
+$Comp
+L antmicroResistors0402:R_1k_0402 R?
+U 1 1 608BCDCE
+P 14075 7550
+AR Path="/60924187/608BCDCE" Ref="R?"  Part="1" 
+AR Path="/61753C0A/608BCDCE" Ref="R?"  Part="1" 
+AR Path="/604C47E1/608BCDCE" Ref="R?"  Part="1" 
+F 0 "R?" V 14050 7675 60  0000 C CNN
+F 1 "R_1k_0402" H 14075 7400 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 14275 7750 60  0001 L CNN
+F 3 "" H 14075 7550 50  0001 C CNN
+F 4 "BOURNS" H 14275 7950 60  0001 L CNN "Manufacturer"
+F 5 "CR0402-FX-1001GLF" H 14275 7850 60  0001 L CNN "MPN"
+F 6 "1k" V 14150 7675 50  0000 C CNN "Val"
+	1    14075 7550
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 608BCDD4
+P 14075 7700
+AR Path="/604C47E1/608BCDD4" Ref="#PWR?"  Part="1" 
+AR Path="/60603DE8/608BCDD4" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 14075 7450 50  0001 C CNN
+F 1 "GND" H 14080 7527 50  0000 C CNN
+F 2 "" H 14075 7700 50  0001 C CNN
+F 3 "" H 14075 7700 50  0001 C CNN
+	1    14075 7700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13850 7400 14075 7400
+$Comp
+L antmicroPMICPowerDistributionSwitchesLoadDrivers:FDC6330L Q?
+U 1 1 608CEF06
+P 13275 8700
+AR Path="/604C47E1/608CEF06" Ref="Q?"  Part="1" 
+AR Path="/60924187/608CEF06" Ref="Q?"  Part="1" 
+AR Path="/61753C0A/608CEF06" Ref="Q?"  Part="1" 
+F 0 "Q?" H 12775 8975 50  0000 C CNN
+F 1 "FDC6330L" H 13500 8975 50  0000 C CNN
+F 2 "antmicro-footprints:FDC6330L" H 13275 8700 50  0001 L BNN
+F 3 "" H 13275 8700 50  0001 L BNN
+F 4 "ON Semiconductor" H 13275 8700 50  0001 L BNN "MANUFACTURER"
+F 5 "FDC6330L" H 13225 8975 50  0001 C CNN "MPN"
+	1    13275 8700
+	1    0    0    -1  
+$EndComp
+Text Label 14975 8600 2    50   ~ 0
+VCC_9V_OUT_3
+Wire Wire Line
+	13875 8800 14100 8800
+Wire Wire Line
+	13875 8600 13950 8600
+Wire Wire Line
+	13875 8700 13950 8700
+Wire Wire Line
+	13950 8700 13950 8600
+Connection ~ 13950 8600
+Wire Wire Line
+	13950 8600 14400 8600
+$Comp
+L antmicroCapacitors0402:C_470p_0402 C?
+U 1 1 608CEF17
+P 14250 8300
+F 0 "C?" V 13992 8300 60  0000 C CNN
+F 1 "C_470p_0402" H 14250 8150 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 14450 8500 60  0001 L CNN
+F 3 "" H 14250 8300 50  0001 C CNN
+F 4 "WALSIN" H 14450 8700 60  0001 L CNN "Manufacturer"
+F 5 "0402B471K250CT" H 14450 8600 60  0001 L CNN "MPN"
+F 6 "470p" V 14090 8300 50  0000 C CNN "Val"
+	1    14250 8300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14100 8800 14100 8300
+Wire Wire Line
+	14400 8300 14400 8600
+Connection ~ 14400 8600
+Wire Wire Line
+	14400 8600 14975 8600
+$Comp
+L antartix-arty-controller:R_47k_0402 R?
+U 1 1 608CEF24
+P 13100 8300
+F 0 "R?" H 13100 8513 60  0000 C CNN
+F 1 "R_47k_0402" H 13100 8150 60  0001 C CNN
+F 2 "antartix-arty-controller-footprints:0402-res" H 13300 8500 60  0001 L CNN
+F 3 "" H 13100 8300 50  0001 C CNN
+F 4 "MULTICOMP" H 13300 8700 60  0001 L CNN "Manufacturer"
+F 5 "MCMR04X4702FTL" H 13300 8600 60  0001 L CNN "MPN"
+F 6 "47k" H 13100 8415 50  0000 C CNN "Val"
+	1    13100 8300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13250 8300 14100 8300
+Connection ~ 14100 8300
+Wire Wire Line
+	12275 8800 12575 8800
+Wire Wire Line
+	12575 8600 12475 8600
+Text Label 12300 8600 2    50   ~ 0
+VCC_9V_IN
+Wire Wire Line
+	12950 8300 12475 8300
+Wire Wire Line
+	12475 8300 12475 8600
+Connection ~ 12475 8600
+Wire Wire Line
+	12475 8600 11900 8600
+$Comp
+L antmicroResistors0402:R_1k_0402 R?
+U 1 1 608CEF36
+P 14100 9050
+AR Path="/60924187/608CEF36" Ref="R?"  Part="1" 
+AR Path="/61753C0A/608CEF36" Ref="R?"  Part="1" 
+AR Path="/604C47E1/608CEF36" Ref="R?"  Part="1" 
+F 0 "R?" V 14075 9175 60  0000 C CNN
+F 1 "R_1k_0402" H 14100 8900 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 14300 9250 60  0001 L CNN
+F 3 "" H 14100 9050 50  0001 C CNN
+F 4 "BOURNS" H 14300 9450 60  0001 L CNN "Manufacturer"
+F 5 "CR0402-FX-1001GLF" H 14300 9350 60  0001 L CNN "MPN"
+F 6 "1k" V 14175 9175 50  0000 C CNN "Val"
+	1    14100 9050
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 608CEF3C
+P 14100 9200
+AR Path="/604C47E1/608CEF3C" Ref="#PWR?"  Part="1" 
+AR Path="/60603DE8/608CEF3C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 14100 8950 50  0001 C CNN
+F 1 "GND" H 14105 9027 50  0000 C CNN
+F 2 "" H 14100 9200 50  0001 C CNN
+F 3 "" H 14100 9200 50  0001 C CNN
+	1    14100 9200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13875 8900 14100 8900
+Text GLabel 12250 7300 0    50   Input ~ 0
+USB2_EN
+Text GLabel 12275 8800 0    50   Input ~ 0
+USB3_EN
 $EndSCHEMATC
