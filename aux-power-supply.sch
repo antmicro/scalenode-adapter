@@ -385,4 +385,8 @@ Text GLabel 1325 2750 0    50   Input ~ 0
 USB2_EN
 Text GLabel 1300 3950 0    50   Input ~ 0
 USB3_EN
+Text Notes 2025 6225 0    50   ~ 0
+TODO:Replace with MC 1,5/ 8-G-3,5  + MCVW 1,5/8-ST-3,5 
+Text Notes 2000 6575 0    50   ~ 0
+TODO:Replace with  	3-794680-8 + 794617-8 + 1-794610-1 
 $EndSCHEMATC
