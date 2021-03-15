@@ -193,283 +193,112 @@ F 3 "" H 2275 4350 50  0001 C CNN
 	1    2275 4350
 	1    0    0    -1  
 $EndComp
-$Comp
-L antmicroUSBDVIHDMIConnectors:685119134923 J8
-U 1 1 6041EE42
-P 6700 2625
-AR Path="/604C47E1/6041EE42" Ref="J8"  Part="1" 
-AR Path="/60603DE8/6041EE42" Ref="J?"  Part="1" 
-F 0 "J8" H 6700 3562 60  0000 C CNN
-F 1 "685119134923" H 6700 3456 60  0000 C CNN
-F 2 "antmicro-footprints:HDMI_A_Female_685119134923" H 6900 2825 60  0001 L CNN
-F 3 "https://en.wikipedia.org/wiki/HDMI" H 6900 2925 60  0001 L CNN
-F 4 "685119134923" H 6900 3125 60  0001 L CNN "MPN"
-F 5 "Amphenol" H 6900 3725 60  0001 L CNN "Manufacturer"
-	1    6700 2625
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6300 2775 5600 2775
-Wire Wire Line
-	7800 2325 7100 2325
-Wire Wire Line
-	7800 2425 7100 2425
-Wire Wire Line
-	7800 2625 7100 2625
-Wire Wire Line
-	7800 2725 7100 2725
-Wire Wire Line
-	7800 2925 7100 2925
-Wire Wire Line
-	7800 3025 7100 3025
-Wire Wire Line
-	6300 2375 6150 2375
-Wire Wire Line
-	6300 2675 6150 2675
-Wire Wire Line
-	6150 2375 6150 2675
-Connection ~ 6150 2675
-Wire Wire Line
-	6150 2675 6150 2975
-Wire Wire Line
-	6300 2975 6150 2975
-Connection ~ 6150 2975
-Wire Wire Line
-	6150 2975 6150 3575
-Wire Wire Line
-	7100 2225 7275 2225
-Wire Wire Line
-	7275 2225 7275 2525
-Wire Wire Line
-	7100 2525 7275 2525
-Connection ~ 7275 2525
-Wire Wire Line
-	7275 2525 7275 3575
-NoConn ~ 7100 2825
-Wire Wire Line
-	6400 3425 6400 3575
-$Comp
-L power:GND #PWR069
-U 1 1 6044467C
-P 6150 3575
-AR Path="/604C47E1/6044467C" Ref="#PWR069"  Part="1" 
-AR Path="/60603DE8/6044467C" Ref="#PWR?"  Part="1" 
-F 0 "#PWR069" H 6150 3325 50  0001 C CNN
-F 1 "GND" H 6155 3402 50  0000 C CNN
-F 2 "" H 6150 3575 50  0001 C CNN
-F 3 "" H 6150 3575 50  0001 C CNN
-	1    6150 3575
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR070
-U 1 1 604461F7
-P 6400 3575
-AR Path="/604C47E1/604461F7" Ref="#PWR070"  Part="1" 
-AR Path="/60603DE8/604461F7" Ref="#PWR?"  Part="1" 
-F 0 "#PWR070" H 6400 3325 50  0001 C CNN
-F 1 "GND" H 6405 3402 50  0000 C CNN
-F 2 "" H 6400 3575 50  0001 C CNN
-F 3 "" H 6400 3575 50  0001 C CNN
-	1    6400 3575
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR071
-U 1 1 604480F0
-P 7275 3575
-AR Path="/604C47E1/604480F0" Ref="#PWR071"  Part="1" 
-AR Path="/60603DE8/604480F0" Ref="#PWR?"  Part="1" 
-F 0 "#PWR071" H 7275 3325 50  0001 C CNN
-F 1 "GND" H 7280 3402 50  0000 C CNN
-F 2 "" H 7275 3575 50  0001 C CNN
-F 3 "" H 7275 3575 50  0001 C CNN
-	1    7275 3575
-	1    0    0    -1  
-$EndComp
-Text GLabel 7800 2325 2    50   Input ~ 0
+Text GLabel 7350 2375 0    50   Input ~ 0
 HDMI0_D1_P
-Text GLabel 7800 2425 2    50   Input ~ 0
+Text GLabel 7350 2475 0    50   Input ~ 0
 HDMI0_D1_N
-Text GLabel 5600 2475 0    50   Input ~ 0
+Text GLabel 7350 2675 0    50   Input ~ 0
 HDMI0_D0_P
-Text GLabel 5600 2575 0    50   Input ~ 0
+Text GLabel 7350 2775 0    50   Input ~ 0
 HDMI0_D0_N
-Text GLabel 7800 2625 2    50   Input ~ 0
+Text GLabel 7350 2975 0    50   Input ~ 0
 HDMI0_CK_P
-Text GLabel 7800 2725 2    50   Input ~ 0
+Text GLabel 7350 3075 0    50   Input ~ 0
 HDMI0_CK_N
 $Comp
 L antmicroTVSDiodes:TPD8S009DSMR IC2
 U 1 1 60462849
-P 7675 4825
+P 5475 2625
 AR Path="/604C47E1/60462849" Ref="IC2"  Part="1" 
 AR Path="/60603DE8/60462849" Ref="IC?"  Part="1" 
-F 0 "IC2" H 7700 5340 50  0000 C CNN
-F 1 "TPD8S009DSMR" H 7700 5249 50  0000 C CNN
-F 2 "antmicro-footprints:R-PDSO-N15" H 9075 4475 50  0001 C CNN
-F 3 "" H 9375 4375 50  0001 C CNN
-F 4 "TPD8S009DSMR" H 7625 5325 50  0001 C CNN "MPN"
-F 5 "Texas Instruments" H 7725 5425 50  0001 C CNN "Manufacturer"
-	1    7675 4825
+F 0 "IC2" H 5500 3140 50  0000 C CNN
+F 1 "TPD8S009DSMR" H 5500 3049 50  0000 C CNN
+F 2 "antmicro-footprints:R-PDSO-N15" H 6875 2275 50  0001 C CNN
+F 3 "" H 7175 2175 50  0001 C CNN
+F 4 "TPD8S009DSMR" H 5425 3125 50  0001 C CNN "MPN"
+F 5 "Texas Instruments" H 5525 3225 50  0001 C CNN "Manufacturer"
+	1    5475 2625
 	1    0    0    -1  
 $EndComp
-$Comp
-L antmicroTestPoints:TP_SMD1MM TP1
-U 1 1 60472FDB
-P 5500 2775
-AR Path="/604C47E1/60472FDB" Ref="TP1"  Part="1" 
-AR Path="/60603DE8/60472FDB" Ref="TP?"  Part="1" 
-F 0 "TP1" V 5405 2822 50  0000 C CNN
-F 1 "TP_SMD1MM" H 5500 2675 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 5700 2975 60  0001 L CNN
-F 3 "" H 5700 3075 60  0001 L CNN
-	1    5500 2775
-	0    1    1    0   
-$EndComp
-$Comp
-L antmicroTestPoints:TP_SMD1MM TP2
-U 1 1 604734EB
-P 5500 2875
-AR Path="/604C47E1/604734EB" Ref="TP2"  Part="1" 
-AR Path="/60603DE8/604734EB" Ref="TP?"  Part="1" 
-F 0 "TP2" V 5405 2922 50  0000 C CNN
-F 1 "TP_SMD1MM" H 5500 2775 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 5700 3075 60  0001 L CNN
-F 3 "" H 5700 3175 60  0001 L CNN
-	1    5500 2875
-	0    1    1    0   
-$EndComp
-$Comp
-L antmicroTestPoints:TP_SMD1MM TP3
-U 1 1 604737A0
-P 5500 3075
-AR Path="/604C47E1/604737A0" Ref="TP3"  Part="1" 
-AR Path="/60603DE8/604737A0" Ref="TP?"  Part="1" 
-F 0 "TP3" V 5405 3122 50  0000 C CNN
-F 1 "TP_SMD1MM" H 5500 2975 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 5700 3275 60  0001 L CNN
-F 3 "" H 5700 3375 60  0001 L CNN
-	1    5500 3075
-	0    1    1    0   
-$EndComp
-$Comp
-L antmicroTestPoints:TP_SMD1MM TP4
-U 1 1 60474952
-P 7900 2925
-AR Path="/604C47E1/60474952" Ref="TP4"  Part="1" 
-AR Path="/60603DE8/60474952" Ref="TP?"  Part="1" 
-F 0 "TP4" V 7900 2875 50  0000 R CNN
-F 1 "TP_SMD1MM" H 7900 2825 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 8100 3125 60  0001 L CNN
-F 3 "" H 8100 3225 60  0001 L CNN
-	1    7900 2925
-	0    -1   -1   0   
-$EndComp
-$Comp
-L antmicroTestPoints:TP_SMD1MM TP5
-U 1 1 60475CA9
-P 7900 3025
-AR Path="/604C47E1/60475CA9" Ref="TP5"  Part="1" 
-AR Path="/60603DE8/60475CA9" Ref="TP?"  Part="1" 
-F 0 "TP5" V 7900 2975 50  0000 R CNN
-F 1 "TP_SMD1MM" H 7900 2925 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 8100 3225 60  0001 L CNN
-F 3 "" H 8100 3325 60  0001 L CNN
-	1    7900 3025
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
-	7375 4675 7275 4675
+	5175 2475 5075 2475
 Wire Wire Line
-	7275 5575 7375 5575
+	5075 3375 5175 3375
 Wire Wire Line
-	7275 4675 7275 4975
-Connection ~ 7275 5575
+	5075 2475 5075 2775
+Connection ~ 5075 3375
 Wire Wire Line
-	7275 5575 7275 5950
+	5075 3375 5075 3750
 Wire Wire Line
-	7375 5275 7275 5275
-Connection ~ 7275 5275
+	5175 3075 5075 3075
+Connection ~ 5075 3075
 Wire Wire Line
-	7275 5275 7275 5575
+	5075 3075 5075 3375
 Wire Wire Line
-	7375 4975 7275 4975
-Connection ~ 7275 4975
+	5175 2775 5075 2775
+Connection ~ 5075 2775
 Wire Wire Line
-	7275 4975 7275 5275
+	5075 2775 5075 3075
 Wire Wire Line
-	8025 5425 8125 5425
+	5825 3225 5925 3225
 Wire Wire Line
-	8125 4825 8025 4825
+	5925 2625 5825 2625
 Wire Wire Line
-	8125 4275 8125 4825
-Connection ~ 8125 4825
+	5925 2075 5925 2625
+Connection ~ 5925 2625
 Wire Wire Line
-	8125 4825 8125 5425
-Text GLabel 8125 4275 1    50   Input ~ 0
+	5925 2625 5925 3225
+Text GLabel 5925 2075 1    50   Input ~ 0
 VCC3V3
 Wire Wire Line
-	7375 4575 6675 4575
+	5175 2375 4475 2375
 Wire Wire Line
-	7375 4775 6675 4775
+	5175 2575 4475 2575
 Wire Wire Line
-	7375 4875 6675 4875
+	5175 2675 4475 2675
 Wire Wire Line
-	7375 5075 6675 5075
+	5175 2875 4475 2875
 Wire Wire Line
-	7375 5175 6675 5175
+	5175 2975 4475 2975
 Wire Wire Line
-	7375 5375 6675 5375
+	5175 3175 4475 3175
 Wire Wire Line
-	7375 5475 6675 5475
+	5175 3275 4475 3275
 Wire Wire Line
-	7375 5675 6675 5675
-Text GLabel 6675 5475 0    50   Input ~ 0
+	5175 3475 4475 3475
+Text GLabel 4475 3275 0    50   Input ~ 0
 HDMI0_CK_P
-Text GLabel 6675 5675 0    50   Input ~ 0
+Text GLabel 4475 3475 0    50   Input ~ 0
 HDMI0_CK_N
-Text GLabel 6675 5175 0    50   Input ~ 0
+Text GLabel 4475 2975 0    50   Input ~ 0
 HDMI0_D0_P
-Text GLabel 6675 5375 0    50   Input ~ 0
+Text GLabel 4475 3175 0    50   Input ~ 0
 HDMI0_D0_N
-Text GLabel 6675 4875 0    50   Input ~ 0
+Text GLabel 4475 2675 0    50   Input ~ 0
 HDMI0_D1_P
-Text GLabel 6675 5075 0    50   Input ~ 0
+Text GLabel 4475 2875 0    50   Input ~ 0
 HDMI0_D1_N
-Text GLabel 5600 2275 0    50   Input ~ 0
+Text GLabel 7350 2175 0    50   Input ~ 0
 HDMI0_D2_N
-Text GLabel 5600 2175 0    50   Input ~ 0
+Text GLabel 7350 2075 0    50   Input ~ 0
 HDMI0_D2_P
-Text GLabel 6675 4775 0    50   Input ~ 0
+Text GLabel 4475 2575 0    50   Input ~ 0
 HDMI0_D2_N
-Text GLabel 6675 4575 0    50   Input ~ 0
+Text GLabel 4475 2375 0    50   Input ~ 0
 HDMI0_D2_P
 $Comp
 L power:GND #PWR072
 U 1 1 604E1D01
-P 7275 5950
+P 5075 3750
 AR Path="/604C47E1/604E1D01" Ref="#PWR072"  Part="1" 
 AR Path="/60603DE8/604E1D01" Ref="#PWR?"  Part="1" 
-F 0 "#PWR072" H 7275 5700 50  0001 C CNN
-F 1 "GND" H 7280 5777 50  0000 C CNN
-F 2 "" H 7275 5950 50  0001 C CNN
-F 3 "" H 7275 5950 50  0001 C CNN
-	1    7275 5950
+F 0 "#PWR072" H 5075 3500 50  0001 C CNN
+F 1 "GND" H 5080 3577 50  0000 C CNN
+F 2 "" H 5075 3750 50  0001 C CNN
+F 3 "" H 5075 3750 50  0001 C CNN
+	1    5075 3750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6300 2475 5600 2475
-Wire Wire Line
-	6300 2275 5600 2275
-Wire Wire Line
-	6300 2175 5600 2175
-Wire Wire Line
-	6300 3075 5600 3075
-Wire Wire Line
-	6300 2875 5600 2875
-Wire Wire Line
-	6300 2575 5600 2575
 $Comp
 L antmicroMechanicalParts:9774030151 SP1
 U 1 1 603A356D
@@ -547,109 +376,109 @@ Wire Wire Line
 $Comp
 L antartix-arty-controller:R_470R_0402 R?
 U 1 1 616A7868
-P 9650 2725
+P 11625 2775
 AR Path="/616A7868" Ref="R?"  Part="1" 
 AR Path="/60924187/616A7868" Ref="R?"  Part="1" 
 AR Path="/604C47E1/616A7868" Ref="R39"  Part="1" 
-F 0 "R39" H 9450 2775 60  0000 C CNN
-F 1 "R_470R_0402" H 9650 2575 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-res" H 9850 2925 60  0001 L CNN
-F 3 "" H 9650 2725 50  0001 C CNN
-F 4 "VISHAY" H 9850 3125 60  0001 L CNN "Manufacturer"
-F 5 "CRCW0402470RFKED" H 9850 3025 60  0001 L CNN "MPN"
-F 6 "470R" H 9650 2625 50  0000 C CNN "Val"
-	1    9650 2725
+F 0 "R39" H 11425 2825 60  0000 C CNN
+F 1 "R_470R_0402" H 11625 2625 60  0001 C CNN
+F 2 "antartix-arty-controller-footprints:0402-res" H 11825 2975 60  0001 L CNN
+F 3 "" H 11625 2775 50  0001 C CNN
+F 4 "VISHAY" H 11825 3175 60  0001 L CNN "Manufacturer"
+F 5 "CRCW0402470RFKED" H 11825 3075 60  0001 L CNN "MPN"
+F 6 "470R" H 11625 2675 50  0000 C CNN "Val"
+	1    11625 2775
 	1    0    0    -1  
 $EndComp
 $Comp
 L antartix-arty-controller:GND #PWR?
 U 1 1 616A786E
-P 9300 2725
+P 11275 2775
 AR Path="/616A786E" Ref="#PWR?"  Part="1" 
 AR Path="/60924187/616A786E" Ref="#PWR?"  Part="1" 
 AR Path="/604C47E1/616A786E" Ref="#PWR0101"  Part="1" 
-F 0 "#PWR0101" H 9300 2475 50  0001 C CNN
-F 1 "GND" H 9305 2552 50  0000 C CNN
-F 2 "" H 9300 2725 50  0001 C CNN
-F 3 "" H 9300 2725 50  0001 C CNN
-	1    9300 2725
+F 0 "#PWR0101" H 11275 2525 50  0001 C CNN
+F 1 "GND" H 11280 2602 50  0000 C CNN
+F 2 "" H 11275 2775 50  0001 C CNN
+F 3 "" H 11275 2775 50  0001 C CNN
+	1    11275 2775
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	9500 2725 9300 2725
+	11475 2775 11275 2775
 Wire Wire Line
-	9800 2725 9850 2725
+	11775 2775 11825 2775
 $Comp
 L antartix-arty-controller:LG_L29K-G2J1-24-Z D?
 U 1 1 616A7878
-P 9950 2725
+P 11925 2775
 AR Path="/616A7878" Ref="D?"  Part="1" 
 AR Path="/60924187/616A7878" Ref="D?"  Part="1" 
 AR Path="/604C47E1/616A7878" Ref="D9"  Part="1" 
-F 0 "D9" H 10000 2625 60  0000 C CNN
-F 1 "LG_L29K-G2J1-24-Z" H 9350 2900 60  0000 C CNN
-F 2 "antartix-arty-controller-footprints:LED_0603" H 10150 2925 60  0001 L CNN
-F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 10150 3025 60  0001 L CNN
-F 4 "LG L29K-G2J1-24-Z" H 10150 3225 60  0001 L CNN "MPN"
-F 5 "OSRAM Opto Semiconductors Inc." H 10150 3825 60  0001 L CNN "Manufacturer"
-	1    9950 2725
+F 0 "D9" H 11975 2675 60  0000 C CNN
+F 1 "LG_L29K-G2J1-24-Z" H 11325 2950 60  0000 C CNN
+F 2 "antartix-arty-controller-footprints:LED_0603" H 12125 2975 60  0001 L CNN
+F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 12125 3075 60  0001 L CNN
+F 4 "LG L29K-G2J1-24-Z" H 12125 3275 60  0001 L CNN "MPN"
+F 5 "OSRAM Opto Semiconductors Inc." H 12125 3875 60  0001 L CNN "Manufacturer"
+	1    11925 2775
 	-1   0    0    1   
 $EndComp
 $Comp
 L antartix-arty-controller:R_470R_0402 R?
 U 1 1 616A7883
-P 9650 2325
+P 11625 2375
 AR Path="/616A7883" Ref="R?"  Part="1" 
 AR Path="/60924187/616A7883" Ref="R?"  Part="1" 
 AR Path="/604C47E1/616A7883" Ref="R38"  Part="1" 
-F 0 "R38" H 9450 2375 60  0000 C CNN
-F 1 "R_470R_0402" H 9650 2175 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-res" H 9850 2525 60  0001 L CNN
-F 3 "" H 9650 2325 50  0001 C CNN
-F 4 "VISHAY" H 9850 2725 60  0001 L CNN "Manufacturer"
-F 5 "CRCW0402470RFKED" H 9850 2625 60  0001 L CNN "MPN"
-F 6 "470R" H 9650 2225 50  0000 C CNN "Val"
-	1    9650 2325
+F 0 "R38" H 11425 2425 60  0000 C CNN
+F 1 "R_470R_0402" H 11625 2225 60  0001 C CNN
+F 2 "antartix-arty-controller-footprints:0402-res" H 11825 2575 60  0001 L CNN
+F 3 "" H 11625 2375 50  0001 C CNN
+F 4 "VISHAY" H 11825 2775 60  0001 L CNN "Manufacturer"
+F 5 "CRCW0402470RFKED" H 11825 2675 60  0001 L CNN "MPN"
+F 6 "470R" H 11625 2275 50  0000 C CNN "Val"
+	1    11625 2375
 	1    0    0    -1  
 $EndComp
 $Comp
 L antartix-arty-controller:GND #PWR?
 U 1 1 616A7889
-P 9300 2325
+P 11275 2375
 AR Path="/616A7889" Ref="#PWR?"  Part="1" 
 AR Path="/60924187/616A7889" Ref="#PWR?"  Part="1" 
 AR Path="/604C47E1/616A7889" Ref="#PWR0102"  Part="1" 
-F 0 "#PWR0102" H 9300 2075 50  0001 C CNN
-F 1 "GND" H 9305 2152 50  0000 C CNN
-F 2 "" H 9300 2325 50  0001 C CNN
-F 3 "" H 9300 2325 50  0001 C CNN
-	1    9300 2325
+F 0 "#PWR0102" H 11275 2125 50  0001 C CNN
+F 1 "GND" H 11280 2202 50  0000 C CNN
+F 2 "" H 11275 2375 50  0001 C CNN
+F 3 "" H 11275 2375 50  0001 C CNN
+	1    11275 2375
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	9500 2325 9300 2325
+	11475 2375 11275 2375
 Wire Wire Line
-	9800 2325 9850 2325
+	11775 2375 11825 2375
 $Comp
 L antartix-arty-controller:LG_L29K-G2J1-24-Z D?
 U 1 1 616A7894
-P 9950 2325
+P 11925 2375
 AR Path="/616A7894" Ref="D?"  Part="1" 
 AR Path="/60924187/616A7894" Ref="D?"  Part="1" 
 AR Path="/604C47E1/616A7894" Ref="D8"  Part="1" 
-F 0 "D8" H 10000 2225 60  0000 C CNN
-F 1 "LG_L29K-G2J1-24-Z" H 9350 2500 60  0000 C CNN
-F 2 "antartix-arty-controller-footprints:LED_0603" H 10150 2525 60  0001 L CNN
-F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 10150 2625 60  0001 L CNN
-F 4 "LG L29K-G2J1-24-Z" H 10150 2825 60  0001 L CNN "MPN"
-F 5 "OSRAM Opto Semiconductors Inc." H 10150 3425 60  0001 L CNN "Manufacturer"
-	1    9950 2325
+F 0 "D8" H 11975 2275 60  0000 C CNN
+F 1 "LG_L29K-G2J1-24-Z" H 11325 2550 60  0000 C CNN
+F 2 "antartix-arty-controller-footprints:LED_0603" H 12125 2575 60  0001 L CNN
+F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 12125 2675 60  0001 L CNN
+F 4 "LG L29K-G2J1-24-Z" H 12125 2875 60  0001 L CNN "MPN"
+F 5 "OSRAM Opto Semiconductors Inc." H 12125 3475 60  0001 L CNN "Manufacturer"
+	1    11925 2375
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	10150 2325 10550 2325
+	12125 2375 12525 2375
 Wire Wire Line
-	10150 2725 10550 2725
+	12125 2775 12525 2775
 Text Notes 1600 5575 0    118  ~ 0
 Micro USB - RPiCM console
 Wire Wire Line
@@ -1028,10 +857,222 @@ Wire Wire Line
 	4800 6350 4775 6350
 Wire Wire Line
 	4775 7525 4800 7525
-Text GLabel 10550 2325 2    50   Input ~ 0
+Text GLabel 12525 2375 2    50   Input ~ 0
 LED0
-Text GLabel 10550 2725 2    50   Input ~ 0
+Text GLabel 12525 2775 2    50   Input ~ 0
 LED1
-Text Notes 6450 1525 0    50   ~ 0
-USE mini/micro HDMI
+$Comp
+L antmicroUSBDVIHDMIConnectors:WE_685119136923 J?
+U 1 1 60511DDA
+P 8250 1875
+F 0 "J?" H 8425 -550 60  0000 L CNN
+F 1 "WE_685119136923" H 8400 -700 60  0000 L CNN
+F 2 "antmicro-footprints:WE_685119136923" H 8250 1875 60  0001 C CNN
+F 3 "" H 8250 1875 60  0001 C CNN
+F 4 "Wurth Elektronik" H 8250 1875 50  0001 C CNN "Manufacturer"
+F 5 "685119136923" H 8250 1875 50  0001 C CNN "MPN"
+	1    8250 1875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8050 2075 7350 2075
+Wire Wire Line
+	8050 2175 7350 2175
+Wire Wire Line
+	8050 2375 7350 2375
+Wire Wire Line
+	8050 2475 7350 2475
+Wire Wire Line
+	8050 2675 7350 2675
+Wire Wire Line
+	8050 2775 7350 2775
+Wire Wire Line
+	8050 2975 7350 2975
+Wire Wire Line
+	8050 3075 7350 3075
+NoConn ~ 8050 3575
+Wire Wire Line
+	8050 3475 7350 3475
+Wire Wire Line
+	8050 3375 7350 3375
+Wire Wire Line
+	8050 3275 7350 3275
+Wire Wire Line
+	8050 3775 7350 3775
+Text GLabel 7350 3775 0    50   Input ~ 0
+HDMI0_HOTPLUG
+Text GLabel 7350 3475 0    50   Input ~ 0
+HDMI0_SDA
+Text GLabel 7350 3375 0    50   Input ~ 0
+HDMI0_SCL
+Text GLabel 7350 3275 0    50   Input ~ 0
+HDMI0_CEC
+$Comp
+L power:GND #PWR?
+U 1 1 605FE8D6
+P 7800 4525
+AR Path="/604C47E1/605FE8D6" Ref="#PWR?"  Part="1" 
+AR Path="/60603DE8/605FE8D6" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7800 4275 50  0001 C CNN
+F 1 "GND" H 7805 4352 50  0000 C CNN
+F 2 "" H 7800 4525 50  0001 C CNN
+F 3 "" H 7800 4525 50  0001 C CNN
+	1    7800 4525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 1975 8050 1975
+Wire Wire Line
+	8050 2275 7800 2275
+Connection ~ 7800 2275
+Wire Wire Line
+	7800 2275 7800 1975
+Wire Wire Line
+	8050 2575 7800 2575
+Connection ~ 7800 2575
+Wire Wire Line
+	7800 2575 7800 2275
+Wire Wire Line
+	8050 2875 7800 2875
+Wire Wire Line
+	7800 2575 7800 2875
+Connection ~ 7800 2875
+Wire Wire Line
+	7800 2875 7800 3175
+Wire Wire Line
+	8050 3175 7800 3175
+Connection ~ 7800 3175
+Wire Wire Line
+	7800 3175 7800 3875
+Wire Wire Line
+	8050 3875 7800 3875
+Connection ~ 7800 3875
+Wire Wire Line
+	7800 3875 7800 4525
+$Comp
+L antartix-arty-controller:C_100n_0402 C?
+U 1 1 60642C83
+P 7200 4375
+AR Path="/60642C83" Ref="C?"  Part="1" 
+AR Path="/60924187/60642C83" Ref="C?"  Part="1" 
+AR Path="/604C47E1/60642C83" Ref="C?"  Part="1" 
+F 0 "C?" H 7250 4475 60  0000 L CNN
+F 1 "C_100n_0402" H 7200 4225 60  0001 C CNN
+F 2 "antartix-arty-controller-footprints:0402-cap" H 7400 4575 60  0001 L CNN
+F 3 "" H 7200 4375 50  0001 C CNN
+F 4 "Walsin" H 7400 4775 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 7400 4675 60  0001 L CNN "MPN"
+F 6 "100n" H 7225 4250 50  0000 L CNN "Val"
+	1    7200 4375
+	1    0    0    -1  
+$EndComp
+$Comp
+L antartix-arty-controller:GND #PWR?
+U 1 1 60642C92
+P 7200 4525
+AR Path="/60642C92" Ref="#PWR?"  Part="1" 
+AR Path="/60924187/60642C92" Ref="#PWR?"  Part="1" 
+AR Path="/604C47E1/60642C92" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7200 4275 50  0001 C CNN
+F 1 "GND" H 7205 4352 50  0000 C CNN
+F 2 "" H 7200 4525 50  0001 C CNN
+F 3 "" H 7200 4525 50  0001 C CNN
+	1    7200 4525
+	1    0    0    -1  
+$EndComp
+$Comp
+L antartix-arty-controller:GND #PWR?
+U 1 1 60642C98
+P 7475 4525
+AR Path="/60642C98" Ref="#PWR?"  Part="1" 
+AR Path="/60924187/60642C98" Ref="#PWR?"  Part="1" 
+AR Path="/604C47E1/60642C98" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7475 4275 50  0001 C CNN
+F 1 "GND" H 7480 4352 50  0000 C CNN
+F 2 "" H 7475 4525 50  0001 C CNN
+F 3 "" H 7475 4525 50  0001 C CNN
+	1    7475 4525
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_1u_0402 C?
+U 1 1 60654DCD
+P 6625 4375
+AR Path="/60654DCD" Ref="C?"  Part="1" 
+AR Path="/60924187/60654DCD" Ref="C?"  Part="1" 
+AR Path="/604C47E1/60654DCD" Ref="C?"  Part="1" 
+F 0 "C?" H 6750 4300 60  0000 L CNN
+F 1 "C_1u_0402" H 6625 4225 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 6825 4575 60  0001 L CNN
+F 3 "" H 6625 4375 50  0001 C CNN
+F 4 "TDK" H 6825 4775 60  0001 L CNN "Manufacturer"
+F 5 "C1005X6S1A105K050BC" H 6825 4675 60  0001 L CNN "MPN"
+F 6 "1u" H 6750 4225 50  0000 L CNN "Val"
+	1    6625 4375
+	1    0    0    -1  
+$EndComp
+$Comp
+L antartix-arty-controller:BLM21SP111BH1 FB?
+U 1 1 606D2385
+P 6925 4225
+AR Path="/606D2385" Ref="FB?"  Part="1" 
+AR Path="/60924187/606D2385" Ref="FB?"  Part="1" 
+AR Path="/604C47E1/606D2385" Ref="FB?"  Part="1" 
+F 0 "FB?" H 6925 4512 60  0000 C CNN
+F 1 "BLM21SP111BH1" H 6925 4406 60  0000 C CNN
+F 2 "antartix-arty-controller-footprints:0805-res" H 6925 4675 60  0001 L CNN
+F 3 "" H 7125 4525 60  0001 L CNN
+F 4 "BLM21SP111BH1D" H 6925 4775 60  0001 L CNN "MPN"
+F 5 "Murata Electronics North America" H 6925 4875 60  0001 L CNN "Manufacturer"
+	1    6925 4225
+	1    0    0    -1  
+$EndComp
+Text GLabel 6525 4225 0    50   Input ~ 0
+VCC5V0
+$Comp
+L antmicroCapacitors0603:C_22u_0603 C?
+U 1 1 606F8603
+P 7475 4375
+AR Path="/606F8603" Ref="C?"  Part="1" 
+AR Path="/60924187/606F8603" Ref="C?"  Part="1" 
+AR Path="/604C47E1/606F8603" Ref="C?"  Part="1" 
+F 0 "C?" H 7275 4275 60  0000 L CNN
+F 1 "C_22u_0603" H 7475 4225 60  0001 C CNN
+F 2 "antmicro-footprints:0603-cap" H 7675 4575 60  0001 L CNN
+F 3 "" H 7475 4375 50  0001 C CNN
+F 4 "MURATA" H 7675 4775 60  0001 L CNN "Manufacturer"
+F 5 "GRM188R60J226MEA0D" H 7675 4675 60  0001 L CNN "MPN"
+F 6 "22u" H 7300 4500 50  0000 L CNN "Val"
+	1    7475 4375
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6525 4225 6625 4225
+Connection ~ 6625 4225
+Wire Wire Line
+	6625 4225 6725 4225
+$Comp
+L antartix-arty-controller:GND #PWR?
+U 1 1 607284E9
+P 6625 4525
+AR Path="/607284E9" Ref="#PWR?"  Part="1" 
+AR Path="/60924187/607284E9" Ref="#PWR?"  Part="1" 
+AR Path="/604C47E1/607284E9" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6625 4275 50  0001 C CNN
+F 1 "GND" H 6630 4352 50  0000 C CNN
+F 2 "" H 6625 4525 50  0001 C CNN
+F 3 "" H 6625 4525 50  0001 C CNN
+	1    6625 4525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7125 4225 7200 4225
+Wire Wire Line
+	7475 4225 7475 3675
+Wire Wire Line
+	7475 3675 8050 3675
+Connection ~ 7475 4225
+Connection ~ 7200 4225
+Wire Wire Line
+	7200 4225 7475 4225
 $EndSCHEMATC
