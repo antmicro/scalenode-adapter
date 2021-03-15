@@ -2178,8 +2178,8 @@ Wire Notes Line
 	475  6650 8500 6650
 Wire Notes Line
 	4025 525  4025 6650
-Text Notes 12900 3075 0    118  ~ 0
-Micro USB connector
+Text Notes 11650 3075 0    118  ~ 0
+Micro USB conn - alternative upstream option
 Wire Notes Line
 	11575 2850 16075 2850
 Text GLabel 15800 1925 1    50   Input ~ 0
@@ -2672,9 +2672,9 @@ F 3 "" H 9825 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 575  2225 0    50   ~ 0
-USB_D_CON_N
+USB_ALT_UP_N
 Text Label 575  2125 0    50   ~ 0
-USB_D_CON_P
+USB_ALT_UP_P
 Wire Wire Line
 	1125 2125 550  2125
 Wire Wire Line
@@ -2720,9 +2720,9 @@ F 6 "0R" H 925 2075 50  0000 C CNN "Val"
 	-1   0    0    1   
 $EndComp
 Text Label 13625 3800 2    50   ~ 0
-USB_D_CON_N
+USB_ALT_UP_N
 Text Label 13625 3900 2    50   ~ 0
-USB_D_CON_P
+USB_ALT_UP_P
 Wire Wire Line
 	12625 3900 12900 3900
 Wire Wire Line
