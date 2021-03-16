@@ -248,8 +248,6 @@ Wire Wire Line
 Connection ~ 5925 2625
 Wire Wire Line
 	5925 2625 5925 3225
-Text GLabel 5925 2075 1    50   Input ~ 0
-VCC3V3
 Wire Wire Line
 	5175 2375 4475 2375
 Wire Wire Line
@@ -489,8 +487,8 @@ U 1 1 605A1554
 P 3975 7200
 AR Path="/605A1554" Ref="#PWR?"  Part="1" 
 AR Path="/60924187/605A1554" Ref="#PWR?"  Part="1" 
-AR Path="/604C47E1/605A1554" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3975 6950 50  0001 C CNN
+AR Path="/604C47E1/605A1554" Ref="#PWR0103"  Part="1" 
+F 0 "#PWR0103" H 3975 6950 50  0001 C CNN
 F 1 "GND" H 3980 7027 50  0000 C CNN
 F 2 "" H 3975 7200 50  0001 C CNN
 F 3 "" H 3975 7200 50  0001 C CNN
@@ -503,8 +501,8 @@ U 1 1 605A155D
 P 3975 6975
 AR Path="/605A155D" Ref="C?"  Part="1" 
 AR Path="/60924187/605A155D" Ref="C?"  Part="1" 
-AR Path="/604C47E1/605A155D" Ref="C?"  Part="1" 
-F 0 "C?" H 4000 7075 60  0000 L CNN
+AR Path="/604C47E1/605A155D" Ref="C49"  Part="1" 
+F 0 "C49" H 4000 7075 60  0000 L CNN
 F 1 "C_100n_0402" H 3975 6825 60  0001 C CNN
 F 2 "antartix-arty-controller-footprints:0402-cap" H 4175 7175 60  0001 L CNN
 F 3 "" H 3975 6975 50  0001 C CNN
@@ -520,8 +518,8 @@ U 1 1 605A1563
 P 1125 7050
 AR Path="/605A1563" Ref="#PWR?"  Part="1" 
 AR Path="/60924187/605A1563" Ref="#PWR?"  Part="1" 
-AR Path="/604C47E1/605A1563" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 1125 6800 50  0001 C CNN
+AR Path="/604C47E1/605A1563" Ref="#PWR0104"  Part="1" 
+F 0 "#PWR0104" H 1125 6800 50  0001 C CNN
 F 1 "GND" H 1130 6877 50  0000 C CNN
 F 2 "" H 1125 7050 50  0001 C CNN
 F 3 "" H 1125 7050 50  0001 C CNN
@@ -538,8 +536,8 @@ U 1 1 605A156B
 P 1650 6750
 AR Path="/605A156B" Ref="#PWR?"  Part="1" 
 AR Path="/60924187/605A156B" Ref="#PWR?"  Part="1" 
-AR Path="/604C47E1/605A156B" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 1650 6500 50  0001 C CNN
+AR Path="/604C47E1/605A156B" Ref="#PWR0105"  Part="1" 
+F 0 "#PWR0105" H 1650 6500 50  0001 C CNN
 F 1 "GND" H 1655 6577 50  0000 C CNN
 F 2 "" H 1650 6750 50  0001 C CNN
 F 3 "" H 1650 6750 50  0001 C CNN
@@ -552,8 +550,8 @@ U 1 1 605A1571
 P 1625 7675
 AR Path="/605A1571" Ref="#PWR?"  Part="1" 
 AR Path="/60924187/605A1571" Ref="#PWR?"  Part="1" 
-AR Path="/604C47E1/605A1571" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 1625 7425 50  0001 C CNN
+AR Path="/604C47E1/605A1571" Ref="#PWR0106"  Part="1" 
+F 0 "#PWR0106" H 1625 7425 50  0001 C CNN
 F 1 "GND" H 1630 7502 50  0000 C CNN
 F 2 "" H 1625 7675 50  0001 C CNN
 F 3 "" H 1625 7675 50  0001 C CNN
@@ -566,8 +564,8 @@ U 1 1 605A1579
 P 1225 6450
 AR Path="/605A1579" Ref="J?"  Part="1" 
 AR Path="/60924187/605A1579" Ref="J?"  Part="1" 
-AR Path="/604C47E1/605A1579" Ref="J?"  Part="1" 
-F 0 "J?" H 1289 7195 60  0000 C CNN
+AR Path="/604C47E1/605A1579" Ref="J8"  Part="1" 
+F 0 "J8" H 1289 7195 60  0000 C CNN
 F 1 "WE_629105150521" H 1289 7089 60  0000 C CNN
 F 2 "antartix-arty-controller-footprints:USB_Micro_B_Female_629105150521" H 1425 6650 60  0001 L CNN
 F 3 "" H 1425 6750 60  0001 L CNN
@@ -599,12 +597,12 @@ Wire Wire Line
 Wire Wire Line
 	1525 6250 1725 6250
 $Comp
-L antmicroInterfaceControllers:FT230XS-R U?
+L antmicroInterfaceControllers:FT230XS-R U7
 U 1 1 605A158D
 P 3225 6550
-F 0 "U?" H 2825 7375 50  0000 C CNN
+F 0 "U7" H 2825 7375 50  0000 C CNN
 F 1 "FT230XS-R" H 2975 7250 50  0000 C CNN
-F 2 "antmicro-footprints:SOIC-16_W3.90mm" H 3425 6750 60  0001 L CNN
+F 2 "antmicro-footprints:SSOP-16_W3.90mm" H 3425 6750 60  0001 L CNN
 F 3 "http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT230X.pdf" H 3425 6850 60  0001 L CNN
 F 4 "FTDI, Future Technology Devices International Ltd" H 3425 7650 60  0001 L CNN "Manufacturer"
 F 5 "FT230XS-R" H 3425 7050 60  0001 L CNN "MPN"
@@ -617,8 +615,8 @@ U 1 1 605A1593
 P 2925 7225
 AR Path="/605A1593" Ref="#PWR?"  Part="1" 
 AR Path="/60924187/605A1593" Ref="#PWR?"  Part="1" 
-AR Path="/604C47E1/605A1593" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2925 6975 50  0001 C CNN
+AR Path="/604C47E1/605A1593" Ref="#PWR0107"  Part="1" 
+F 0 "#PWR0107" H 2925 6975 50  0001 C CNN
 F 1 "GND" H 2930 7052 50  0000 C CNN
 F 2 "" H 2925 7225 50  0001 C CNN
 F 3 "" H 2925 7225 50  0001 C CNN
@@ -651,10 +649,10 @@ Wire Wire Line
 Wire Wire Line
 	3725 6350 4475 6350
 $Comp
-L antartix-arty-controller:R_4k7_0402 R?
+L antartix-arty-controller:R_4k7_0402 R40
 U 1 1 605A15AA
 P 2100 5925
-F 0 "R?" H 2100 6138 60  0000 C CNN
+F 0 "R40" H 2100 6138 60  0000 C CNN
 F 1 "R_4k7_0402" H 2100 5775 60  0001 C CNN
 F 2 "antartix-arty-controller-footprints:0402-res" H 2300 6125 60  0001 L CNN
 F 3 "" H 2100 5925 50  0001 C CNN
@@ -665,10 +663,10 @@ F 6 "4k7" H 2100 6040 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antartix-arty-controller:R_10k_0402 R?
+L antartix-arty-controller:R_10k_0402 R41
 U 1 1 605A15B3
 P 4275 6975
-F 0 "R?" V 4230 7045 60  0000 L CNN
+F 0 "R41" V 4230 7045 60  0000 L CNN
 F 1 "R_10k_0402" H 4275 6825 60  0001 C CNN
 F 2 "antartix-arty-controller-footprints:0402-res" H 4475 7175 60  0001 L CNN
 F 3 "" H 4275 6975 50  0001 C CNN
@@ -684,8 +682,8 @@ U 1 1 605A15B9
 P 4275 7200
 AR Path="/605A15B9" Ref="#PWR?"  Part="1" 
 AR Path="/60924187/605A15B9" Ref="#PWR?"  Part="1" 
-AR Path="/604C47E1/605A15B9" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4275 6950 50  0001 C CNN
+AR Path="/604C47E1/605A15B9" Ref="#PWR0108"  Part="1" 
+F 0 "#PWR0108" H 4275 6950 50  0001 C CNN
 F 1 "GND" H 4280 7027 50  0000 C CNN
 F 2 "" H 4275 7200 50  0001 C CNN
 F 3 "" H 4275 7200 50  0001 C CNN
@@ -717,8 +715,8 @@ U 1 1 605A15CC
 P 4475 5825
 AR Path="/605A15CC" Ref="C?"  Part="1" 
 AR Path="/60924187/605A15CC" Ref="C?"  Part="1" 
-AR Path="/604C47E1/605A15CC" Ref="C?"  Part="1" 
-F 0 "C?" H 4550 5750 60  0000 L CNN
+AR Path="/604C47E1/605A15CC" Ref="C50"  Part="1" 
+F 0 "C50" H 4550 5750 60  0000 L CNN
 F 1 "C_100n_0402" H 4475 5675 60  0001 C CNN
 F 2 "antartix-arty-controller-footprints:0402-cap" H 4675 6025 60  0001 L CNN
 F 3 "" H 4475 5825 50  0001 C CNN
@@ -734,8 +732,8 @@ U 1 1 605A15D5
 P 4750 5825
 AR Path="/605A15D5" Ref="C?"  Part="1" 
 AR Path="/60924187/605A15D5" Ref="C?"  Part="1" 
-AR Path="/604C47E1/605A15D5" Ref="C?"  Part="1" 
-F 0 "C?" H 4875 5750 60  0000 L CNN
+AR Path="/604C47E1/605A15D5" Ref="C51"  Part="1" 
+F 0 "C51" H 4875 5750 60  0000 L CNN
 F 1 "C_1u_0402" H 4750 5675 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 4950 6025 60  0001 L CNN
 F 3 "" H 4750 5825 50  0001 C CNN
@@ -758,8 +756,8 @@ U 1 1 605A15DF
 P 4475 5975
 AR Path="/605A15DF" Ref="#PWR?"  Part="1" 
 AR Path="/60924187/605A15DF" Ref="#PWR?"  Part="1" 
-AR Path="/604C47E1/605A15DF" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4475 5725 50  0001 C CNN
+AR Path="/604C47E1/605A15DF" Ref="#PWR0109"  Part="1" 
+F 0 "#PWR0109" H 4475 5725 50  0001 C CNN
 F 1 "GND" H 4480 5802 50  0000 C CNN
 F 2 "" H 4475 5975 50  0001 C CNN
 F 3 "" H 4475 5975 50  0001 C CNN
@@ -772,8 +770,8 @@ U 1 1 605A15E5
 P 4750 5975
 AR Path="/605A15E5" Ref="#PWR?"  Part="1" 
 AR Path="/60924187/605A15E5" Ref="#PWR?"  Part="1" 
-AR Path="/604C47E1/605A15E5" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4750 5725 50  0001 C CNN
+AR Path="/604C47E1/605A15E5" Ref="#PWR0110"  Part="1" 
+F 0 "#PWR0110" H 4750 5725 50  0001 C CNN
 F 1 "GND" H 4755 5802 50  0000 C CNN
 F 2 "" H 4750 5975 50  0001 C CNN
 F 3 "" H 4750 5975 50  0001 C CNN
@@ -797,8 +795,8 @@ U 1 1 605A15F3
 P 1425 7375
 AR Path="/605A15F3" Ref="D?"  Part="1" 
 AR Path="/60924187/605A15F3" Ref="D?"  Part="1" 
-AR Path="/604C47E1/605A15F3" Ref="D?"  Part="1" 
-F 0 "D?" H 1800 7000 60  0000 L CNN
+AR Path="/604C47E1/605A15F3" Ref="D10"  Part="1" 
+F 0 "D10" H 1800 7000 60  0000 L CNN
 F 1 "TPD2E009" H 1450 6900 60  0000 L CNN
 F 2 "antartix-arty-controller-footprints:SOT-3" H 1475 7575 60  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/tpd2e009.pdf?ts=1597910439511&ref_url=https%253A%252F%252Fwww.google.com%252F" H 1425 7375 60  0001 C CNN
@@ -812,9 +810,9 @@ L antmicroResistorsmisc:R_0R_0805 R?
 U 1 1 6066FA3F
 P 4625 6350
 AR Path="/6066FA3F" Ref="R?"  Part="1" 
-AR Path="/604C47E1/6066FA3F" Ref="R?"  Part="1" 
+AR Path="/604C47E1/6066FA3F" Ref="R42"  Part="1" 
 AR Path="/60603DE8/6066FA3F" Ref="R?"  Part="1" 
-F 0 "R?" H 4625 6450 60  0000 C CNN
+F 0 "R42" H 4625 6450 60  0000 C CNN
 F 1 "R_0R_0805" H 4625 6200 60  0001 C CNN
 F 2 "antmicro-footprints:0805-res" H 4825 6550 60  0001 L CNN
 F 3 "" H 4625 6350 50  0001 C CNN
@@ -829,9 +827,9 @@ L antmicroResistorsmisc:R_0R_0805 R?
 U 1 1 60671487
 P 4625 7525
 AR Path="/60671487" Ref="R?"  Part="1" 
-AR Path="/604C47E1/60671487" Ref="R?"  Part="1" 
+AR Path="/604C47E1/60671487" Ref="R43"  Part="1" 
 AR Path="/60603DE8/60671487" Ref="R?"  Part="1" 
-F 0 "R?" H 4625 7625 60  0000 C CNN
+F 0 "R43" H 4625 7625 60  0000 C CNN
 F 1 "R_0R_0805" H 4625 7375 60  0001 C CNN
 F 2 "antmicro-footprints:0805-res" H 4825 7725 60  0001 L CNN
 F 3 "" H 4625 7525 50  0001 C CNN
@@ -862,10 +860,10 @@ LED0
 Text GLabel 13400 1575 2    50   Input ~ 0
 LED1
 $Comp
-L antmicroUSBDVIHDMIConnectors:WE_685119136923 J?
+L antmicroUSBDVIHDMIConnectors:WE_685119136923 J9
 U 1 1 60511DDA
 P 8250 1875
-F 0 "J?" H 8425 -550 60  0000 L CNN
+F 0 "J9" H 8425 -550 60  0000 L CNN
 F 1 "WE_685119136923" H 8400 -700 60  0000 L CNN
 F 2 "antmicro-footprints:WE_685119136923" H 8250 1875 60  0001 C CNN
 F 3 "" H 8250 1875 60  0001 C CNN
@@ -908,12 +906,12 @@ HDMI0_SCL
 Text GLabel 7350 3275 0    50   Input ~ 0
 HDMI0_CEC
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0111
 U 1 1 605FE8D6
 P 7800 4525
-AR Path="/604C47E1/605FE8D6" Ref="#PWR?"  Part="1" 
+AR Path="/604C47E1/605FE8D6" Ref="#PWR0111"  Part="1" 
 AR Path="/60603DE8/605FE8D6" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 7800 4275 50  0001 C CNN
+F 0 "#PWR0111" H 7800 4275 50  0001 C CNN
 F 1 "GND" H 7805 4352 50  0000 C CNN
 F 2 "" H 7800 4525 50  0001 C CNN
 F 3 "" H 7800 4525 50  0001 C CNN
@@ -955,8 +953,8 @@ U 1 1 60642C83
 P 7200 4375
 AR Path="/60642C83" Ref="C?"  Part="1" 
 AR Path="/60924187/60642C83" Ref="C?"  Part="1" 
-AR Path="/604C47E1/60642C83" Ref="C?"  Part="1" 
-F 0 "C?" H 7250 4475 60  0000 L CNN
+AR Path="/604C47E1/60642C83" Ref="C53"  Part="1" 
+F 0 "C53" H 7250 4475 60  0000 L CNN
 F 1 "C_100n_0402" H 7200 4225 60  0001 C CNN
 F 2 "antartix-arty-controller-footprints:0402-cap" H 7400 4575 60  0001 L CNN
 F 3 "" H 7200 4375 50  0001 C CNN
@@ -972,8 +970,8 @@ U 1 1 60642C92
 P 7200 4525
 AR Path="/60642C92" Ref="#PWR?"  Part="1" 
 AR Path="/60924187/60642C92" Ref="#PWR?"  Part="1" 
-AR Path="/604C47E1/60642C92" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 7200 4275 50  0001 C CNN
+AR Path="/604C47E1/60642C92" Ref="#PWR0112"  Part="1" 
+F 0 "#PWR0112" H 7200 4275 50  0001 C CNN
 F 1 "GND" H 7205 4352 50  0000 C CNN
 F 2 "" H 7200 4525 50  0001 C CNN
 F 3 "" H 7200 4525 50  0001 C CNN
@@ -986,8 +984,8 @@ U 1 1 60642C98
 P 7475 4525
 AR Path="/60642C98" Ref="#PWR?"  Part="1" 
 AR Path="/60924187/60642C98" Ref="#PWR?"  Part="1" 
-AR Path="/604C47E1/60642C98" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 7475 4275 50  0001 C CNN
+AR Path="/604C47E1/60642C98" Ref="#PWR0113"  Part="1" 
+F 0 "#PWR0113" H 7475 4275 50  0001 C CNN
 F 1 "GND" H 7480 4352 50  0000 C CNN
 F 2 "" H 7475 4525 50  0001 C CNN
 F 3 "" H 7475 4525 50  0001 C CNN
@@ -1000,8 +998,8 @@ U 1 1 60654DCD
 P 6625 4375
 AR Path="/60654DCD" Ref="C?"  Part="1" 
 AR Path="/60924187/60654DCD" Ref="C?"  Part="1" 
-AR Path="/604C47E1/60654DCD" Ref="C?"  Part="1" 
-F 0 "C?" H 6750 4300 60  0000 L CNN
+AR Path="/604C47E1/60654DCD" Ref="C52"  Part="1" 
+F 0 "C52" H 6750 4300 60  0000 L CNN
 F 1 "C_1u_0402" H 6625 4225 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 6825 4575 60  0001 L CNN
 F 3 "" H 6625 4375 50  0001 C CNN
@@ -1017,8 +1015,8 @@ U 1 1 606D2385
 P 6925 4225
 AR Path="/606D2385" Ref="FB?"  Part="1" 
 AR Path="/60924187/606D2385" Ref="FB?"  Part="1" 
-AR Path="/604C47E1/606D2385" Ref="FB?"  Part="1" 
-F 0 "FB?" H 6925 4512 60  0000 C CNN
+AR Path="/604C47E1/606D2385" Ref="FB2"  Part="1" 
+F 0 "FB2" H 6925 4512 60  0000 C CNN
 F 1 "BLM21SP111BH1" H 6925 4406 60  0000 C CNN
 F 2 "antartix-arty-controller-footprints:0805-res" H 6925 4675 60  0001 L CNN
 F 3 "" H 7125 4525 60  0001 L CNN
@@ -1035,8 +1033,8 @@ U 1 1 606F8603
 P 7475 4375
 AR Path="/606F8603" Ref="C?"  Part="1" 
 AR Path="/60924187/606F8603" Ref="C?"  Part="1" 
-AR Path="/604C47E1/606F8603" Ref="C?"  Part="1" 
-F 0 "C?" H 7275 4275 60  0000 L CNN
+AR Path="/604C47E1/606F8603" Ref="C54"  Part="1" 
+F 0 "C54" H 7275 4275 60  0000 L CNN
 F 1 "C_22u_0603" H 7475 4225 60  0001 C CNN
 F 2 "antmicro-footprints:0603-cap" H 7675 4575 60  0001 L CNN
 F 3 "" H 7475 4375 50  0001 C CNN
@@ -1057,8 +1055,8 @@ U 1 1 607284E9
 P 6625 4525
 AR Path="/607284E9" Ref="#PWR?"  Part="1" 
 AR Path="/60924187/607284E9" Ref="#PWR?"  Part="1" 
-AR Path="/604C47E1/607284E9" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 6625 4275 50  0001 C CNN
+AR Path="/604C47E1/607284E9" Ref="#PWR0114"  Part="1" 
+F 0 "#PWR0114" H 6625 4275 50  0001 C CNN
 F 1 "GND" H 6630 4352 50  0000 C CNN
 F 2 "" H 6625 4525 50  0001 C CNN
 F 3 "" H 6625 4525 50  0001 C CNN
@@ -1086,13 +1084,13 @@ VCC_9V_OUT_2
 Text Label 12875 4600 2    50   ~ 0
 VCC_9V_OUT_3
 $Comp
-L antmicroPMICPowerDistributionSwitchesLoadDrivers:FDC6330L Q?
+L antmicroPMICPowerDistributionSwitchesLoadDrivers:FDC6330L Q1
 U 1 1 607C0734
 P 13725 5975
-AR Path="/604C47E1/607C0734" Ref="Q?"  Part="1" 
+AR Path="/604C47E1/607C0734" Ref="Q1"  Part="1" 
 AR Path="/60924187/607C0734" Ref="Q?"  Part="1" 
 AR Path="/61753C0A/607C0734" Ref="Q?"  Part="1" 
-F 0 "Q?" H 13225 6250 50  0000 C CNN
+F 0 "Q1" H 13225 6250 50  0000 C CNN
 F 1 "FDC6330L" H 13950 6250 50  0000 C CNN
 F 2 "antmicro-footprints:FDC6330L" H 13725 5975 50  0001 L BNN
 F 3 "" H 13725 5975 50  0001 L BNN
@@ -1117,10 +1115,10 @@ USB1_EN
 Wire Wire Line
 	14400 5875 14850 5875
 $Comp
-L antmicroCapacitors0402:C_470p_0402 C?
+L antmicroCapacitors0402:C_470p_0402 C55
 U 1 1 607EC605
 P 14700 5575
-F 0 "C?" V 14442 5575 60  0000 C CNN
+F 0 "C55" V 14442 5575 60  0000 C CNN
 F 1 "C_470p_0402" H 14700 5425 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 14900 5775 60  0001 L CNN
 F 3 "" H 14700 5575 50  0001 C CNN
@@ -1138,10 +1136,10 @@ Connection ~ 14850 5875
 Wire Wire Line
 	14850 5875 15425 5875
 $Comp
-L antartix-arty-controller:R_47k_0402 R?
+L antartix-arty-controller:R_47k_0402 R44
 U 1 1 60815383
 P 13550 5575
-F 0 "R?" H 13550 5788 60  0000 C CNN
+F 0 "R44" H 13550 5788 60  0000 C CNN
 F 1 "R_47k_0402" H 13550 5425 60  0001 C CNN
 F 2 "antartix-arty-controller-footprints:0402-res" H 13750 5775 60  0001 L CNN
 F 3 "" H 13550 5575 50  0001 C CNN
@@ -1173,8 +1171,8 @@ U 1 1 607C073F
 P 14550 6325
 AR Path="/60924187/607C073F" Ref="R?"  Part="1" 
 AR Path="/61753C0A/607C073F" Ref="R?"  Part="1" 
-AR Path="/604C47E1/607C073F" Ref="R?"  Part="1" 
-F 0 "R?" V 14525 6450 60  0000 C CNN
+AR Path="/604C47E1/607C073F" Ref="R47"  Part="1" 
+F 0 "R47" V 14525 6450 60  0000 C CNN
 F 1 "R_1k_0402" H 14550 6175 60  0001 C CNN
 F 2 "antmicro-footprints:0402-res" H 14750 6525 60  0001 L CNN
 F 3 "" H 14550 6325 50  0001 C CNN
@@ -1185,12 +1183,12 @@ F 6 "1k" V 14625 6450 50  0000 C CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0115
 U 1 1 608A9956
 P 14550 6475
-AR Path="/604C47E1/608A9956" Ref="#PWR?"  Part="1" 
+AR Path="/604C47E1/608A9956" Ref="#PWR0115"  Part="1" 
 AR Path="/60603DE8/608A9956" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 14550 6225 50  0001 C CNN
+F 0 "#PWR0115" H 14550 6225 50  0001 C CNN
 F 1 "GND" H 14555 6302 50  0000 C CNN
 F 2 "" H 14550 6475 50  0001 C CNN
 F 3 "" H 14550 6475 50  0001 C CNN
@@ -1200,13 +1198,13 @@ $EndComp
 Wire Wire Line
 	14325 6175 14550 6175
 $Comp
-L antmicroPMICPowerDistributionSwitchesLoadDrivers:FDC6330L Q?
+L antmicroPMICPowerDistributionSwitchesLoadDrivers:FDC6330L Q2
 U 1 1 608BCD9E
 P 13725 7450
-AR Path="/604C47E1/608BCD9E" Ref="Q?"  Part="1" 
+AR Path="/604C47E1/608BCD9E" Ref="Q2"  Part="1" 
 AR Path="/60924187/608BCD9E" Ref="Q?"  Part="1" 
 AR Path="/61753C0A/608BCD9E" Ref="Q?"  Part="1" 
-F 0 "Q?" H 13225 7725 50  0000 C CNN
+F 0 "Q2" H 13225 7725 50  0000 C CNN
 F 1 "FDC6330L" H 13950 7725 50  0000 C CNN
 F 2 "antmicro-footprints:FDC6330L" H 13725 7450 50  0001 L BNN
 F 3 "" H 13725 7450 50  0001 L BNN
@@ -1229,10 +1227,10 @@ Connection ~ 14400 7350
 Wire Wire Line
 	14400 7350 14850 7350
 $Comp
-L antmicroCapacitors0402:C_470p_0402 C?
+L antmicroCapacitors0402:C_470p_0402 C56
 U 1 1 608BCDAF
 P 14700 7050
-F 0 "C?" V 14442 7050 60  0000 C CNN
+F 0 "C56" V 14442 7050 60  0000 C CNN
 F 1 "C_470p_0402" H 14700 6900 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 14900 7250 60  0001 L CNN
 F 3 "" H 14700 7050 50  0001 C CNN
@@ -1250,10 +1248,10 @@ Connection ~ 14850 7350
 Wire Wire Line
 	14850 7350 15425 7350
 $Comp
-L antartix-arty-controller:R_47k_0402 R?
+L antartix-arty-controller:R_47k_0402 R45
 U 1 1 608BCDBC
 P 13550 7050
-F 0 "R?" H 13550 7263 60  0000 C CNN
+F 0 "R45" H 13550 7263 60  0000 C CNN
 F 1 "R_47k_0402" H 13550 6900 60  0001 C CNN
 F 2 "antartix-arty-controller-footprints:0402-res" H 13750 7250 60  0001 L CNN
 F 3 "" H 13550 7050 50  0001 C CNN
@@ -1285,8 +1283,8 @@ U 1 1 608BCDCE
 P 14550 7800
 AR Path="/60924187/608BCDCE" Ref="R?"  Part="1" 
 AR Path="/61753C0A/608BCDCE" Ref="R?"  Part="1" 
-AR Path="/604C47E1/608BCDCE" Ref="R?"  Part="1" 
-F 0 "R?" V 14525 7925 60  0000 C CNN
+AR Path="/604C47E1/608BCDCE" Ref="R48"  Part="1" 
+F 0 "R48" V 14525 7925 60  0000 C CNN
 F 1 "R_1k_0402" H 14550 7650 60  0001 C CNN
 F 2 "antmicro-footprints:0402-res" H 14750 8000 60  0001 L CNN
 F 3 "" H 14550 7800 50  0001 C CNN
@@ -1297,12 +1295,12 @@ F 6 "1k" V 14625 7925 50  0000 C CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0116
 U 1 1 608BCDD4
 P 14550 7950
-AR Path="/604C47E1/608BCDD4" Ref="#PWR?"  Part="1" 
+AR Path="/604C47E1/608BCDD4" Ref="#PWR0116"  Part="1" 
 AR Path="/60603DE8/608BCDD4" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 14550 7700 50  0001 C CNN
+F 0 "#PWR0116" H 14550 7700 50  0001 C CNN
 F 1 "GND" H 14555 7777 50  0000 C CNN
 F 2 "" H 14550 7950 50  0001 C CNN
 F 3 "" H 14550 7950 50  0001 C CNN
@@ -1312,13 +1310,13 @@ $EndComp
 Wire Wire Line
 	14325 7650 14550 7650
 $Comp
-L antmicroPMICPowerDistributionSwitchesLoadDrivers:FDC6330L Q?
+L antmicroPMICPowerDistributionSwitchesLoadDrivers:FDC6330L Q3
 U 1 1 608CEF06
 P 13750 8950
-AR Path="/604C47E1/608CEF06" Ref="Q?"  Part="1" 
+AR Path="/604C47E1/608CEF06" Ref="Q3"  Part="1" 
 AR Path="/60924187/608CEF06" Ref="Q?"  Part="1" 
 AR Path="/61753C0A/608CEF06" Ref="Q?"  Part="1" 
-F 0 "Q?" H 13250 9225 50  0000 C CNN
+F 0 "Q3" H 13250 9225 50  0000 C CNN
 F 1 "FDC6330L" H 13975 9225 50  0000 C CNN
 F 2 "antmicro-footprints:FDC6330L" H 13750 8950 50  0001 L BNN
 F 3 "" H 13750 8950 50  0001 L BNN
@@ -1341,10 +1339,10 @@ Connection ~ 14425 8850
 Wire Wire Line
 	14425 8850 14875 8850
 $Comp
-L antmicroCapacitors0402:C_470p_0402 C?
+L antmicroCapacitors0402:C_470p_0402 C57
 U 1 1 608CEF17
 P 14725 8550
-F 0 "C?" V 14467 8550 60  0000 C CNN
+F 0 "C57" V 14467 8550 60  0000 C CNN
 F 1 "C_470p_0402" H 14725 8400 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 14925 8750 60  0001 L CNN
 F 3 "" H 14725 8550 50  0001 C CNN
@@ -1362,10 +1360,10 @@ Connection ~ 14875 8850
 Wire Wire Line
 	14875 8850 15450 8850
 $Comp
-L antartix-arty-controller:R_47k_0402 R?
+L antartix-arty-controller:R_47k_0402 R46
 U 1 1 608CEF24
 P 13575 8550
-F 0 "R?" H 13575 8763 60  0000 C CNN
+F 0 "R46" H 13575 8763 60  0000 C CNN
 F 1 "R_47k_0402" H 13575 8400 60  0001 C CNN
 F 2 "antartix-arty-controller-footprints:0402-res" H 13775 8750 60  0001 L CNN
 F 3 "" H 13575 8550 50  0001 C CNN
@@ -1397,8 +1395,8 @@ U 1 1 608CEF36
 P 14575 9300
 AR Path="/60924187/608CEF36" Ref="R?"  Part="1" 
 AR Path="/61753C0A/608CEF36" Ref="R?"  Part="1" 
-AR Path="/604C47E1/608CEF36" Ref="R?"  Part="1" 
-F 0 "R?" V 14550 9425 60  0000 C CNN
+AR Path="/604C47E1/608CEF36" Ref="R49"  Part="1" 
+F 0 "R49" V 14550 9425 60  0000 C CNN
 F 1 "R_1k_0402" H 14575 9150 60  0001 C CNN
 F 2 "antmicro-footprints:0402-res" H 14775 9500 60  0001 L CNN
 F 3 "" H 14575 9300 50  0001 C CNN
@@ -1409,12 +1407,12 @@ F 6 "1k" V 14650 9425 50  0000 C CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0117
 U 1 1 608CEF3C
 P 14575 9450
-AR Path="/604C47E1/608CEF3C" Ref="#PWR?"  Part="1" 
+AR Path="/604C47E1/608CEF3C" Ref="#PWR0117"  Part="1" 
 AR Path="/60603DE8/608CEF3C" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 14575 9200 50  0001 C CNN
+F 0 "#PWR0117" H 14575 9200 50  0001 C CNN
 F 1 "GND" H 14580 9277 50  0000 C CNN
 F 2 "" H 14575 9450 50  0001 C CNN
 F 3 "" H 14575 9450 50  0001 C CNN
@@ -1428,23 +1426,10 @@ USB2_EN
 Text GLabel 12750 9050 0    50   Input ~ 0
 USB3_EN
 $Comp
-L antmicroRectangularConnectorsHeadersFemalePins:3-794680-8 J?
-U 1 1 6051D93B
-P 14750 4525
-F 0 "J?" H 14650 4825 50  0000 L CNN
-F 1 "3-794680-8" H 14500 4375 50  0000 L CNN
-F 2 "antmicro-footprints:3-794680-8" H 14950 4725 60  0001 L CNN
-F 3 "https://www.te.com/global-en/product-3-794617-8.datasheet.pdf" V 14950 4825 60  0001 L CNN
-F 4 " 3-794617-8" H 14950 5025 60  0001 L CNN "MPN"
-F 5 "TE Connectivity" H 14950 5625 60  0001 L CNN "Manufacturer"
-	1    14750 4525
-	1    0    0    -1  
-$EndComp
-$Comp
-L antmicroRectangularConnectorsHeadersMalePins:3-794680-8 J?
+L antmicroRectangularConnectorsHeadersMalePins:3-794680-8 J10
 U 1 1 6051E961
 P 13150 4500
-F 0 "J?" H 13150 4940 50  0000 C CNN
+F 0 "J10" H 13150 4940 50  0000 C CNN
 F 1 "3-794680-8" H 13150 4849 50  0000 C CNN
 F 2 "antmicro-footprints:3-794680-8" H 13350 4700 60  0001 L CNN
 F 3 "https://www.te.com/global-en/product-3-794680-8.html" V 13350 4800 60  0001 L CNN
@@ -1454,12 +1439,12 @@ F 5 "TE Connectivity" H 13350 5600 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroRectangularConnectorsHeadersFemalePins:1-794610-1 J?
+L antmicroRectangularConnectorsHeadersFemalePins:1-794610-1 J16
 U 1 1 6051F2F4
 P 15025 4325
-F 0 "J?" H 15075 4325 50  0000 L CNN
+F 0 "J16" H 15075 4325 50  0000 L CNN
 F 1 "1-794610-1" H 15225 4325 50  0000 L CNN
-F 2 "" H 15225 4525 60  0001 L CNN
+F 2 "antmicro-footprints:1-794610-1" H 15225 4525 60  0001 L CNN
 F 3 "https://www.te.com/global-en/product-1-794610-1 .datasheet.pdf" V 15225 4625 60  0001 L CNN
 F 4 "1-794610-1" H 15225 4825 60  0001 L CNN "MPN"
 F 5 "TE Connectivity" H 15225 5425 60  0001 L CNN "Manufacturer"
@@ -1492,12 +1477,12 @@ Connection ~ 13425 4400
 Wire Wire Line
 	13425 4400 13425 4500
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0118
 U 1 1 605A0F88
 P 13425 4725
-AR Path="/604C47E1/605A0F88" Ref="#PWR?"  Part="1" 
+AR Path="/604C47E1/605A0F88" Ref="#PWR0118"  Part="1" 
 AR Path="/60603DE8/605A0F88" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 13425 4475 50  0001 C CNN
+F 0 "#PWR0118" H 13425 4475 50  0001 C CNN
 F 1 "GND" H 13430 4552 50  0000 C CNN
 F 2 "" H 13425 4725 50  0001 C CNN
 F 3 "" H 13425 4725 50  0001 C CNN
@@ -1505,12 +1490,12 @@ F 3 "" H 13425 4725 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroRectangularConnectorsHeadersFemalePins:1-794610-1 J?
+L antmicroRectangularConnectorsHeadersFemalePins:1-794610-1 J17
 U 1 1 605B03BD
 P 15025 4400
-F 0 "J?" H 15075 4400 50  0000 L CNN
+F 0 "J17" H 15075 4400 50  0000 L CNN
 F 1 "1-794610-1" H 15225 4400 50  0000 L CNN
-F 2 "" H 15225 4600 60  0001 L CNN
+F 2 "antmicro-footprints:1-794610-1" H 15225 4600 60  0001 L CNN
 F 3 "https://www.te.com/global-en/product-1-794610-1 .datasheet.pdf" V 15225 4700 60  0001 L CNN
 F 4 "1-794610-1" H 15225 4900 60  0001 L CNN "MPN"
 F 5 "TE Connectivity" H 15225 5500 60  0001 L CNN "Manufacturer"
@@ -1518,12 +1503,12 @@ F 5 "TE Connectivity" H 15225 5500 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroRectangularConnectorsHeadersFemalePins:1-794610-1 J?
+L antmicroRectangularConnectorsHeadersFemalePins:1-794610-1 J18
 U 1 1 605B05DF
 P 15025 4475
-F 0 "J?" H 15075 4475 50  0000 L CNN
+F 0 "J18" H 15075 4475 50  0000 L CNN
 F 1 "1-794610-1" H 15225 4475 50  0000 L CNN
-F 2 "" H 15225 4675 60  0001 L CNN
+F 2 "antmicro-footprints:1-794610-1" H 15225 4675 60  0001 L CNN
 F 3 "https://www.te.com/global-en/product-1-794610-1 .datasheet.pdf" V 15225 4775 60  0001 L CNN
 F 4 "1-794610-1" H 15225 4975 60  0001 L CNN "MPN"
 F 5 "TE Connectivity" H 15225 5575 60  0001 L CNN "Manufacturer"
@@ -1531,12 +1516,12 @@ F 5 "TE Connectivity" H 15225 5575 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroRectangularConnectorsHeadersFemalePins:1-794610-1 J?
+L antmicroRectangularConnectorsHeadersFemalePins:1-794610-1 J19
 U 1 1 605B0889
 P 15025 4550
-F 0 "J?" H 15075 4550 50  0000 L CNN
+F 0 "J19" H 15075 4550 50  0000 L CNN
 F 1 "1-794610-1" H 15225 4550 50  0000 L CNN
-F 2 "" H 15225 4750 60  0001 L CNN
+F 2 "antmicro-footprints:1-794610-1" H 15225 4750 60  0001 L CNN
 F 3 "https://www.te.com/global-en/product-1-794610-1 .datasheet.pdf" V 15225 4850 60  0001 L CNN
 F 4 "1-794610-1" H 15225 5050 60  0001 L CNN "MPN"
 F 5 "TE Connectivity" H 15225 5650 60  0001 L CNN "Manufacturer"
@@ -1544,12 +1529,12 @@ F 5 "TE Connectivity" H 15225 5650 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroRectangularConnectorsHeadersFemalePins:1-794610-1 J?
+L antmicroRectangularConnectorsHeadersFemalePins:1-794610-1 J11
 U 1 1 605B18D3
 P 14475 4325
-F 0 "J?" H 14525 4325 50  0000 L CNN
+F 0 "J11" H 14525 4325 50  0000 L CNN
 F 1 "1-794610-1" H 14675 4325 50  0000 L CNN
-F 2 "" H 14675 4525 60  0001 L CNN
+F 2 "antmicro-footprints:1-794610-1" H 14675 4525 60  0001 L CNN
 F 3 "https://www.te.com/global-en/product-1-794610-1 .datasheet.pdf" V 14675 4625 60  0001 L CNN
 F 4 "1-794610-1" H 14675 4825 60  0001 L CNN "MPN"
 F 5 "TE Connectivity" H 14675 5425 60  0001 L CNN "Manufacturer"
@@ -1557,12 +1542,12 @@ F 5 "TE Connectivity" H 14675 5425 60  0001 L CNN "Manufacturer"
 	-1   0    0    1   
 $EndComp
 $Comp
-L antmicroRectangularConnectorsHeadersFemalePins:1-794610-1 J?
+L antmicroRectangularConnectorsHeadersFemalePins:1-794610-1 J12
 U 1 1 605B2F14
 P 14475 4400
-F 0 "J?" H 14525 4400 50  0000 L CNN
+F 0 "J12" H 14525 4400 50  0000 L CNN
 F 1 "1-794610-1" H 14675 4400 50  0000 L CNN
-F 2 "" H 14675 4600 60  0001 L CNN
+F 2 "antmicro-footprints:1-794610-1" H 14675 4600 60  0001 L CNN
 F 3 "https://www.te.com/global-en/product-1-794610-1 .datasheet.pdf" V 14675 4700 60  0001 L CNN
 F 4 "1-794610-1" H 14675 4900 60  0001 L CNN "MPN"
 F 5 "TE Connectivity" H 14675 5500 60  0001 L CNN "Manufacturer"
@@ -1570,12 +1555,12 @@ F 5 "TE Connectivity" H 14675 5500 60  0001 L CNN "Manufacturer"
 	-1   0    0    1   
 $EndComp
 $Comp
-L antmicroRectangularConnectorsHeadersFemalePins:1-794610-1 J?
+L antmicroRectangularConnectorsHeadersFemalePins:1-794610-1 J13
 U 1 1 605B319D
 P 14475 4475
-F 0 "J?" H 14525 4475 50  0000 L CNN
+F 0 "J13" H 14525 4475 50  0000 L CNN
 F 1 "1-794610-1" H 14675 4475 50  0000 L CNN
-F 2 "" H 14675 4675 60  0001 L CNN
+F 2 "antmicro-footprints:1-794610-1" H 14675 4675 60  0001 L CNN
 F 3 "https://www.te.com/global-en/product-1-794610-1 .datasheet.pdf" V 14675 4775 60  0001 L CNN
 F 4 "1-794610-1" H 14675 4975 60  0001 L CNN "MPN"
 F 5 "TE Connectivity" H 14675 5575 60  0001 L CNN "Manufacturer"
@@ -1583,16 +1568,31 @@ F 5 "TE Connectivity" H 14675 5575 60  0001 L CNN "Manufacturer"
 	-1   0    0    1   
 $EndComp
 $Comp
-L antmicroRectangularConnectorsHeadersFemalePins:1-794610-1 J?
+L antmicroRectangularConnectorsHeadersFemalePins:1-794610-1 J14
 U 1 1 605B3349
 P 14475 4550
-F 0 "J?" H 14525 4550 50  0000 L CNN
+F 0 "J14" H 14525 4550 50  0000 L CNN
 F 1 "1-794610-1" H 14675 4550 50  0000 L CNN
-F 2 "" H 14675 4750 60  0001 L CNN
+F 2 "antmicro-footprints:1-794610-1" H 14675 4750 60  0001 L CNN
 F 3 "https://www.te.com/global-en/product-1-794610-1 .datasheet.pdf" V 14675 4850 60  0001 L CNN
 F 4 "1-794610-1" H 14675 5050 60  0001 L CNN "MPN"
 F 5 "TE Connectivity" H 14675 5650 60  0001 L CNN "Manufacturer"
 	1    14475 4550
 	-1   0    0    1   
 $EndComp
+$Comp
+L antmicroRectangularConnectorsHeadersFemalePins:3-794617-8 J15
+U 1 1 60664A1A
+P 14750 4525
+F 0 "J15" H 14650 4925 50  0000 L CNN
+F 1 "3-794617-8" H 14575 4825 50  0000 L CNN
+F 2 "antmicro-footprints:3-794617-8" H 14950 4725 60  0001 L CNN
+F 3 "https://www.te.com/global-en/product-3-794617-8.datasheet.pdf" V 14950 4825 60  0001 L CNN
+F 4 " 3-794617-8" H 14950 5025 60  0001 L CNN "MPN"
+F 5 "TE Connectivity" H 14950 5625 60  0001 L CNN "Manufacturer"
+	1    14750 4525
+	1    0    0    -1  
+$EndComp
+Text GLabel 5925 2075 1    50   Input ~ 0
+VCC5V0
 $EndSCHEMATC

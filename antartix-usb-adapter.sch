@@ -4000,8 +4000,8 @@ L antartix-arty-controller:R_47k_0402 R?
 U 1 1 60F36AEC
 P 7325 10400
 AR Path="/60F36AEC" Ref="R?"  Part="1" 
-AR Path="/60924187/60F36AEC" Ref="R?"  Part="1" 
-F 0 "R?" V 7375 10525 60  0000 L CNN
+AR Path="/60924187/60F36AEC" Ref="R50"  Part="1" 
+F 0 "R50" V 7375 10525 60  0000 L CNN
 F 1 "R_47k_0402" H 7325 10250 60  0001 C CNN
 F 2 "antartix-arty-controller-footprints:0402-res" H 7525 10600 60  0001 L CNN
 F 3 "" H 7325 10400 50  0001 C CNN
@@ -4016,8 +4016,8 @@ L antmicroResistorsmisc:R_0R_0805 R?
 U 1 1 60F3CD7D
 P 7850 9875
 AR Path="/60F3CD7D" Ref="R?"  Part="1" 
-AR Path="/60924187/60F3CD7D" Ref="R?"  Part="1" 
-F 0 "R?" H 7750 9975 60  0000 C CNN
+AR Path="/60924187/60F3CD7D" Ref="R52"  Part="1" 
+F 0 "R52" H 7750 9975 60  0000 C CNN
 F 1 "R_0R_0805" H 7850 9725 60  0001 C CNN
 F 2 "antmicro-footprints:0805-res" H 8050 10075 60  0001 L CNN
 F 3 "" H 7850 9875 50  0001 C CNN
@@ -4033,8 +4033,8 @@ L antmicroResistorsmisc:R_0R_0805 R?
 U 1 1 60F4C618
 P 7850 9975
 AR Path="/60F4C618" Ref="R?"  Part="1" 
-AR Path="/60924187/60F4C618" Ref="R?"  Part="1" 
-F 0 "R?" H 7750 9875 60  0000 C CNN
+AR Path="/60924187/60F4C618" Ref="R53"  Part="1" 
+F 0 "R53" H 7750 9875 60  0000 C CNN
 F 1 "R_0R_0805" H 7850 9825 60  0001 C CNN
 F 2 "antmicro-footprints:0805-res" H 8050 10175 60  0001 L CNN
 F 3 "" H 7850 9975 50  0001 C CNN
@@ -4056,8 +4056,8 @@ L antartix-arty-controller:R_47k_0402 R?
 U 1 1 610F9DE3
 P 7575 10400
 AR Path="/610F9DE3" Ref="R?"  Part="1" 
-AR Path="/60924187/610F9DE3" Ref="R?"  Part="1" 
-F 0 "R?" V 7625 10525 60  0000 L CNN
+AR Path="/60924187/610F9DE3" Ref="R51"  Part="1" 
+F 0 "R51" V 7625 10525 60  0000 L CNN
 F 1 "R_47k_0402" H 7575 10250 60  0001 C CNN
 F 2 "antartix-arty-controller-footprints:0402-res" H 7775 10600 60  0001 L CNN
 F 3 "" H 7575 10400 50  0001 C CNN
@@ -4072,8 +4072,8 @@ L antartix-arty-controller:GND #PWR?
 U 1 1 6113774D
 P 7325 10900
 AR Path="/6113774D" Ref="#PWR?"  Part="1" 
-AR Path="/60924187/6113774D" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 7325 10650 50  0001 C CNN
+AR Path="/60924187/6113774D" Ref="#PWR0119"  Part="1" 
+F 0 "#PWR0119" H 7325 10650 50  0001 C CNN
 F 1 "GND" H 7330 10727 50  0000 C CNN
 F 2 "" H 7325 10900 50  0001 C CNN
 F 3 "" H 7325 10900 50  0001 C CNN
