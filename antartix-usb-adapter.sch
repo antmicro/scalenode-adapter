@@ -3861,9 +3861,9 @@ F 5 "SAMTEC" H 2050 -475 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 Text GLabel 15100 7850 2    50   Input ~ 0
-TXD0
+TXD1
 Text GLabel 15100 7950 2    50   Input ~ 0
-RXD0
+RXD1
 Wire Wire Line
 	15100 7850 14725 7850
 Wire Wire Line
@@ -4011,40 +4011,6 @@ F 6 "47k" V 7300 10500 50  0000 L CNN "Val"
 	1    7325 10400
 	0    -1   -1   0   
 $EndComp
-$Comp
-L antmicroResistorsmisc:R_0R_0805 R?
-U 1 1 60F3CD7D
-P 7850 9875
-AR Path="/60F3CD7D" Ref="R?"  Part="1" 
-AR Path="/60924187/60F3CD7D" Ref="R52"  Part="1" 
-F 0 "R52" H 7750 9975 60  0000 C CNN
-F 1 "R_0R_0805" H 7850 9725 60  0001 C CNN
-F 2 "antmicro-footprints:0805-res" H 8050 10075 60  0001 L CNN
-F 3 "" H 7850 9875 50  0001 C CNN
-F 4 "VISHAY" H 8050 10275 60  0001 L CNN "Manufacturer"
-F 5 "CRCW08050000Z0EA" H 8050 10175 60  0001 L CNN "MPN"
-F 6 "0R" H 7900 9975 50  0000 C CNN "Val"
-F 7 "DNP" H 7850 9875 50  0000 C CNN "Populate"
-	1    7850 9875
-	1    0    0    -1  
-$EndComp
-$Comp
-L antmicroResistorsmisc:R_0R_0805 R?
-U 1 1 60F4C618
-P 7850 9975
-AR Path="/60F4C618" Ref="R?"  Part="1" 
-AR Path="/60924187/60F4C618" Ref="R53"  Part="1" 
-F 0 "R53" H 7750 9875 60  0000 C CNN
-F 1 "R_0R_0805" H 7850 9825 60  0001 C CNN
-F 2 "antmicro-footprints:0805-res" H 8050 10175 60  0001 L CNN
-F 3 "" H 7850 9975 50  0001 C CNN
-F 4 "VISHAY" H 8050 10375 60  0001 L CNN "Manufacturer"
-F 5 "CRCW08050000Z0EA" H 8050 10275 60  0001 L CNN "MPN"
-F 6 "0R" H 7900 9875 50  0000 C CNN "Val"
-F 7 "DNP" H 7850 9975 50  0000 C CNN "Populate"
-	1    7850 9975
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6900 9975 7575 9975
 Wire Wire Line
@@ -4100,4 +4066,65 @@ Wire Wire Line
 	8050 10675 7575 10675
 Wire Wire Line
 	7575 10675 7575 10550
+$Comp
+L antartix-arty-controller:R_0R_0402 R53
+U 1 1 605F3D48
+P 7850 9975
+F 0 "R53" H 7750 9875 60  0000 C CNN
+F 1 "R_0R_0402" H 7850 9825 60  0001 C CNN
+F 2 "antartix-arty-controller-footprints:0402-res" H 8050 10175 60  0001 L CNN
+F 3 "" H 7850 9975 50  0001 C CNN
+F 4 "PANASONIC" H 8050 10375 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 8050 10275 60  0001 L CNN "MPN"
+F 6 "0R" H 7925 9875 50  0000 C CNN "Val"
+F 7 "DNP" H 7850 9975 50  0000 C CNN "DNP"
+	1    7850 9975
+	1    0    0    -1  
+$EndComp
+$Comp
+L antartix-arty-controller:R_0R_0402 R52
+U 1 1 605F4EE6
+P 7850 9875
+F 0 "R52" H 7750 9975 60  0000 C CNN
+F 1 "R_0R_0402" H 7850 9725 60  0001 C CNN
+F 2 "antartix-arty-controller-footprints:0402-res" H 8050 10075 60  0001 L CNN
+F 3 "" H 7850 9875 50  0001 C CNN
+F 4 "PANASONIC" H 8050 10275 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 8050 10175 60  0001 L CNN "MPN"
+F 6 "0R" H 7925 9975 50  0000 C CNN "Val"
+F 7 "DNP" H 7850 9875 50  0000 C CNN "DNP"
+	1    7850 9875
+	1    0    0    -1  
+$EndComp
+$Comp
+L antartix-arty-controller:GND #PWR?
+U 1 1 6060A8DF
+P 7700 9100
+AR Path="/6060A8DF" Ref="#PWR?"  Part="1" 
+AR Path="/60924187/6060A8DF" Ref="#PWR0120"  Part="1" 
+F 0 "#PWR0120" H 7700 8850 50  0001 C CNN
+F 1 "GND" H 7705 8927 50  0000 C CNN
+F 2 "" H 7700 9100 50  0001 C CNN
+F 3 "" H 7700 9100 50  0001 C CNN
+	1    7700 9100
+	1    0    0    -1  
+$EndComp
+Text GLabel 7700 8800 1    50   Input ~ 0
+VCC5V0
+$Comp
+L antartix-arty-controller:C_100n_0402 C?
+U 1 1 6060A8E9
+P 7700 8950
+AR Path="/6060A8E9" Ref="C?"  Part="1" 
+AR Path="/60924187/6060A8E9" Ref="C58"  Part="1" 
+F 0 "C58" H 7815 8995 60  0000 L CNN
+F 1 "C_100n_0402" H 7700 8800 60  0001 C CNN
+F 2 "antartix-arty-controller-footprints:0402-cap" H 7900 9150 60  0001 L CNN
+F 3 "" H 7700 8950 50  0001 C CNN
+F 4 "Walsin" H 7900 9350 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 7900 9250 60  0001 L CNN "MPN"
+F 6 "100n" H 7815 8897 50  0000 L CNN "Val"
+	1    7700 8950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

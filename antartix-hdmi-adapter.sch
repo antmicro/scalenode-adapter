@@ -574,9 +574,9 @@ F 5 "Wurth_Elektronik" H 1425 7550 60  0001 L CNN "Manufacturer"
 	1    1225 6450
 	1    0    0    -1  
 $EndComp
-Text Label 2375 6350 2    50   ~ 0
+Text Label 2200 6350 2    50   ~ 0
 USB_CON_N
-Text Label 2375 6450 2    50   ~ 0
+Text Label 2200 6450 2    50   ~ 0
 USB_CON_P
 Wire Wire Line
 	1525 6450 1825 6450
@@ -584,14 +584,8 @@ Wire Wire Line
 	1525 6350 1725 6350
 Wire Wire Line
 	1725 7375 1725 6350
-Connection ~ 1725 6350
-Wire Wire Line
-	1725 6350 2725 6350
 Wire Wire Line
 	1825 7475 1825 6450
-Connection ~ 1825 6450
-Wire Wire Line
-	1825 6450 2725 6450
 Wire Wire Line
 	1725 6250 1725 5925
 Wire Wire Line
@@ -651,15 +645,15 @@ Wire Wire Line
 $Comp
 L antartix-arty-controller:R_4k7_0402 R40
 U 1 1 605A15AA
-P 2100 5925
-F 0 "R40" H 2100 6138 60  0000 C CNN
-F 1 "R_4k7_0402" H 2100 5775 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-res" H 2300 6125 60  0001 L CNN
-F 3 "" H 2100 5925 50  0001 C CNN
-F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 2300 6325 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GEJ472X" H 2300 6225 60  0001 L CNN "MPN"
-F 6 "4k7" H 2100 6040 50  0000 C CNN "Val"
-	1    2100 5925
+P 2400 5925
+F 0 "R40" H 2400 6138 60  0000 C CNN
+F 1 "R_4k7_0402" H 2400 5775 60  0001 C CNN
+F 2 "antartix-arty-controller-footprints:0402-res" H 2600 6125 60  0001 L CNN
+F 3 "" H 2400 5925 50  0001 C CNN
+F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 2600 6325 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GEJ472X" H 2600 6225 60  0001 L CNN "MPN"
+F 6 "4k7" H 2400 6040 50  0000 C CNN "Val"
+	1    2400 5925
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -695,9 +689,9 @@ Wire Wire Line
 Wire Wire Line
 	4275 6825 4275 6650
 Wire Wire Line
-	4275 5925 2250 5925
+	4275 5925 2550 5925
 Wire Wire Line
-	1725 5925 1950 5925
+	1725 5925 2250 5925
 Connection ~ 4275 6650
 Wire Wire Line
 	4275 6650 4275 5925
@@ -804,40 +798,6 @@ F 4 "TPD2E009DRTR" H 1125 7675 50  0001 C CNN "MPN"
 F 5 "Texas Instruments" H 1125 7775 50  0001 C CNN "Manufacturer"
 	1    1425 7375
 	-1   0    0    -1  
-$EndComp
-$Comp
-L antmicroResistorsmisc:R_0R_0805 R?
-U 1 1 6066FA3F
-P 4625 6350
-AR Path="/6066FA3F" Ref="R?"  Part="1" 
-AR Path="/604C47E1/6066FA3F" Ref="R42"  Part="1" 
-AR Path="/60603DE8/6066FA3F" Ref="R?"  Part="1" 
-F 0 "R42" H 4625 6450 60  0000 C CNN
-F 1 "R_0R_0805" H 4625 6200 60  0001 C CNN
-F 2 "antmicro-footprints:0805-res" H 4825 6550 60  0001 L CNN
-F 3 "" H 4625 6350 50  0001 C CNN
-F 4 "VISHAY" H 4825 6750 60  0001 L CNN "Manufacturer"
-F 5 "CRCW08050000Z0EA" H 4825 6650 60  0001 L CNN "MPN"
-F 6 "0R" H 4625 6275 50  0000 C CNN "Val"
-	1    4625 6350
-	1    0    0    -1  
-$EndComp
-$Comp
-L antmicroResistorsmisc:R_0R_0805 R?
-U 1 1 60671487
-P 4625 7525
-AR Path="/60671487" Ref="R?"  Part="1" 
-AR Path="/604C47E1/60671487" Ref="R43"  Part="1" 
-AR Path="/60603DE8/60671487" Ref="R?"  Part="1" 
-F 0 "R43" H 4625 7625 60  0000 C CNN
-F 1 "R_0R_0805" H 4625 7375 60  0001 C CNN
-F 2 "antmicro-footprints:0805-res" H 4825 7725 60  0001 L CNN
-F 3 "" H 4625 7525 50  0001 C CNN
-F 4 "VISHAY" H 4825 7925 60  0001 L CNN "Manufacturer"
-F 5 "CRCW08050000Z0EA" H 4825 7825 60  0001 L CNN "MPN"
-F 6 "0R" H 4625 7425 50  0000 C CNN "Val"
-	1    4625 7525
-	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2900 2075 2525 2075
@@ -1595,4 +1555,70 @@ F 5 "TE Connectivity" H 14950 5625 60  0001 L CNN "Manufacturer"
 $EndComp
 Text GLabel 5925 2075 1    50   Input ~ 0
 VCC5V0
+$Comp
+L antartix-arty-controller:R_0R_0402 R42
+U 1 1 605EB3FF
+P 4625 6350
+F 0 "R42" H 4625 6450 60  0000 C CNN
+F 1 "R_0R_0402" H 4625 6200 60  0001 C CNN
+F 2 "antartix-arty-controller-footprints:0402-res" H 4825 6550 60  0001 L CNN
+F 3 "" H 4625 6350 50  0001 C CNN
+F 4 "PANASONIC" H 4825 6750 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 4825 6650 60  0001 L CNN "MPN"
+F 6 "0R" H 4625 6250 50  0000 C CNN "Val"
+	1    4625 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L antartix-arty-controller:R_0R_0402 R43
+U 1 1 605EDF9D
+P 4625 7525
+F 0 "R43" H 4625 7625 60  0000 C CNN
+F 1 "R_0R_0402" H 4625 7375 60  0001 C CNN
+F 2 "antartix-arty-controller-footprints:0402-res" H 4825 7725 60  0001 L CNN
+F 3 "" H 4625 7525 50  0001 C CNN
+F 4 "PANASONIC" H 4825 7925 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 4825 7825 60  0001 L CNN "MPN"
+F 6 "0R" H 4625 7425 50  0000 C CNN "Val"
+	1    4625 7525
+	1    0    0    -1  
+$EndComp
+$Comp
+L antartix-arty-controller:R_22R_0402 R54
+U 1 1 605844EA
+P 2400 6350
+F 0 "R54" H 2400 6563 60  0000 C CNN
+F 1 "R_22R_0402" H 2400 6200 60  0001 C CNN
+F 2 "antartix-arty-controller-footprints:0402-res" H 2600 6550 60  0001 L CNN
+F 3 "" H 2400 6350 50  0001 C CNN
+F 4 "VISHAY" H 2600 6750 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040222R0FKED" H 2600 6650 60  0001 L CNN "MPN"
+F 6 "22R" H 2400 6465 50  0000 C CNN "Val"
+	1    2400 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L antartix-arty-controller:R_22R_0402 R55
+U 1 1 605B828A
+P 2400 6450
+F 0 "R55" H 2400 6350 60  0000 C CNN
+F 1 "R_22R_0402" H 2400 6300 60  0001 C CNN
+F 2 "antartix-arty-controller-footprints:0402-res" H 2600 6650 60  0001 L CNN
+F 3 "" H 2400 6450 50  0001 C CNN
+F 4 "VISHAY" H 2600 6850 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040222R0FKED" H 2600 6750 60  0001 L CNN "MPN"
+F 6 "22R" H 2400 6275 50  0000 C CNN "Val"
+	1    2400 6450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 6350 2725 6350
+Wire Wire Line
+	2550 6450 2725 6450
+Wire Wire Line
+	2250 6450 1825 6450
+Connection ~ 1825 6450
+Wire Wire Line
+	1725 6350 2250 6350
+Connection ~ 1725 6350
 $EndSCHEMATC
