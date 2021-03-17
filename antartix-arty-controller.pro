@@ -1,4 +1,4 @@
-update=Wed 17 Mar 2021 17:46:24 CET
+update=Wed 17 Mar 2021 17:52:58 CET
 version=1
 last_client=kicad
 [general]
@@ -52,8 +52,8 @@ ViaDiameter2=0.5
 ViaDrill2=0.2
 ViaDiameter3=0.8
 ViaDrill3=0.5
-dPairWidth1=0.15
-dPairGap1=0.2
+dPairWidth1=0.18
+dPairGap1=0.25
 dPairViaGap1=0.25
 dPairWidth2=0.18
 dPairGap2=0.3
@@ -257,8 +257,8 @@ ViaDiameter=0.5
 ViaDrill=0.2
 uViaDiameter=0.3
 uViaDrill=0.1
-dPairWidth=0.15
-dPairGap=0.2
+dPairWidth=0.18
+dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=HDMI
