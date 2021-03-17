@@ -2889,28 +2889,21 @@ F 6 "4k7" V 12025 7400 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	12800 7650 12650 7650
-Wire Wire Line
-	12650 7450 12075 7450
-Connection ~ 12650 7450
-Wire Wire Line
-	12650 7650 12650 7450
-Wire Wire Line
-	13225 7650 13100 7650
+	13225 7650 13200 7650
 $Comp
 L antartix-arty-controller:R_1k54_0402 R?
 U 1 1 60939406
-P 12950 7650
+P 13050 7650
 AR Path="/60939406" Ref="R?"  Part="1" 
 AR Path="/60924187/60939406" Ref="R29"  Part="1" 
-F 0 "R29" H 12750 7700 60  0000 C CNN
-F 1 "R_1k54_0402" H 12950 7500 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-res" H 13150 7850 60  0001 L CNN
-F 3 "" H 12950 7650 50  0001 C CNN
-F 4 "VISHAY" H 13150 8050 60  0001 L CNN "Manufacturer"
-F 5 "CRCW04021K54FKED." H 13150 7950 60  0001 L CNN "MPN"
-F 6 "1k54" H 13150 7600 50  0000 C CNN "Val"
-	1    12950 7650
+F 0 "R29" H 12775 7700 60  0000 C CNN
+F 1 "R_1k54_0402" H 13050 7500 60  0001 C CNN
+F 2 "antartix-arty-controller-footprints:0402-res" H 13250 7850 60  0001 L CNN
+F 3 "" H 13050 7650 50  0001 C CNN
+F 4 "VISHAY" H 13250 8050 60  0001 L CNN "Manufacturer"
+F 5 "CRCW04021K54FKED." H 13250 7950 60  0001 L CNN "MPN"
+F 6 "1k54" H 12775 7600 50  0000 C CNN "Val"
+	1    13050 7650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -2927,7 +2920,7 @@ F 2 "antartix-arty-controller-footprints:0402-cap" H 13150 7350 60  0001 L CNN
 F 3 "" H 12950 7150 50  0001 C CNN
 F 4 "Walsin" H 13150 7550 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 13150 7450 60  0001 L CNN "MPN"
-F 6 "100n" V 13025 7225 50  0000 L CNN "Val"
+F 6 "100n" V 12875 7250 50  0000 L CNN "Val"
 	1    12950 7150
 	0    1    1    0   
 $EndComp
@@ -3063,14 +3056,10 @@ Wire Wire Line
 	15125 6450 15300 6450
 Wire Wire Line
 	14725 6450 14825 6450
-Text Label 12075 7450 0    50   ~ 0
+Text Label 12025 7450 0    50   ~ 0
 USB_D_FTDI_P
-Wire Wire Line
-	13225 7450 12650 7450
-Text Label 12075 7350 0    50   ~ 0
+Text Label 12025 7350 0    50   ~ 0
 USB_D_FTDI_N
-Wire Wire Line
-	13225 7350 12075 7350
 Text Label 15750 6650 2    50   ~ 0
 WP_FTDI
 Wire Wire Line
@@ -4127,4 +4116,49 @@ F 6 "100n" H 7815 8897 50  0000 L CNN "Val"
 	1    7700 8950
 	1    0    0    -1  
 $EndComp
+$Comp
+L antartix-arty-controller:R_22R_0402 R?
+U 1 1 605E94E5
+P 12700 7350
+AR Path="/604C47E1/605E94E5" Ref="R?"  Part="1" 
+AR Path="/60924187/605E94E5" Ref="R?"  Part="1" 
+F 0 "R?" H 12875 7400 60  0000 C CNN
+F 1 "R_22R_0402" H 12700 7200 60  0001 C CNN
+F 2 "antartix-arty-controller-footprints:0402-res" H 12900 7550 60  0001 L CNN
+F 3 "" H 12700 7350 50  0001 C CNN
+F 4 "VISHAY" H 12900 7750 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040222R0FKED" H 12900 7650 60  0001 L CNN "MPN"
+F 6 "22R" H 13075 7400 50  0000 C CNN "Val"
+	1    12700 7350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12850 7450 12900 7450
+$Comp
+L antartix-arty-controller:R_22R_0402 R?
+U 1 1 605E94EE
+P 12700 7450
+AR Path="/604C47E1/605E94EE" Ref="R?"  Part="1" 
+AR Path="/60924187/605E94EE" Ref="R?"  Part="1" 
+F 0 "R?" H 12875 7500 60  0000 C CNN
+F 1 "R_22R_0402" H 12700 7300 60  0001 C CNN
+F 2 "antartix-arty-controller-footprints:0402-res" H 12900 7650 60  0001 L CNN
+F 3 "" H 12700 7450 50  0001 C CNN
+F 4 "VISHAY" H 12900 7850 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040222R0FKED" H 12900 7750 60  0001 L CNN "MPN"
+F 6 "22R" H 13075 7500 50  0000 C CNN "Val"
+	1    12700 7450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12900 7650 12900 7450
+Connection ~ 12900 7450
+Wire Wire Line
+	12900 7450 13225 7450
+Wire Wire Line
+	12850 7350 13225 7350
+Wire Wire Line
+	12550 7350 12025 7350
+Wire Wire Line
+	12550 7450 12025 7450
 $EndSCHEMATC

@@ -1,4 +1,4 @@
-update=Mon 15 Mar 2021 16:37:54 CET
+update=Wed 17 Mar 2021 17:46:24 CET
 version=1
 last_client=kicad
 [general]
@@ -12,6 +12,16 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=/home/wojtek/anthw/antmicro-antartix-hdmi-adapter-hw/doc
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -250,13 +260,14 @@ uViaDrill=0.1
 dPairWidth=0.15
 dPairGap=0.2
 dPairViaGap=0.25
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=/home/wojtek/anthw/antmicro-antartix-hdmi-adapter-hw/doc
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceAjustPassiveValues=0
-LabSize=50
-ERC_TestSimilarLabels=1
+[pcbnew/Netclasses/1]
+Name=HDMI
+Clearance=0.127
+TrackWidth=0.25
+ViaDiameter=0.5
+ViaDrill=0.2
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.15
+dPairGap=0.2
+dPairViaGap=0.25

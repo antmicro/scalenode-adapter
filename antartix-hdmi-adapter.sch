@@ -374,18 +374,18 @@ Wire Wire Line
 $Comp
 L antartix-arty-controller:R_470R_0402 R?
 U 1 1 616A7868
-P 12500 1575
+P 12850 1575
 AR Path="/616A7868" Ref="R?"  Part="1" 
 AR Path="/60924187/616A7868" Ref="R?"  Part="1" 
 AR Path="/604C47E1/616A7868" Ref="R39"  Part="1" 
-F 0 "R39" H 12300 1625 60  0000 C CNN
-F 1 "R_470R_0402" H 12500 1425 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-res" H 12700 1775 60  0001 L CNN
-F 3 "" H 12500 1575 50  0001 C CNN
-F 4 "VISHAY" H 12700 1975 60  0001 L CNN "Manufacturer"
-F 5 "CRCW0402470RFKED" H 12700 1875 60  0001 L CNN "MPN"
-F 6 "470R" H 12500 1475 50  0000 C CNN "Val"
-	1    12500 1575
+F 0 "R39" H 12750 1675 60  0000 C CNN
+F 1 "R_470R_0402" H 12850 1425 60  0001 C CNN
+F 2 "antartix-arty-controller-footprints:0402-res" H 13050 1775 60  0001 L CNN
+F 3 "" H 12850 1575 50  0001 C CNN
+F 4 "VISHAY" H 13050 1975 60  0001 L CNN "Manufacturer"
+F 5 "CRCW0402470RFKED" H 13050 1875 60  0001 L CNN "MPN"
+F 6 "470R" H 12950 1675 50  0000 C CNN "Val"
+	1    12850 1575
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -409,35 +409,18 @@ Wire Wire Line
 $Comp
 L antartix-arty-controller:LG_L29K-G2J1-24-Z D?
 U 1 1 616A7878
-P 12800 1575
+P 12450 1575
 AR Path="/616A7878" Ref="D?"  Part="1" 
 AR Path="/60924187/616A7878" Ref="D?"  Part="1" 
 AR Path="/604C47E1/616A7878" Ref="D9"  Part="1" 
-F 0 "D9" H 12850 1475 60  0000 C CNN
-F 1 "LG_L29K-G2J1-24-Z" H 12200 1750 60  0000 C CNN
-F 2 "antartix-arty-controller-footprints:LED_0603" H 13000 1775 60  0001 L CNN
-F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 13000 1875 60  0001 L CNN
-F 4 "LG L29K-G2J1-24-Z" H 13000 2075 60  0001 L CNN "MPN"
-F 5 "OSRAM Opto Semiconductors Inc." H 13000 2675 60  0001 L CNN "Manufacturer"
-	1    12800 1575
+F 0 "D9" H 12500 1475 60  0000 C CNN
+F 1 "LG_L29K-G2J1-24-Z" H 12225 1775 60  0000 C CNN
+F 2 "antartix-arty-controller-footprints:LED_0603" H 12650 1775 60  0001 L CNN
+F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 12650 1875 60  0001 L CNN
+F 4 "LG L29K-G2J1-24-Z" H 12650 2075 60  0001 L CNN "MPN"
+F 5 "OSRAM Opto Semiconductors Inc." H 12650 2675 60  0001 L CNN "Manufacturer"
+	1    12450 1575
 	-1   0    0    1   
-$EndComp
-$Comp
-L antartix-arty-controller:R_470R_0402 R?
-U 1 1 616A7883
-P 12500 1175
-AR Path="/616A7883" Ref="R?"  Part="1" 
-AR Path="/60924187/616A7883" Ref="R?"  Part="1" 
-AR Path="/604C47E1/616A7883" Ref="R38"  Part="1" 
-F 0 "R38" H 12300 1225 60  0000 C CNN
-F 1 "R_470R_0402" H 12500 1025 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-res" H 12700 1375 60  0001 L CNN
-F 3 "" H 12500 1175 50  0001 C CNN
-F 4 "VISHAY" H 12700 1575 60  0001 L CNN "Manufacturer"
-F 5 "CRCW0402470RFKED" H 12700 1475 60  0001 L CNN "MPN"
-F 6 "470R" H 12500 1075 50  0000 C CNN "Val"
-	1    12500 1175
-	1    0    0    -1  
 $EndComp
 $Comp
 L antartix-arty-controller:GND #PWR?
@@ -455,26 +438,22 @@ F 3 "" H 12150 1175 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	12350 1175 12150 1175
-Wire Wire Line
-	12650 1175 12700 1175
 $Comp
 L antartix-arty-controller:LG_L29K-G2J1-24-Z D?
 U 1 1 616A7894
-P 12800 1175
+P 12450 1175
 AR Path="/616A7894" Ref="D?"  Part="1" 
 AR Path="/60924187/616A7894" Ref="D?"  Part="1" 
 AR Path="/604C47E1/616A7894" Ref="D8"  Part="1" 
-F 0 "D8" H 12850 1075 60  0000 C CNN
-F 1 "LG_L29K-G2J1-24-Z" H 12200 1350 60  0000 C CNN
-F 2 "antartix-arty-controller-footprints:LED_0603" H 13000 1375 60  0001 L CNN
-F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 13000 1475 60  0001 L CNN
-F 4 "LG L29K-G2J1-24-Z" H 13000 1675 60  0001 L CNN "MPN"
-F 5 "OSRAM Opto Semiconductors Inc." H 13000 2275 60  0001 L CNN "Manufacturer"
-	1    12800 1175
+F 0 "D8" H 12500 1075 60  0000 C CNN
+F 1 "LG_L29K-G2J1-24-Z" H 12200 1375 60  0000 C CNN
+F 2 "antartix-arty-controller-footprints:LED_0603" H 12650 1375 60  0001 L CNN
+F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 12650 1475 60  0001 L CNN
+F 4 "LG L29K-G2J1-24-Z" H 12650 1675 60  0001 L CNN "MPN"
+F 5 "OSRAM Opto Semiconductors Inc." H 12650 2275 60  0001 L CNN "Manufacturer"
+	1    12450 1175
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	13000 1175 13400 1175
 Wire Wire Line
 	13000 1575 13400 1575
 Text Notes 1600 5575 0    118  ~ 0
@@ -1621,4 +1600,25 @@ Connection ~ 1825 6450
 Wire Wire Line
 	1725 6350 2250 6350
 Connection ~ 1725 6350
+$Comp
+L antartix-arty-controller:R_470R_0402 R?
+U 1 1 616A7883
+P 12850 1175
+AR Path="/616A7883" Ref="R?"  Part="1" 
+AR Path="/60924187/616A7883" Ref="R?"  Part="1" 
+AR Path="/604C47E1/616A7883" Ref="R38"  Part="1" 
+F 0 "R38" H 12775 1300 60  0000 C CNN
+F 1 "R_470R_0402" H 12850 1025 60  0001 C CNN
+F 2 "antartix-arty-controller-footprints:0402-res" H 13050 1375 60  0001 L CNN
+F 3 "" H 12850 1175 50  0001 C CNN
+F 4 "VISHAY" H 13050 1575 60  0001 L CNN "Manufacturer"
+F 5 "CRCW0402470RFKED" H 13050 1475 60  0001 L CNN "MPN"
+F 6 "470R" H 12975 1300 50  0000 C CNN "Val"
+	1    12850 1175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13000 1175 13400 1175
+Wire Wire Line
+	12700 1175 12650 1175
 $EndSCHEMATC
