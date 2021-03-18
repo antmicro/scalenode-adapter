@@ -3849,14 +3849,6 @@ F 5 "SAMTEC" H 2050 -475 60  0001 L CNN "Manufacturer"
 	1    2050 1725
 	1    0    0    -1  
 $EndComp
-Text GLabel 15100 7850 2    50   Input ~ 0
-TXD1
-Text GLabel 15100 7950 2    50   Input ~ 0
-RXD1
-Wire Wire Line
-	15100 7850 14725 7850
-Wire Wire Line
-	15100 7950 14725 7950
 Text GLabel 3200 2375 2    50   Input ~ 0
 USB1_EN
 Text GLabel 3200 2475 2    50   Input ~ 0
