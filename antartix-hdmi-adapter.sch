@@ -298,36 +298,6 @@ F 3 "" H 5075 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroMechanicalParts:9774030151 SP1
-U 1 1 603A356D
-P 14725 1200
-AR Path="/604C47E1/603A356D" Ref="SP1"  Part="1" 
-AR Path="/60603DE8/603A356D" Ref="SP?"  Part="1" 
-F 0 "SP1" H 14855 1253 60  0000 L CNN
-F 1 "9774030151" H 14855 1147 60  0000 L CNN
-F 2 "antmicro-footprints:9774030151" H 14725 1200 60  0001 C CNN
-F 3 "https://www.we-online.com/catalog/datasheet/9774030151.pdf" H 14725 1200 60  0001 C CNN
-F 4 "Wurth Elektronik" H 14725 1200 50  0001 C CNN "Manufacturer"
-F 5 "9774030151" H 14725 1200 50  0001 C CNN "MPN"
-	1    14725 1200
-	1    0    0    -1  
-$EndComp
-$Comp
-L antmicroMechanicalParts:9774030151 SP2
-U 1 1 603A4646
-P 14725 1575
-AR Path="/604C47E1/603A4646" Ref="SP2"  Part="1" 
-AR Path="/60603DE8/603A4646" Ref="SP?"  Part="1" 
-F 0 "SP2" H 14855 1628 60  0000 L CNN
-F 1 "9774030151" H 14855 1522 60  0000 L CNN
-F 2 "antmicro-footprints:9774030151" H 14725 1575 60  0001 C CNN
-F 3 "https://www.we-online.com/catalog/datasheet/9774030151.pdf" H 14725 1575 60  0001 C CNN
-F 4 "Wurth Elektronik" H 14725 1575 50  0001 C CNN "Manufacturer"
-F 5 "9774030151" H 14725 1575 50  0001 C CNN "MPN"
-	1    14725 1575
-	1    0    0    -1  
-$EndComp
-$Comp
 L antmicroRectangularConnectorsHeadersFemalePins:QTE-020-04-L-D-A J7
 U 1 1 60358E48
 P 2125 1925
