@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 3 3
 Title ""
 Date ""
-Rev ""
+Rev "1.2.0"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -2214,28 +2214,28 @@ Wire Notes Line
 	8500 525  8500 11325
 Wire Notes Line
 	11550 525  11550 11275
-Text GLabel 15575 9150 2    50   Input ~ 0
+Text GLabel 15250 8975 1    50   Input ~ 0
 VCC3V3
 Wire Wire Line
-	15225 9150 15575 9150
+	15250 9150 15250 8975
 $Comp
 L antartix-arty-controller:R_0R_0402 R?
 U 1 1 609392A5
-P 15075 9150
+P 15050 9150
 AR Path="/609392A5" Ref="R?"  Part="1" 
 AR Path="/60924187/609392A5" Ref="R32"  Part="1" 
-F 0 "R32" H 14850 9200 60  0000 C CNN
-F 1 "R_0R_0402" H 15075 9000 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-res" H 15275 9350 60  0001 L CNN
-F 3 "" H 15075 9150 50  0001 C CNN
-F 4 "PANASONIC" H 15275 9550 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 15275 9450 60  0001 L CNN "MPN"
-F 6 "0R" H 15250 9100 50  0000 C CNN "Val"
-	1    15075 9150
+F 0 "R32" H 14825 9200 60  0000 C CNN
+F 1 "R_0R_0402" H 15050 9000 60  0001 C CNN
+F 2 "antartix-arty-controller-footprints:0402-res" H 15250 9350 60  0001 L CNN
+F 3 "" H 15050 9150 50  0001 C CNN
+F 4 "PANASONIC" H 15250 9550 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 15250 9450 60  0001 L CNN "MPN"
+F 6 "0R" H 15225 9100 50  0000 C CNN "Val"
+	1    15050 9150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	14725 9150 14925 9150
+	14725 9150 14900 9150
 Text GLabel 9450 9225 1    50   Input ~ 0
 VCC3V3
 $Comp
@@ -4113,8 +4113,8 @@ L antartix-arty-controller:R_22R_0402 R?
 U 1 1 605E94E5
 P 12700 7350
 AR Path="/604C47E1/605E94E5" Ref="R?"  Part="1" 
-AR Path="/60924187/605E94E5" Ref="R?"  Part="1" 
-F 0 "R?" H 12875 7400 60  0000 C CNN
+AR Path="/60924187/605E94E5" Ref="R56"  Part="1" 
+F 0 "R56" H 12875 7400 60  0000 C CNN
 F 1 "R_22R_0402" H 12700 7200 60  0001 C CNN
 F 2 "antartix-arty-controller-footprints:0402-res" H 12900 7550 60  0001 L CNN
 F 3 "" H 12700 7350 50  0001 C CNN
@@ -4131,8 +4131,8 @@ L antartix-arty-controller:R_22R_0402 R?
 U 1 1 605E94EE
 P 12700 7450
 AR Path="/604C47E1/605E94EE" Ref="R?"  Part="1" 
-AR Path="/60924187/605E94EE" Ref="R?"  Part="1" 
-F 0 "R?" H 12875 7500 60  0000 C CNN
+AR Path="/60924187/605E94EE" Ref="R57"  Part="1" 
+F 0 "R57" H 12875 7500 60  0000 C CNN
 F 1 "R_22R_0402" H 12700 7300 60  0001 C CNN
 F 2 "antartix-arty-controller-footprints:0402-res" H 12900 7650 60  0001 L CNN
 F 3 "" H 12700 7450 50  0001 C CNN
@@ -4153,4 +4153,59 @@ Wire Wire Line
 	12550 7350 12025 7350
 Wire Wire Line
 	12550 7450 12025 7450
+$Comp
+L antartix-arty-controller:8-188275-2 J20
+U 1 1 6058E829
+P 15475 7850
+F 0 "J20" H 15675 6575 60  0000 L CNN
+F 1 "8-188275-2" H 15375 6475 60  0000 L CNN
+F 2 "antartix-arty-controller-footprints:8-188275-2" H 15875 7190 60  0001 C CNN
+F 3 "" H 15475 7850 60  0000 C CNN
+F 4 "8-188275-2" H 15850 8075 50  0001 C CNN "MPN"
+F 5 "TE Connectivity" H 15825 8000 50  0001 C CNN "Manufacturer"
+	1    15475 7850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14725 7850 15475 7850
+Wire Wire Line
+	14725 7950 15475 7950
+Wire Wire Line
+	14725 8050 15475 8050
+Wire Wire Line
+	14725 8150 15475 8150
+Wire Wire Line
+	14725 8250 15475 8250
+Wire Wire Line
+	14725 8350 15475 8350
+Wire Wire Line
+	14725 8450 15475 8450
+Wire Wire Line
+	14725 8550 15475 8550
+Wire Wire Line
+	15475 8650 15375 8650
+Wire Wire Line
+	15375 8650 15375 8750
+Wire Wire Line
+	15475 8750 15375 8750
+Connection ~ 15375 8750
+Wire Wire Line
+	15375 8750 15375 9500
+$Comp
+L antartix-arty-controller:GND #PWR?
+U 1 1 6084ADBB
+P 15375 9500
+AR Path="/6084ADBB" Ref="#PWR?"  Part="1" 
+AR Path="/60924187/6084ADBB" Ref="#PWR0121"  Part="1" 
+F 0 "#PWR0121" H 15375 9250 50  0001 C CNN
+F 1 "GND" H 15380 9327 50  0000 C CNN
+F 2 "" H 15375 9500 50  0001 C CNN
+F 3 "" H 15375 9500 50  0001 C CNN
+	1    15375 9500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15200 9150 15250 9150
+Text Notes 15950 8575 1    50   ~ 0
+PMOD GPIO
 $EndSCHEMATC
