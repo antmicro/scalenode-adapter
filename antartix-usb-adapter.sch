@@ -21,7 +21,7 @@ AR Path="/60938DE6" Ref="J?"  Part="1"
 AR Path="/60924187/60938DE6" Ref="J2"  Part="1" 
 F 0 "J2" V 6925 7308 50  0000 C CNN
 F 1 "0022232041" V 7016 7308 50  0000 C CNN
-F 2 "antmicro-footprints:PinHeader_1x4_P2.54mm_Drill1.02mm" H 7350 7500 60  0001 L CNN
+F 2 "antartix-arty-controller-footprints:PinHeader_1x4_P2.54mm_Drill1.02mm" H 7350 7500 60  0001 L CNN
 F 3 "https://www.molex.com/pdm_docs/sd/022232041_sd.pdf" H 7350 7600 60  0001 L CNN
 F 4 "0022232041" H 7350 7800 60  0001 L CNN "MPN"
 F 5 "Molex" H 7350 8400 60  0001 L CNN "Manufacturer"
@@ -399,14 +399,14 @@ $EndComp
 Text GLabel 9000 6300 1    50   Input ~ 0
 VCC3V3
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C?
+L antartix-arty-controller:C_1u_0402 C?
 U 1 1 60938EAE
 P 9000 6575
 AR Path="/60938EAE" Ref="C?"  Part="1" 
 AR Path="/60924187/60938EAE" Ref="C13"  Part="1" 
 F 0 "C13" H 9025 6675 60  0000 L CNN
 F 1 "C_1u_0402" H 9000 6425 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 9200 6775 60  0001 L CNN
+F 2 "antartix-arty-controller-footprints:0402-cap" H 9200 6775 60  0001 L CNN
 F 3 "" H 9000 6575 50  0001 C CNN
 F 4 "TDK" H 9200 6975 60  0001 L CNN "Manufacturer"
 F 5 "C1005X6S1A105K050BC" H 9200 6875 60  0001 L CNN "MPN"
@@ -742,14 +742,14 @@ F 3 "" H 9000 3775 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0603:C_100n_0603 C?
+L antartix-arty-controller:C_100n_0603 C?
 U 1 1 60938F63
 P 9000 3550
 AR Path="/60938F63" Ref="C?"  Part="1" 
 AR Path="/60924187/60938F63" Ref="C12"  Part="1" 
 F 0 "C12" H 8775 3625 60  0000 L CNN
 F 1 "C_100n_0603" H 9000 3400 60  0001 C CNN
-F 2 "antmicro-footprints:0603-cap" H 9200 3750 60  0001 L CNN
+F 2 "antartix-arty-controller-footprints:0603-cap" H 9200 3750 60  0001 L CNN
 F 3 "" H 9000 3550 50  0001 C CNN
 F 4 "AVX" H 9200 3950 60  0001 L CNN "Manufacturer"
 F 5 "0603YC104KAZ2A" H 9200 3850 60  0001 L CNN "MPN"
@@ -818,14 +818,14 @@ F 5 "Texas Instruments" H 10050 4175 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0603:C_22u_0603 C?
+L antartix-arty-controller:C_22u_0603 C?
 U 1 1 60938F8D
 P 10975 3500
 AR Path="/60938F8D" Ref="C?"  Part="1" 
 AR Path="/60924187/60938F8D" Ref="C39"  Part="1" 
 F 0 "C39" H 10775 3400 60  0000 L CNN
 F 1 "C_22u_0603" H 10975 3350 60  0001 C CNN
-F 2 "antmicro-footprints:0603-cap" H 11175 3700 60  0001 L CNN
+F 2 "antartix-arty-controller-footprints:0603-cap" H 11175 3700 60  0001 L CNN
 F 3 "" H 10975 3500 50  0001 C CNN
 F 4 "MURATA" H 11175 3900 60  0001 L CNN "Manufacturer"
 F 5 "GRM188R60J226MEA0D" H 11175 3800 60  0001 L CNN "MPN"
@@ -884,14 +884,14 @@ F 3 "" H 9000 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0603:C_100n_0603 C?
+L antartix-arty-controller:C_100n_0603 C?
 U 1 1 60938FAF
 P 9000 2525
 AR Path="/60938FAF" Ref="C?"  Part="1" 
 AR Path="/60924187/60938FAF" Ref="C11"  Part="1" 
 F 0 "C11" H 8775 2600 60  0000 L CNN
 F 1 "C_100n_0603" H 9000 2375 60  0001 C CNN
-F 2 "antmicro-footprints:0603-cap" H 9200 2725 60  0001 L CNN
+F 2 "antartix-arty-controller-footprints:0603-cap" H 9200 2725 60  0001 L CNN
 F 3 "" H 9000 2525 50  0001 C CNN
 F 4 "AVX" H 9200 2925 60  0001 L CNN "Manufacturer"
 F 5 "0603YC104KAZ2A" H 9200 2825 60  0001 L CNN "MPN"
@@ -960,14 +960,14 @@ F 5 "Texas Instruments" H 10050 3150 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0603:C_22u_0603 C?
+L antartix-arty-controller:C_22u_0603 C?
 U 1 1 60938FD9
 P 10975 2475
 AR Path="/60938FD9" Ref="C?"  Part="1" 
 AR Path="/60924187/60938FD9" Ref="C38"  Part="1" 
 F 0 "C38" H 10775 2375 60  0000 L CNN
 F 1 "C_22u_0603" H 10975 2325 60  0001 C CNN
-F 2 "antmicro-footprints:0603-cap" H 11175 2675 60  0001 L CNN
+F 2 "antartix-arty-controller-footprints:0603-cap" H 11175 2675 60  0001 L CNN
 F 3 "" H 10975 2475 50  0001 C CNN
 F 4 "MURATA" H 11175 2875 60  0001 L CNN "Manufacturer"
 F 5 "GRM188R60J226MEA0D" H 11175 2775 60  0001 L CNN "MPN"
@@ -1028,14 +1028,14 @@ F 3 "" H 9000 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0603:C_100n_0603 C?
+L antartix-arty-controller:C_100n_0603 C?
 U 1 1 60938FFC
 P 9000 1525
 AR Path="/60938FFC" Ref="C?"  Part="1" 
 AR Path="/60924187/60938FFC" Ref="C10"  Part="1" 
 F 0 "C10" H 8775 1600 60  0000 L CNN
 F 1 "C_100n_0603" H 9000 1375 60  0001 C CNN
-F 2 "antmicro-footprints:0603-cap" H 9200 1725 60  0001 L CNN
+F 2 "antartix-arty-controller-footprints:0603-cap" H 9200 1725 60  0001 L CNN
 F 3 "" H 9000 1525 50  0001 C CNN
 F 4 "AVX" H 9200 1925 60  0001 L CNN "Manufacturer"
 F 5 "0603YC104KAZ2A" H 9200 1825 60  0001 L CNN "MPN"
@@ -1117,27 +1117,27 @@ $EndComp
 Wire Wire Line
 	5300 10475 4725 10475
 $Comp
-L antmicroMechanicalParts:oshw_logo N?
+L antartix-arty-controller:oshw_logo N?
 U 1 1 6093902F
 P 1875 10925
 AR Path="/6093902F" Ref="N?"  Part="1" 
 AR Path="/60924187/6093902F" Ref="N2"  Part="1" 
 F 0 "N2" H 2069 10928 50  0000 L CNN
 F 1 "oshw_logo" H 2069 10837 50  0000 L CNN
-F 2 "antmicro-footprints:oshw-logo" H 1895 10685 50  0001 C CNN
+F 2 "antartix-arty-controller-footprints:oshw-logo" H 1895 10685 50  0001 C CNN
 F 3 "" H 1875 10925 50  0001 C CNN
 	1    1875 10925
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroMechanicalParts:antmicro_logo N?
+L antartix-arty-controller:antmicro_logo N?
 U 1 1 60939035
 P 950 11025
 AR Path="/60939035" Ref="N?"  Part="1" 
 AR Path="/60924187/60939035" Ref="N1"  Part="1" 
 F 0 "N1" H 1164 11118 50  0000 L CNN
 F 1 "antmicro_logo" H 1164 11027 50  0000 L CNN
-F 2 "antmicro-footprints:antmicro-logo_scaled_15mm" H 850 11275 50  0001 C CNN
+F 2 "antartix-arty-controller-footprints:antmicro-logo_scaled_15mm" H 850 11275 50  0001 C CNN
 F 3 "" H 950 11375 50  0001 C CNN
 	1    950  11025
 	1    0    0    -1  
@@ -1214,14 +1214,14 @@ F 6 "220R" H 2150 7325 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0603:C_22u_0603 C?
+L antartix-arty-controller:C_22u_0603 C?
 U 1 1 60939065
 P 10975 1475
 AR Path="/60939065" Ref="C?"  Part="1" 
 AR Path="/60924187/60939065" Ref="C37"  Part="1" 
 F 0 "C37" H 10775 1375 60  0000 L CNN
 F 1 "C_22u_0603" H 10975 1325 60  0001 C CNN
-F 2 "antmicro-footprints:0603-cap" H 11175 1675 60  0001 L CNN
+F 2 "antartix-arty-controller-footprints:0603-cap" H 11175 1675 60  0001 L CNN
 F 3 "" H 10975 1475 50  0001 C CNN
 F 4 "MURATA" H 11175 1875 60  0001 L CNN "Manufacturer"
 F 5 "GRM188R60J226MEA0D" H 11175 1775 60  0001 L CNN "MPN"
@@ -1355,7 +1355,7 @@ $EndComp
 Wire Wire Line
 	12225 2025 12300 2025
 $Comp
-L antmicroUSBDVIHDMIConnectors:614004185023 J?
+L antartix-arty-controller:614004185023 J?
 U 1 1 609390AE
 P 11825 1925
 AR Path="/609390AE" Ref="J?"  Part="1" 
@@ -1470,7 +1470,7 @@ F 3 "" H 14325 2475 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroUSBDVIHDMIConnectors:614004185023 J?
+L antartix-arty-controller:614004185023 J?
 U 1 1 609390E8
 P 13325 1950
 AR Path="/609390E8" Ref="J?"  Part="1" 
@@ -1575,14 +1575,14 @@ Wire Wire Line
 Wire Wire Line
 	7700 3350 7850 3350
 $Comp
-L antmicroResistors0402:R_12k_0402 R?
+L antartix-arty-controller:R_12k_0402 R?
 U 1 1 6093913F
 P 7850 3800
 AR Path="/6093913F" Ref="R?"  Part="1" 
 AR Path="/60924187/6093913F" Ref="R25"  Part="1" 
 F 0 "R25" V 7895 3730 60  0000 R CNN
 F 1 "R_12k_0402" H 7850 3650 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 8050 4000 60  0001 L CNN
+F 2 "antartix-arty-controller-footprints:0402-res" H 8050 4000 60  0001 L CNN
 F 3 "" H 7850 3800 50  0001 C CNN
 F 4 "VISHAY" H 8050 4200 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040212K0FKEDHP" H 8050 4100 60  0001 L CNN "MPN"
@@ -1611,14 +1611,14 @@ Wire Wire Line
 Wire Wire Line
 	1125 3275 900  3275
 $Comp
-L antmicroResistorsmisc:R_0R_0805 R?
+L antartix-arty-controller:R_0R_0805 R?
 U 1 1 60939155
 P 1275 3575
 AR Path="/60939155" Ref="R?"  Part="1" 
 AR Path="/60924187/60939155" Ref="R4"  Part="1" 
 F 0 "R4" H 1150 3700 60  0000 C CNN
 F 1 "R_0R_0805" H 1275 3425 60  0001 C CNN
-F 2 "antmicro-footprints:0805-res" H 1475 3775 60  0001 L CNN
+F 2 "antartix-arty-controller-footprints:0805-res" H 1475 3775 60  0001 L CNN
 F 3 "" H 1275 3575 50  0001 C CNN
 F 4 "VISHAY" H 1475 3975 60  0001 L CNN "Manufacturer"
 F 5 "CRCW08050000Z0EA" H 1475 3875 60  0001 L CNN "MPN"
@@ -1776,7 +1776,7 @@ Wire Wire Line
 Wire Wire Line
 	15175 1650 15200 1650
 $Comp
-L antmicroUSBDVIHDMIConnectors:614004185023 J?
+L antartix-arty-controller:614004185023 J?
 U 1 1 609391B6
 P 14775 1950
 AR Path="/609391B6" Ref="J?"  Part="1" 
@@ -3856,14 +3856,14 @@ USB2_EN
 Text GLabel 3200 2575 2    50   Input ~ 0
 USB3_EN
 $Comp
-L antmicroResistorsmisc:R_0R_0805 R?
+L antartix-arty-controller:R_0R_0805 R?
 U 1 1 6093915F
 P 1275 3275
 AR Path="/6093915F" Ref="R?"  Part="1" 
 AR Path="/60924187/6093915F" Ref="R3"  Part="1" 
 F 0 "R3" H 1150 3375 60  0000 C CNN
 F 1 "R_0R_0805" H 1275 3125 60  0001 C CNN
-F 2 "antmicro-footprints:0805-res" H 1475 3475 60  0001 L CNN
+F 2 "antartix-arty-controller-footprints:0805-res" H 1475 3475 60  0001 L CNN
 F 3 "" H 1275 3275 50  0001 C CNN
 F 4 "VISHAY" H 1475 3675 60  0001 L CNN "Manufacturer"
 F 5 "CRCW08050000Z0EA" H 1475 3575 60  0001 L CNN "MPN"

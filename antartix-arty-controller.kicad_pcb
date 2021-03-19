@@ -454,7 +454,7 @@
     (add_net HDMI0_D2_P)
   )
 
-  (module antmicro-footprints:614004185023 (layer F.Cu) (tedit 602EAD59) (tstamp 60493862)
+  (module antartix-arty-controller-footprints:614004185023 (layer F.Cu) (tedit 602EAD59) (tstamp 60493862)
     (at 196.587001 78.508002)
     (descr "<b>WR-COM </b><br>USB 2.0 Type A Vertical Short Type THT")
     (path /60924187/609391B6)
@@ -513,7 +513,7 @@
     )
   )
 
-  (module antmicro-footprints:614004185023 (layer F.Cu) (tedit 602EAD59) (tstamp 60493940)
+  (module antartix-arty-controller-footprints:614004185023 (layer F.Cu) (tedit 602EAD59) (tstamp 60493940)
     (at 196.587001 92.508002)
     (descr "<b>WR-COM </b><br>USB 2.0 Type A Vertical Short Type THT")
     (path /60924187/609390E8)
@@ -572,7 +572,7 @@
     )
   )
 
-  (module antmicro-footprints:614004185023 (layer F.Cu) (tedit 602EAD59) (tstamp 604938D1)
+  (module antartix-arty-controller-footprints:614004185023 (layer F.Cu) (tedit 602EAD59) (tstamp 604938D1)
     (at 196.587001 106.508002)
     (descr "<b>WR-COM </b><br>USB 2.0 Type A Vertical Short Type THT")
     (path /60924187/609390AE)
@@ -937,7 +937,7 @@
     )
   )
 
-  (module antmicro-footprints:SSOP-16_W3.90mm (layer F.Cu) (tedit 6050DFE0) (tstamp 6054CDC8)
+  (module antartix-arty-controller-footprints:SSOP-16_W3.90mm (layer F.Cu) (tedit 6050DFE0) (tstamp 6054CDC8)
     (at 153.807001 89.408002 270)
     (path /604C47E1/605A158D)
     (attr smd)
@@ -1075,7 +1075,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6052A0C5)
+  (module antartix-arty-controller-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6052A0C5)
     (at 146.962001 101.668002 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1109,7 +1109,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6051B00F)
+  (module antartix-arty-controller-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6051B00F)
     (at 150.762001 101.668002 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1143,7 +1143,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6051B000)
+  (module antartix-arty-controller-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6051B000)
     (at 154.587001 101.668002 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1347,7 +1347,7 @@
     )
   )
 
-  (module antmicro-footprints:FDC6330L (layer B.Cu) (tedit 604958AA) (tstamp 6051AB0C)
+  (module antartix-arty-controller-footprints:FDC6330L (layer B.Cu) (tedit 604958AA) (tstamp 6051AB0C)
     (at 145.927001 101.898002 90)
     (path /604C47E1/608CEF06)
     (fp_text reference Q3 (at 2.69 0.385 180) (layer B.SilkS)
@@ -1383,7 +1383,7 @@
     )
   )
 
-  (module antmicro-footprints:FDC6330L (layer B.Cu) (tedit 604958AA) (tstamp 6051AAFA)
+  (module antartix-arty-controller-footprints:FDC6330L (layer B.Cu) (tedit 604958AA) (tstamp 6051AAFA)
     (at 149.757001 101.838002 90)
     (path /604C47E1/608BCD9E)
     (fp_text reference Q2 (at 2.63 1.28) (layer B.SilkS)
@@ -1419,7 +1419,7 @@
     )
   )
 
-  (module antmicro-footprints:FDC6330L (layer B.Cu) (tedit 604958AA) (tstamp 6051AAE8)
+  (module antartix-arty-controller-footprints:FDC6330L (layer B.Cu) (tedit 604958AA) (tstamp 6051AAE8)
     (at 153.567001 101.828002 90)
     (path /604C47E1/607C0734)
     (fp_text reference Q1 (at 2.62 1.245 180) (layer B.SilkS)
@@ -1455,7 +1455,7 @@
     )
   )
 
-  (module antmicro-footprints:1-794610-1 (layer B.Cu) (tedit 6050D968) (tstamp 6051AA5A)
+  (module antartix-arty-controller-footprints:1-794610-1 (layer B.Cu) (tedit 6050D968) (tstamp 6051AA5A)
     (at 145.457001 132.618002 90)
     (descr "MATE-N-LOK on-wire pin")
     (path /604C47E1/605B0889)
@@ -1468,7 +1468,7 @@
     (fp_poly (pts (xy 1.7 -0.1) (xy -1.5 -0.1) (xy -1.5 0.2) (xy 1.7 0.2)) (layer B.Fab) (width 0.1))
   )
 
-  (module antmicro-footprints:1-794610-1 (layer B.Cu) (tedit 6050D968) (tstamp 6051AA55)
+  (module antartix-arty-controller-footprints:1-794610-1 (layer B.Cu) (tedit 6050D968) (tstamp 6051AA55)
     (at 149.482716 132.618002 90)
     (descr "MATE-N-LOK on-wire pin")
     (path /604C47E1/605B05DF)
@@ -1481,7 +1481,7 @@
     (fp_poly (pts (xy 1.7 -0.1) (xy -1.5 -0.1) (xy -1.5 0.2) (xy 1.7 0.2)) (layer B.Fab) (width 0.1))
   )
 
-  (module antmicro-footprints:1-794610-1 (layer B.Cu) (tedit 6050D968) (tstamp 6051AA50)
+  (module antartix-arty-controller-footprints:1-794610-1 (layer B.Cu) (tedit 6050D968) (tstamp 6051AA50)
     (at 155.521287 132.618002 90)
     (descr "MATE-N-LOK on-wire pin")
     (path /604C47E1/605B03BD)
@@ -1494,7 +1494,7 @@
     (fp_poly (pts (xy 1.7 -0.1) (xy -1.5 -0.1) (xy -1.5 0.2) (xy 1.7 0.2)) (layer B.Fab) (width 0.1))
   )
 
-  (module antmicro-footprints:1-794610-1 (layer B.Cu) (tedit 6050D968) (tstamp 6051AA4B)
+  (module antartix-arty-controller-footprints:1-794610-1 (layer B.Cu) (tedit 6050D968) (tstamp 6051AA4B)
     (at 157.534144 132.618002 90)
     (descr "MATE-N-LOK on-wire pin")
     (path /604C47E1/6051F2F4)
@@ -1507,7 +1507,7 @@
     (fp_poly (pts (xy 1.7 -0.1) (xy -1.5 -0.1) (xy -1.5 0.2) (xy 1.7 0.2)) (layer B.Fab) (width 0.1))
   )
 
-  (module antmicro-footprints:3-794617-8 (layer B.Cu) (tedit 6050DC30) (tstamp 6051AA46)
+  (module antartix-arty-controller-footprints:3-794617-8 (layer B.Cu) (tedit 6050DC30) (tstamp 6051AA46)
     (at 156.297001 123.668002 90)
     (descr "On-wire 4x8 plug")
     (path /604C47E1/60664A1A)
@@ -1532,7 +1532,7 @@
     (fp_line (start -1.8 1.75) (end 4.8 1.75) (layer B.Fab) (width 0.12))
   )
 
-  (module antmicro-footprints:1-794610-1 (layer B.Cu) (tedit 6050D968) (tstamp 6051AA35)
+  (module antartix-arty-controller-footprints:1-794610-1 (layer B.Cu) (tedit 6050D968) (tstamp 6051AA35)
     (at 153.50843 132.618002 90)
     (descr "MATE-N-LOK on-wire pin")
     (path /604C47E1/605B3349)
@@ -1545,7 +1545,7 @@
     (fp_poly (pts (xy 1.7 -0.1) (xy -1.5 -0.1) (xy -1.5 0.2) (xy 1.7 0.2)) (layer B.Fab) (width 0.1))
   )
 
-  (module antmicro-footprints:1-794610-1 (layer B.Cu) (tedit 6050D968) (tstamp 6051AA30)
+  (module antartix-arty-controller-footprints:1-794610-1 (layer B.Cu) (tedit 6050D968) (tstamp 6051AA30)
     (at 147.469859 132.618002 90)
     (descr "MATE-N-LOK on-wire pin")
     (path /604C47E1/605B319D)
@@ -1558,7 +1558,7 @@
     (fp_poly (pts (xy 1.7 -0.1) (xy -1.5 -0.1) (xy -1.5 0.2) (xy 1.7 0.2)) (layer B.Fab) (width 0.1))
   )
 
-  (module antmicro-footprints:1-794610-1 (layer B.Cu) (tedit 6050D968) (tstamp 6051AA2B)
+  (module antartix-arty-controller-footprints:1-794610-1 (layer B.Cu) (tedit 6050D968) (tstamp 6051AA2B)
     (at 151.495573 132.618002 90)
     (descr "MATE-N-LOK on-wire pin")
     (path /604C47E1/605B2F14)
@@ -1571,7 +1571,7 @@
     (fp_poly (pts (xy 1.7 -0.1) (xy -1.5 -0.1) (xy -1.5 0.2) (xy 1.7 0.2)) (layer B.Fab) (width 0.1))
   )
 
-  (module antmicro-footprints:1-794610-1 (layer B.Cu) (tedit 6050D968) (tstamp 6051AA26)
+  (module antartix-arty-controller-footprints:1-794610-1 (layer B.Cu) (tedit 6050D968) (tstamp 6051AA26)
     (at 159.547001 132.618002 90)
     (descr "MATE-N-LOK on-wire pin")
     (path /604C47E1/605B18D3)
@@ -1584,7 +1584,7 @@
     (fp_poly (pts (xy 1.7 -0.1) (xy -1.5 -0.1) (xy -1.5 0.2) (xy 1.7 0.2)) (layer B.Fab) (width 0.1))
   )
 
-  (module antmicro-footprints:3-794680-8 (layer F.Cu) (tedit 6050CE3A) (tstamp 60522AEA)
+  (module antartix-arty-controller-footprints:3-794680-8 (layer F.Cu) (tedit 6050CE3A) (tstamp 60522AEA)
     (at 155.827001 105.918002 270)
     (descr "Through hole straight pin header, 2x04, 3mm pitch, double rows")
     (tags "Through hole pin header THT 2x04 3 mm double row")
@@ -1648,7 +1648,7 @@
     )
   )
 
-  (module antmicro-footprints:WE_685119136923 (layer B.Cu) (tedit 60181E83) (tstamp 6053ECED)
+  (module antartix-arty-controller-footprints:WE_685119136923 (layer B.Cu) (tedit 60181E83) (tstamp 6053ECED)
     (at 145.49 79.91 90)
     (path /604C47E1/60511DDA)
     (attr smd)
@@ -1862,7 +1862,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 6051A4BA)
+  (module antartix-arty-controller-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 6051A4BA)
     (at 145.862001 101.668002 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1896,7 +1896,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 6051A4AB)
+  (module antartix-arty-controller-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 6051A4AB)
     (at 149.674501 101.668002 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1930,7 +1930,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 6051A49C)
+  (module antartix-arty-controller-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 6051A49C)
     (at 153.487001 101.668002 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1964,7 +1964,7 @@
     )
   )
 
-  (module antmicro-footprints:0603-cap (layer F.Cu) (tedit 5D5E94D2) (tstamp 6053EF0B)
+  (module antartix-arty-controller-footprints:0603-cap (layer F.Cu) (tedit 5D5E94D2) (tstamp 6053EF0B)
     (at 146.952001 82.018002 270)
     (path /604C47E1/606F8603)
     (attr smd)
@@ -2033,7 +2033,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 6053EDFE)
+  (module antartix-arty-controller-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 6053EDFE)
     (at 152.052001 83.593002 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2067,7 +2067,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 6054CE22)
+  (module antartix-arty-controller-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 6054CE22)
     (at 153.812001 95.258002)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2321,7 +2321,7 @@
     )
   )
 
-  (module antmicro-footprints:0805-res (layer F.Cu) (tedit 5D5D3F54) (tstamp 604A0494)
+  (module antartix-arty-controller-footprints:0805-res (layer F.Cu) (tedit 5D5D3F54) (tstamp 604A0494)
     (at 160.655 101.63 180)
     (path /604C47E1/6051B344)
     (attr smd)
@@ -2352,7 +2352,7 @@
     )
   )
 
-  (module antmicro-footprints:QTE-020-04-L-D-A (layer B.Cu) (tedit 602130E8) (tstamp 60495020)
+  (module antartix-arty-controller-footprints:QTE-020-04-L-D-A (layer B.Cu) (tedit 602130E8) (tstamp 60495020)
     (at 162.910002 94.648004 270)
     (descr "0.8MM DOUBLE ROW HS SOCKET ASSEMBLY.")
     (path /604C47E1/60358E48)
@@ -2482,7 +2482,7 @@
     )
   )
 
-  (module antmicro-footprints:R-PDSO-N15 (layer B.Cu) (tedit 5D9EF6A7) (tstamp 60543F0B)
+  (module antartix-arty-controller-footprints:R-PDSO-N15 (layer B.Cu) (tedit 5D9EF6A7) (tstamp 60543F0B)
     (at 151.625 78.708002 270)
     (path /604C47E1/60462849)
     (attr smd)
@@ -2807,7 +2807,7 @@
     )
   )
 
-  (module antmicro-footprints:0603-cap (layer B.Cu) (tedit 5D5E94D2) (tstamp 60493B2C)
+  (module antartix-arty-controller-footprints:0603-cap (layer B.Cu) (tedit 5D5E94D2) (tstamp 60493B2C)
     (at 178.124501 86.776002)
     (path /60924187/60938FFC)
     (attr smd)
@@ -2842,7 +2842,7 @@
     )
   )
 
-  (module antmicro-footprints:0603-cap (layer B.Cu) (tedit 5D5E94D2) (tstamp 604953BC)
+  (module antartix-arty-controller-footprints:0603-cap (layer B.Cu) (tedit 5D5E94D2) (tstamp 604953BC)
     (at 178.124501 97.126502)
     (path /60924187/60938FAF)
     (attr smd)
@@ -2877,7 +2877,7 @@
     )
   )
 
-  (module antmicro-footprints:0603-cap (layer B.Cu) (tedit 5D5E94D2) (tstamp 60493B92)
+  (module antartix-arty-controller-footprints:0603-cap (layer B.Cu) (tedit 5D5E94D2) (tstamp 60493B92)
     (at 178.124501 107.477002)
     (path /60924187/60938F63)
     (attr smd)
@@ -2984,7 +2984,7 @@
     )
   )
 
-  (module antmicro-footprints:0603-cap (layer B.Cu) (tedit 5D5E94D2) (tstamp 604939F7)
+  (module antartix-arty-controller-footprints:0603-cap (layer B.Cu) (tedit 5D5E94D2) (tstamp 604939F7)
     (at 181.172501 95.729502)
     (path /60924187/60938FD9)
     (attr smd)
@@ -3055,7 +3055,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 60494FBE)
+  (module antartix-arty-controller-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 60494FBE)
     (at 228.635 93.405)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3608,7 +3608,7 @@
     )
   )
 
-  (module antmicro-footprints:0805-res (layer B.Cu) (tedit 5D5D3F54) (tstamp 60495316)
+  (module antartix-arty-controller-footprints:0805-res (layer B.Cu) (tedit 5D5D3F54) (tstamp 60495316)
     (at 223.607001 99.458002)
     (path /60924187/6093915F)
     (attr smd)
@@ -3639,7 +3639,7 @@
     )
   )
 
-  (module antmicro-footprints:0805-res (layer B.Cu) (tedit 5D5D3F54) (tstamp 60494F3E)
+  (module antartix-arty-controller-footprints:0805-res (layer B.Cu) (tedit 5D5D3F54) (tstamp 60494F3E)
     (at 223.597001 101.868002)
     (path /60924187/60939155)
     (attr smd)
@@ -3670,7 +3670,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 60494F6A)
+  (module antartix-arty-controller-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 60494F6A)
     (at 225.432001 85.252002 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3704,7 +3704,7 @@
     )
   )
 
-  (module antmicro-footprints:oshw-logo (layer F.Cu) (tedit 5E4A93CD) (tstamp 6035A469)
+  (module antartix-arty-controller-footprints:oshw-logo (layer F.Cu) (tedit 5E4A93CD) (tstamp 6035A469)
     (at 165.48 108.1)
     (path /60924187/6093902F)
     (attr virtual)
@@ -4876,7 +4876,7 @@
     )
   )
 
-  (module antmicro-footprints:antmicro-logo_scaled_15mm (layer F.Cu) (tedit 5E4A93DE) (tstamp 6036F0AD)
+  (module antartix-arty-controller-footprints:antmicro-logo_scaled_15mm (layer F.Cu) (tedit 5E4A93DE) (tstamp 6036F0AD)
     (at 233.549002 102.190499 90)
     (path /60924187/60939035)
     (attr virtual)
@@ -5524,7 +5524,7 @@
       (net 4 VCC3V3))
   )
 
-  (module antmicro-footprints:PinHeader_1x4_P2.54mm_Drill1.02mm (layer F.Cu) (tedit 5F353CCD) (tstamp 6049749D)
+  (module antartix-arty-controller-footprints:PinHeader_1x4_P2.54mm_Drill1.02mm (layer F.Cu) (tedit 5F353CCD) (tstamp 6049749D)
     (at 171.203001 80.172002 270)
     (descr http://www.molex.com/pdm_docs/sd/022232031_sd.pdf)
     (path /60924187/60938DE6)
@@ -6126,7 +6126,7 @@
     )
   )
 
-  (module antmicro-footprints:0603-cap (layer B.Cu) (tedit 5D5E94D2) (tstamp 6049713E)
+  (module antartix-arty-controller-footprints:0603-cap (layer B.Cu) (tedit 5D5E94D2) (tstamp 6049713E)
     (at 181.680501 102.905002 90)
     (path /60924187/60938F8D)
     (attr smd)
@@ -6263,7 +6263,7 @@
     )
   )
 
-  (module antmicro-footprints:0603-cap (layer B.Cu) (tedit 5D5E94D2) (tstamp 60497087)
+  (module antartix-arty-controller-footprints:0603-cap (layer B.Cu) (tedit 5D5E94D2) (tstamp 60497087)
     (at 181.744001 82.204002 90)
     (path /60924187/60939065)
     (attr smd)

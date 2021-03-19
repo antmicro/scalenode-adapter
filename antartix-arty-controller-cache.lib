@@ -1,65 +1,162 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# antartix-arty-controller_0022232041
+# GND
 #
-DEF antartix-arty-controller_0022232041 J 0 40 Y Y 1 F N
-F0 "J" -100 50 50 H V R CNN
-F1 "antartix-arty-controller_0022232041" 150 -150 50 H V C CNN
-F2 "antmicro-footprints:PinHeader_1x4_P2.54mm_Drill1.02mm" 200 200 60 H I L CNN
-F3 "" 200 300 60 H I L CNN
-F4 "0022232041" 200 500 60 H I L CNN "MPN"
-F5 "Molex" 200 1100 60 H I L CNN "Manufacturer"
+DEF antartix-arty-controller_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "antartix-arty-controller_GND" 0 -150 50 H V C CNN
+F2 "antartix-arty-controller-footprints:" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
-S -50 0 350 -100 1 1 0 f
-S -10 -45 10 -65 1 1 0 F
-S 90 -45 110 -65 1 1 0 F
-S 190 -45 210 -65 1 1 0 F
-S 290 -45 310 -65 1 1 0 F
-X ~ 1 0 100 100 D 50 50 1 1 P
-X ~ 2 100 100 100 D 50 50 1 1 P
-X ~ 3 200 100 100 D 50 50 1 1 P
-X ~ 4 300 100 100 D 50 50 1 1 P
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# antartix-arty-controller_7C-24.000MBB-T
+# TPD8S009DSMR
 #
-DEF antartix-arty-controller_7C-24.000MBB-T Y 0 40 Y Y 1 F N
-F0 "Y" -200 200 50 H V C CNN
-F1 "antartix-arty-controller_7C-24.000MBB-T" 50 -200 50 H V C CNN
-F2 "antartix-arty-controller-footprints:7C-24.000MBB-T" 400 -300 50 H I C CNN
-F3 "" 100 500 50 H I C CNN
-F4 "7C-24.000MBB-T" 50 300 50 H I C CNN "MPN"
-F5 "TXC" 0 400 50 H I C CNN "Manufacturer"
+DEF antartix-arty-controller_TPD8S009DSMR IC 0 40 Y Y 1 F N
+F0 "IC" -150 400 50 H V C CNN
+F1 "antartix-arty-controller_TPD8S009DSMR" 100 -1000 50 H V C CNN
+F2 "antartix-arty-controller-footprints:R-PDSO-N15" 1400 -350 50 H I C CNN
+F3 "" 1700 -450 50 H I C CNN
+F4 "TPD8S009DSMR" -50 500 50 H I C CNN "MPN"
+F5 "Texas Instruments" 50 600 50 H I C CNN "Manufacturer"
 DRAW
-S -250 150 250 -150 0 1 0 f
-X EN 1 -350 50 100 R 50 50 1 1 I
-X GND 2 -350 -50 100 R 50 50 1 1 W
-X OUT 3 350 50 100 L 50 50 1 1 O
-X VDD 4 350 -50 100 L 50 50 1 1 W
+S -200 350 250 -950 1 1 0 f
+X D0+ 1 -300 250 100 R 50 50 1 1 P
+X D3+ 10 -300 -650 100 R 50 50 1 1 P
+X GND 11 -300 -750 100 R 50 50 1 1 W
+X D3- 12 -300 -850 100 R 50 50 1 1 P
+X VCC 13 350 -600 100 L 50 50 1 1 W
+X NC 14 350 -300 100 L 50 50 1 1 N
+X VCC 15 350 0 100 L 50 50 1 1 W
+X GND 2 -300 150 100 R 50 50 1 1 W
+X D0- 3 -300 50 100 R 50 50 1 1 P
+X D1+ 4 -300 -50 100 R 50 50 1 1 P
+X GND 5 -300 -150 100 R 50 50 1 1 W
+X D1- 6 -300 -250 100 R 50 50 1 1 P
+X D2+ 7 -300 -350 100 R 50 50 1 1 P
+X GND 8 -300 -450 100 R 50 50 1 1 W
+X D2- 9 -300 -550 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# antartix-arty-controller_BLM21SP111BH1
+# QTE-020-04-L-D-A
 #
-DEF antartix-arty-controller_BLM21SP111BH1 FB 0 40 Y Y 1 F N
-F0 "FB" -150 150 60 H V C CNN
-F1 "antartix-arty-controller_BLM21SP111BH1" -350 -150 60 H V L CNN
-F2 "antartix-arty-controller-footprints:0805-res" 0 450 60 H I L CNN
-F3 "" 200 300 60 H I L CNN
-F4 "BLM21SP111BH1D" 0 550 60 H I L CNN "MPN"
-F5 "Murata Electronics North America" 0 650 60 H I L CNN "Manufacturer"
+DEF antartix-arty-controller_QTE-020-04-L-D-A J 0 40 Y Y 1 F N
+F0 "J" 400 50 50 H V L CNN
+F1 "antartix-arty-controller_QTE-020-04-L-D-A" 150 -2300 50 H V C CNN
+F2 "antartix-arty-controller-footprints:QTE-020-04-L-D-A" 150 -2350 60 H I L CNN
+F3 "" 1000 -750 60 H I L CNN
+F4 "QTE-020-04-L-D-A" -300 -2500 60 H I L CNN "MPN"
+F5 "SAMTEC" 0 -2200 60 H I L CNN "Manufacturer"
 DRAW
-P 2 0 1 0 -50 0 -100 0 N
-P 2 0 1 0 50 0 100 0 N
-P 5 0 1 0 -50 100 -100 50 50 -100 100 -50 -50 100 f
+S 0 0 300 -2000 1 1 0 f
+X ~ 1 -100 -50 100 R 50 50 1 1 P
+X ~ 10 400 -450 100 L 50 50 1 1 P
+X ~ 11 -100 -550 100 R 50 50 1 1 P
+X ~ 12 400 -550 100 L 50 50 1 1 P
+X ~ 13 -100 -650 100 R 50 50 1 1 P
+X ~ 14 400 -650 100 L 50 50 1 1 P
+X ~ 15 -100 -750 100 R 50 50 1 1 P
+X ~ 16 400 -750 100 L 50 50 1 1 P
+X ~ 17 -100 -850 100 R 50 50 1 1 P
+X ~ 18 400 -850 100 L 50 50 1 1 P
+X ~ 19 -100 -950 100 R 50 50 1 1 P
+X ~ 2 400 -50 100 L 50 50 1 1 P
+X ~ 20 400 -950 100 L 50 50 1 1 P
+X ~ 21 -100 -1050 100 R 50 50 1 1 P
+X ~ 22 400 -1050 100 L 50 50 1 1 P
+X ~ 23 -100 -1150 100 R 50 50 1 1 P
+X ~ 24 400 -1150 100 L 50 50 1 1 P
+X ~ 25 -100 -1250 100 R 50 50 1 1 P
+X ~ 26 400 -1250 100 L 50 50 1 1 P
+X ~ 27 -100 -1350 100 R 50 50 1 1 P
+X ~ 28 400 -1350 100 L 50 50 1 1 P
+X ~ 29 -100 -1450 100 R 50 50 1 1 P
+X ~ 3 -100 -150 100 R 50 50 1 1 P
+X ~ 30 400 -1450 100 L 50 50 1 1 P
+X ~ 31 -100 -1550 100 R 50 50 1 1 P
+X ~ 32 400 -1550 100 L 50 50 1 1 P
+X ~ 33 -100 -1650 100 R 50 50 1 1 P
+X ~ 34 400 -1650 100 L 50 50 1 1 P
+X ~ 35 -100 -1750 100 R 50 50 1 1 P
+X ~ 36 400 -1750 100 L 50 50 1 1 P
+X ~ 37 -100 -1850 100 R 50 50 1 1 P
+X ~ 38 400 -1850 100 L 50 50 1 1 P
+X ~ 39 -100 -1950 100 R 50 50 1 1 P
+X ~ 4 400 -150 100 L 50 50 1 1 P
+X ~ 40 400 -1950 100 L 50 50 1 1 P
+X ~ 5 -100 -250 100 R 50 50 1 1 P
+X ~ 6 400 -250 100 L 50 50 1 1 P
+X ~ 7 -100 -350 100 R 50 50 1 1 P
+X ~ 8 400 -350 100 L 50 50 1 1 P
+X ~ 9 -100 -450 100 R 50 50 1 1 P
+X ~ G1 150 -2100 100 U 50 50 1 1 I
+X ~ G2 150 -2100 100 U 50 50 1 1 I
+X ~ G3 150 -2100 100 U 50 50 1 1 I
+X ~ G4 150 -2100 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# R_0R_0805
+#
+DEF antartix-arty-controller_R_0R_0805 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "antartix-arty-controller_R_0R_0805" 0 -150 60 H I C CNN
+F2 "antartix-arty-controller-footprints:0805-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
+F5 "CRCW08050000Z0EA" 200 300 60 H I L CNN "MPN"
+F6 "0R" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_470R_0402
+#
+DEF antartix-arty-controller_R_470R_0402 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "antartix-arty-controller_R_470R_0402" 0 -150 60 H I C CNN
+F2 "antartix-arty-controller-footprints:0402-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
+F5 "CRCW0402470RFKED" 200 300 60 H I L CNN "MPN"
+F6 "470R" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# LG_L29K-G2J1-24-Z
+#
+DEF antartix-arty-controller_LG_L29K-G2J1-24-Z D 0 0 Y Y 1 F N
+F0 "D" -200 150 60 H V C CNN
+F1 "antartix-arty-controller_LG_L29K-G2J1-24-Z" 0 -150 60 H V C CNN
+F2 "antartix-arty-controller-footprints:LED_0603" 200 200 60 H I L CNN
+F3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" 200 300 60 H I L CNN
+F4 "LG L29K-G2J1-24-Z" 200 500 60 H I L CNN "MPN"
+F5 "OSRAM Opto Semiconductors Inc." 200 1100 60 H I L CNN "Manufacturer"
+DRAW
+P 2 0 1 0 -25 150 -75 100 N
+P 2 0 1 0 0 50 0 -50 N
+P 2 0 1 0 25 125 -25 75 N
+P 3 0 1 0 -50 150 -25 150 -25 125 N
+P 3 0 1 0 0 125 25 125 25 100 N
+P 4 0 1 0 -100 50 -100 -50 0 0 -100 50 F
 X ~ 1 -200 0 100 R 50 50 1 1 P
-X ~ 2 200 0 100 L 50 50 1 1 P
+X ~ 2 100 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# antartix-arty-controller_C_100n_0402
+# C_100n_0402
 #
 DEF antartix-arty-controller_C_100n_0402 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
@@ -77,16 +174,114 @@ X ~ 2 0 -150 110 U 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# antartix-arty-controller_C_22p_0402
+# WE_629105150521
 #
-DEF antartix-arty-controller_C_22p_0402 C 0 0 Y Y 1 F N
+DEF antartix-arty-controller_WE_629105150521 J 0 40 Y Y 1 F N
+F0 "J" -148 598 60 H V C CNN
+F1 "antartix-arty-controller_WE_629105150521" -248 -252 60 V V C CNN
+F2 "antartix-arty-controller-footprints:USB_Micro_B_Female_629105150521" 200 200 60 H I L CNN
+F3 "" 200 300 60 H I L CNN
+F4 "629105150521" 200 500 60 H I L CNN "MPN"
+F5 "Wurth_Elektronik" 200 1100 60 H I L CNN "Manufacturer"
+DRAW
+S 35 -170 75 -230 0 1 0 F
+S 35 -130 75 -70 0 1 0 F
+S 35 -25 75 15 0 1 0 F
+S 35 25 75 -15 0 1 0 F
+S 35 130 75 70 0 1 0 F
+S 35 170 75 230 0 1 0 F
+P 2 0 1 0 149 482 149 -494 N
+P 10 0 1 0 19 -169 19 -129 74 -129 74 -169 19 -169 44 -149 19 -129 74 -129 74 -149 44 -149 N
+P 10 0 1 0 19 -69 19 -29 74 -29 74 -69 19 -69 44 -49 19 -29 74 -29 74 -49 44 -49 N
+P 10 0 1 0 19 69 19 29 74 29 74 69 19 69 44 49 19 29 74 29 74 49 44 49 N
+P 10 0 1 0 19 169 19 129 74 129 74 169 19 169 44 149 19 129 74 129 74 149 44 149 N
+P 13 0 1 0 75 -1 75 230 25 230 25 242 32 253 47 259 65 261 89 258 107 249 116 239 119 222 119 189 119 -5 N
+P 13 0 1 0 75 1 75 -230 25 -230 25 -242 32 -253 47 -259 65 -261 89 -258 107 -249 116 -239 119 -222 119 -189 119 5 N
+P 32 0 1 0 191 -494 151 -494 149 -494 149 -508 142 -521 135 -526 127 -529 18 -529 2 -528 -13 -524 -26 -517 -39 -508 -124 -427 -134 -409 -139 -385 -140 -340 -140 363 -139 371 -136 387 -130 401 -119 418 -69 466 -34 496 -13 507 3 512 24 515 121 515 131 512 141 506 149 493 149 481 191 481 N
+P 34 0 1 0 191 -452 191 -504 188 -529 180 -546 159 -564 141 -572 122 -575 -11 -573 -28 -569 -49 -559 -87 -529 -140 -478 -158 -459 -172 -439 -182 -417 -187 -384 -187 369 -181 397 -176 412 -166 432 -142 457 -57 535 -38 546 -22 552 3 556 22 558 129 558 148 552 166 541 175 532 185 518 190 506 191 490 191 -453 f
+X ~ 1 300 200 110 L 50 50 1 1 P
+X ~ 2 300 100 110 L 50 50 1 1 P
+X ~ 3 300 0 110 L 50 50 1 1 P
+X ~ 4 300 -100 110 L 50 50 1 1 P
+X ~ 5 300 -200 110 L 50 50 1 1 P
+X ~ 6 -100 -600 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# FT230XS-R
+#
+DEF antartix-arty-controller_FT230XS-R U 0 40 Y Y 1 F N
+F0 "U" -400 350 50 H V L CNN
+F1 "antartix-arty-controller_FT230XS-R" -100 -550 50 H V L CNN
+F2 "antartix-arty-controller-footprints:SSOP-16_W3.90mm" 200 200 60 H I L CNN
+F3 "" 200 300 60 H I L CNN
+F4 "FTDI, Future Technology Devices International Ltd" 200 1100 60 H I L CNN "Manufacturer"
+F5 "FT230XS-R" 200 500 60 H I L CNN "MPN"
+DRAW
+S -400 300 400 -500 0 1 0 f
+X TXD 1 500 200 100 L 50 50 1 1 O
+X 3V3OUT 10 500 0 100 L 50 50 1 1 w
+X RESET# 11 -500 0 100 R 50 50 1 1 I
+X VCC 12 100 400 100 D 50 50 1 1 W
+X GND 13 -200 -600 100 U 50 50 1 1 W
+X CBUS1 14 500 -200 100 L 50 50 1 1 B
+X CBUS0 15 500 -100 100 L 50 50 1 1 B
+X CBUS3 16 500 -400 100 L 50 50 1 1 B
+X RTS# 2 500 100 100 L 50 50 1 1 O
+X VCCIO 3 0 400 100 D 50 50 1 1 W
+X RXD 4 -500 -200 100 R 50 50 1 1 I
+X GND 5 -300 -600 100 U 50 50 1 1 W
+X CTS# 6 -500 -100 100 R 50 50 1 1 I
+X CBUS2 7 500 -300 100 L 50 50 1 1 B
+X USBDP 8 -500 100 100 R 50 50 1 1 I
+X USBDM 9 -500 200 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# R_4k7_0402
+#
+DEF antartix-arty-controller_R_4k7_0402 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "antartix-arty-controller_R_4k7_0402" 0 -150 60 H I C CNN
+F2 "antartix-arty-controller-footprints:0402-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "PANASONIC_ELECTRONIC_COMPONENTS" 200 400 60 H I L CNN "Manufacturer"
+F5 "ERJ2GEJ472X" 200 300 60 H I L CNN "MPN"
+F6 "4k7" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_10k_0402
+#
+DEF antartix-arty-controller_R_10k_0402 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "antartix-arty-controller_R_10k_0402" 0 -150 60 H I C CNN
+F2 "antartix-arty-controller-footprints:0402-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
+F5 "CRCW040210K0FKEDHP" 200 300 60 H I L CNN "MPN"
+F6 "10k" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# C_1u_0402
+#
+DEF antartix-arty-controller_C_1u_0402 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
-F1 "antartix-arty-controller_C_22p_0402" 0 -150 60 H I C CNN
+F1 "antartix-arty-controller_C_1u_0402" 0 -150 60 H I C CNN
 F2 "antartix-arty-controller-footprints:0402-cap" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "YAGEO" 200 400 60 H I L CNN "Manufacturer"
-F5 "CC0402JRNPO9BN220" 200 300 60 H I L CNN "MPN"
-F6 "22p" 0 -100 50 H V C CNN "Val"
+F4 "TDK" 200 400 60 H I L CNN "Manufacturer"
+F5 "C1005X6S1A105K050BC" 200 300 60 H I L CNN "MPN"
+F6 "1u" 0 -100 50 H V C CNN "Val"
 DRAW
 P 2 1 1 20 -80 -30 80 -30 N
 P 2 1 1 20 -80 30 80 30 N
@@ -95,7 +290,327 @@ X ~ 2 0 -150 110 U 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# antartix-arty-controller_C_470u_KEMET_D
+# TPD2E009
+#
+DEF antartix-arty-controller_TPD2E009 D 0 40 Y Y 1 F N
+F0 "D" -300 -500 60 H V L BNN
+F1 "antartix-arty-controller_TPD2E009" -300 -600 60 V V L BNN
+F2 "antartix-arty-controller-footprints:SOT-3" 50 200 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+F4 "TPD2E009DRTR" -300 300 50 H I C CNN "MPN"
+F5 "Texas Instruments" -300 400 50 H I C CNN "Manufacturer"
+DRAW
+S 400 -300 0 100 0 1 10 f
+P 2 0 1 10 310 -10 310 -230 N
+P 3 0 1 10 280 -100 340 -100 340 -110 N
+P 4 0 1 10 350 -160 310 -100 270 -160 350 -160 N
+X IO1 1 -200 0 200 R 70 70 0 1 P
+X IO2 2 -200 -100 200 R 70 70 0 1 P
+X GND 3 -200 -200 200 R 70 70 0 1 P
+ENDDRAW
+ENDDEF
+#
+# WE_685119136923
+#
+DEF antartix-arty-controller_WE_685119136923 J 0 40 Y Y 1 F N
+F0 "J" 0 200 60 H V L BNN
+F1 "antartix-arty-controller_WE_685119136923" 0 50 60 H V L BNN
+F2 "antartix-arty-controller-footprints:WE_685119136923" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+F4 "Wurth Elektronik" 0 0 50 H I C CNN "Manufacturer"
+F5 "685119136923" 0 0 50 H I C CNN "MPN"
+DRAW
+A 1170 -1850 50 1800 -900 1 1 10 N 1120 -1850 1169 -1900
+A 1170 -1350 50 900 1800 1 1 10 N 1169 -1300 1120 -1350
+A 1220 -1950 50 368 900 1 1 10 N 1260 -1920 1219 -1900
+A 1220 -1250 50 -900 -369 1 1 10 N 1219 -1300 1259 -1280
+A 1320 -1880 70 -1432 -900 1 1 10 N 1263 -1921 1319 -1950
+A 1320 -1320 70 900 1431 1 1 10 N 1319 -1250 1264 -1277
+A 1420 -1900 50 -900 0 1 1 10 N 1419 -1950 1470 -1900
+A 1420 -1300 50 0 900 1 1 10 N 1470 -1300 1419 -1250
+A 1470 -1950 50 -900 0 1 1 10 N 1469 -2000 1520 -1950
+A 1470 -1250 50 0 900 1 1 10 N 1520 -1250 1469 -1200
+T 0 940 -2090 48 0 1 1 "Mini-HDMI Type C" Normal 0 L B
+S 0 -2100 1550 0 0 1 10 f
+P 2 0 1 10 1120 -2000 1470 -2000 N
+P 2 0 1 10 1120 -1850 1120 -1350 N
+P 2 0 1 10 1120 -1200 1470 -1200 N
+P 2 0 1 10 1170 -1900 1220 -1900 N
+P 2 0 1 10 1170 -1300 1220 -1300 N
+P 2 0 1 10 1220 -1800 1220 -1400 N
+P 2 0 1 10 1220 -1400 1270 -1350 N
+P 2 0 1 10 1270 -1850 1220 -1800 N
+P 2 0 1 10 1270 -1350 1370 -1350 N
+P 2 0 1 10 1320 -1950 1420 -1950 N
+P 2 0 1 10 1320 -1250 1420 -1250 N
+P 2 0 1 10 1370 -1850 1270 -1850 N
+P 2 0 1 10 1370 -1350 1370 -1850 N
+P 2 0 1 10 1470 -1300 1470 -1900 N
+P 2 0 1 10 1520 -1250 1520 -1950 N
+P 7 0 1 10 1310 -1400 1260 -1400 1260 -1800 1310 -1800 1310 -1780 1310 -1420 1310 -1400 F
+X TMDSData2Shield 1 -200 -100 200 R 70 70 0 1 P
+X TMDSClockShield 10 -200 -1000 200 R 70 70 0 1 P
+X TMDSClock+ 11 -200 -1100 200 R 70 70 0 1 P
+X TMDSClock- 12 -200 -1200 200 R 70 70 0 1 P
+X DDC/CECGround/HEACShield 13 -200 -1300 200 R 70 70 0 1 P
+X CEC 14 -200 -1400 200 R 70 70 0 1 P
+X SCL 15 -200 -1500 200 R 70 70 0 1 P
+X SDA 16 -200 -1600 200 R 70 70 0 1 P
+X Utility/HEAC+ 17 -200 -1700 200 R 70 70 0 1 P
+X +5VPower 18 -200 -1800 200 R 70 70 0 1 P
+X HotPlugDetect/HEAC- 19 -200 -1900 200 R 70 70 0 1 P
+X TMDSData2+ 2 -200 -200 200 R 70 70 0 1 P
+X TMDSData2- 3 -200 -300 200 R 70 70 0 1 P
+X TMDSData1Shield 4 -200 -400 200 R 70 70 0 1 P
+X TMDSData1+ 5 -200 -500 200 R 70 70 0 1 P
+X TMDSData1- 6 -200 -600 200 R 70 70 0 1 P
+X TMDSData0Shield 7 -200 -700 200 R 70 70 0 1 P
+X TMDSData0+ 8 -200 -800 200 R 70 70 0 1 P
+X TMDSData0- 9 -200 -900 200 R 70 70 0 1 P
+X Shield Shell -200 -2000 200 R 1 70 0 1 P
+ENDDRAW
+ENDDEF
+#
+# BLM21SP111BH1
+#
+DEF antartix-arty-controller_BLM21SP111BH1 FB 0 40 Y Y 1 F N
+F0 "FB" -150 150 60 H V C CNN
+F1 "antartix-arty-controller_BLM21SP111BH1" -350 -150 60 H V L CNN
+F2 "antartix-arty-controller-footprints:0805-res" 0 450 60 H I L CNN
+F3 "" 200 300 60 H I L CNN
+F4 "BLM21SP111BH1D" 0 550 60 H I L CNN "MPN"
+F5 "Murata Electronics North America" 0 650 60 H I L CNN "Manufacturer"
+DRAW
+P 2 0 1 0 -50 0 -100 0 N
+P 2 0 1 0 50 0 100 0 N
+P 5 0 1 0 -50 100 -100 50 50 -100 100 -50 -50 100 f
+X ~ 1 -200 0 100 R 50 50 1 1 P
+X ~ 2 200 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# C_22u_0603
+#
+DEF antartix-arty-controller_C_22u_0603 C 0 0 Y Y 1 F N
+F0 "C" -55 135 60 H V L CNN
+F1 "antartix-arty-controller_C_22u_0603" 0 -150 60 H I C CNN
+F2 "antartix-arty-controller-footprints:0603-cap" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "MURATA" 200 400 60 H I L CNN "Manufacturer"
+F5 "GRM188R60J226MEA0D" 200 300 60 H I L CNN "MPN"
+F6 "22u" 0 -100 50 H V C CNN "Val"
+DRAW
+P 2 1 1 20 -80 -30 80 -30 N
+P 2 1 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 0 0 1 1 P
+X ~ 2 0 -150 110 U 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# FDC6330L
+#
+DEF antartix-arty-controller_FDC6330L Q 0 40 Y Y 1 F N
+F0 "Q" -600 300 50 H V L BNN
+F1 "antartix-arty-controller_FDC6330L" -600 -400 50 H V L BNN
+F2 "antartix-arty-controller-footprints:FDC6330L" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "ON Semiconductor" 0 0 50 H I L BNN "MANUFACTURER"
+F5 "FDC6330L" 0 0 50 H V C CNN "MPN"
+DRAW
+S -600 -300 500 200 0 0 10 f
+X R2 1 600 -200 100 L 40 40 0 0 P
+X VOUT/C1@1 2 600 100 100 L 40 40 0 0 O
+X VOUT/C1@2 3 600 0 100 L 40 40 0 0 O
+X VIN/R1 4 -700 100 100 R 40 40 0 0 I
+X ON/OFF 5 -700 -100 100 R 40 40 0 0 I
+X R1/C1 6 600 -100 100 L 40 40 0 0 P
+ENDDRAW
+ENDDEF
+#
+# C_470p_0402
+#
+DEF antartix-arty-controller_C_470p_0402 C 0 0 Y Y 1 F N
+F0 "C" -55 135 60 H V L CNN
+F1 "antartix-arty-controller_C_470p_0402" 0 -150 60 H I C CNN
+F2 "antartix-arty-controller-footprints:0402-cap" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "WALSIN" 200 400 60 H I L CNN "Manufacturer"
+F5 "0402B471K250CT" 200 300 60 H I L CNN "MPN"
+F6 "470p" 0 -100 50 H V C CNN "Val"
+DRAW
+P 2 1 1 20 -80 -30 80 -30 N
+P 2 1 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 0 0 1 1 P
+X ~ 2 0 -150 110 U 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_47k_0402
+#
+DEF antartix-arty-controller_R_47k_0402 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "antartix-arty-controller_R_47k_0402" 0 -150 60 H I C CNN
+F2 "antartix-arty-controller-footprints:0402-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "MULTICOMP" 200 400 60 H I L CNN "Manufacturer"
+F5 "MCMR04X4702FTL" 200 300 60 H I L CNN "MPN"
+F6 "47k" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_1k_0402
+#
+DEF antartix-arty-controller_R_1k_0402 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "antartix-arty-controller_R_1k_0402" 0 -150 60 H I C CNN
+F2 "antartix-arty-controller-footprints:0402-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "BOURNS" 200 400 60 H I L CNN "Manufacturer"
+F5 "CR0402-FX-1001GLF" 200 300 60 H I L CNN "MPN"
+F6 "1k" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 3-794680-8
+#
+DEF antartix-arty-controller_3-794680-8 J 0 40 Y Y 1 F N
+F0 "J" -75 325 50 H V L CNN
+F1 "antartix-arty-controller_3-794680-8" 25 -250 50 H V C CNN
+F2 "antartix-arty-controller-footprints:3-794680-8" 200 200 60 H I L CNN
+F3 "" 200 300 60 V I L CNN
+F4 "3-794680-8" 200 500 60 H I L CNN "MPN"
+F5 "TE Connectivity" 200 1100 60 H I L CNN "Manufacturer"
+DRAW
+S -100 275 100 -175 0 1 0 f
+S -60 -90 -40 -110 1 1 0 F
+S -60 10 -40 -10 1 1 0 F
+S -60 110 -40 90 1 1 0 F
+S -60 210 -40 190 1 1 0 F
+S 40 -90 60 -110 1 1 0 F
+S 40 10 60 -10 1 1 0 F
+S 40 110 60 90 1 1 0 F
+S 40 210 60 190 1 1 0 F
+X ~ 1 -200 200 100 R 50 50 1 1 P
+X ~ 2 200 200 100 L 50 50 1 1 P
+X ~ 3 -200 100 100 R 50 50 1 1 P
+X ~ 4 200 100 100 L 50 50 1 1 P
+X ~ 5 -200 0 100 R 50 50 1 1 P
+X ~ 6 200 0 100 L 50 50 1 1 P
+X ~ 7 -200 -100 100 R 50 50 1 1 P
+X ~ 8 200 -100 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 1-794610-1
+#
+DEF antartix-arty-controller_1-794610-1 J 0 40 Y Y 1 F N
+F0 "J" -50 75 50 H V L CNN
+F1 "antartix-arty-controller_1-794610-1" 0 -75 50 H V C CNN
+F2 "antartix-arty-controller-footprints:1-794610-1" 200 200 60 H I L CNN
+F3 "" 200 300 60 V I L CNN
+F4 "1-794610-1" 200 500 60 H I L CNN "MPN"
+F5 "TE Connectivity" 200 1100 60 H I L CNN "Manufacturer"
+DRAW
+C 0 0 25 0 1 0 N
+P 2 0 1 0 -25 0 -75 0 N
+ENDDRAW
+ENDDEF
+#
+# 3-794617-8
+#
+DEF antartix-arty-controller_3-794617-8 J 0 40 Y Y 1 F N
+F0 "J" -100 300 50 H V L CNN
+F1 "antartix-arty-controller_3-794617-8" 25 -150 50 H V C CNN
+F2 "antartix-arty-controller-footprints:3-794617-8" 200 200 60 H I L CNN
+F3 "" 200 300 60 V I L CNN
+F4 "3-794617-8" 200 500 60 H I L CNN "MPN"
+F5 "TE Connectivity" 200 1100 60 H I L CNN "Manufacturer"
+DRAW
+S -100 250 100 -75 0 1 0 f
+S -75 225 -25 175 0 1 0 N
+S -75 0 -25 -50 1 1 0 N
+S -75 75 -25 25 1 1 0 N
+S -75 150 -25 100 1 1 0 N
+S 25 0 75 -50 1 1 0 N
+S 25 75 75 25 1 1 0 N
+S 25 150 75 100 1 1 0 N
+S 25 225 75 175 1 1 0 N
+P 2 0 1 0 -100 200 -175 200 N
+P 2 0 1 0 100 200 175 200 N
+P 2 1 1 0 -100 -25 -175 -25 N
+P 2 1 1 0 -100 50 -175 50 N
+P 2 1 1 0 -100 125 -175 125 N
+P 2 1 1 0 100 -25 175 -25 N
+P 2 1 1 0 100 50 175 50 N
+P 2 1 1 0 100 125 175 125 N
+ENDDRAW
+ENDDEF
+#
+# R_0R_0402
+#
+DEF antartix-arty-controller_R_0R_0402 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "antartix-arty-controller_R_0R_0402" 0 -150 60 H I C CNN
+F2 "antartix-arty-controller-footprints:0402-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "PANASONIC" 200 400 60 H I L CNN "Manufacturer"
+F5 "ERJ2GE0R00X" 200 300 60 H I L CNN "MPN"
+F6 "0R" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_22R_0402
+#
+DEF antartix-arty-controller_R_22R_0402 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "antartix-arty-controller_R_22R_0402" 0 -150 60 H I C CNN
+F2 "antartix-arty-controller-footprints:0402-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
+F5 "CRCW040222R0FKED" 200 300 60 H I L CNN "MPN"
+F6 "22R" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 0022232041
+#
+DEF antartix-arty-controller_0022232041 J 0 40 Y Y 1 F N
+F0 "J" -100 50 50 H V R CNN
+F1 "antartix-arty-controller_0022232041" 150 -150 50 H V C CNN
+F2 "antartix-arty-controller-footprints:PinHeader_1x4_P2.54mm_Drill1.02mm" 200 200 60 H I L CNN
+F3 "" 200 300 60 H I L CNN
+F4 "0022232041" 200 500 60 H I L CNN "MPN"
+F5 "Molex" 200 1100 60 H I L CNN "Manufacturer"
+DRAW
+S -50 0 350 -100 1 1 0 f
+S -10 -45 10 -65 1 1 0 F
+S 90 -45 110 -65 1 1 0 F
+S 190 -45 210 -65 1 1 0 F
+S 290 -45 310 -65 1 1 0 F
+X ~ 1 0 100 100 D 50 50 1 1 P
+X ~ 2 100 100 100 D 50 50 1 1 P
+X ~ 3 200 100 100 D 50 50 1 1 P
+X ~ 4 300 100 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# C_470u_KEMET_D
 #
 DEF antartix-arty-controller_C_470u_KEMET_D C 0 0 Y Y 1 F N
 F0 "C" 50 50 60 H V L CNN
@@ -118,16 +633,46 @@ X ~ 2 0 -200 110 U 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# antartix-arty-controller_C_47p_0402
+# R_220R_0402
 #
-DEF antartix-arty-controller_C_47p_0402 C 0 0 Y Y 1 F N
-F0 "C" -55 135 60 H V L CNN
-F1 "antartix-arty-controller_C_47p_0402" 0 -150 60 H I C CNN
-F2 "antartix-arty-controller-footprints:0402-cap" 200 200 60 H I L CNN
+DEF antartix-arty-controller_R_220R_0402 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "antartix-arty-controller_R_220R_0402" 0 -150 60 H I C CNN
+F2 "antartix-arty-controller-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "KEMET" 200 400 60 H I L CNN "Manufacturer"
-F5 "C0402C470J5GACTU" 200 300 60 H I L CNN "MPN"
-F6 "47p" 0 -100 50 H V C CNN "Val"
+F4 "Panasonic" 200 400 60 H I L CNN "Manufacturer"
+F5 "ERJ2GEJ221X" 200 300 60 H I L CNN "MPN"
+F6 "220R" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# TP_SMD1MM
+#
+DEF antartix-arty-controller_TP_SMD1MM TP 0 0 N Y 1 F N
+F0 "TP" -100 50 50 H V R CNN
+F1 "antartix-arty-controller_TP_SMD1MM" 0 -100 50 H I C CNN
+F2 "antartix-arty-controller-footprints:Testpoint_smd_1mm" 200 200 60 H I L CNN
+F3 "" 200 300 60 H I L CNN
+DRAW
+C 0 0 22 0 1 0 N
+X ~ 1 0 100 75 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# C_100n_0603
+#
+DEF antartix-arty-controller_C_100n_0603 C 0 0 Y Y 1 F N
+F0 "C" -55 135 60 H V L CNN
+F1 "antartix-arty-controller_C_100n_0603" 0 -150 60 H I C CNN
+F2 "antartix-arty-controller-footprints:0603-cap" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "AVX" 200 400 60 H I L CNN "Manufacturer"
+F5 "0603YC104KAZ2A" 200 300 60 H I L CNN "MPN"
+F6 "100n" 0 -100 50 H V C CNN "Val"
 DRAW
 P 2 1 1 20 -80 -30 80 -30 N
 P 2 1 1 20 -80 30 80 30 N
@@ -136,7 +681,199 @@ X ~ 2 0 -150 110 U 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# antartix-arty-controller_FT2232D
+# TPS2024DR
+#
+DEF antartix-arty-controller_TPS2024DR U 0 40 Y Y 1 F N
+F0 "U" -200 400 50 H V C CNN
+F1 "antartix-arty-controller_TPS2024DR" 0 -350 50 H V C CNN
+F2 "antartix-arty-controller-footprints:SOIC-8_W3.9mm" 0 750 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "TPS2024DR" 0 550 50 H I C CNN "MPN"
+F5 "Texas Instruments" 0 650 50 H I C CNN "Manufacturer"
+DRAW
+S -250 350 250 -300 0 1 0 f
+X GND 1 350 -200 100 L 50 50 1 1 P
+X In 2 -350 250 100 R 50 50 1 1 W
+X In 3 -350 150 100 R 50 50 1 1 W
+X ~En 4 -350 -200 100 R 50 50 1 1 I
+X ~Oc 5 -350 -50 100 R 50 50 1 1 I
+X Out 6 350 250 100 L 50 50 1 1 w
+X Out 7 350 150 100 L 50 50 1 1 w
+X Out 8 350 50 100 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+# oshw_logo
+#
+DEF antartix-arty-controller_oshw_logo N 0 40 Y Y 1 F N
+F0 "N" 20 40 50 H V C CNN
+F1 "antartix-arty-controller_oshw_logo" 30 -150 50 H V C CNN
+F2 "antartix-arty-controller-footprints:oshw-logo" 20 -240 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 30 -40 79 0 1 1 Logo Normal 0 C C
+ENDDRAW
+ENDDEF
+#
+# antmicro_logo
+#
+DEF antartix-arty-controller_antmicro_logo N 0 40 Y Y 1 F N
+F0 "N" 0 350 50 H V C CNN
+F1 "antartix-arty-controller_antmicro_logo" 0 -200 50 H V C CNN
+F2 "antartix-arty-controller-footprints:antmicro-logo" -100 250 50 H I C CNN
+F3 "" 0 350 50 H I C CNN
+DRAW
+T 0 50 50 79 0 0 0 Logo Normal 0 C C
+ENDDRAW
+ENDDEF
+#
+# USB2514B-I_M2
+#
+DEF antartix-arty-controller_USB2514B-I_M2 U 0 40 Y Y 1 F N
+F0 "U" -1501 1440 50 H V L BNN
+F1 "antartix-arty-controller_USB2514B-I_M2" -1503 -1040 50 H V L BNN
+F2 "antartix-arty-controller-footprints:QFN50P600X600X100-37N" -1500 -1150 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+DRAW
+S -1500 -950 150 1400 0 0 12 f
+X USBDM_DN1/PRT_DIS_M1 1 350 700 200 L 40 40 0 0 B
+X VDDA33 10 350 1200 200 L 40 40 0 0 W
+X TEST 11 -1700 1100 200 R 40 40 0 0 I
+X PRTPWR1/BC_EN1 12 -1700 400 200 R 40 40 0 0 I
+X OCS_N1 13 -1700 900 200 R 40 40 0 0 I
+X CRFILT 14 -1700 -700 200 R 40 40 0 0 P
+X VDD33 15 350 1300 200 L 40 40 0 0 W
+X PRTPWR2/BC_EN2 16 -1700 300 200 R 40 40 0 0 I
+X OCS_N2 17 -1700 800 200 R 40 40 0 0 I
+X PRTPWR3/BC_EN3 18 -1700 200 200 R 40 40 0 0 I
+X OCS_N3 19 -1700 700 200 R 40 40 0 0 I
+X USBDP_DN1/PRT_DIS_P1 2 350 600 200 L 40 40 0 0 B
+X PRTPWR4/BC_EN4 20 -1700 100 200 R 40 40 0 0 I
+X OCS_N4 21 -1700 600 200 R 40 40 0 0 I
+X SDA/SMBDATA/NON_REM1 22 -1700 -400 200 R 40 40 0 0 B
+X VDD33 23 350 1300 200 L 40 40 0 0 W
+X SCL/CFG_SEL0/SMBCLK 24 -1700 -300 200 R 40 40 0 0 I C
+X HS_IND/CFG_SEL1 25 -1700 -100 200 R 40 40 0 0 I
+X RESET_N 26 -1700 1300 200 R 40 40 0 0 I
+X VBUS_DET 27 -1700 1200 200 R 40 40 0 0 I
+X SUSP_IND/LOCAL_PWR/NON_REM0 28 350 -200 200 L 40 40 0 0 B
+X VDDA33 29 350 1200 200 L 40 40 0 0 W
+X USBDM_DN2/PRT_DIS_M2 3 350 500 200 L 40 40 0 0 B
+X USBDM_UP 30 350 900 200 L 40 40 0 0 B
+X USBDP_UP 31 350 1000 200 L 40 40 0 0 B
+X XTALOUT 32 350 -600 200 L 40 40 0 0 O
+X XTALIN/CLKIN 33 350 -500 200 L 40 40 0 0 I C
+X PLLFILT 34 -1700 -600 200 R 40 40 0 0 P
+X RBIAS 35 350 -300 200 L 40 40 0 0 B
+X VDDA33 36 350 1200 200 L 40 40 0 0 W
+X VSS 37 350 -800 200 L 40 40 0 0 W
+X USBDP_DN2/PRT_DIS_P2 4 350 400 200 L 40 40 0 0 B
+X VDDA33 5 350 1200 200 L 40 40 0 0 W
+X USBDM_DN3/PRT_DIS_M3 6 350 300 200 L 40 40 0 0 B
+X USBDP_DN3/PRT_DIS_P3 7 350 200 200 L 40 40 0 0 B
+X USBDM_DN4/PRT_DIS_M4 8 350 100 200 L 40 40 0 0 B
+X USBDP_DN4/PRT_DIS_P4 9 350 0 200 L 40 40 0 0 B
+ENDDRAW
+ENDDEF
+#
+# 614004185023
+#
+DEF antartix-arty-controller_614004185023 J 0 40 Y Y 1 F N
+F0 "J" -5 232 50 H V L BNN
+F1 "antartix-arty-controller_614004185023" -199 -402 50 H V L BNN
+F2 "antartix-arty-controller-footprints:614004185023" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+DRAW
+T 900 256 -133 40 0 0 0 shield Normal 0 L B
+T 900 256 -133 40 0 0 0 shield Normal 0 L B
+P 2 0 0 10 -200 -275 -200 175 N
+P 2 0 0 10 -200 175 175 175 N
+P 2 0 0 10 -200 200 200 200 N
+P 2 0 0 10 175 -275 -200 -275 N
+P 2 0 0 10 175 175 175 -275 N
+P 2 0 0 10 200 -300 -200 -300 N
+P 2 0 0 10 200 200 200 -300 N
+X VBUS 1 -400 100 200 R 40 40 0 0 B
+X D- 2 -400 0 200 R 40 40 0 0 B
+X D+ 3 -400 -100 200 R 40 40 0 0 B
+X GND 4 -400 -200 200 R 40 40 0 0 B
+X ~ S1 -400 -300 200 R 40 40 0 0 B
+X ~ S2 -400 -300 200 R 40 40 0 0 B
+ENDDRAW
+ENDDEF
+#
+# R_12k_0402
+#
+DEF antartix-arty-controller_R_12k_0402 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "antartix-arty-controller_R_12k_0402" 0 -150 60 H I C CNN
+F2 "antartix-arty-controller-footprints:0402-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
+F5 "CRCW040212K0FKEDHP" 200 300 60 H I L CNN "MPN"
+F6 "12k" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# MQ-6.000-12-30_30_
+#
+DEF antartix-arty-controller_MQ-6.000-12-30_30_ Y 0 40 Y Y 1 F N
+F0 "Y" 0 0 60 H V L BNN
+F1 "antartix-arty-controller_MQ-6.000-12-30_30_" 100 -250 60 H V C CNN
+F2 "antartix-arty-controller-footprints:Crystal_5x7mm" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+F4 "MQ-6.000-12-30/30/-40+85 " 0 0 50 H I C CNN "MPN"
+F5 "MERCURY UNITED ELECTRONICS" 0 0 50 H I C CNN "Manufacturer"
+DRAW
+P 2 0 1 10 30 -50 30 -150 N
+P 2 0 1 10 130 -200 130 0 N
+P 2 0 1 10 170 -50 170 -150 N
+P 4 0 1 10 130 0 70 0 70 -200 130 -200 N
+X 1 1 -100 -100 130 R 1 1 0 1 P
+X 3 3 300 -100 130 L 1 1 0 1 P
+ENDDRAW
+ENDDEF
+#
+# C_22p_0402
+#
+DEF antartix-arty-controller_C_22p_0402 C 0 0 Y Y 1 F N
+F0 "C" -55 135 60 H V L CNN
+F1 "antartix-arty-controller_C_22p_0402" 0 -150 60 H I C CNN
+F2 "antartix-arty-controller-footprints:0402-cap" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "YAGEO" 200 400 60 H I L CNN "Manufacturer"
+F5 "CC0402JRNPO9BN220" 200 300 60 H I L CNN "MPN"
+F6 "22p" 0 -100 50 H V C CNN "Val"
+DRAW
+P 2 1 1 20 -80 -30 80 -30 N
+P 2 1 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 0 0 1 1 P
+X ~ 2 0 -150 110 U 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_1k54_0402
+#
+DEF antartix-arty-controller_R_1k54_0402 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "antartix-arty-controller_R_1k54_0402" 0 -150 60 H I C CNN
+F2 "antartix-arty-controller-footprints:0402-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
+F5 "CRCW04021K54FKED." 200 300 60 H I L CNN "MPN"
+F6 "1k54" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# FT2232D
 #
 DEF antartix-arty-controller_FT2232D IC 0 40 Y Y 1 F N
 F0 "IC" -500 2000 60 H V L BNN
@@ -196,60 +933,41 @@ X GND 9 -700 -900 200 R 70 70 0 1 P
 ENDDRAW
 ENDDEF
 #
-# antartix-arty-controller_GND
+# R_0R01_1206
 #
-DEF antartix-arty-controller_GND #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "antartix-arty-controller_GND" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
+DEF antartix-arty-controller_R_0R01_1206 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "antartix-arty-controller_R_0R01_1206" 0 -150 60 H I C CNN
+F2 "antartix-arty-controller-footprints:1206-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
+F4 "PANASONIC" 200 400 60 H I L CNN "Manufacturer"
+F5 "ERJMP2KF10MU" 200 300 60 H I L CNN "MPN"
+F6 "0R01" 0 -100 50 H V C CNN "Val"
 DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GND 1 0 0 0 D 50 50 1 1 W N
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# antartix-arty-controller_LG_L29K-G2J1-24-Z
+# R_100k_0402
 #
-DEF antartix-arty-controller_LG_L29K-G2J1-24-Z D 0 0 Y Y 1 F N
-F0 "D" -200 150 60 H V C CNN
-F1 "antartix-arty-controller_LG_L29K-G2J1-24-Z" 0 -150 60 H V C CNN
-F2 "antartix-arty-controller-footprints:LED_0603" 200 200 60 H I L CNN
-F3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" 200 300 60 H I L CNN
-F4 "LG L29K-G2J1-24-Z" 200 500 60 H I L CNN "MPN"
-F5 "OSRAM Opto Semiconductors Inc." 200 1100 60 H I L CNN "Manufacturer"
+DEF antartix-arty-controller_R_100k_0402 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "antartix-arty-controller_R_100k_0402" 0 -150 60 H I C CNN
+F2 "antartix-arty-controller-footprints:0402-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
+F5 "CRCW0402100KFKEDHP" 200 300 60 H I L CNN "MPN"
+F6 "100k" 0 -100 50 H V C CNN "Val"
 DRAW
-P 2 0 1 0 -25 150 -75 100 N
-P 2 0 1 0 0 50 0 -50 N
-P 2 0 1 0 25 125 -25 75 N
-P 3 0 1 0 -50 150 -25 150 -25 125 N
-P 3 0 1 0 0 125 25 125 25 100 N
-P 4 0 1 0 -100 50 -100 -50 0 0 -100 50 F
-X ~ 1 -200 0 100 R 50 50 1 1 P
-X ~ 2 100 0 100 L 50 50 1 1 P
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# antartix-arty-controller_MQ-6.000-12-30_30_
-#
-DEF antartix-arty-controller_MQ-6.000-12-30_30_ Y 0 40 Y Y 1 F N
-F0 "Y" 0 0 60 H V L BNN
-F1 "antartix-arty-controller_MQ-6.000-12-30_30_" 100 -250 60 H V C CNN
-F2 "antartix-arty-controller-footprints:Crystal_5x7mm" 0 0 60 H I C CNN
-F3 "" 0 0 60 H I C CNN
-F4 "MQ-6.000-12-30/30/-40+85 " 0 0 50 H I C CNN "MPN"
-F5 "MERCURY UNITED ELECTRONICS" 0 0 50 H I C CNN "Manufacturer"
-DRAW
-P 2 0 1 10 30 -50 30 -150 N
-P 2 0 1 10 130 -200 130 0 N
-P 2 0 1 10 170 -50 170 -150 N
-P 4 0 1 10 130 0 70 0 70 -200 130 -200 N
-X 1 1 -100 -100 130 R 1 1 0 1 P
-X 3 3 300 -100 130 L 1 1 0 1 P
-ENDDRAW
-ENDDEF
-#
-# antartix-arty-controller_PAC1934T-I_JQ
+# PAC1934T-I_JQ
 #
 DEF antartix-arty-controller_PAC1934T-I_JQ U 0 40 Y Y 1 F N
 F0 "U" -601 926 50 H V L BNN
@@ -278,7 +996,43 @@ X SENSE4- 9 -800 -500 200 R 40 40 0 0 I
 ENDDRAW
 ENDDEF
 #
-# antartix-arty-controller_PCT2075GVX
+# C_47p_0402
+#
+DEF antartix-arty-controller_C_47p_0402 C 0 0 Y Y 1 F N
+F0 "C" -55 135 60 H V L CNN
+F1 "antartix-arty-controller_C_47p_0402" 0 -150 60 H I C CNN
+F2 "antartix-arty-controller-footprints:0402-cap" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "KEMET" 200 400 60 H I L CNN "Manufacturer"
+F5 "C0402C470J5GACTU" 200 300 60 H I L CNN "MPN"
+F6 "47p" 0 -100 50 H V C CNN "Val"
+DRAW
+P 2 1 1 20 -80 -30 80 -30 N
+P 2 1 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 0 0 1 1 P
+X ~ 2 0 -150 110 U 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 7C-24.000MBB-T
+#
+DEF antartix-arty-controller_7C-24.000MBB-T Y 0 40 Y Y 1 F N
+F0 "Y" -200 200 50 H V C CNN
+F1 "antartix-arty-controller_7C-24.000MBB-T" 50 -200 50 H V C CNN
+F2 "antartix-arty-controller-footprints:7C-24.000MBB-T" 400 -300 50 H I C CNN
+F3 "" 100 500 50 H I C CNN
+F4 "7C-24.000MBB-T" 50 300 50 H I C CNN "MPN"
+F5 "TXC" 0 400 50 H I C CNN "Manufacturer"
+DRAW
+S -250 150 250 -150 0 1 0 f
+X EN 1 -350 50 100 R 50 50 1 1 I
+X GND 2 -350 -50 100 R 50 50 1 1 W
+X OUT 3 350 50 100 L 50 50 1 1 O
+X VDD 4 350 -50 100 L 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# PCT2075GVX
 #
 DEF antartix-arty-controller_PCT2075GVX U 0 40 Y Y 1 F N
 F0 "U" -200 -200 50 H V C CNN
@@ -293,847 +1047,6 @@ X VCC 3 -350 -100 100 R 50 50 1 1 I
 X SCL 4 300 0 100 L 50 50 1 1 I
 X OS 5 300 100 100 L 50 50 1 1 I
 X SDA 6 300 -100 100 L 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# antartix-arty-controller_QTE-020-04-L-D-A
-#
-DEF antartix-arty-controller_QTE-020-04-L-D-A J 0 40 Y Y 1 F N
-F0 "J" 400 50 50 H V L CNN
-F1 "antartix-arty-controller_QTE-020-04-L-D-A" 150 -2300 50 H V C CNN
-F2 "antartix-arty-controller-footprints:QTE-020-04-L-D-A" 150 -2350 60 H I L CNN
-F3 "" 1000 -750 60 H I L CNN
-F4 "QTE-020-04-L-D-A" -300 -2500 60 H I L CNN "MPN"
-F5 "SAMTEC" 0 -2200 60 H I L CNN "Manufacturer"
-DRAW
-S 0 0 300 -2000 1 1 0 f
-X ~ 1 -100 -50 100 R 50 50 1 1 P
-X ~ 10 400 -450 100 L 50 50 1 1 P
-X ~ 11 -100 -550 100 R 50 50 1 1 P
-X ~ 12 400 -550 100 L 50 50 1 1 P
-X ~ 13 -100 -650 100 R 50 50 1 1 P
-X ~ 14 400 -650 100 L 50 50 1 1 P
-X ~ 15 -100 -750 100 R 50 50 1 1 P
-X ~ 16 400 -750 100 L 50 50 1 1 P
-X ~ 17 -100 -850 100 R 50 50 1 1 P
-X ~ 18 400 -850 100 L 50 50 1 1 P
-X ~ 19 -100 -950 100 R 50 50 1 1 P
-X ~ 2 400 -50 100 L 50 50 1 1 P
-X ~ 20 400 -950 100 L 50 50 1 1 P
-X ~ 21 -100 -1050 100 R 50 50 1 1 P
-X ~ 22 400 -1050 100 L 50 50 1 1 P
-X ~ 23 -100 -1150 100 R 50 50 1 1 P
-X ~ 24 400 -1150 100 L 50 50 1 1 P
-X ~ 25 -100 -1250 100 R 50 50 1 1 P
-X ~ 26 400 -1250 100 L 50 50 1 1 P
-X ~ 27 -100 -1350 100 R 50 50 1 1 P
-X ~ 28 400 -1350 100 L 50 50 1 1 P
-X ~ 29 -100 -1450 100 R 50 50 1 1 P
-X ~ 3 -100 -150 100 R 50 50 1 1 P
-X ~ 30 400 -1450 100 L 50 50 1 1 P
-X ~ 31 -100 -1550 100 R 50 50 1 1 P
-X ~ 32 400 -1550 100 L 50 50 1 1 P
-X ~ 33 -100 -1650 100 R 50 50 1 1 P
-X ~ 34 400 -1650 100 L 50 50 1 1 P
-X ~ 35 -100 -1750 100 R 50 50 1 1 P
-X ~ 36 400 -1750 100 L 50 50 1 1 P
-X ~ 37 -100 -1850 100 R 50 50 1 1 P
-X ~ 38 400 -1850 100 L 50 50 1 1 P
-X ~ 39 -100 -1950 100 R 50 50 1 1 P
-X ~ 4 400 -150 100 L 50 50 1 1 P
-X ~ 40 400 -1950 100 L 50 50 1 1 P
-X ~ 5 -100 -250 100 R 50 50 1 1 P
-X ~ 6 400 -250 100 L 50 50 1 1 P
-X ~ 7 -100 -350 100 R 50 50 1 1 P
-X ~ 8 400 -350 100 L 50 50 1 1 P
-X ~ 9 -100 -450 100 R 50 50 1 1 P
-X ~ G1 150 -2100 100 U 50 50 1 1 I
-X ~ G2 150 -2100 100 U 50 50 1 1 I
-X ~ G3 150 -2100 100 U 50 50 1 1 I
-X ~ G4 150 -2100 100 U 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# antartix-arty-controller_R_0R01_1206
-#
-DEF antartix-arty-controller_R_0R01_1206 R 0 0 Y Y 1 F N
-F0 "R" -55 135 60 H V L CNN
-F1 "antartix-arty-controller_R_0R01_1206" 0 -150 60 H I C CNN
-F2 "antartix-arty-controller-footprints:1206-res" 200 200 60 H I L CNN
-F3 "" 0 0 50 H I C CNN
-F4 "PANASONIC" 200 400 60 H I L CNN "Manufacturer"
-F5 "ERJMP2KF10MU" 200 300 60 H I L CNN "MPN"
-F6 "0R01" 0 -100 50 H V C CNN "Val"
-DRAW
-S 100 -40 -100 40 1 1 10 N
-X ~ 1 -150 0 50 R 0 0 1 1 P
-X ~ 2 150 0 50 L 0 0 1 1 P
-ENDDRAW
-ENDDEF
-#
-# antartix-arty-controller_R_0R_0402
-#
-DEF antartix-arty-controller_R_0R_0402 R 0 0 Y Y 1 F N
-F0 "R" -55 135 60 H V L CNN
-F1 "antartix-arty-controller_R_0R_0402" 0 -150 60 H I C CNN
-F2 "antartix-arty-controller-footprints:0402-res" 200 200 60 H I L CNN
-F3 "" 0 0 50 H I C CNN
-F4 "PANASONIC" 200 400 60 H I L CNN "Manufacturer"
-F5 "ERJ2GE0R00X" 200 300 60 H I L CNN "MPN"
-F6 "0R" 0 -100 50 H V C CNN "Val"
-DRAW
-S 100 -40 -100 40 1 1 10 N
-X ~ 1 -150 0 50 R 0 0 1 1 P
-X ~ 2 150 0 50 L 0 0 1 1 P
-ENDDRAW
-ENDDEF
-#
-# antartix-arty-controller_R_100k_0402
-#
-DEF antartix-arty-controller_R_100k_0402 R 0 0 Y Y 1 F N
-F0 "R" -55 135 60 H V L CNN
-F1 "antartix-arty-controller_R_100k_0402" 0 -150 60 H I C CNN
-F2 "antartix-arty-controller-footprints:0402-res" 200 200 60 H I L CNN
-F3 "" 0 0 50 H I C CNN
-F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
-F5 "CRCW0402100KFKEDHP" 200 300 60 H I L CNN "MPN"
-F6 "100k" 0 -100 50 H V C CNN "Val"
-DRAW
-S 100 -40 -100 40 1 1 10 N
-X ~ 1 -150 0 50 R 0 0 1 1 P
-X ~ 2 150 0 50 L 0 0 1 1 P
-ENDDRAW
-ENDDEF
-#
-# antartix-arty-controller_R_10k_0402
-#
-DEF antartix-arty-controller_R_10k_0402 R 0 0 Y Y 1 F N
-F0 "R" -55 135 60 H V L CNN
-F1 "antartix-arty-controller_R_10k_0402" 0 -150 60 H I C CNN
-F2 "antartix-arty-controller-footprints:0402-res" 200 200 60 H I L CNN
-F3 "" 0 0 50 H I C CNN
-F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
-F5 "CRCW040210K0FKEDHP" 200 300 60 H I L CNN "MPN"
-F6 "10k" 0 -100 50 H V C CNN "Val"
-DRAW
-S 100 -40 -100 40 1 1 10 N
-X ~ 1 -150 0 50 R 0 0 1 1 P
-X ~ 2 150 0 50 L 0 0 1 1 P
-ENDDRAW
-ENDDEF
-#
-# antartix-arty-controller_R_1k54_0402
-#
-DEF antartix-arty-controller_R_1k54_0402 R 0 0 Y Y 1 F N
-F0 "R" -55 135 60 H V L CNN
-F1 "antartix-arty-controller_R_1k54_0402" 0 -150 60 H I C CNN
-F2 "antartix-arty-controller-footprints:0402-res" 200 200 60 H I L CNN
-F3 "" 0 0 50 H I C CNN
-F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
-F5 "CRCW04021K54FKED." 200 300 60 H I L CNN "MPN"
-F6 "1k54" 0 -100 50 H V C CNN "Val"
-DRAW
-S 100 -40 -100 40 1 1 10 N
-X ~ 1 -150 0 50 R 0 0 1 1 P
-X ~ 2 150 0 50 L 0 0 1 1 P
-ENDDRAW
-ENDDEF
-#
-# antartix-arty-controller_R_220R_0402
-#
-DEF antartix-arty-controller_R_220R_0402 R 0 0 Y Y 1 F N
-F0 "R" -55 135 60 H V L CNN
-F1 "antartix-arty-controller_R_220R_0402" 0 -150 60 H I C CNN
-F2 "antartix-arty-controller-footprints:0402-res" 200 200 60 H I L CNN
-F3 "" 0 0 50 H I C CNN
-F4 "Panasonic" 200 400 60 H I L CNN "Manufacturer"
-F5 "ERJ2GEJ221X" 200 300 60 H I L CNN "MPN"
-F6 "220R" 0 -100 50 H V C CNN "Val"
-DRAW
-S 100 -40 -100 40 1 1 10 N
-X ~ 1 -150 0 50 R 0 0 1 1 P
-X ~ 2 150 0 50 L 0 0 1 1 P
-ENDDRAW
-ENDDEF
-#
-# antartix-arty-controller_R_22R_0402
-#
-DEF antartix-arty-controller_R_22R_0402 R 0 0 Y Y 1 F N
-F0 "R" -55 135 60 H V L CNN
-F1 "antartix-arty-controller_R_22R_0402" 0 -150 60 H I C CNN
-F2 "antartix-arty-controller-footprints:0402-res" 200 200 60 H I L CNN
-F3 "" 0 0 50 H I C CNN
-F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
-F5 "CRCW040222R0FKED" 200 300 60 H I L CNN "MPN"
-F6 "22R" 0 -100 50 H V C CNN "Val"
-DRAW
-S 100 -40 -100 40 1 1 10 N
-X ~ 1 -150 0 50 R 0 0 1 1 P
-X ~ 2 150 0 50 L 0 0 1 1 P
-ENDDRAW
-ENDDEF
-#
-# antartix-arty-controller_R_470R_0402
-#
-DEF antartix-arty-controller_R_470R_0402 R 0 0 Y Y 1 F N
-F0 "R" -55 135 60 H V L CNN
-F1 "antartix-arty-controller_R_470R_0402" 0 -150 60 H I C CNN
-F2 "antartix-arty-controller-footprints:0402-res" 200 200 60 H I L CNN
-F3 "" 0 0 50 H I C CNN
-F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
-F5 "CRCW0402470RFKED" 200 300 60 H I L CNN "MPN"
-F6 "470R" 0 -100 50 H V C CNN "Val"
-DRAW
-S 100 -40 -100 40 1 1 10 N
-X ~ 1 -150 0 50 R 0 0 1 1 P
-X ~ 2 150 0 50 L 0 0 1 1 P
-ENDDRAW
-ENDDEF
-#
-# antartix-arty-controller_R_47k_0402
-#
-DEF antartix-arty-controller_R_47k_0402 R 0 0 Y Y 1 F N
-F0 "R" -55 135 60 H V L CNN
-F1 "antartix-arty-controller_R_47k_0402" 0 -150 60 H I C CNN
-F2 "antartix-arty-controller-footprints:0402-res" 200 200 60 H I L CNN
-F3 "" 0 0 50 H I C CNN
-F4 "MULTICOMP" 200 400 60 H I L CNN "Manufacturer"
-F5 "MCMR04X4702FTL" 200 300 60 H I L CNN "MPN"
-F6 "47k" 0 -100 50 H V C CNN "Val"
-DRAW
-S 100 -40 -100 40 1 1 10 N
-X ~ 1 -150 0 50 R 0 0 1 1 P
-X ~ 2 150 0 50 L 0 0 1 1 P
-ENDDRAW
-ENDDEF
-#
-# antartix-arty-controller_R_4k7_0402
-#
-DEF antartix-arty-controller_R_4k7_0402 R 0 0 Y Y 1 F N
-F0 "R" -55 135 60 H V L CNN
-F1 "antartix-arty-controller_R_4k7_0402" 0 -150 60 H I C CNN
-F2 "antartix-arty-controller-footprints:0402-res" 200 200 60 H I L CNN
-F3 "" 0 0 50 H I C CNN
-F4 "PANASONIC_ELECTRONIC_COMPONENTS" 200 400 60 H I L CNN "Manufacturer"
-F5 "ERJ2GEJ472X" 200 300 60 H I L CNN "MPN"
-F6 "4k7" 0 -100 50 H V C CNN "Val"
-DRAW
-S 100 -40 -100 40 1 1 10 N
-X ~ 1 -150 0 50 R 0 0 1 1 P
-X ~ 2 150 0 50 L 0 0 1 1 P
-ENDDRAW
-ENDDEF
-#
-# antartix-arty-controller_TPD2E009
-#
-DEF antartix-arty-controller_TPD2E009 D 0 40 Y Y 1 F N
-F0 "D" -300 -500 60 H V L BNN
-F1 "antartix-arty-controller_TPD2E009" -300 -600 60 V V L BNN
-F2 "antartix-arty-controller-footprints:SOT-3" 50 200 60 H I C CNN
-F3 "" 0 0 60 H I C CNN
-F4 "TPD2E009DRTR" -300 300 50 H I C CNN "MPN"
-F5 "Texas Instruments" -300 400 50 H I C CNN "Manufacturer"
-DRAW
-S 400 -300 0 100 0 1 10 f
-P 2 0 1 10 310 -10 310 -230 N
-P 3 0 1 10 280 -100 340 -100 340 -110 N
-P 4 0 1 10 350 -160 310 -100 270 -160 350 -160 N
-X IO1 1 -200 0 200 R 70 70 0 1 P
-X IO2 2 -200 -100 200 R 70 70 0 1 P
-X GND 3 -200 -200 200 R 70 70 0 1 P
-ENDDRAW
-ENDDEF
-#
-# antartix-arty-controller_TPS2024DR
-#
-DEF antartix-arty-controller_TPS2024DR U 0 40 Y Y 1 F N
-F0 "U" -200 400 50 H V C CNN
-F1 "antartix-arty-controller_TPS2024DR" 0 -350 50 H V C CNN
-F2 "antartix-arty-controller-footprints:SOIC-8_W3.9mm" 0 750 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-F4 "TPS2024DR" 0 550 50 H I C CNN "MPN"
-F5 "Texas Instruments" 0 650 50 H I C CNN "Manufacturer"
-DRAW
-S -250 350 250 -300 0 1 0 f
-X GND 1 350 -200 100 L 50 50 1 1 P
-X In 2 -350 250 100 R 50 50 1 1 W
-X In 3 -350 150 100 R 50 50 1 1 W
-X ~En 4 -350 -200 100 R 50 50 1 1 I
-X ~Oc 5 -350 -50 100 R 50 50 1 1 I
-X Out 6 350 250 100 L 50 50 1 1 w
-X Out 7 350 150 100 L 50 50 1 1 w
-X Out 8 350 50 100 L 50 50 1 1 w
-ENDDRAW
-ENDDEF
-#
-# antartix-arty-controller_TP_SMD1MM
-#
-DEF antartix-arty-controller_TP_SMD1MM TP 0 0 N Y 1 F N
-F0 "TP" -100 50 50 H V R CNN
-F1 "antartix-arty-controller_TP_SMD1MM" 0 -100 50 H I C CNN
-F2 "antartix-arty-controller-footprints:Testpoint_smd_1mm" 200 200 60 H I L CNN
-F3 "" 200 300 60 H I L CNN
-DRAW
-C 0 0 22 0 1 0 N
-X ~ 1 0 100 75 D 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# antartix-arty-controller_USB2514B-I_M2
-#
-DEF antartix-arty-controller_USB2514B-I_M2 U 0 40 Y Y 1 F N
-F0 "U" -1501 1440 50 H V L BNN
-F1 "antartix-arty-controller_USB2514B-I_M2" -1503 -1040 50 H V L BNN
-F2 "antartix-arty-controller-footprints:QFN50P600X600X100-37N" -1500 -1150 50 H I L BNN
-F3 "" 0 0 50 H I L BNN
-DRAW
-S -1500 -950 150 1400 0 0 12 f
-X USBDM_DN1/PRT_DIS_M1 1 350 700 200 L 40 40 0 0 B
-X VDDA33 10 350 1200 200 L 40 40 0 0 W
-X TEST 11 -1700 1100 200 R 40 40 0 0 I
-X PRTPWR1/BC_EN1 12 -1700 400 200 R 40 40 0 0 I
-X OCS_N1 13 -1700 900 200 R 40 40 0 0 I
-X CRFILT 14 -1700 -700 200 R 40 40 0 0 P
-X VDD33 15 350 1300 200 L 40 40 0 0 W
-X PRTPWR2/BC_EN2 16 -1700 300 200 R 40 40 0 0 I
-X OCS_N2 17 -1700 800 200 R 40 40 0 0 I
-X PRTPWR3/BC_EN3 18 -1700 200 200 R 40 40 0 0 I
-X OCS_N3 19 -1700 700 200 R 40 40 0 0 I
-X USBDP_DN1/PRT_DIS_P1 2 350 600 200 L 40 40 0 0 B
-X PRTPWR4/BC_EN4 20 -1700 100 200 R 40 40 0 0 I
-X OCS_N4 21 -1700 600 200 R 40 40 0 0 I
-X SDA/SMBDATA/NON_REM1 22 -1700 -400 200 R 40 40 0 0 B
-X VDD33 23 350 1300 200 L 40 40 0 0 W
-X SCL/CFG_SEL0/SMBCLK 24 -1700 -300 200 R 40 40 0 0 I C
-X HS_IND/CFG_SEL1 25 -1700 -100 200 R 40 40 0 0 I
-X RESET_N 26 -1700 1300 200 R 40 40 0 0 I
-X VBUS_DET 27 -1700 1200 200 R 40 40 0 0 I
-X SUSP_IND/LOCAL_PWR/NON_REM0 28 350 -200 200 L 40 40 0 0 B
-X VDDA33 29 350 1200 200 L 40 40 0 0 W
-X USBDM_DN2/PRT_DIS_M2 3 350 500 200 L 40 40 0 0 B
-X USBDM_UP 30 350 900 200 L 40 40 0 0 B
-X USBDP_UP 31 350 1000 200 L 40 40 0 0 B
-X XTALOUT 32 350 -600 200 L 40 40 0 0 O
-X XTALIN/CLKIN 33 350 -500 200 L 40 40 0 0 I C
-X PLLFILT 34 -1700 -600 200 R 40 40 0 0 P
-X RBIAS 35 350 -300 200 L 40 40 0 0 B
-X VDDA33 36 350 1200 200 L 40 40 0 0 W
-X VSS 37 350 -800 200 L 40 40 0 0 W
-X USBDP_DN2/PRT_DIS_P2 4 350 400 200 L 40 40 0 0 B
-X VDDA33 5 350 1200 200 L 40 40 0 0 W
-X USBDM_DN3/PRT_DIS_M3 6 350 300 200 L 40 40 0 0 B
-X USBDP_DN3/PRT_DIS_P3 7 350 200 200 L 40 40 0 0 B
-X USBDM_DN4/PRT_DIS_M4 8 350 100 200 L 40 40 0 0 B
-X USBDP_DN4/PRT_DIS_P4 9 350 0 200 L 40 40 0 0 B
-ENDDRAW
-ENDDEF
-#
-# antartix-arty-controller_WE_629105150521
-#
-DEF antartix-arty-controller_WE_629105150521 J 0 40 Y Y 1 F N
-F0 "J" -148 598 60 H V C CNN
-F1 "antartix-arty-controller_WE_629105150521" -248 -252 60 V V C CNN
-F2 "antartix-arty-controller-footprints:USB_Micro_B_Female_629105150521" 200 200 60 H I L CNN
-F3 "" 200 300 60 H I L CNN
-F4 "629105150521" 200 500 60 H I L CNN "MPN"
-F5 "Wurth_Elektronik" 200 1100 60 H I L CNN "Manufacturer"
-DRAW
-S 35 -170 75 -230 0 1 0 F
-S 35 -130 75 -70 0 1 0 F
-S 35 -25 75 15 0 1 0 F
-S 35 25 75 -15 0 1 0 F
-S 35 130 75 70 0 1 0 F
-S 35 170 75 230 0 1 0 F
-P 2 0 1 0 149 482 149 -494 N
-P 10 0 1 0 19 -169 19 -129 74 -129 74 -169 19 -169 44 -149 19 -129 74 -129 74 -149 44 -149 N
-P 10 0 1 0 19 -69 19 -29 74 -29 74 -69 19 -69 44 -49 19 -29 74 -29 74 -49 44 -49 N
-P 10 0 1 0 19 69 19 29 74 29 74 69 19 69 44 49 19 29 74 29 74 49 44 49 N
-P 10 0 1 0 19 169 19 129 74 129 74 169 19 169 44 149 19 129 74 129 74 149 44 149 N
-P 13 0 1 0 75 -1 75 230 25 230 25 242 32 253 47 259 65 261 89 258 107 249 116 239 119 222 119 189 119 -5 N
-P 13 0 1 0 75 1 75 -230 25 -230 25 -242 32 -253 47 -259 65 -261 89 -258 107 -249 116 -239 119 -222 119 -189 119 5 N
-P 32 0 1 0 191 -494 151 -494 149 -494 149 -508 142 -521 135 -526 127 -529 18 -529 2 -528 -13 -524 -26 -517 -39 -508 -124 -427 -134 -409 -139 -385 -140 -340 -140 363 -139 371 -136 387 -130 401 -119 418 -69 466 -34 496 -13 507 3 512 24 515 121 515 131 512 141 506 149 493 149 481 191 481 N
-P 34 0 1 0 191 -452 191 -504 188 -529 180 -546 159 -564 141 -572 122 -575 -11 -573 -28 -569 -49 -559 -87 -529 -140 -478 -158 -459 -172 -439 -182 -417 -187 -384 -187 369 -181 397 -176 412 -166 432 -142 457 -57 535 -38 546 -22 552 3 556 22 558 129 558 148 552 166 541 175 532 185 518 190 506 191 490 191 -453 f
-X ~ 1 300 200 110 L 50 50 1 1 P
-X ~ 2 300 100 110 L 50 50 1 1 P
-X ~ 3 300 0 110 L 50 50 1 1 P
-X ~ 4 300 -100 110 L 50 50 1 1 P
-X ~ 5 300 -200 110 L 50 50 1 1 P
-X ~ 6 -100 -600 80 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# antmicroCapacitors0402_C_1u_0402
-#
-DEF antmicroCapacitors0402_C_1u_0402 C 0 0 Y Y 1 F N
-F0 "C" -55 135 60 H V L CNN
-F1 "antmicroCapacitors0402_C_1u_0402" 0 -150 60 H I C CNN
-F2 "antmicro-footprints:0402-cap" 200 200 60 H I L CNN
-F3 "" 0 0 50 H I C CNN
-F4 "TDK" 200 400 60 H I L CNN "Manufacturer"
-F5 "C1005X6S1A105K050BC" 200 300 60 H I L CNN "MPN"
-F6 "1u" 0 -100 50 H V C CNN "Val"
-DRAW
-P 2 1 1 20 -80 -30 80 -30 N
-P 2 1 1 20 -80 30 80 30 N
-X ~ 1 0 150 110 D 0 0 1 1 P
-X ~ 2 0 -150 110 U 0 0 1 1 P
-ENDDRAW
-ENDDEF
-#
-# antmicroCapacitors0402_C_470p_0402
-#
-DEF antmicroCapacitors0402_C_470p_0402 C 0 0 Y Y 1 F N
-F0 "C" -55 135 60 H V L CNN
-F1 "antmicroCapacitors0402_C_470p_0402" 0 -150 60 H I C CNN
-F2 "antmicro-footprints:0402-cap" 200 200 60 H I L CNN
-F3 "" 0 0 50 H I C CNN
-F4 "WALSIN" 200 400 60 H I L CNN "Manufacturer"
-F5 "0402B471K250CT" 200 300 60 H I L CNN "MPN"
-F6 "470p" 0 -100 50 H V C CNN "Val"
-DRAW
-P 2 1 1 20 -80 -30 80 -30 N
-P 2 1 1 20 -80 30 80 30 N
-X ~ 1 0 150 110 D 0 0 1 1 P
-X ~ 2 0 -150 110 U 0 0 1 1 P
-ENDDRAW
-ENDDEF
-#
-# antmicroCapacitors0603_C_100n_0603
-#
-DEF antmicroCapacitors0603_C_100n_0603 C 0 0 Y Y 1 F N
-F0 "C" -55 135 60 H V L CNN
-F1 "antmicroCapacitors0603_C_100n_0603" 0 -150 60 H I C CNN
-F2 "antmicro-footprints:0603-cap" 200 200 60 H I L CNN
-F3 "" 0 0 50 H I C CNN
-F4 "AVX" 200 400 60 H I L CNN "Manufacturer"
-F5 "0603YC104KAZ2A" 200 300 60 H I L CNN "MPN"
-F6 "100n" 0 -100 50 H V C CNN "Val"
-DRAW
-P 2 1 1 20 -80 -30 80 -30 N
-P 2 1 1 20 -80 30 80 30 N
-X ~ 1 0 150 110 D 0 0 1 1 P
-X ~ 2 0 -150 110 U 0 0 1 1 P
-ENDDRAW
-ENDDEF
-#
-# antmicroCapacitors0603_C_22u_0603
-#
-DEF antmicroCapacitors0603_C_22u_0603 C 0 0 Y Y 1 F N
-F0 "C" -55 135 60 H V L CNN
-F1 "antmicroCapacitors0603_C_22u_0603" 0 -150 60 H I C CNN
-F2 "antmicro-footprints:0603-cap" 200 200 60 H I L CNN
-F3 "" 0 0 50 H I C CNN
-F4 "MURATA" 200 400 60 H I L CNN "Manufacturer"
-F5 "GRM188R60J226MEA0D" 200 300 60 H I L CNN "MPN"
-F6 "22u" 0 -100 50 H V C CNN "Val"
-DRAW
-P 2 1 1 20 -80 -30 80 -30 N
-P 2 1 1 20 -80 30 80 30 N
-X ~ 1 0 150 110 D 0 0 1 1 P
-X ~ 2 0 -150 110 U 0 0 1 1 P
-ENDDRAW
-ENDDEF
-#
-# antmicroInterfaceControllers_FT230XS-R
-#
-DEF antmicroInterfaceControllers_FT230XS-R U 0 40 Y Y 1 F N
-F0 "U" -400 350 50 H V L CNN
-F1 "antmicroInterfaceControllers_FT230XS-R" -100 -550 50 H V L CNN
-F2 "antmicro-footprints:SSOP-16_W3.90mm" 200 200 60 H I L CNN
-F3 "" 200 300 60 H I L CNN
-F4 "FTDI, Future Technology Devices International Ltd" 200 1100 60 H I L CNN "Manufacturer"
-F5 "FT230XS-R" 200 500 60 H I L CNN "MPN"
-DRAW
-S -400 300 400 -500 0 1 0 f
-X TXD 1 500 200 100 L 50 50 1 1 O
-X 3V3OUT 10 500 0 100 L 50 50 1 1 w
-X RESET# 11 -500 0 100 R 50 50 1 1 I
-X VCC 12 100 400 100 D 50 50 1 1 W
-X GND 13 -200 -600 100 U 50 50 1 1 W
-X CBUS1 14 500 -200 100 L 50 50 1 1 B
-X CBUS0 15 500 -100 100 L 50 50 1 1 B
-X CBUS3 16 500 -400 100 L 50 50 1 1 B
-X RTS# 2 500 100 100 L 50 50 1 1 O
-X VCCIO 3 0 400 100 D 50 50 1 1 W
-X RXD 4 -500 -200 100 R 50 50 1 1 I
-X GND 5 -300 -600 100 U 50 50 1 1 W
-X CTS# 6 -500 -100 100 R 50 50 1 1 I
-X CBUS2 7 500 -300 100 L 50 50 1 1 B
-X USBDP 8 -500 100 100 R 50 50 1 1 I
-X USBDM 9 -500 200 100 R 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# antmicroMechanicalParts_9774030151
-#
-DEF antmicroMechanicalParts_9774030151 SP 0 40 Y Y 1 F N
-F0 "SP" -100 100 60 H V L BNN
-F1 "antmicroMechanicalParts_9774030151" -100 -200 60 H V L BNN
-F2 "antmicro-footprints:9774030151" 0 0 60 H I C CNN
-F3 "" 0 0 60 H I C CNN
-F4 "Wurth Elektronik" 0 0 50 H I C CNN "Manufacturer"
-F5 "9774030151" 0 0 50 H I C CNN "MPN"
-DRAW
-S -100 -100 100 100 0 1 10 f
-S -50 -50 50 50 0 1 10 f
-X 1 1 -200 0 100 R 1 1 0 1 P
-ENDDRAW
-ENDDEF
-#
-# antmicroMechanicalParts_antmicro_logo
-#
-DEF antmicroMechanicalParts_antmicro_logo N 0 40 Y Y 1 F N
-F0 "N" 0 350 50 H V C CNN
-F1 "antmicroMechanicalParts_antmicro_logo" 0 -200 50 H V C CNN
-F2 "antmicro-footprints:antmicro-logo" -100 250 50 H I C CNN
-F3 "" 0 350 50 H I C CNN
-DRAW
-T 0 50 50 79 0 0 0 Logo Normal 0 C C
-ENDDRAW
-ENDDEF
-#
-# antmicroMechanicalParts_oshw_logo
-#
-DEF antmicroMechanicalParts_oshw_logo N 0 40 Y Y 1 F N
-F0 "N" 20 40 50 H V C CNN
-F1 "antmicroMechanicalParts_oshw_logo" 30 -150 50 H V C CNN
-F2 "antmicro-footprints:oshw-logo" 20 -240 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-T 0 30 -40 79 0 1 1 Logo Normal 0 C C
-ENDDRAW
-ENDDEF
-#
-# antmicroPMICPowerDistributionSwitchesLoadDrivers_FDC6330L
-#
-DEF antmicroPMICPowerDistributionSwitchesLoadDrivers_FDC6330L Q 0 40 Y Y 1 F N
-F0 "Q" -600 300 50 H V L BNN
-F1 "antmicroPMICPowerDistributionSwitchesLoadDrivers_FDC6330L" -600 -400 50 H V L BNN
-F2 "antmicro-footprints:FDC6330L" 0 0 50 H I L BNN
-F3 "" 0 0 50 H I L BNN
-F4 "ON Semiconductor" 0 0 50 H I L BNN "MANUFACTURER"
-F5 "FDC6330L" 0 0 50 H V C CNN "MPN"
-DRAW
-S -600 -300 500 200 0 0 10 f
-X R2 1 600 -200 100 L 40 40 0 0 P
-X VOUT/C1@1 2 600 100 100 L 40 40 0 0 O
-X VOUT/C1@2 3 600 0 100 L 40 40 0 0 O
-X VIN/R1 4 -700 100 100 R 40 40 0 0 I
-X ON/OFF 5 -700 -100 100 R 40 40 0 0 I
-X R1/C1 6 600 -100 100 L 40 40 0 0 P
-ENDDRAW
-ENDDEF
-#
-# antmicroRectangularConnectorsHeadersFemalePins_1-794610-1
-#
-DEF antmicroRectangularConnectorsHeadersFemalePins_1-794610-1 J 0 40 Y Y 1 F N
-F0 "J" -50 75 50 H V L CNN
-F1 "antmicroRectangularConnectorsHeadersFemalePins_1-794610-1" 0 -75 50 H V C CNN
-F2 "antmicro-footprints:1-794610-1" 200 200 60 H I L CNN
-F3 "" 200 300 60 V I L CNN
-F4 "1-794610-1" 200 500 60 H I L CNN "MPN"
-F5 "TE Connectivity" 200 1100 60 H I L CNN "Manufacturer"
-DRAW
-C 0 0 25 0 1 0 N
-P 2 0 1 0 -25 0 -75 0 N
-ENDDRAW
-ENDDEF
-#
-# antmicroRectangularConnectorsHeadersFemalePins_3-794617-8
-#
-DEF antmicroRectangularConnectorsHeadersFemalePins_3-794617-8 J 0 40 Y Y 1 F N
-F0 "J" -100 300 50 H V L CNN
-F1 "antmicroRectangularConnectorsHeadersFemalePins_3-794617-8" 25 -150 50 H V C CNN
-F2 "antmicro-footprints: 3-794617-8" 200 200 60 H I L CNN
-F3 "" 200 300 60 V I L CNN
-F4 " 3-794617-8" 200 500 60 H I L CNN "MPN"
-F5 "TE Connectivity" 200 1100 60 H I L CNN "Manufacturer"
-DRAW
-S -100 250 100 -75 0 1 0 f
-S -75 225 -25 175 0 1 0 N
-S -75 0 -25 -50 1 1 0 N
-S -75 75 -25 25 1 1 0 N
-S -75 150 -25 100 1 1 0 N
-S 25 0 75 -50 1 1 0 N
-S 25 75 75 25 1 1 0 N
-S 25 150 75 100 1 1 0 N
-S 25 225 75 175 1 1 0 N
-P 2 0 1 0 -100 200 -175 200 N
-P 2 0 1 0 100 200 175 200 N
-P 2 1 1 0 -100 -25 -175 -25 N
-P 2 1 1 0 -100 50 -175 50 N
-P 2 1 1 0 -100 125 -175 125 N
-P 2 1 1 0 100 -25 175 -25 N
-P 2 1 1 0 100 50 175 50 N
-P 2 1 1 0 100 125 175 125 N
-ENDDRAW
-ENDDEF
-#
-# antmicroRectangularConnectorsHeadersFemalePins_QTE-020-04-L-D-A
-#
-DEF antmicroRectangularConnectorsHeadersFemalePins_QTE-020-04-L-D-A J 0 40 Y Y 1 F N
-F0 "J" 400 50 50 H V L CNN
-F1 "antmicroRectangularConnectorsHeadersFemalePins_QTE-020-04-L-D-A" 150 -2300 50 H V C CNN
-F2 "antmicro-footprints:QTE-020-04-L-D-A" 150 -2350 60 H I L CNN
-F3 "" 1000 -750 60 H I L CNN
-F4 "QTE-020-04-L-D-A" -300 -2500 60 H I L CNN "MPN"
-F5 "SAMTEC" 0 -2200 60 H I L CNN "Manufacturer"
-DRAW
-S 0 0 300 -2000 1 1 0 f
-X ~ 1 -100 -50 100 R 50 50 1 1 P
-X ~ 10 400 -450 100 L 50 50 1 1 P
-X ~ 11 -100 -550 100 R 50 50 1 1 P
-X ~ 12 400 -550 100 L 50 50 1 1 P
-X ~ 13 -100 -650 100 R 50 50 1 1 P
-X ~ 14 400 -650 100 L 50 50 1 1 P
-X ~ 15 -100 -750 100 R 50 50 1 1 P
-X ~ 16 400 -750 100 L 50 50 1 1 P
-X ~ 17 -100 -850 100 R 50 50 1 1 P
-X ~ 18 400 -850 100 L 50 50 1 1 P
-X ~ 19 -100 -950 100 R 50 50 1 1 P
-X ~ 2 400 -50 100 L 50 50 1 1 P
-X ~ 20 400 -950 100 L 50 50 1 1 P
-X ~ 21 -100 -1050 100 R 50 50 1 1 P
-X ~ 22 400 -1050 100 L 50 50 1 1 P
-X ~ 23 -100 -1150 100 R 50 50 1 1 P
-X ~ 24 400 -1150 100 L 50 50 1 1 P
-X ~ 25 -100 -1250 100 R 50 50 1 1 P
-X ~ 26 400 -1250 100 L 50 50 1 1 P
-X ~ 27 -100 -1350 100 R 50 50 1 1 P
-X ~ 28 400 -1350 100 L 50 50 1 1 P
-X ~ 29 -100 -1450 100 R 50 50 1 1 P
-X ~ 3 -100 -150 100 R 50 50 1 1 P
-X ~ 30 400 -1450 100 L 50 50 1 1 P
-X ~ 31 -100 -1550 100 R 50 50 1 1 P
-X ~ 32 400 -1550 100 L 50 50 1 1 P
-X ~ 33 -100 -1650 100 R 50 50 1 1 P
-X ~ 34 400 -1650 100 L 50 50 1 1 P
-X ~ 35 -100 -1750 100 R 50 50 1 1 P
-X ~ 36 400 -1750 100 L 50 50 1 1 P
-X ~ 37 -100 -1850 100 R 50 50 1 1 P
-X ~ 38 400 -1850 100 L 50 50 1 1 P
-X ~ 39 -100 -1950 100 R 50 50 1 1 P
-X ~ 4 400 -150 100 L 50 50 1 1 P
-X ~ 40 400 -1950 100 L 50 50 1 1 P
-X ~ 5 -100 -250 100 R 50 50 1 1 P
-X ~ 6 400 -250 100 L 50 50 1 1 P
-X ~ 7 -100 -350 100 R 50 50 1 1 P
-X ~ 8 400 -350 100 L 50 50 1 1 P
-X ~ 9 -100 -450 100 R 50 50 1 1 P
-X ~ G1 150 -2100 100 U 50 50 1 1 I
-X ~ G2 150 -2100 100 U 50 50 1 1 I
-X ~ G3 150 -2100 100 U 50 50 1 1 I
-X ~ G4 150 -2100 100 U 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# antmicroRectangularConnectorsHeadersMalePins_3-794680-8
-#
-DEF antmicroRectangularConnectorsHeadersMalePins_3-794680-8 J 0 40 Y Y 1 F N
-F0 "J" -75 325 50 H V L CNN
-F1 "antmicroRectangularConnectorsHeadersMalePins_3-794680-8" 25 -250 50 H V C CNN
-F2 "antmicro-footprints:3-794680-8" 200 200 60 H I L CNN
-F3 "" 200 300 60 V I L CNN
-F4 "3-794680-8" 200 500 60 H I L CNN "MPN"
-F5 "TE Connectivity" 200 1100 60 H I L CNN "Manufacturer"
-DRAW
-S -100 275 100 -175 0 1 0 f
-S -60 -90 -40 -110 1 1 0 F
-S -60 10 -40 -10 1 1 0 F
-S -60 110 -40 90 1 1 0 F
-S -60 210 -40 190 1 1 0 F
-S 40 -90 60 -110 1 1 0 F
-S 40 10 60 -10 1 1 0 F
-S 40 110 60 90 1 1 0 F
-S 40 210 60 190 1 1 0 F
-X ~ 1 -200 200 100 R 50 50 1 1 P
-X ~ 2 200 200 100 L 50 50 1 1 P
-X ~ 3 -200 100 100 R 50 50 1 1 P
-X ~ 4 200 100 100 L 50 50 1 1 P
-X ~ 5 -200 0 100 R 50 50 1 1 P
-X ~ 6 200 0 100 L 50 50 1 1 P
-X ~ 7 -200 -100 100 R 50 50 1 1 P
-X ~ 8 200 -100 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# antmicroResistors0402_R_12k_0402
-#
-DEF antmicroResistors0402_R_12k_0402 R 0 0 Y Y 1 F N
-F0 "R" -55 135 60 H V L CNN
-F1 "antmicroResistors0402_R_12k_0402" 0 -150 60 H I C CNN
-F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
-F3 "" 0 0 50 H I C CNN
-F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
-F5 "CRCW040212K0FKEDHP" 200 300 60 H I L CNN "MPN"
-F6 "12k" 0 -100 50 H V C CNN "Val"
-DRAW
-S 100 -40 -100 40 1 1 10 N
-X ~ 1 -150 0 50 R 0 0 1 1 P
-X ~ 2 150 0 50 L 0 0 1 1 P
-ENDDRAW
-ENDDEF
-#
-# antmicroResistors0402_R_1k_0402
-#
-DEF antmicroResistors0402_R_1k_0402 R 0 0 Y Y 1 F N
-F0 "R" -55 135 60 H V L CNN
-F1 "antmicroResistors0402_R_1k_0402" 0 -150 60 H I C CNN
-F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
-F3 "" 0 0 50 H I C CNN
-F4 "BOURNS" 200 400 60 H I L CNN "Manufacturer"
-F5 "CR0402-FX-1001GLF" 200 300 60 H I L CNN "MPN"
-F6 "1k" 0 -100 50 H V C CNN "Val"
-DRAW
-S 100 -40 -100 40 1 1 10 N
-X ~ 1 -150 0 50 R 0 0 1 1 P
-X ~ 2 150 0 50 L 0 0 1 1 P
-ENDDRAW
-ENDDEF
-#
-# antmicroResistorsmisc_R_0R_0805
-#
-DEF antmicroResistorsmisc_R_0R_0805 R 0 0 Y Y 1 F N
-F0 "R" -55 135 60 H V L CNN
-F1 "antmicroResistorsmisc_R_0R_0805" 0 -150 60 H I C CNN
-F2 "antmicro-footprints:0805-res" 200 200 60 H I L CNN
-F3 "" 0 0 50 H I C CNN
-F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
-F5 "CRCW08050000Z0EA" 200 300 60 H I L CNN "MPN"
-F6 "0R" 0 -100 50 H V C CNN "Val"
-DRAW
-S 100 -40 -100 40 1 1 10 N
-X ~ 1 -150 0 50 R 0 0 1 1 P
-X ~ 2 150 0 50 L 0 0 1 1 P
-ENDDRAW
-ENDDEF
-#
-# antmicroTVSDiodes_TPD8S009DSMR
-#
-DEF antmicroTVSDiodes_TPD8S009DSMR IC 0 40 Y Y 1 F N
-F0 "IC" -150 400 50 H V C CNN
-F1 "antmicroTVSDiodes_TPD8S009DSMR" 100 -1000 50 H V C CNN
-F2 "antmicro-footprints:R-PDSO-N15" 1400 -350 50 H I C CNN
-F3 "" 1700 -450 50 H I C CNN
-F4 "TPD8S009DSMR" -50 500 50 H I C CNN "MPN"
-F5 "Texas Instruments" 50 600 50 H I C CNN "Manufacturer"
-DRAW
-S -200 350 250 -950 1 1 0 f
-X D0+ 1 -300 250 100 R 50 50 1 1 P
-X D3+ 10 -300 -650 100 R 50 50 1 1 P
-X GND 11 -300 -750 100 R 50 50 1 1 W
-X D3- 12 -300 -850 100 R 50 50 1 1 P
-X VCC 13 350 -600 100 L 50 50 1 1 W
-X NC 14 350 -300 100 L 50 50 1 1 N
-X VCC 15 350 0 100 L 50 50 1 1 W
-X GND 2 -300 150 100 R 50 50 1 1 W
-X D0- 3 -300 50 100 R 50 50 1 1 P
-X D1+ 4 -300 -50 100 R 50 50 1 1 P
-X GND 5 -300 -150 100 R 50 50 1 1 W
-X D1- 6 -300 -250 100 R 50 50 1 1 P
-X D2+ 7 -300 -350 100 R 50 50 1 1 P
-X GND 8 -300 -450 100 R 50 50 1 1 W
-X D2- 9 -300 -550 100 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# antmicroUSBDVIHDMIConnectors_614004185023
-#
-DEF antmicroUSBDVIHDMIConnectors_614004185023 J 0 40 Y Y 1 F N
-F0 "J" -5 232 50 H V L BNN
-F1 "antmicroUSBDVIHDMIConnectors_614004185023" -199 -402 50 H V L BNN
-F2 "614004185023" 0 0 50 H I L BNN
-F3 "" 0 0 50 H I L BNN
-DRAW
-T 900 256 -133 40 0 0 0 shield Normal 0 L B
-T 900 256 -133 40 0 0 0 shield Normal 0 L B
-P 2 0 0 10 -200 -275 -200 175 N
-P 2 0 0 10 -200 175 175 175 N
-P 2 0 0 10 -200 200 200 200 N
-P 2 0 0 10 175 -275 -200 -275 N
-P 2 0 0 10 175 175 175 -275 N
-P 2 0 0 10 200 -300 -200 -300 N
-P 2 0 0 10 200 200 200 -300 N
-X VBUS 1 -400 100 200 R 40 40 0 0 B
-X D- 2 -400 0 200 R 40 40 0 0 B
-X D+ 3 -400 -100 200 R 40 40 0 0 B
-X GND 4 -400 -200 200 R 40 40 0 0 B
-X ~ S1 -400 -300 200 R 40 40 0 0 B
-X ~ S2 -400 -300 200 R 40 40 0 0 B
-ENDDRAW
-ENDDEF
-#
-# antmicroUSBDVIHDMIConnectors_WE_685119136923
-#
-DEF antmicroUSBDVIHDMIConnectors_WE_685119136923 J 0 40 Y Y 1 F N
-F0 "J" 0 200 60 H V L BNN
-F1 "antmicroUSBDVIHDMIConnectors_WE_685119136923" 0 50 60 H V L BNN
-F2 "antmicro-footprints:WE_685119136923" 0 0 60 H I C CNN
-F3 "" 0 0 60 H I C CNN
-F4 "Wurth Elektronik" 0 0 50 H I C CNN "Manufacturer"
-F5 "685119136923" 0 0 50 H I C CNN "MPN"
-DRAW
-A 1170 -1850 50 1800 -900 1 1 10 N 1120 -1850 1169 -1900
-A 1170 -1350 50 900 1800 1 1 10 N 1169 -1300 1120 -1350
-A 1220 -1950 50 368 900 1 1 10 N 1260 -1920 1219 -1900
-A 1220 -1250 50 -900 -369 1 1 10 N 1219 -1300 1259 -1280
-A 1320 -1880 70 -1432 -900 1 1 10 N 1263 -1921 1319 -1950
-A 1320 -1320 70 900 1431 1 1 10 N 1319 -1250 1264 -1277
-A 1420 -1900 50 -900 0 1 1 10 N 1419 -1950 1470 -1900
-A 1420 -1300 50 0 900 1 1 10 N 1470 -1300 1419 -1250
-A 1470 -1950 50 -900 0 1 1 10 N 1469 -2000 1520 -1950
-A 1470 -1250 50 0 900 1 1 10 N 1520 -1250 1469 -1200
-T 0 940 -2090 48 0 1 1 "Mini-HDMI Type C" Normal 0 L B
-S 0 -2100 1550 0 0 1 10 f
-P 2 0 1 10 1120 -2000 1470 -2000 N
-P 2 0 1 10 1120 -1850 1120 -1350 N
-P 2 0 1 10 1120 -1200 1470 -1200 N
-P 2 0 1 10 1170 -1900 1220 -1900 N
-P 2 0 1 10 1170 -1300 1220 -1300 N
-P 2 0 1 10 1220 -1800 1220 -1400 N
-P 2 0 1 10 1220 -1400 1270 -1350 N
-P 2 0 1 10 1270 -1850 1220 -1800 N
-P 2 0 1 10 1270 -1350 1370 -1350 N
-P 2 0 1 10 1320 -1950 1420 -1950 N
-P 2 0 1 10 1320 -1250 1420 -1250 N
-P 2 0 1 10 1370 -1850 1270 -1850 N
-P 2 0 1 10 1370 -1350 1370 -1850 N
-P 2 0 1 10 1470 -1300 1470 -1900 N
-P 2 0 1 10 1520 -1250 1520 -1950 N
-P 7 0 1 10 1310 -1400 1260 -1400 1260 -1800 1310 -1800 1310 -1780 1310 -1420 1310 -1400 F
-X TMDSData2Shield 1 -200 -100 200 R 70 70 0 1 P
-X TMDSClockShield 10 -200 -1000 200 R 70 70 0 1 P
-X TMDSClock+ 11 -200 -1100 200 R 70 70 0 1 P
-X TMDSClock- 12 -200 -1200 200 R 70 70 0 1 P
-X DDC/CECGround/HEACShield 13 -200 -1300 200 R 70 70 0 1 P
-X CEC 14 -200 -1400 200 R 70 70 0 1 P
-X SCL 15 -200 -1500 200 R 70 70 0 1 P
-X SDA 16 -200 -1600 200 R 70 70 0 1 P
-X Utility/HEAC+ 17 -200 -1700 200 R 70 70 0 1 P
-X +5VPower 18 -200 -1800 200 R 70 70 0 1 P
-X HotPlugDetect/HEAC- 19 -200 -1900 200 R 70 70 0 1 P
-X TMDSData2+ 2 -200 -200 200 R 70 70 0 1 P
-X TMDSData2- 3 -200 -300 200 R 70 70 0 1 P
-X TMDSData1Shield 4 -200 -400 200 R 70 70 0 1 P
-X TMDSData1+ 5 -200 -500 200 R 70 70 0 1 P
-X TMDSData1- 6 -200 -600 200 R 70 70 0 1 P
-X TMDSData0Shield 7 -200 -700 200 R 70 70 0 1 P
-X TMDSData0+ 8 -200 -800 200 R 70 70 0 1 P
-X TMDSData0- 9 -200 -900 200 R 70 70 0 1 P
-X Shield Shell -200 -2000 200 R 1 70 0 1 P
-ENDDRAW
-ENDDEF
-#
-# power_GND
-#
-DEF power_GND #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power_GND" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
