@@ -3796,19 +3796,6 @@ Wire Wire Line
 	2525 6025 2725 6025
 Wire Wire Line
 	2525 5925 2725 5925
-$Comp
-L antartix-arty-controller:PCT2075GVX U?
-U 1 1 609395EB
-P 2225 6025
-AR Path="/609395EB" Ref="U?"  Part="1" 
-AR Path="/60924187/609395EB" Ref="U1"  Part="1" 
-F 0 "U1" H 2200 6350 50  0000 C CNN
-F 1 "PCT2075GVX" H 2200 6259 50  0000 C CNN
-F 2 "antartix-arty-controller-footprints:SOT95P275X110-6N" H 1925 6325 50  0001 C CNN
-F 3 "" H 1925 6325 50  0001 C CNN
-	1    2225 6025
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2200 4025 2200 3900
 $Comp
@@ -4208,4 +4195,19 @@ Wire Wire Line
 	15200 9150 15250 9150
 Text Notes 15950 8575 1    50   ~ 0
 PMOD GPIO
+$Comp
+L antartix-arty-controller:PCT2075GVX U?
+U 1 1 609395EB
+P 2225 6025
+AR Path="/609395EB" Ref="U?"  Part="1" 
+AR Path="/60924187/609395EB" Ref="U"  Part="1" 
+F 0 "U" H 2200 6350 50  0000 C CNN
+F 1 "PCT2075GVX" H 2200 6259 50  0000 C CNN
+F 2 "antartix-arty-controller-footprints:SOT95P275X110-6N" H 1925 6325 50  0001 C CNN
+F 3 "" H 1925 6325 50  0001 C CNN
+F 4 "PCT2075GVX" H 2225 6025 50  0001 C CNN "MPN"
+F 5 "NXP" H 2225 6025 50  0001 C CNN "Manufacturer"
+	1    2225 6025
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

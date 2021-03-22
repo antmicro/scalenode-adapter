@@ -1490,14 +1490,14 @@ F 5 "TE Connectivity" H 14675 5650 60  0001 L CNN "Manufacturer"
 	-1   0    0    1   
 $EndComp
 $Comp
-L antartix-arty-controller:3-794617-8 J15
+L antartix-arty-controller:794617-8 J
 U 1 1 60664A1A
 P 14750 4525
-F 0 "J15" H 14650 4925 50  0000 L CNN
-F 1 "3-794617-8" H 14575 4825 50  0000 L CNN
+F 0 "J" H 14650 4925 50  0000 L CNN
+F 1 "794617-8" H 14575 4825 50  0000 L CNN
 F 2 "antartix-arty-controller-footprints:3-794617-8" H 14950 4725 60  0001 L CNN
 F 3 "https://www.te.com/global-en/product-3-794617-8.datasheet.pdf" V 14950 4825 60  0001 L CNN
-F 4 "3-794617-8" H 14950 5025 60  0001 L CNN "MPN"
+F 4 "794617-8" H 14950 5025 60  0001 L CNN "MPN"
 F 5 "TE Connectivity" H 14950 5625 60  0001 L CNN "Manufacturer"
 	1    14750 4525
 	1    0    0    -1  
