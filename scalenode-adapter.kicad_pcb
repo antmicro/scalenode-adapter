@@ -635,7 +635,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:PinHeader_1x4_P2.54mm_Drill1.02mm (layer F.Cu) (tedit 5F353CCD) (tstamp 6049749D)
+  (module scalenode-adapter-footprints:PinHeader_1x4_P2.54mm_Drill1.02mm (layer F.Cu) (tedit 5F353CCD) (tstamp 6049749D)
     (at 171.203001 82.172002 270)
     (descr http://www.molex.com/pdm_docs/sd/022232031_sd.pdf)
     (path /60924187/60938DE6)
@@ -676,7 +676,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:LQFP-48_7x7mm (layer F.Cu) (tedit 5E738661) (tstamp 60552662)
+  (module scalenode-adapter-footprints:LQFP-48_7x7mm (layer F.Cu) (tedit 5E738661) (tstamp 60552662)
     (at 213.974801 103.009802 270)
     (descr http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w5500:w5500_ds_v106e_141230.pdf)
     (path /60924187/60939468)
@@ -810,7 +810,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:8-188275-2 (layer F.Cu) (tedit 6054B5FC) (tstamp 6054D999)
+  (module scalenode-adapter-footprints:8-188275-2 (layer F.Cu) (tedit 6054B5FC) (tstamp 6054D999)
     (at 235.76 110.01 90)
     (path /60924187/6058E829)
     (fp_text reference J20 (at 16.45 -1.12 180) (layer F.SilkS)
@@ -907,7 +907,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6053C79B)
+  (module scalenode-adapter-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6053C79B)
     (at 214.012001 93.983002 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -941,7 +941,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6053C78C)
+  (module scalenode-adapter-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6053C78C)
     (at 212.987001 93.983002 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -975,7 +975,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 60527EDF)
+  (module scalenode-adapter-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 60527EDF)
     (at 189.837001 88.133002)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1009,7 +1009,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6054CF3C)
+  (module scalenode-adapter-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6054CF3C)
     (at 150.437001 88.408002 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1043,7 +1043,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6054E2A2)
+  (module scalenode-adapter-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6054E2A2)
     (at 150.437001 90.383002 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1077,7 +1077,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 60529BDA)
+  (module scalenode-adapter-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 60529BDA)
     (at 207.862001 109.458002 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1111,7 +1111,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 60529BCB)
+  (module scalenode-adapter-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 60529BCB)
     (at 208.937001 109.458002 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1145,7 +1145,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6054CCDE)
+  (module scalenode-adapter-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6054CCDE)
     (at 157.412001 87.308002 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1179,7 +1179,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6054CD86)
+  (module scalenode-adapter-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6054CD86)
     (at 157.412001 89.433002 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1213,7 +1213,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:SSOP-16_W3.90mm (layer F.Cu) (tedit 6050DFE0) (tstamp 6054CDC8)
+  (module scalenode-adapter-footprints:SSOP-16_W3.90mm (layer F.Cu) (tedit 6050DFE0) (tstamp 6054CDC8)
     (at 153.807001 89.408002 270)
     (path /604C47E1/605A158D)
     (attr smd)
@@ -1283,7 +1283,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-res locked (layer B.Cu) (tedit 5FD9C158) (tstamp 6051B03C)
+  (module scalenode-adapter-footprints:0402-res locked (layer B.Cu) (tedit 5FD9C158) (tstamp 6051B03C)
     (at 189.837001 89.183002)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1317,7 +1317,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 6051B02D)
+  (module scalenode-adapter-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 6051B02D)
     (at 189.837001 90.383002)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1351,7 +1351,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6052A0C5)
+  (module scalenode-adapter-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6052A0C5)
     (at 146.962001 101.668002 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1385,7 +1385,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6051B00F)
+  (module scalenode-adapter-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6051B00F)
     (at 150.762001 101.668002 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1419,7 +1419,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6051B000)
+  (module scalenode-adapter-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6051B000)
     (at 154.587001 101.668002 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1453,7 +1453,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6051AFF1)
+  (module scalenode-adapter-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6051AFF1)
     (at 144.762001 101.668002 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1487,7 +1487,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6051AFE2)
+  (module scalenode-adapter-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6051AFE2)
     (at 148.587001 101.668002 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1521,7 +1521,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6051AFD3)
+  (module scalenode-adapter-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6051AFD3)
     (at 152.387001 101.668002 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1555,7 +1555,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6054FA00)
+  (module scalenode-adapter-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6054FA00)
     (at 155.835 94.2 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1589,7 +1589,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6054F9AA)
+  (module scalenode-adapter-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6054F9AA)
     (at 157.35 94.69 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1623,7 +1623,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:FDC6330L (layer B.Cu) (tedit 604958AA) (tstamp 6051AB0C)
+  (module scalenode-adapter-footprints:FDC6330L (layer B.Cu) (tedit 604958AA) (tstamp 6051AB0C)
     (at 145.927001 101.898002 90)
     (path /604C47E1/608CEF06)
     (fp_text reference Q3 (at 2.69 0.385 180) (layer B.SilkS)
@@ -1659,7 +1659,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:FDC6330L (layer B.Cu) (tedit 604958AA) (tstamp 6051AAFA)
+  (module scalenode-adapter-footprints:FDC6330L (layer B.Cu) (tedit 604958AA) (tstamp 6051AAFA)
     (at 149.757001 101.838002 90)
     (path /604C47E1/608BCD9E)
     (fp_text reference Q2 (at 2.63 1.28) (layer B.SilkS)
@@ -1695,7 +1695,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:FDC6330L (layer B.Cu) (tedit 604958AA) (tstamp 6051AAE8)
+  (module scalenode-adapter-footprints:FDC6330L (layer B.Cu) (tedit 604958AA) (tstamp 6051AAE8)
     (at 153.567001 101.828002 90)
     (path /604C47E1/607C0734)
     (fp_text reference Q1 (at 2.62 1.245 180) (layer B.SilkS)
@@ -1731,7 +1731,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:1-794610-1 (layer B.Cu) (tedit 6050D968) (tstamp 6051AA5A)
+  (module scalenode-adapter-footprints:1-794610-1 (layer B.Cu) (tedit 6050D968) (tstamp 6051AA5A)
     (at 145.457001 132.618002 90)
     (descr "MATE-N-LOK on-wire pin")
     (path /604C47E1/605B0889)
@@ -1744,7 +1744,7 @@
     (fp_poly (pts (xy 1.7 -0.1) (xy -1.5 -0.1) (xy -1.5 0.2) (xy 1.7 0.2)) (layer B.Fab) (width 0.1))
   )
 
-  (module antartix-arty-controller-footprints:1-794610-1 (layer B.Cu) (tedit 6050D968) (tstamp 6051AA55)
+  (module scalenode-adapter-footprints:1-794610-1 (layer B.Cu) (tedit 6050D968) (tstamp 6051AA55)
     (at 149.482716 132.618002 90)
     (descr "MATE-N-LOK on-wire pin")
     (path /604C47E1/605B05DF)
@@ -1757,7 +1757,7 @@
     (fp_poly (pts (xy 1.7 -0.1) (xy -1.5 -0.1) (xy -1.5 0.2) (xy 1.7 0.2)) (layer B.Fab) (width 0.1))
   )
 
-  (module antartix-arty-controller-footprints:1-794610-1 (layer B.Cu) (tedit 6050D968) (tstamp 6051AA50)
+  (module scalenode-adapter-footprints:1-794610-1 (layer B.Cu) (tedit 6050D968) (tstamp 6051AA50)
     (at 155.521287 132.618002 90)
     (descr "MATE-N-LOK on-wire pin")
     (path /604C47E1/605B03BD)
@@ -1770,7 +1770,7 @@
     (fp_poly (pts (xy 1.7 -0.1) (xy -1.5 -0.1) (xy -1.5 0.2) (xy 1.7 0.2)) (layer B.Fab) (width 0.1))
   )
 
-  (module antartix-arty-controller-footprints:1-794610-1 (layer B.Cu) (tedit 6050D968) (tstamp 6051AA4B)
+  (module scalenode-adapter-footprints:1-794610-1 (layer B.Cu) (tedit 6050D968) (tstamp 6051AA4B)
     (at 157.534144 132.618002 90)
     (descr "MATE-N-LOK on-wire pin")
     (path /604C47E1/6051F2F4)
@@ -1783,7 +1783,7 @@
     (fp_poly (pts (xy 1.7 -0.1) (xy -1.5 -0.1) (xy -1.5 0.2) (xy 1.7 0.2)) (layer B.Fab) (width 0.1))
   )
 
-  (module antartix-arty-controller-footprints:3-794617-8 (layer B.Cu) (tedit 6050DC30) (tstamp 6051AA46)
+  (module scalenode-adapter-footprints:3-794617-8 (layer B.Cu) (tedit 6050DC30) (tstamp 6051AA46)
     (at 156.297001 123.668002 90)
     (descr "On-wire 4x8 plug")
     (path /604C47E1/60664A1A)
@@ -1808,7 +1808,7 @@
     (fp_poly (pts (xy 3.7 -9.6) (xy 2.3 -9.6) (xy 2.3 -8.4) (xy 3.7 -8.4)) (layer B.Fab) (width 0.1))
   )
 
-  (module antartix-arty-controller-footprints:1-794610-1 (layer B.Cu) (tedit 6050D968) (tstamp 6051AA35)
+  (module scalenode-adapter-footprints:1-794610-1 (layer B.Cu) (tedit 6050D968) (tstamp 6051AA35)
     (at 153.50843 132.618002 90)
     (descr "MATE-N-LOK on-wire pin")
     (path /604C47E1/605B3349)
@@ -1821,7 +1821,7 @@
     (fp_poly (pts (xy 1.7 -0.1) (xy -1.5 -0.1) (xy -1.5 0.2) (xy 1.7 0.2)) (layer B.Fab) (width 0.1))
   )
 
-  (module antartix-arty-controller-footprints:1-794610-1 (layer B.Cu) (tedit 6050D968) (tstamp 6051AA30)
+  (module scalenode-adapter-footprints:1-794610-1 (layer B.Cu) (tedit 6050D968) (tstamp 6051AA30)
     (at 147.469859 132.618002 90)
     (descr "MATE-N-LOK on-wire pin")
     (path /604C47E1/605B319D)
@@ -1834,7 +1834,7 @@
     (fp_poly (pts (xy 1.7 -0.1) (xy -1.5 -0.1) (xy -1.5 0.2) (xy 1.7 0.2)) (layer B.Fab) (width 0.1))
   )
 
-  (module antartix-arty-controller-footprints:1-794610-1 (layer B.Cu) (tedit 6050D968) (tstamp 6051AA2B)
+  (module scalenode-adapter-footprints:1-794610-1 (layer B.Cu) (tedit 6050D968) (tstamp 6051AA2B)
     (at 151.495573 132.618002 90)
     (descr "MATE-N-LOK on-wire pin")
     (path /604C47E1/605B2F14)
@@ -1847,7 +1847,7 @@
     (fp_poly (pts (xy 1.7 -0.1) (xy -1.5 -0.1) (xy -1.5 0.2) (xy 1.7 0.2)) (layer B.Fab) (width 0.1))
   )
 
-  (module antartix-arty-controller-footprints:1-794610-1 (layer B.Cu) (tedit 6050D968) (tstamp 6051AA26)
+  (module scalenode-adapter-footprints:1-794610-1 (layer B.Cu) (tedit 6050D968) (tstamp 6051AA26)
     (at 159.547001 132.618002 90)
     (descr "MATE-N-LOK on-wire pin")
     (path /604C47E1/605B18D3)
@@ -1860,7 +1860,7 @@
     (fp_poly (pts (xy 1.7 -0.1) (xy -1.5 -0.1) (xy -1.5 0.2) (xy 1.7 0.2)) (layer B.Fab) (width 0.1))
   )
 
-  (module antartix-arty-controller-footprints:3-794680-8 (layer F.Cu) (tedit 6050CE3A) (tstamp 60522AEA)
+  (module scalenode-adapter-footprints:3-794680-8 (layer F.Cu) (tedit 6050CE3A) (tstamp 60522AEA)
     (at 155.827001 105.918002 270)
     (descr "Through hole straight pin header, 2x04, 3mm pitch, double rows")
     (tags "Through hole pin header THT 2x04 3 mm double row")
@@ -1924,7 +1924,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:WE_685119136923 (layer B.Cu) (tedit 60181E83) (tstamp 6053ECED)
+  (module scalenode-adapter-footprints:WE_685119136923 (layer B.Cu) (tedit 60181E83) (tstamp 6053ECED)
     (at 145.49 79.91 90)
     (path /604C47E1/60511DDA)
     (attr smd)
@@ -1987,7 +1987,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:USB_Micro_B_Female_629105150521 (layer F.Cu) (tedit 5E73804D) (tstamp 6054E1DE)
+  (module scalenode-adapter-footprints:USB_Micro_B_Female_629105150521 (layer F.Cu) (tedit 5E73804D) (tstamp 6054E1DE)
     (at 145.737001 92.528998 270)
     (descr "USB Micro-B receptacle, http://www.mouser.com/ds/2/445/629105150521-469306.pdf")
     (tags "usb micro receptacle")
@@ -2062,7 +2062,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0805-res (layer F.Cu) (tedit 5D5D3F54) (tstamp 6053EDD2)
+  (module scalenode-adapter-footprints:0805-res (layer F.Cu) (tedit 5D5D3F54) (tstamp 6053EDD2)
     (at 151.127001 82.043002 180)
     (path /604C47E1/606D2385)
     (attr smd)
@@ -2093,7 +2093,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:SOT-3 (layer B.Cu) (tedit 5DF0CA86) (tstamp 6054E253)
+  (module scalenode-adapter-footprints:SOT-3 (layer B.Cu) (tedit 5DF0CA86) (tstamp 6054E253)
     (at 147.642001 92.191998 270)
     (descr http://www.ti.com/lit/ds/symlink/tpd2eusb30.pdf)
     (path /604C47E1/605A15F3)
@@ -2138,7 +2138,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 6051A4BA)
+  (module scalenode-adapter-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 6051A4BA)
     (at 145.862001 101.668002 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2172,7 +2172,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 6051A4AB)
+  (module scalenode-adapter-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 6051A4AB)
     (at 149.674501 101.668002 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2206,7 +2206,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 6051A49C)
+  (module scalenode-adapter-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 6051A49C)
     (at 153.487001 101.668002 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2240,7 +2240,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0603-cap (layer F.Cu) (tedit 5D5E94D2) (tstamp 6053EF0B)
+  (module scalenode-adapter-footprints:0603-cap (layer F.Cu) (tedit 5D5E94D2) (tstamp 6053EF0B)
     (at 146.952001 82.018002 270)
     (path /604C47E1/606F8603)
     (attr smd)
@@ -2275,7 +2275,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 6053ED59)
+  (module scalenode-adapter-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 6053ED59)
     (at 148.602001 82.018002 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2309,7 +2309,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 6053EDFE)
+  (module scalenode-adapter-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 6053EDFE)
     (at 152.052001 83.593002 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2343,7 +2343,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 6054CE22)
+  (module scalenode-adapter-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 6054CE22)
     (at 153.812001 95.258002)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2377,7 +2377,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 6054CEA3)
+  (module scalenode-adapter-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 6054CEA3)
     (at 153.812001 94.198002)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2411,7 +2411,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 6054CD5C)
+  (module scalenode-adapter-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 6054CD5C)
     (at 151.812001 94.183002 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2445,7 +2445,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6053EE8E)
+  (module scalenode-adapter-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6053EE8E)
     (at 145.002001 82.618002 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2479,7 +2479,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6053ED2F)
+  (module scalenode-adapter-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6053ED2F)
     (at 145.002001 78.093002 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2513,7 +2513,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:LED_0603 (layer F.Cu) (tedit 5D5D41B0) (tstamp 6053ED8F)
+  (module scalenode-adapter-footprints:LED_0603 (layer F.Cu) (tedit 5D5D41B0) (tstamp 6053ED8F)
     (at 143.652001 82.143002 90)
     (path /604C47E1/616A7878)
     (attr smd)
@@ -2555,7 +2555,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:LED_0603 (layer F.Cu) (tedit 5D5D41B0) (tstamp 6053EEC4)
+  (module scalenode-adapter-footprints:LED_0603 (layer F.Cu) (tedit 5D5D41B0) (tstamp 6053EEC4)
     (at 143.652001 77.618002 90)
     (path /604C47E1/616A7894)
     (attr smd)
@@ -2597,7 +2597,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0805-res (layer F.Cu) (tedit 5D5D3F54) (tstamp 604A0494)
+  (module scalenode-adapter-footprints:0805-res (layer F.Cu) (tedit 5D5D3F54) (tstamp 604A0494)
     (at 160.655 101.63 180)
     (path /604C47E1/6051B344)
     (attr smd)
@@ -2628,7 +2628,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:QTE-020-04-L-D-A (layer B.Cu) (tedit 602130E8) (tstamp 60495020)
+  (module scalenode-adapter-footprints:QTE-020-04-L-D-A (layer B.Cu) (tedit 602130E8) (tstamp 60495020)
     (at 162.910002 94.648004 270)
     (descr "0.8MM DOUBLE ROW HS SOCKET ASSEMBLY.")
     (path /604C47E1/60358E48)
@@ -2758,7 +2758,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:R-PDSO-N15 (layer B.Cu) (tedit 5D9EF6A7) (tstamp 60543F0B)
+  (module scalenode-adapter-footprints:R-PDSO-N15 (layer B.Cu) (tedit 5D9EF6A7) (tstamp 60543F0B)
     (at 151.625 78.708002 270)
     (path /604C47E1/60462849)
     (attr smd)
@@ -2811,7 +2811,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 604951A1)
+  (module scalenode-adapter-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 604951A1)
     (at 212.224801 96.550802 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2845,7 +2845,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 60493B63)
+  (module scalenode-adapter-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 60493B63)
     (at 207.303801 100.358802 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2879,7 +2879,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 60496725)
+  (module scalenode-adapter-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 60496725)
     (at 207.298801 99.348802 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2913,7 +2913,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 60496755)
+  (module scalenode-adapter-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 60496755)
     (at 217.450201 96.510802 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2947,7 +2947,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 60497601)
+  (module scalenode-adapter-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 60497601)
     (at 216.224801 109.450802 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2981,7 +2981,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 6049762B)
+  (module scalenode-adapter-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 6049762B)
     (at 220.354801 104.459802)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3015,7 +3015,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 6049767F)
+  (module scalenode-adapter-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 6049767F)
     (at 220.354801 103.429802)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3049,7 +3049,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 60497655)
+  (module scalenode-adapter-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 60497655)
     (at 193.936001 101.889002)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3083,7 +3083,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0603-cap (layer B.Cu) (tedit 5D5E94D2) (tstamp 60493B2C)
+  (module scalenode-adapter-footprints:0603-cap (layer B.Cu) (tedit 5D5E94D2) (tstamp 60493B2C)
     (at 178.124501 86.776002)
     (path /60924187/60938FFC)
     (attr smd)
@@ -3118,7 +3118,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0603-cap (layer B.Cu) (tedit 5D5E94D2) (tstamp 604953BC)
+  (module scalenode-adapter-footprints:0603-cap (layer B.Cu) (tedit 5D5E94D2) (tstamp 604953BC)
     (at 178.124501 97.126502)
     (path /60924187/60938FAF)
     (attr smd)
@@ -3153,7 +3153,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0603-cap (layer B.Cu) (tedit 5D5E94D2) (tstamp 60493B92)
+  (module scalenode-adapter-footprints:0603-cap (layer B.Cu) (tedit 5D5E94D2) (tstamp 60493B92)
     (at 178.124501 107.477002)
     (path /60924187/60938F63)
     (attr smd)
@@ -3188,7 +3188,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:KEMET_D (layer B.Cu) (tedit 5FD76BCC) (tstamp 604952DD)
+  (module scalenode-adapter-footprints:KEMET_D (layer B.Cu) (tedit 5FD76BCC) (tstamp 604952DD)
     (at 196.666501 81.188002)
     (path /60924187/60938E17)
     (fp_text reference C14 (at -0.473275 3.135345) (layer B.SilkS)
@@ -3224,7 +3224,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:KEMET_D (layer B.Cu) (tedit 5FD76BCC) (tstamp 604950EB)
+  (module scalenode-adapter-footprints:KEMET_D (layer B.Cu) (tedit 5FD76BCC) (tstamp 604950EB)
     (at 196.603001 94.650002)
     (path /60924187/60938E20)
     (fp_text reference C18 (at -0.473275 3.135345) (layer B.SilkS)
@@ -3260,7 +3260,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0603-cap (layer B.Cu) (tedit 5D5E94D2) (tstamp 604939F7)
+  (module scalenode-adapter-footprints:0603-cap (layer B.Cu) (tedit 5D5E94D2) (tstamp 604939F7)
     (at 181.172501 95.729502)
     (path /60924187/60938FD9)
     (attr smd)
@@ -3295,7 +3295,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:KEMET_D (layer B.Cu) (tedit 5FD76BCC) (tstamp 60494F05)
+  (module scalenode-adapter-footprints:KEMET_D (layer B.Cu) (tedit 5FD76BCC) (tstamp 60494F05)
     (at 196.603001 108.937502)
     (path /60924187/60938E29)
     (fp_text reference C22 (at -0.473275 3.135345) (layer B.SilkS)
@@ -3331,7 +3331,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 60494FBE)
+  (module scalenode-adapter-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 60494FBE)
     (at 228.635 93.405)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3365,7 +3365,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:KEMET_D (layer B.Cu) (tedit 5FD76BCC) (tstamp 60495274)
+  (module scalenode-adapter-footprints:KEMET_D (layer B.Cu) (tedit 5FD76BCC) (tstamp 60495274)
     (at 186.443001 101.635002 90)
     (path /60924187/60938E0E)
     (fp_text reference C30 (at -0.473275 3.135345 270 unlocked) (layer B.SilkS)
@@ -3401,7 +3401,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:KEMET_D (layer B.Cu) (tedit 5FD76BCC) (tstamp 6049537F)
+  (module scalenode-adapter-footprints:KEMET_D (layer B.Cu) (tedit 5FD76BCC) (tstamp 6049537F)
     (at 204.604001 86.712502 180)
     (path /60924187/60938E05)
     (fp_text reference C40 (at -0.473275 3.135345 180) (layer B.SilkS)
@@ -3437,7 +3437,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:SOT-3 (layer F.Cu) (tedit 5DF0CA86) (tstamp 6049547F)
+  (module scalenode-adapter-footprints:SOT-3 (layer F.Cu) (tedit 5DF0CA86) (tstamp 6049547F)
     (at 228.810201 78.648002 90)
     (descr http://www.ti.com/lit/ds/symlink/tpd2eusb30.pdf)
     (path /60924187/6093928B)
@@ -3482,7 +3482,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:LED_0603 (layer F.Cu) (tedit 5D5D41B0) (tstamp 60493BD5)
+  (module scalenode-adapter-footprints:LED_0603 (layer F.Cu) (tedit 5D5D41B0) (tstamp 60493BD5)
     (at 225.787601 94.408702 90)
     (path /60924187/60939127)
     (attr smd)
@@ -3524,7 +3524,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 60495342)
+  (module scalenode-adapter-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 60495342)
     (at 222.358601 92.351262 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3558,7 +3558,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 604950BA)
+  (module scalenode-adapter-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 604950BA)
     (at 207.334501 106.524502)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3592,7 +3592,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:1206-res (layer F.Cu) (tedit 5D5E9367) (tstamp 60493A79)
+  (module scalenode-adapter-footprints:1206-res (layer F.Cu) (tedit 5D5E9367) (tstamp 60493A79)
     (at 185.681001 96.936002 180)
     (descr http://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTST-C230KFKT_5-24-06.pdf)
     (path /60924187/60939472)
@@ -3631,7 +3631,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:1206-res (layer F.Cu) (tedit 5D5E9367) (tstamp 604951D1)
+  (module scalenode-adapter-footprints:1206-res (layer F.Cu) (tedit 5D5E9367) (tstamp 604951D1)
     (at 185.681001 83.728002 180)
     (descr http://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTST-C230KFKT_5-24-06.pdf)
     (path /60924187/6093947B)
@@ -3670,7 +3670,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:1206-res (layer F.Cu) (tedit 5D5E9367) (tstamp 60493A31)
+  (module scalenode-adapter-footprints:1206-res (layer F.Cu) (tedit 5D5E9367) (tstamp 60493A31)
     (at 185.681001 101.889002 180)
     (descr http://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTST-C230KFKT_5-24-06.pdf)
     (path /60924187/60939484)
@@ -3709,7 +3709,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:1206-res (layer F.Cu) (tedit 5D5E9367) (tstamp 60495237)
+  (module scalenode-adapter-footprints:1206-res (layer F.Cu) (tedit 5D5E9367) (tstamp 60495237)
     (at 226.384501 75.663502)
     (descr http://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTST-C230KFKT_5-24-06.pdf)
     (path /60924187/60939234)
@@ -3748,7 +3748,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 604952AC)
+  (module scalenode-adapter-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 604952AC)
     (at 215.399001 96.510802 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3782,7 +3782,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 60493AD3)
+  (module scalenode-adapter-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 60493AD3)
     (at 215.373601 96.510802 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3816,7 +3816,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 60495177)
+  (module scalenode-adapter-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 60495177)
     (at 211.734801 109.425802 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3850,7 +3850,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 604939C8)
+  (module scalenode-adapter-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 604939C8)
     (at 207.309101 102.422402)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3884,7 +3884,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0805-res (layer B.Cu) (tedit 5D5D3F54) (tstamp 60495316)
+  (module scalenode-adapter-footprints:0805-res (layer B.Cu) (tedit 5D5D3F54) (tstamp 60495316)
     (at 223.607001 99.458002)
     (path /60924187/6093915F)
     (attr smd)
@@ -3915,7 +3915,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0805-res (layer B.Cu) (tedit 5D5D3F54) (tstamp 60494F3E)
+  (module scalenode-adapter-footprints:0805-res (layer B.Cu) (tedit 5D5D3F54) (tstamp 60494F3E)
     (at 223.597001 101.868002)
     (path /60924187/60939155)
     (attr smd)
@@ -3946,7 +3946,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 60494F6A)
+  (module scalenode-adapter-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 60494F6A)
     (at 225.432001 85.252002 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3980,7 +3980,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:oshw-logo (layer F.Cu) (tedit 5E4A93CD) (tstamp 6035A469)
+  (module scalenode-adapter-footprints:oshw-logo (layer F.Cu) (tedit 5E4A93CD) (tstamp 6035A469)
     (at 165.48 108.1)
     (path /60924187/6093902F)
     (attr virtual)
@@ -5118,7 +5118,7 @@
       (xy -1.520547 2.559315)) (layer F.Cu) (width 0.01))
   )
 
-  (module antartix-arty-controller-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 60495207)
+  (module scalenode-adapter-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 60495207)
     (at 233.369501 76.997002 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5152,7 +5152,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:antmicro-logo_scaled_15mm (layer F.Cu) (tedit 5E4A93DE) (tstamp 6036F0AD)
+  (module scalenode-adapter-footprints:antmicro-logo_scaled_15mm (layer F.Cu) (tedit 5E4A93DE) (tstamp 6036F0AD)
     (at 163.204501 76.829002)
     (path /60924187/60939035)
     (attr virtual)
@@ -5738,7 +5738,7 @@
       (xy -5.880765 -2.455653) (xy -5.817481 -2.454635)) (layer F.Cu) (width 0.001395))
   )
 
-  (module antartix-arty-controller-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 60494F94)
+  (module scalenode-adapter-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 60494F94)
     (at 224.492201 95.907302 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5772,7 +5772,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 60493A5D)
+  (module scalenode-adapter-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 60493A5D)
     (at 176.537001 82.712002 270)
     (path /60924187/60939211)
     (attr virtual)
@@ -5786,7 +5786,7 @@
       (net 2 VCC5V0))
   )
 
-  (module antartix-arty-controller-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 60493ABD)
+  (module scalenode-adapter-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 60493ABD)
     (at 225.222001 110.540602)
     (path /60924187/6093920B)
     (attr virtual)
@@ -5800,7 +5800,7 @@
       (net 4 VCC3V3))
   )
 
-  (module antartix-arty-controller-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6049746C)
+  (module scalenode-adapter-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6049746C)
     (at 207.334501 105.508502)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5834,7 +5834,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0805-res (layer B.Cu) (tedit 5D5D3F54) (tstamp 60497440)
+  (module scalenode-adapter-footprints:0805-res (layer B.Cu) (tedit 5D5D3F54) (tstamp 60497440)
     (at 235.338001 78.457502 90)
     (path /60924187/60938E45)
     (attr smd)
@@ -5865,7 +5865,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 60497429)
+  (module scalenode-adapter-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 60497429)
     (at 176.486201 80.553002 270)
     (path /60924187/60938E6B)
     (attr virtual)
@@ -5879,7 +5879,7 @@
       (net 1 GND))
   )
 
-  (module antartix-arty-controller-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 6049741D)
+  (module scalenode-adapter-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 6049741D)
     (at 226.905001 110.459002 180)
     (path /60924187/60938E65)
     (attr virtual)
@@ -5893,7 +5893,7 @@
       (net 1 GND))
   )
 
-  (module antartix-arty-controller-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 604973FD)
+  (module scalenode-adapter-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 604973FD)
     (at 220.352001 89.824002 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5927,7 +5927,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 604973D3)
+  (module scalenode-adapter-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 604973D3)
     (at 217.812001 87.538002)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5961,7 +5961,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 604973A9)
+  (module scalenode-adapter-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 604973A9)
     (at 223.146001 88.554002 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5995,7 +5995,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 6049737F)
+  (module scalenode-adapter-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 6049737F)
     (at 217.812001 84.998002)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6029,7 +6029,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 60497355)
+  (module scalenode-adapter-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 60497355)
     (at 223.146001 85.506002 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6063,7 +6063,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 6049732B)
+  (module scalenode-adapter-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 6049732B)
     (at 220.352001 84.490002 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6097,7 +6097,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 60497301)
+  (module scalenode-adapter-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 60497301)
     (at 215.399001 86.077502)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6131,7 +6131,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 604972D7)
+  (module scalenode-adapter-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 604972D7)
     (at 215.399001 88.681002)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6165,7 +6165,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 604972AD)
+  (module scalenode-adapter-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 604972AD)
     (at 218.193001 92.364002 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6199,7 +6199,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:SOIC-8_W3.9mm (layer B.Cu) (tedit 5FD9C9DA) (tstamp 60497263)
+  (module scalenode-adapter-footprints:SOIC-8_W3.9mm (layer B.Cu) (tedit 5FD9C9DA) (tstamp 60497263)
     (at 176.981501 102.905002 180)
     (path /60924187/60938F84)
     (attr smd)
@@ -6253,7 +6253,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:SOIC-8_W3.9mm (layer B.Cu) (tedit 5FD9C9DA) (tstamp 604971DC)
+  (module scalenode-adapter-footprints:SOIC-8_W3.9mm (layer B.Cu) (tedit 5FD9C9DA) (tstamp 604971DC)
     (at 176.981501 92.554502 180)
     (path /60924187/60938FD0)
     (attr smd)
@@ -6307,7 +6307,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:SOIC-8_W3.9mm (layer B.Cu) (tedit 5FD9C9DA) (tstamp 60497182)
+  (module scalenode-adapter-footprints:SOIC-8_W3.9mm (layer B.Cu) (tedit 5FD9C9DA) (tstamp 60497182)
     (at 176.981501 82.204002 180)
     (path /60924187/60939023)
     (attr smd)
@@ -6361,7 +6361,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0603-cap (layer B.Cu) (tedit 5D5E94D2) (tstamp 6049713E)
+  (module scalenode-adapter-footprints:0603-cap (layer B.Cu) (tedit 5D5E94D2) (tstamp 6049713E)
     (at 181.680501 102.905002 90)
     (path /60924187/60938F8D)
     (attr smd)
@@ -6396,7 +6396,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 6049710F)
+  (module scalenode-adapter-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 6049710F)
     (at 180.410501 102.905002 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6430,7 +6430,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 604970E5)
+  (module scalenode-adapter-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 604970E5)
     (at 181.172501 94.459502)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6464,7 +6464,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 604970BB)
+  (module scalenode-adapter-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 604970BB)
     (at 219.780501 95.920002 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6498,7 +6498,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0603-cap (layer B.Cu) (tedit 5D5E94D2) (tstamp 60497087)
+  (module scalenode-adapter-footprints:0603-cap (layer B.Cu) (tedit 5D5E94D2) (tstamp 60497087)
     (at 181.744001 82.204002 90)
     (path /60924187/60939065)
     (attr smd)
@@ -6533,7 +6533,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 60497058)
+  (module scalenode-adapter-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 60497058)
     (at 180.410501 82.204002 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6567,7 +6567,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:QTE-020-04-L-D-A (layer B.Cu) (tedit 602130E8) (tstamp 60496FBC)
+  (module scalenode-adapter-footprints:QTE-020-04-L-D-A (layer B.Cu) (tedit 602130E8) (tstamp 60496FBC)
     (at 231.1 94.65 270)
     (descr "0.8MM DOUBLE ROW HS SOCKET ASSEMBLY.")
     (path /60924187/609395FF)
@@ -6700,7 +6700,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 60496F59)
+  (module scalenode-adapter-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 60496F59)
     (at 223.019001 103.476502)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6734,7 +6734,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 60493AFD)
+  (module scalenode-adapter-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 60493AFD)
     (at 224.492201 93.926062 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6768,7 +6768,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:Crystal_5x7mm (layer F.Cu) (tedit 5E7490BE) (tstamp 60496F1B)
+  (module scalenode-adapter-footprints:Crystal_5x7mm (layer F.Cu) (tedit 5E7490BE) (tstamp 60496F1B)
     (at 223.670001 106.529802 180)
     (path /60924187/6093938C)
     (attr smd)
@@ -6796,7 +6796,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 60496EF3)
+  (module scalenode-adapter-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 60496EF3)
     (at 207.313401 104.49077)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6830,7 +6830,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 60496EC9)
+  (module scalenode-adapter-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 60496EC9)
     (at 207.313401 106.544102)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6864,7 +6864,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 60496E9F)
+  (module scalenode-adapter-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 60496E9F)
     (at 230.512001 91.738002)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6898,7 +6898,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 60496E75)
+  (module scalenode-adapter-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 60496E75)
     (at 230.512001 92.745002)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6932,7 +6932,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 60496E4B)
+  (module scalenode-adapter-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 60496E4B)
     (at 207.313401 103.464102 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6966,7 +6966,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 60496E21)
+  (module scalenode-adapter-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 60496E21)
     (at 214.256001 100.555502)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -7000,7 +7000,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 60496DF7)
+  (module scalenode-adapter-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 60496DF7)
     (at 220.225001 101.269802 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -7034,7 +7034,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 60496DCD)
+  (module scalenode-adapter-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 60496DCD)
     (at 225.2875 73.676902)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -7068,7 +7068,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 60496DA3)
+  (module scalenode-adapter-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 60496DA3)
     (at 187.371167 107.431003 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -7102,7 +7102,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 60496D79)
+  (module scalenode-adapter-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 60496D79)
     (at 187.146669 91.394001 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -7136,7 +7136,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 60496D4F)
+  (module scalenode-adapter-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 60496D4F)
     (at 187.127501 78.122501 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -7170,7 +7170,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:USB_Micro_B_Female_629105150521 (layer F.Cu) (tedit 5E73804D) (tstamp 60496CE5)
+  (module scalenode-adapter-footprints:USB_Micro_B_Female_629105150521 (layer F.Cu) (tedit 5E73804D) (tstamp 60496CE5)
     (at 233.187001 78.346002 90)
     (descr "USB Micro-B receptacle, http://www.mouser.com/ds/2/445/629105150521-469306.pdf")
     (tags "usb micro receptacle")
@@ -7245,7 +7245,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:LED_0603 (layer F.Cu) (tedit 5D5D41B0) (tstamp 60496BB4)
+  (module scalenode-adapter-footprints:LED_0603 (layer F.Cu) (tedit 5D5D41B0) (tstamp 60496BB4)
     (at 227.781501 73.695002 180)
     (path /60924187/609391CF)
     (attr smd)
@@ -7287,7 +7287,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:LED_0603 (layer F.Cu) (tedit 5D5D41B0) (tstamp 60496B66)
+  (module scalenode-adapter-footprints:LED_0603 (layer F.Cu) (tedit 5D5D41B0) (tstamp 60496B66)
     (at 187.371167 104.555993 270)
     (path /60924187/609391E8)
     (attr smd)
@@ -7329,7 +7329,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:LED_0603 (layer F.Cu) (tedit 5D5D41B0) (tstamp 60496B18)
+  (module scalenode-adapter-footprints:LED_0603 (layer F.Cu) (tedit 5D5D41B0) (tstamp 60496B18)
     (at 187.146669 94.269002 90)
     (path /60924187/60939201)
     (attr smd)
@@ -7371,7 +7371,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:LED_0603 (layer F.Cu) (tedit 5D5D41B0) (tstamp 60496ACA)
+  (module scalenode-adapter-footprints:LED_0603 (layer F.Cu) (tedit 5D5D41B0) (tstamp 60496ACA)
     (at 187.141501 80.997502 90)
     (path /60924187/6093922B)
     (attr smd)
@@ -7413,7 +7413,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 60496A94)
+  (module scalenode-adapter-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 60496A94)
     (at 193.047001 84.109002)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -7447,7 +7447,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 60496A6A)
+  (module scalenode-adapter-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 60496A6A)
     (at 193.047001 97.291602)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -7481,7 +7481,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 60496A40)
+  (module scalenode-adapter-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 60496A40)
     (at 214.383001 96.510802 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -7515,7 +7515,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 60496A16)
+  (module scalenode-adapter-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 60496A16)
     (at 225.241501 98.079002)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -7549,7 +7549,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 604969EC)
+  (module scalenode-adapter-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 604969EC)
     (at 220.225001 100.269802)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -7583,7 +7583,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 604969C2)
+  (module scalenode-adapter-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 604969C2)
     (at 225.764801 108.899802 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -7617,7 +7617,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 60496998)
+  (module scalenode-adapter-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 60496998)
     (at 214.224801 109.450802 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -7651,7 +7651,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 6049696E)
+  (module scalenode-adapter-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 6049696E)
     (at 216.420201 96.510802 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -7685,7 +7685,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 60496944)
+  (module scalenode-adapter-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 60496944)
     (at 207.308801 101.368802 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -7719,7 +7719,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 6049691A)
+  (module scalenode-adapter-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 6049691A)
     (at 215.224801 109.450802 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -7753,7 +7753,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:7C-24.000MBB-T (layer F.Cu) (tedit 5D652C7B) (tstamp 604968EC)
+  (module scalenode-adapter-footprints:7C-24.000MBB-T (layer F.Cu) (tedit 5D652C7B) (tstamp 604968EC)
     (at 232.036001 88.681002 180)
     (path /60924187/609395A3)
     (attr smd)
@@ -7787,7 +7787,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:QFN50P600X600X100-37N (layer F.Cu) (tedit 601A7C5B) (tstamp 60496860)
+  (module scalenode-adapter-footprints:QFN50P600X600X100-37N (layer F.Cu) (tedit 601A7C5B) (tstamp 60496860)
     (at 220.3651 87.05776 270)
     (path /60924187/60939040)
     (fp_text reference U3 (at -3.710758 -3.161901 180) (layer F.SilkS)
@@ -7899,7 +7899,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:QFN65P400X400X55-17N (layer B.Cu) (tedit 60588053) (tstamp 604967B0)
+  (module scalenode-adapter-footprints:QFN65P400X400X55-17N (layer B.Cu) (tedit 60588053) (tstamp 604967B0)
     (at 185.046001 88.935002 90)
     (path /60924187/60939511)
     (fp_text reference U2 (at -2.032 3.048 180) (layer B.SilkS)
@@ -7986,7 +7986,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:SOT95P275X110-6N (layer B.Cu) (tedit 60211B3E) (tstamp 604966ED)
+  (module scalenode-adapter-footprints:SOT95P275X110-6N (layer B.Cu) (tedit 60211B3E) (tstamp 604966ED)
     (at 203.588001 102.707902)
     (path /60924187/609395EB)
     (fp_text reference U1 (at 0 2.3561) (layer B.SilkS)
@@ -8026,7 +8026,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 60497229)
+  (module scalenode-adapter-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 60497229)
     (at 227.527501 89.125502 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -8060,7 +8060,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 60496698)
+  (module scalenode-adapter-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 60496698)
     (at 207.334501 104.492502 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -8094,7 +8094,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6049666E)
+  (module scalenode-adapter-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6049666E)
     (at 223.425401 92.351262 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -8128,7 +8128,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 60496644)
+  (module scalenode-adapter-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 60496644)
     (at 219.780501 93.938762 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -8162,7 +8162,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:LED_0603 (layer F.Cu) (tedit 5D5D41B0) (tstamp 60496602)
+  (module scalenode-adapter-footprints:LED_0603 (layer F.Cu) (tedit 5D5D41B0) (tstamp 60496602)
     (at 221.069601 94.408702 90)
     (path /60924187/60939494)
     (attr smd)
@@ -8204,7 +8204,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 604965CC)
+  (module scalenode-adapter-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 604965CC)
     (at 228.035501 87.665002)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -8238,7 +8238,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 604965A2)
+  (module scalenode-adapter-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 604965A2)
     (at 185.046001 92.110002 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -8272,7 +8272,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 60496578)
+  (module scalenode-adapter-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 60496578)
     (at 228.543501 89.125502 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -8306,7 +8306,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 6049654E)
+  (module scalenode-adapter-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 6049654E)
     (at 231.655001 85.188502 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -8340,7 +8340,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 60496524)
+  (module scalenode-adapter-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 60496524)
     (at 231.655001 86.204502 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -8374,7 +8374,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 604964FA)
+  (module scalenode-adapter-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 604964FA)
     (at 225.432001 86.268002)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -8408,7 +8408,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 604964D0)
+  (module scalenode-adapter-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 604964D0)
     (at 215.399001 87.045762 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -8442,7 +8442,7 @@
     )
   )
 
-  (module antartix-arty-controller-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 604964A6)
+  (module scalenode-adapter-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 604964A6)
     (at 200.866801 102.257902 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)

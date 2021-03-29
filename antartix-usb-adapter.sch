@@ -14,14 +14,14 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L antartix-arty-controller:0022232041 J?
+L scalenode-adapter:0022232041 J?
 U 1 1 60938DE6
 P 7150 7300
 AR Path="/60938DE6" Ref="J?"  Part="1" 
 AR Path="/60924187/60938DE6" Ref="J2"  Part="1" 
 F 0 "J2" V 6925 7308 50  0000 C CNN
 F 1 "0022232041" V 7016 7308 50  0000 C CNN
-F 2 "antartix-arty-controller-footprints:PinHeader_1x4_P2.54mm_Drill1.02mm" H 7350 7500 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:PinHeader_1x4_P2.54mm_Drill1.02mm" H 7350 7500 60  0001 L CNN
 F 3 "https://www.molex.com/pdm_docs/sd/022232041_sd.pdf" H 7350 7600 60  0001 L CNN
 F 4 "0022232041" H 7350 7800 60  0001 L CNN "MPN"
 F 5 "Molex" H 7350 8400 60  0001 L CNN "Manufacturer"
@@ -58,7 +58,7 @@ Wire Wire Line
 Wire Wire Line
 	7250 7600 7400 7600
 $Comp
-L antartix-arty-controller:GND #PWR?
+L scalenode-adapter:GND #PWR?
 U 1 1 60938DFC
 P 7400 7750
 AR Path="/60938DFC" Ref="#PWR?"  Part="1" 
@@ -71,14 +71,14 @@ F 3 "" H 7400 7750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antartix-arty-controller:C_470u_KEMET_D C?
+L scalenode-adapter:C_470u_KEMET_D C?
 U 1 1 60938E05
 P 11025 7700
 AR Path="/60938E05" Ref="C?"  Part="1" 
 AR Path="/60924187/60938E05" Ref="C40"  Part="1" 
 F 0 "C40" H 11143 7695 60  0000 L CNN
 F 1 "C_470u_KEMET_D" H 11625 7800 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:KEMET_D" H 11225 7900 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:KEMET_D" H 11225 7900 60  0001 L CNN
 F 3 "" H 11025 7700 50  0001 C CNN
 F 4 "KEMET" H 11225 8100 60  0001 L CNN "Manufacturer"
 F 5 "TR3D477M6R3C0200" H 11225 8000 60  0001 L CNN "MPN"
@@ -87,14 +87,14 @@ F 6 "470u" H 11143 7597 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antartix-arty-controller:C_470u_KEMET_D C?
+L scalenode-adapter:C_470u_KEMET_D C?
 U 1 1 60938E0E
 P 10575 7700
 AR Path="/60938E0E" Ref="C?"  Part="1" 
 AR Path="/60924187/60938E0E" Ref="C30"  Part="1" 
 F 0 "C30" H 10693 7695 60  0000 L CNN
 F 1 "C_470u_KEMET_D" H 11175 7800 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:KEMET_D" H 10775 7900 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:KEMET_D" H 10775 7900 60  0001 L CNN
 F 3 "" H 10575 7700 50  0001 C CNN
 F 4 "KEMET" H 10775 8100 60  0001 L CNN "Manufacturer"
 F 5 "TR3D477M6R3C0200" H 10775 8000 60  0001 L CNN "MPN"
@@ -103,14 +103,14 @@ F 6 "470u" H 10693 7597 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antartix-arty-controller:C_470u_KEMET_D C?
+L scalenode-adapter:C_470u_KEMET_D C?
 U 1 1 60938E17
 P 9025 7700
 AR Path="/60938E17" Ref="C?"  Part="1" 
 AR Path="/60924187/60938E17" Ref="C14"  Part="1" 
 F 0 "C14" H 9143 7695 60  0000 L CNN
 F 1 "C_470u_KEMET_D" H 9625 7800 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:KEMET_D" H 9225 7900 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:KEMET_D" H 9225 7900 60  0001 L CNN
 F 3 "" H 9025 7700 50  0001 C CNN
 F 4 "KEMET" H 9225 8100 60  0001 L CNN "Manufacturer"
 F 5 "TR3D477M6R3C0200" H 9225 8000 60  0001 L CNN "MPN"
@@ -119,14 +119,14 @@ F 6 "470u" H 9143 7597 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antartix-arty-controller:C_470u_KEMET_D C?
+L scalenode-adapter:C_470u_KEMET_D C?
 U 1 1 60938E20
 P 9475 7700
 AR Path="/60938E20" Ref="C?"  Part="1" 
 AR Path="/60924187/60938E20" Ref="C18"  Part="1" 
 F 0 "C18" H 9593 7695 60  0000 L CNN
 F 1 "C_470u_KEMET_D" H 10075 7800 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:KEMET_D" H 9675 7900 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:KEMET_D" H 9675 7900 60  0001 L CNN
 F 3 "" H 9475 7700 50  0001 C CNN
 F 4 "KEMET" H 9675 8100 60  0001 L CNN "Manufacturer"
 F 5 "TR3D477M6R3C0200" H 9675 8000 60  0001 L CNN "MPN"
@@ -135,14 +135,14 @@ F 6 "470u" H 9593 7597 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antartix-arty-controller:C_470u_KEMET_D C?
+L scalenode-adapter:C_470u_KEMET_D C?
 U 1 1 60938E29
 P 9875 7700
 AR Path="/60938E29" Ref="C?"  Part="1" 
 AR Path="/60924187/60938E29" Ref="C22"  Part="1" 
 F 0 "C22" H 9993 7695 60  0000 L CNN
 F 1 "C_470u_KEMET_D" H 10475 7800 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:KEMET_D" H 10075 7900 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:KEMET_D" H 10075 7900 60  0001 L CNN
 F 3 "" H 9875 7700 50  0001 C CNN
 F 4 "KEMET" H 10075 8100 60  0001 L CNN "Manufacturer"
 F 5 "TR3D477M6R3C0200" H 10075 8000 60  0001 L CNN "MPN"
@@ -153,7 +153,7 @@ $EndComp
 Wire Wire Line
 	14375 4200 14375 4050
 $Comp
-L antartix-arty-controller:GND #PWR?
+L scalenode-adapter:GND #PWR?
 U 1 1 60938E30
 P 14375 4200
 AR Path="/60938E30" Ref="#PWR?"  Part="1" 
@@ -173,14 +173,14 @@ Wire Wire Line
 Wire Wire Line
 	14250 3700 14375 3700
 $Comp
-L antartix-arty-controller:C_100n_0402 C?
+L scalenode-adapter:C_100n_0402 C?
 U 1 1 60938E3D
 P 14375 3900
 AR Path="/60938E3D" Ref="C?"  Part="1" 
 AR Path="/60924187/60938E3D" Ref="C47"  Part="1" 
 F 0 "C47" H 14400 4000 60  0000 L CNN
 F 1 "C_100n_0402" H 14375 3750 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-cap" H 14575 4100 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0402-cap" H 14575 4100 60  0001 L CNN
 F 3 "" H 14375 3900 50  0001 C CNN
 F 4 "Walsin" H 14575 4300 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 14575 4200 60  0001 L CNN "MPN"
@@ -189,14 +189,14 @@ F 6 "100n" H 14400 3800 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antartix-arty-controller:BLM21SP111BH1 FB?
+L scalenode-adapter:BLM21SP111BH1 FB?
 U 1 1 60938E45
 P 14050 3700
 AR Path="/60938E45" Ref="FB?"  Part="1" 
 AR Path="/60924187/60938E45" Ref="FB1"  Part="1" 
 F 0 "FB1" H 14050 3987 60  0000 C CNN
 F 1 "BLM21SP111BH1" H 14050 3881 60  0000 C CNN
-F 2 "antartix-arty-controller-footprints:0805-res" H 14050 4150 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0805-res" H 14050 4150 60  0001 L CNN
 F 3 "" H 14250 4000 60  0001 L CNN
 F 4 "BLM21SP111BH1D" H 14050 4250 60  0001 L CNN "MPN"
 F 5 "Murata Electronics North America" H 14050 4350 60  0001 L CNN "Manufacturer"
@@ -212,14 +212,14 @@ Wire Wire Line
 	13000 3800 13625 3800
 Connection ~ 13000 3800
 $Comp
-L antartix-arty-controller:R_220R_0402 R?
+L scalenode-adapter:R_220R_0402 R?
 U 1 1 60938E53
 P 14975 6450
 AR Path="/60938E53" Ref="R?"  Part="1" 
 AR Path="/60924187/60938E53" Ref="R30"  Part="1" 
 F 0 "R30" H 15075 6400 60  0000 L CNN
 F 1 "R_220R_0402" H 14975 6300 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-res" H 15175 6650 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0402-res" H 15175 6650 60  0001 L CNN
 F 3 "" H 14975 6450 50  0001 C CNN
 F 4 "Panasonic" H 15175 6850 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GEJ221X" H 15175 6750 60  0001 L CNN "MPN"
@@ -250,27 +250,27 @@ Wire Wire Line
 Wire Wire Line
 	10575 7900 10575 7950
 $Comp
-L antartix-arty-controller:TP_SMD1MM GND?
+L scalenode-adapter:TP_SMD1MM GND?
 U 1 1 60938E65
 P 875 4550
 AR Path="/60938E65" Ref="GND?"  Part="1" 
 AR Path="/60924187/60938E65" Ref="GND1"  Part="1" 
 F 0 "GND1" H 950 4475 50  0000 R CNN
 F 1 "TP_SMD1MM" H 875 4450 50  0001 C CNN
-F 2 "antartix-arty-controller-footprints:Testpoint_smd_1mm" H 1075 4750 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:Testpoint_smd_1mm" H 1075 4750 60  0001 L CNN
 F 3 "" H 1075 4850 60  0001 L CNN
 	1    875  4550
 	-1   0    0    1   
 $EndComp
 $Comp
-L antartix-arty-controller:TP_SMD1MM GND?
+L scalenode-adapter:TP_SMD1MM GND?
 U 1 1 60938E6B
 P 1175 4550
 AR Path="/60938E6B" Ref="GND?"  Part="1" 
 AR Path="/60924187/60938E6B" Ref="GND2"  Part="1" 
 F 0 "GND2" H 1250 4475 50  0000 R CNN
 F 1 "TP_SMD1MM" H 1175 4450 50  0001 C CNN
-F 2 "antartix-arty-controller-footprints:Testpoint_smd_1mm" H 1375 4750 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:Testpoint_smd_1mm" H 1375 4750 60  0001 L CNN
 F 3 "" H 1375 4850 60  0001 L CNN
 	1    1175 4550
 	-1   0    0    1   
@@ -280,7 +280,7 @@ Wire Wire Line
 Wire Wire Line
 	1175 4675 1175 4650
 $Comp
-L antartix-arty-controller:GND #PWR?
+L scalenode-adapter:GND #PWR?
 U 1 1 60938E73
 P 1175 4675
 AR Path="/60938E73" Ref="#PWR?"  Part="1" 
@@ -293,7 +293,7 @@ F 3 "" H 1175 4675 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antartix-arty-controller:GND #PWR?
+L scalenode-adapter:GND #PWR?
 U 1 1 60938E79
 P 875 4675
 AR Path="/60938E79" Ref="#PWR?"  Part="1" 
@@ -318,7 +318,7 @@ Wire Wire Line
 Wire Wire Line
 	9025 7975 9025 7900
 $Comp
-L antartix-arty-controller:GND #PWR?
+L scalenode-adapter:GND #PWR?
 U 1 1 60938E85
 P 9025 7975
 AR Path="/60938E85" Ref="#PWR?"  Part="1" 
@@ -331,7 +331,7 @@ F 3 "" H 9025 7975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antartix-arty-controller:GND #PWR?
+L scalenode-adapter:GND #PWR?
 U 1 1 60938E8B
 P 9475 7975
 AR Path="/60938E8B" Ref="#PWR?"  Part="1" 
@@ -344,7 +344,7 @@ F 3 "" H 9475 7975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antartix-arty-controller:GND #PWR?
+L scalenode-adapter:GND #PWR?
 U 1 1 60938E91
 P 9875 7975
 AR Path="/60938E91" Ref="#PWR?"  Part="1" 
@@ -357,7 +357,7 @@ F 3 "" H 9875 7975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antartix-arty-controller:GND #PWR?
+L scalenode-adapter:GND #PWR?
 U 1 1 60938E97
 P 10800 7975
 AR Path="/60938E97" Ref="#PWR?"  Part="1" 
@@ -384,7 +384,7 @@ Wire Wire Line
 Wire Wire Line
 	9000 6825 9000 6725
 $Comp
-L antartix-arty-controller:GND #PWR?
+L scalenode-adapter:GND #PWR?
 U 1 1 60938EA4
 P 9000 6825
 AR Path="/60938EA4" Ref="#PWR?"  Part="1" 
@@ -399,14 +399,14 @@ $EndComp
 Text GLabel 9000 6300 1    50   Input ~ 0
 VCC3V3
 $Comp
-L antartix-arty-controller:C_1u_0402 C?
+L scalenode-adapter:C_1u_0402 C?
 U 1 1 60938EAE
 P 9000 6575
 AR Path="/60938EAE" Ref="C?"  Part="1" 
 AR Path="/60924187/60938EAE" Ref="C13"  Part="1" 
 F 0 "C13" H 9025 6675 60  0000 L CNN
 F 1 "C_1u_0402" H 9000 6425 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-cap" H 9200 6775 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0402-cap" H 9200 6775 60  0001 L CNN
 F 3 "" H 9000 6575 50  0001 C CNN
 F 4 "TDK" H 9200 6975 60  0001 L CNN "Manufacturer"
 F 5 "C1005X6S1A105K050BC" H 9200 6875 60  0001 L CNN "MPN"
@@ -417,7 +417,7 @@ $EndComp
 Text GLabel 9675 6300 1    50   Input ~ 0
 VCC3V3
 $Comp
-L antartix-arty-controller:GND #PWR?
+L scalenode-adapter:GND #PWR?
 U 1 1 60938EB5
 P 9675 6825
 AR Path="/60938EB5" Ref="#PWR?"  Part="1" 
@@ -432,14 +432,14 @@ $EndComp
 Wire Wire Line
 	9675 6425 9675 6300
 $Comp
-L antartix-arty-controller:C_100n_0402 C?
+L scalenode-adapter:C_100n_0402 C?
 U 1 1 60938EBF
 P 9675 6575
 AR Path="/60938EBF" Ref="C?"  Part="1" 
 AR Path="/60924187/60938EBF" Ref="C19"  Part="1" 
 F 0 "C19" H 9700 6675 60  0000 L CNN
 F 1 "C_100n_0402" H 9675 6425 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-cap" H 9875 6775 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0402-cap" H 9875 6775 60  0001 L CNN
 F 3 "" H 9675 6575 50  0001 C CNN
 F 4 "Walsin" H 9875 6975 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 9875 6875 60  0001 L CNN "MPN"
@@ -452,7 +452,7 @@ Wire Wire Line
 Text GLabel 9400 6300 1    50   Input ~ 0
 VCC3V3
 $Comp
-L antartix-arty-controller:GND #PWR?
+L scalenode-adapter:GND #PWR?
 U 1 1 60938EC7
 P 9400 6825
 AR Path="/60938EC7" Ref="#PWR?"  Part="1" 
@@ -467,14 +467,14 @@ $EndComp
 Wire Wire Line
 	9400 6425 9400 6300
 $Comp
-L antartix-arty-controller:C_100n_0402 C?
+L scalenode-adapter:C_100n_0402 C?
 U 1 1 60938ED1
 P 9400 6575
 AR Path="/60938ED1" Ref="C?"  Part="1" 
 AR Path="/60924187/60938ED1" Ref="C16"  Part="1" 
 F 0 "C16" H 9425 6675 60  0000 L CNN
 F 1 "C_100n_0402" H 9400 6425 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-cap" H 9600 6775 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0402-cap" H 9600 6775 60  0001 L CNN
 F 3 "" H 9400 6575 50  0001 C CNN
 F 4 "Walsin" H 9600 6975 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 9600 6875 60  0001 L CNN "MPN"
@@ -487,7 +487,7 @@ Wire Wire Line
 Text GLabel 10775 6300 1    50   Input ~ 0
 VCC3V3
 $Comp
-L antartix-arty-controller:GND #PWR?
+L scalenode-adapter:GND #PWR?
 U 1 1 60938ED9
 P 10775 6825
 AR Path="/60938ED9" Ref="#PWR?"  Part="1" 
@@ -502,14 +502,14 @@ $EndComp
 Wire Wire Line
 	10775 6425 10775 6300
 $Comp
-L antartix-arty-controller:C_100n_0402 C?
+L scalenode-adapter:C_100n_0402 C?
 U 1 1 60938EE3
 P 10775 6575
 AR Path="/60938EE3" Ref="C?"  Part="1" 
 AR Path="/60924187/60938EE3" Ref="C34"  Part="1" 
 F 0 "C34" H 10800 6675 60  0000 L CNN
 F 1 "C_100n_0402" H 10775 6425 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-cap" H 10975 6775 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0402-cap" H 10975 6775 60  0001 L CNN
 F 3 "" H 10775 6575 50  0001 C CNN
 F 4 "Walsin" H 10975 6975 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 10975 6875 60  0001 L CNN "MPN"
@@ -522,7 +522,7 @@ Wire Wire Line
 Text GLabel 10500 6300 1    50   Input ~ 0
 VCC3V3
 $Comp
-L antartix-arty-controller:GND #PWR?
+L scalenode-adapter:GND #PWR?
 U 1 1 60938EEB
 P 10500 6825
 AR Path="/60938EEB" Ref="#PWR?"  Part="1" 
@@ -537,14 +537,14 @@ $EndComp
 Wire Wire Line
 	10500 6425 10500 6300
 $Comp
-L antartix-arty-controller:C_100n_0402 C?
+L scalenode-adapter:C_100n_0402 C?
 U 1 1 60938EF5
 P 10500 6575
 AR Path="/60938EF5" Ref="C?"  Part="1" 
 AR Path="/60924187/60938EF5" Ref="C27"  Part="1" 
 F 0 "C27" H 10525 6675 60  0000 L CNN
 F 1 "C_100n_0402" H 10500 6425 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-cap" H 10700 6775 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0402-cap" H 10700 6775 60  0001 L CNN
 F 3 "" H 10500 6575 50  0001 C CNN
 F 4 "Walsin" H 10700 6975 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 10700 6875 60  0001 L CNN "MPN"
@@ -557,7 +557,7 @@ Wire Wire Line
 Text GLabel 10225 6300 1    50   Input ~ 0
 VCC3V3
 $Comp
-L antartix-arty-controller:GND #PWR?
+L scalenode-adapter:GND #PWR?
 U 1 1 60938EFD
 P 10225 6825
 AR Path="/60938EFD" Ref="#PWR?"  Part="1" 
@@ -572,14 +572,14 @@ $EndComp
 Wire Wire Line
 	10225 6425 10225 6300
 $Comp
-L antartix-arty-controller:C_100n_0402 C?
+L scalenode-adapter:C_100n_0402 C?
 U 1 1 60938F07
 P 10225 6575
 AR Path="/60938F07" Ref="C?"  Part="1" 
 AR Path="/60924187/60938F07" Ref="C26"  Part="1" 
 F 0 "C26" H 10250 6675 60  0000 L CNN
 F 1 "C_100n_0402" H 10225 6425 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-cap" H 10425 6775 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0402-cap" H 10425 6775 60  0001 L CNN
 F 3 "" H 10225 6575 50  0001 C CNN
 F 4 "Walsin" H 10425 6975 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 10425 6875 60  0001 L CNN "MPN"
@@ -592,7 +592,7 @@ Wire Wire Line
 Text GLabel 9950 6300 1    50   Input ~ 0
 VCC3V3
 $Comp
-L antartix-arty-controller:GND #PWR?
+L scalenode-adapter:GND #PWR?
 U 1 1 60938F0F
 P 9950 6825
 AR Path="/60938F0F" Ref="#PWR?"  Part="1" 
@@ -607,14 +607,14 @@ $EndComp
 Wire Wire Line
 	9950 6425 9950 6300
 $Comp
-L antartix-arty-controller:C_100n_0402 C?
+L scalenode-adapter:C_100n_0402 C?
 U 1 1 60938F19
 P 9950 6575
 AR Path="/60938F19" Ref="C?"  Part="1" 
 AR Path="/60924187/60938F19" Ref="C23"  Part="1" 
 F 0 "C23" H 9975 6675 60  0000 L CNN
 F 1 "C_100n_0402" H 9950 6425 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-cap" H 10150 6775 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0402-cap" H 10150 6775 60  0001 L CNN
 F 3 "" H 9950 6575 50  0001 C CNN
 F 4 "Walsin" H 10150 6975 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 10150 6875 60  0001 L CNN "MPN"
@@ -673,14 +673,14 @@ Wire Wire Line
 Wire Wire Line
 	4750 2350 5650 2350
 $Comp
-L antartix-arty-controller:R_4k7_0402 R?
+L scalenode-adapter:R_4k7_0402 R?
 U 1 1 60938F3E
 P 5150 1625
 AR Path="/60938F3E" Ref="R?"  Part="1" 
 AR Path="/60924187/60938F3E" Ref="R23"  Part="1" 
 F 0 "R23" H 5200 1725 60  0000 L CNN
 F 1 "R_4k7_0402" H 5150 1475 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-res" H 5350 1825 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0402-res" H 5350 1825 60  0001 L CNN
 F 3 "" H 5150 1625 50  0001 C CNN
 F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 5350 2025 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GEJ472X" H 5350 1925 60  0001 L CNN "MPN"
@@ -689,14 +689,14 @@ F 6 "4k7" H 5000 1725 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antartix-arty-controller:R_4k7_0402 R?
+L scalenode-adapter:R_4k7_0402 R?
 U 1 1 60938F47
 P 4950 1625
 AR Path="/60938F47" Ref="R?"  Part="1" 
 AR Path="/60924187/60938F47" Ref="R20"  Part="1" 
 F 0 "R20" H 5000 1725 60  0000 L CNN
 F 1 "R_4k7_0402" H 4950 1475 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-res" H 5150 1825 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0402-res" H 5150 1825 60  0001 L CNN
 F 3 "" H 4950 1625 50  0001 C CNN
 F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 5150 2025 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GEJ472X" H 5150 1925 60  0001 L CNN "MPN"
@@ -705,14 +705,14 @@ F 6 "4k7" H 4800 1725 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antartix-arty-controller:R_4k7_0402 R?
+L scalenode-adapter:R_4k7_0402 R?
 U 1 1 60938F50
 P 4750 1625
 AR Path="/60938F50" Ref="R?"  Part="1" 
 AR Path="/60924187/60938F50" Ref="R19"  Part="1" 
 F 0 "R19" H 4800 1725 60  0000 L CNN
 F 1 "R_4k7_0402" H 4750 1475 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-res" H 4950 1825 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0402-res" H 4950 1825 60  0001 L CNN
 F 3 "" H 4750 1625 50  0001 C CNN
 F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 4950 2025 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GEJ472X" H 4950 1925 60  0001 L CNN "MPN"
@@ -729,7 +729,7 @@ VCC5V0
 Wire Wire Line
 	9000 3275 9000 3400
 $Comp
-L antartix-arty-controller:GND #PWR?
+L scalenode-adapter:GND #PWR?
 U 1 1 60938F5A
 P 9000 3775
 AR Path="/60938F5A" Ref="#PWR?"  Part="1" 
@@ -742,14 +742,14 @@ F 3 "" H 9000 3775 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antartix-arty-controller:C_100n_0603 C?
+L scalenode-adapter:C_100n_0603 C?
 U 1 1 60938F63
 P 9000 3550
 AR Path="/60938F63" Ref="C?"  Part="1" 
 AR Path="/60924187/60938F63" Ref="C12"  Part="1" 
 F 0 "C12" H 8775 3625 60  0000 L CNN
 F 1 "C_100n_0603" H 9000 3400 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0603-cap" H 9200 3750 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0603-cap" H 9200 3750 60  0001 L CNN
 F 3 "" H 9000 3550 50  0001 C CNN
 F 4 "AVX" H 9200 3950 60  0001 L CNN "Manufacturer"
 F 5 "0603YC104KAZ2A" H 9200 3850 60  0001 L CNN "MPN"
@@ -803,14 +803,14 @@ Wire Wire Line
 Text GLabel 11100 3275 2    50   Input ~ 0
 VBUS3_S
 $Comp
-L antartix-arty-controller:TPS2024DR U?
+L scalenode-adapter:TPS2024DR U?
 U 1 1 60938F84
 P 10050 3525
 AR Path="/60938F84" Ref="U?"  Part="1" 
 AR Path="/60924187/60938F84" Ref="U6"  Part="1" 
 F 0 "U6" H 10050 4040 50  0000 C CNN
 F 1 "TPS2024DR" H 10050 3949 50  0000 C CNN
-F 2 "antartix-arty-controller-footprints:SOIC-8_W3.9mm" H 10050 4275 50  0001 C CNN
+F 2 "scalenode-adapter-footprints:SOIC-8_W3.9mm" H 10050 4275 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/tps2024.pdf?ts=1614072742045&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTPS2024" H 10050 3525 50  0001 C CNN
 F 4 "TPS2024DR" H 10050 4075 50  0001 C CNN "MPN"
 F 5 "Texas Instruments" H 10050 4175 50  0001 C CNN "Manufacturer"
@@ -818,14 +818,14 @@ F 5 "Texas Instruments" H 10050 4175 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antartix-arty-controller:C_22u_0603 C?
+L scalenode-adapter:C_22u_0603 C?
 U 1 1 60938F8D
 P 10975 3500
 AR Path="/60938F8D" Ref="C?"  Part="1" 
 AR Path="/60924187/60938F8D" Ref="C39"  Part="1" 
 F 0 "C39" H 10775 3400 60  0000 L CNN
 F 1 "C_22u_0603" H 10975 3350 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0603-cap" H 11175 3700 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0603-cap" H 11175 3700 60  0001 L CNN
 F 3 "" H 10975 3500 50  0001 C CNN
 F 4 "MURATA" H 11175 3900 60  0001 L CNN "Manufacturer"
 F 5 "GRM188R60J226MEA0D" H 11175 3800 60  0001 L CNN "MPN"
@@ -834,7 +834,7 @@ F 6 "22u" H 10800 3625 50  0000 L CNN "Val"
 	-1   0    0    1   
 $EndComp
 $Comp
-L antartix-arty-controller:GND #PWR?
+L scalenode-adapter:GND #PWR?
 U 1 1 60938F93
 P 10700 3775
 AR Path="/60938F93" Ref="#PWR?"  Part="1" 
@@ -847,14 +847,14 @@ F 3 "" H 10700 3775 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antartix-arty-controller:C_100n_0402 C?
+L scalenode-adapter:C_100n_0402 C?
 U 1 1 60938F9C
 P 10700 3500
 AR Path="/60938F9C" Ref="C?"  Part="1" 
 AR Path="/60924187/60938F9C" Ref="C33"  Part="1" 
 F 0 "C33" H 10600 3400 60  0000 C CNN
 F 1 "C_100n_0402" H 10700 3350 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-cap" H 10900 3700 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0402-cap" H 10900 3700 60  0001 L CNN
 F 3 "" H 10700 3500 50  0001 C CNN
 F 4 "Walsin" H 10900 3900 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 10900 3800 60  0001 L CNN "MPN"
@@ -871,7 +871,7 @@ VCC5V0
 Wire Wire Line
 	9000 2250 9000 2375
 $Comp
-L antartix-arty-controller:GND #PWR?
+L scalenode-adapter:GND #PWR?
 U 1 1 60938FA6
 P 9000 2750
 AR Path="/60938FA6" Ref="#PWR?"  Part="1" 
@@ -884,14 +884,14 @@ F 3 "" H 9000 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antartix-arty-controller:C_100n_0603 C?
+L scalenode-adapter:C_100n_0603 C?
 U 1 1 60938FAF
 P 9000 2525
 AR Path="/60938FAF" Ref="C?"  Part="1" 
 AR Path="/60924187/60938FAF" Ref="C11"  Part="1" 
 F 0 "C11" H 8775 2600 60  0000 L CNN
 F 1 "C_100n_0603" H 9000 2375 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0603-cap" H 9200 2725 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0603-cap" H 9200 2725 60  0001 L CNN
 F 3 "" H 9000 2525 50  0001 C CNN
 F 4 "AVX" H 9200 2925 60  0001 L CNN "Manufacturer"
 F 5 "0603YC104KAZ2A" H 9200 2825 60  0001 L CNN "MPN"
@@ -945,14 +945,14 @@ Wire Wire Line
 Text GLabel 11100 2250 2    50   Input ~ 0
 VBUS2_S
 $Comp
-L antartix-arty-controller:TPS2024DR U?
+L scalenode-adapter:TPS2024DR U?
 U 1 1 60938FD0
 P 10050 2500
 AR Path="/60938FD0" Ref="U?"  Part="1" 
 AR Path="/60924187/60938FD0" Ref="U5"  Part="1" 
 F 0 "U5" H 10050 3015 50  0000 C CNN
 F 1 "TPS2024DR" H 10050 2924 50  0000 C CNN
-F 2 "antartix-arty-controller-footprints:SOIC-8_W3.9mm" H 10050 3250 50  0001 C CNN
+F 2 "scalenode-adapter-footprints:SOIC-8_W3.9mm" H 10050 3250 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/tps2024.pdf?ts=1614072742045&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTPS2024" H 10050 2500 50  0001 C CNN
 F 4 "TPS2024DR" H 10050 3050 50  0001 C CNN "MPN"
 F 5 "Texas Instruments" H 10050 3150 50  0001 C CNN "Manufacturer"
@@ -960,14 +960,14 @@ F 5 "Texas Instruments" H 10050 3150 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antartix-arty-controller:C_22u_0603 C?
+L scalenode-adapter:C_22u_0603 C?
 U 1 1 60938FD9
 P 10975 2475
 AR Path="/60938FD9" Ref="C?"  Part="1" 
 AR Path="/60924187/60938FD9" Ref="C38"  Part="1" 
 F 0 "C38" H 10775 2375 60  0000 L CNN
 F 1 "C_22u_0603" H 10975 2325 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0603-cap" H 11175 2675 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0603-cap" H 11175 2675 60  0001 L CNN
 F 3 "" H 10975 2475 50  0001 C CNN
 F 4 "MURATA" H 11175 2875 60  0001 L CNN "Manufacturer"
 F 5 "GRM188R60J226MEA0D" H 11175 2775 60  0001 L CNN "MPN"
@@ -976,7 +976,7 @@ F 6 "22u" H 10800 2600 50  0000 L CNN "Val"
 	-1   0    0    1   
 $EndComp
 $Comp
-L antartix-arty-controller:GND #PWR?
+L scalenode-adapter:GND #PWR?
 U 1 1 60938FDF
 P 10700 2750
 AR Path="/60938FDF" Ref="#PWR?"  Part="1" 
@@ -989,14 +989,14 @@ F 3 "" H 10700 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antartix-arty-controller:C_100n_0402 C?
+L scalenode-adapter:C_100n_0402 C?
 U 1 1 60938FE8
 P 10700 2475
 AR Path="/60938FE8" Ref="C?"  Part="1" 
 AR Path="/60924187/60938FE8" Ref="C32"  Part="1" 
 F 0 "C32" H 10600 2375 60  0000 C CNN
 F 1 "C_100n_0402" H 10700 2325 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-cap" H 10900 2675 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0402-cap" H 10900 2675 60  0001 L CNN
 F 3 "" H 10700 2475 50  0001 C CNN
 F 4 "Walsin" H 10900 2875 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 10900 2775 60  0001 L CNN "MPN"
@@ -1015,7 +1015,7 @@ VCC5V0
 Wire Wire Line
 	9000 1250 9000 1375
 $Comp
-L antartix-arty-controller:GND #PWR?
+L scalenode-adapter:GND #PWR?
 U 1 1 60938FF3
 P 9000 1750
 AR Path="/60938FF3" Ref="#PWR?"  Part="1" 
@@ -1028,14 +1028,14 @@ F 3 "" H 9000 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antartix-arty-controller:C_100n_0603 C?
+L scalenode-adapter:C_100n_0603 C?
 U 1 1 60938FFC
 P 9000 1525
 AR Path="/60938FFC" Ref="C?"  Part="1" 
 AR Path="/60924187/60938FFC" Ref="C10"  Part="1" 
 F 0 "C10" H 8775 1600 60  0000 L CNN
 F 1 "C_100n_0603" H 9000 1375 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0603-cap" H 9200 1725 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0603-cap" H 9200 1725 60  0001 L CNN
 F 3 "" H 9000 1525 50  0001 C CNN
 F 4 "AVX" H 9200 1925 60  0001 L CNN "Manufacturer"
 F 5 "0603YC104KAZ2A" H 9200 1825 60  0001 L CNN "MPN"
@@ -1100,14 +1100,14 @@ Wire Wire Line
 Text GLabel 11100 1250 2    50   Input ~ 0
 VBUS1_S
 $Comp
-L antartix-arty-controller:TPS2024DR U?
+L scalenode-adapter:TPS2024DR U?
 U 1 1 60939023
 P 10050 1500
 AR Path="/60939023" Ref="U?"  Part="1" 
 AR Path="/60924187/60939023" Ref="U4"  Part="1" 
 F 0 "U4" H 10050 2015 50  0000 C CNN
 F 1 "TPS2024DR" H 10050 1924 50  0000 C CNN
-F 2 "antartix-arty-controller-footprints:SOIC-8_W3.9mm" H 10050 2250 50  0001 C CNN
+F 2 "scalenode-adapter-footprints:SOIC-8_W3.9mm" H 10050 2250 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/tps2024.pdf?ts=1614072742045&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTPS2024" H 10050 1500 50  0001 C CNN
 F 4 "TPS2024DR" H 10050 2050 50  0001 C CNN "MPN"
 F 5 "Texas Instruments" H 10050 2150 50  0001 C CNN "Manufacturer"
@@ -1117,27 +1117,27 @@ $EndComp
 Wire Wire Line
 	5300 10475 4725 10475
 $Comp
-L antartix-arty-controller:oshw_logo N?
+L scalenode-adapter:oshw_logo N?
 U 1 1 6093902F
 P 1875 10925
 AR Path="/6093902F" Ref="N?"  Part="1" 
 AR Path="/60924187/6093902F" Ref="N2"  Part="1" 
 F 0 "N2" H 2069 10928 50  0000 L CNN
 F 1 "oshw_logo" H 2069 10837 50  0000 L CNN
-F 2 "antartix-arty-controller-footprints:oshw-logo" H 1895 10685 50  0001 C CNN
+F 2 "scalenode-adapter-footprints:oshw-logo" H 1895 10685 50  0001 C CNN
 F 3 "" H 1875 10925 50  0001 C CNN
 	1    1875 10925
 	1    0    0    -1  
 $EndComp
 $Comp
-L antartix-arty-controller:antmicro_logo N?
+L scalenode-adapter:antmicro_logo N?
 U 1 1 60939035
 P 950 11025
 AR Path="/60939035" Ref="N?"  Part="1" 
 AR Path="/60924187/60939035" Ref="N1"  Part="1" 
 F 0 "N1" H 1164 11118 50  0000 L CNN
 F 1 "antmicro_logo" H 1164 11027 50  0000 L CNN
-F 2 "antartix-arty-controller-footprints:antmicro-logo_scaled_15mm" H 850 11275 50  0001 C CNN
+F 2 "scalenode-adapter-footprints:antmicro-logo_scaled_15mm" H 850 11275 50  0001 C CNN
 F 3 "" H 950 11375 50  0001 C CNN
 	1    950  11025
 	1    0    0    -1  
@@ -1152,14 +1152,14 @@ Wire Wire Line
 Wire Wire Line
 	7700 1750 7800 1750
 $Comp
-L antartix-arty-controller:USB2514B-I_M2 U?
+L scalenode-adapter:USB2514B-I_M2 U?
 U 1 1 60939040
 P 7350 3050
 AR Path="/60939040" Ref="U?"  Part="1" 
 AR Path="/60924187/60939040" Ref="U3"  Part="1" 
 F 0 "U3" H 6675 4618 50  0000 C CNN
 F 1 "USB2514B-I_M2" H 6675 4527 50  0000 C CNN
-F 2 "antartix-arty-controller-footprints:QFN50P600X600X100-37N" H 5850 1900 50  0001 L BNN
+F 2 "scalenode-adapter-footprints:QFN50P600X600X100-37N" H 5850 1900 50  0001 L BNN
 F 3 "" H 7350 3050 50  0001 L BNN
 F 4 "USB2514B-I/M2" H 7350 3050 50  0001 C CNN "MPN"
 F 5 "Microchip" H 7350 3050 50  0001 C CNN "Manufacturer"
@@ -1177,14 +1177,14 @@ Wire Wire Line
 Wire Wire Line
 	2000 8050 1850 8050
 $Comp
-L antartix-arty-controller:R_220R_0402 R?
+L scalenode-adapter:R_220R_0402 R?
 U 1 1 6093904F
 P 2150 8050
 AR Path="/6093904F" Ref="R?"  Part="1" 
 AR Path="/60924187/6093904F" Ref="R12"  Part="1" 
 F 0 "R12" H 2150 8150 60  0000 C CNN
 F 1 "R_220R_0402" H 2150 7900 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-res" H 2350 8250 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0402-res" H 2350 8250 60  0001 L CNN
 F 3 "" H 2150 8050 50  0001 C CNN
 F 4 "Panasonic" H 2350 8450 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GEJ221X" H 2350 8350 60  0001 L CNN "MPN"
@@ -1200,14 +1200,14 @@ Wire Wire Line
 Wire Wire Line
 	1850 7425 2000 7425
 $Comp
-L antartix-arty-controller:R_220R_0402 R?
+L scalenode-adapter:R_220R_0402 R?
 U 1 1 6093905C
 P 2150 7425
 AR Path="/6093905C" Ref="R?"  Part="1" 
 AR Path="/60924187/6093905C" Ref="R11"  Part="1" 
 F 0 "R11" H 2150 7525 60  0000 C CNN
 F 1 "R_220R_0402" H 2150 7275 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-res" H 2350 7625 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0402-res" H 2350 7625 60  0001 L CNN
 F 3 "" H 2150 7425 50  0001 C CNN
 F 4 "Panasonic" H 2350 7825 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GEJ221X" H 2350 7725 60  0001 L CNN "MPN"
@@ -1216,14 +1216,14 @@ F 6 "220R" H 2150 7325 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antartix-arty-controller:C_22u_0603 C?
+L scalenode-adapter:C_22u_0603 C?
 U 1 1 60939065
 P 10975 1475
 AR Path="/60939065" Ref="C?"  Part="1" 
 AR Path="/60924187/60939065" Ref="C37"  Part="1" 
 F 0 "C37" H 10775 1375 60  0000 L CNN
 F 1 "C_22u_0603" H 10975 1325 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0603-cap" H 11175 1675 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0603-cap" H 11175 1675 60  0001 L CNN
 F 3 "" H 10975 1475 50  0001 C CNN
 F 4 "MURATA" H 11175 1875 60  0001 L CNN "Manufacturer"
 F 5 "GRM188R60J226MEA0D" H 11175 1775 60  0001 L CNN "MPN"
@@ -1232,7 +1232,7 @@ F 6 "22u" H 10800 1600 50  0000 L CNN "Val"
 	-1   0    0    1   
 $EndComp
 $Comp
-L antartix-arty-controller:GND #PWR?
+L scalenode-adapter:GND #PWR?
 U 1 1 6093906B
 P 10700 1750
 AR Path="/6093906B" Ref="#PWR?"  Part="1" 
@@ -1245,14 +1245,14 @@ F 3 "" H 10700 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antartix-arty-controller:C_100n_0402 C?
+L scalenode-adapter:C_100n_0402 C?
 U 1 1 60939074
 P 10700 1475
 AR Path="/60939074" Ref="C?"  Part="1" 
 AR Path="/60924187/60939074" Ref="C31"  Part="1" 
 F 0 "C31" H 10600 1375 60  0000 C CNN
 F 1 "C_100n_0402" H 10700 1325 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-cap" H 10900 1675 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0402-cap" H 10900 1675 60  0001 L CNN
 F 3 "" H 10700 1475 50  0001 C CNN
 F 4 "Walsin" H 10900 1875 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 10900 1775 60  0001 L CNN "MPN"
@@ -1282,7 +1282,7 @@ Wire Wire Line
 Wire Wire Line
 	1125 3575 900  3575
 $Comp
-L antartix-arty-controller:GND #PWR?
+L scalenode-adapter:GND #PWR?
 U 1 1 60939086
 P 900 4025
 AR Path="/60939086" Ref="#PWR?"  Part="1" 
@@ -1295,14 +1295,14 @@ F 3 "" H 900 4025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antartix-arty-controller:C_100n_0402 C?
+L scalenode-adapter:C_100n_0402 C?
 U 1 1 6093908F
 P 900 3825
 AR Path="/6093908F" Ref="C?"  Part="1" 
 AR Path="/60924187/6093908F" Ref="C1"  Part="1" 
 F 0 "C1" H 925 3925 60  0000 L CNN
 F 1 "C_100n_0402" H 900 3675 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-cap" H 1100 4025 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0402-cap" H 1100 4025 60  0001 L CNN
 F 3 "" H 900 3825 50  0001 C CNN
 F 4 "Walsin" H 1100 4225 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 1100 4125 60  0001 L CNN "MPN"
@@ -1342,7 +1342,7 @@ Wire Wire Line
 Wire Wire Line
 	12250 1625 12250 1725
 $Comp
-L antartix-arty-controller:GND #PWR?
+L scalenode-adapter:GND #PWR?
 U 1 1 609390A7
 P 12250 2475
 AR Path="/609390A7" Ref="#PWR?"  Part="1" 
@@ -1361,14 +1361,14 @@ Wire Wire Line
 Wire Wire Line
 	12825 2450 12825 2350
 $Comp
-L antartix-arty-controller:C_100n_0402 C?
+L scalenode-adapter:C_100n_0402 C?
 U 1 1 609390B9
 P 12825 2200
 AR Path="/609390B9" Ref="C?"  Part="1" 
 AR Path="/60924187/609390B9" Ref="C44"  Part="1" 
 F 0 "C44" H 12850 2300 60  0000 L CNN
 F 1 "C_100n_0402" H 12825 2050 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-cap" H 13025 2400 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0402-cap" H 13025 2400 60  0001 L CNN
 F 3 "" H 12825 2200 50  0001 C CNN
 F 4 "Walsin" H 13025 2600 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 13025 2500 60  0001 L CNN "MPN"
@@ -1379,7 +1379,7 @@ $EndComp
 Wire Wire Line
 	12825 2050 12825 1925
 $Comp
-L antartix-arty-controller:GND #PWR?
+L scalenode-adapter:GND #PWR?
 U 1 1 609390C0
 P 12825 2450
 AR Path="/609390C0" Ref="#PWR?"  Part="1" 
@@ -1411,7 +1411,7 @@ Wire Wire Line
 Wire Wire Line
 	13750 1650 13750 1750
 $Comp
-L antartix-arty-controller:GND #PWR?
+L scalenode-adapter:GND #PWR?
 U 1 1 609390D0
 P 13750 2500
 AR Path="/609390D0" Ref="#PWR?"  Part="1" 
@@ -1428,14 +1428,14 @@ Wire Wire Line
 Wire Wire Line
 	14325 2475 14325 2375
 $Comp
-L antartix-arty-controller:C_100n_0402 C?
+L scalenode-adapter:C_100n_0402 C?
 U 1 1 609390DB
 P 14325 2225
 AR Path="/609390DB" Ref="C?"  Part="1" 
 AR Path="/60924187/609390DB" Ref="C46"  Part="1" 
 F 0 "C46" H 14350 2325 60  0000 L CNN
 F 1 "C_100n_0402" H 14325 2075 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-cap" H 14525 2425 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0402-cap" H 14525 2425 60  0001 L CNN
 F 3 "" H 14325 2225 50  0001 C CNN
 F 4 "Walsin" H 14525 2625 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 14525 2525 60  0001 L CNN "MPN"
@@ -1446,7 +1446,7 @@ $EndComp
 Wire Wire Line
 	14325 2075 14325 1950
 $Comp
-L antartix-arty-controller:GND #PWR?
+L scalenode-adapter:GND #PWR?
 U 1 1 609390E2
 P 14325 2475
 AR Path="/609390E2" Ref="#PWR?"  Part="1" 
@@ -1508,14 +1508,14 @@ Wire Wire Line
 Wire Wire Line
 	1425 8050 1425 8400
 $Comp
-L antartix-arty-controller:LG_L29K-G2J1-24-Z D?
+L scalenode-adapter:LG_L29K-G2J1-24-Z D?
 U 1 1 60939127
 P 1650 8050
 AR Path="/60939127" Ref="D?"  Part="1" 
 AR Path="/60924187/60939127" Ref="D2"  Part="1" 
 F 0 "D2" H 1375 8000 60  0000 L CNN
 F 1 "LG_L29K-G2J1-24-Z" H 1525 7900 60  0000 L CNN
-F 2 "antartix-arty-controller-footprints:LED_0603" H 1850 8250 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:LED_0603" H 1850 8250 60  0001 L CNN
 F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 1850 8350 60  0001 L CNN
 F 4 "LG L29K-G2J1-24-Z" H 1850 8550 60  0001 L CNN "MPN"
 F 5 "OSRAM Opto Semiconductors Inc." H 1850 9150 60  0001 L CNN "Manufacturer"
@@ -1525,14 +1525,14 @@ $EndComp
 Wire Wire Line
 	1425 8400 1775 8400
 $Comp
-L antartix-arty-controller:R_47k_0402 R?
+L scalenode-adapter:R_47k_0402 R?
 U 1 1 60939131
 P 1925 8400
 AR Path="/60939131" Ref="R?"  Part="1" 
 AR Path="/60924187/60939131" Ref="R10"  Part="1" 
 F 0 "R10" H 1850 8300 60  0000 L CNN
 F 1 "R_47k_0402" H 1925 8250 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-res" H 2125 8600 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0402-res" H 2125 8600 60  0001 L CNN
 F 3 "" H 1925 8400 50  0001 C CNN
 F 4 "MULTICOMP" H 2125 8800 60  0001 L CNN "Manufacturer"
 F 5 "MCMR04X4702FTL" H 2125 8700 60  0001 L CNN "MPN"
@@ -1551,14 +1551,14 @@ Wire Wire Line
 Wire Wire Line
 	7700 3350 7850 3350
 $Comp
-L antartix-arty-controller:R_12k_0402 R?
+L scalenode-adapter:R_12k_0402 R?
 U 1 1 6093913F
 P 7850 3800
 AR Path="/6093913F" Ref="R?"  Part="1" 
 AR Path="/60924187/6093913F" Ref="R25"  Part="1" 
 F 0 "R25" V 7895 3730 60  0000 R CNN
 F 1 "R_12k_0402" H 7850 3650 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-res" H 8050 4000 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0402-res" H 8050 4000 60  0001 L CNN
 F 3 "" H 7850 3800 50  0001 C CNN
 F 4 "VISHAY" H 8050 4200 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040212K0FKEDHP" H 8050 4100 60  0001 L CNN "MPN"
@@ -1587,14 +1587,14 @@ Wire Wire Line
 Wire Wire Line
 	1125 3275 900  3275
 $Comp
-L antartix-arty-controller:R_0R_0805 R?
+L scalenode-adapter:R_0R_0805 R?
 U 1 1 60939155
 P 1275 3575
 AR Path="/60939155" Ref="R?"  Part="1" 
 AR Path="/60924187/60939155" Ref="R4"  Part="1" 
 F 0 "R4" H 1150 3700 60  0000 C CNN
 F 1 "R_0R_0805" H 1275 3425 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0805-res" H 1475 3775 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0805-res" H 1475 3775 60  0001 L CNN
 F 3 "" H 1275 3575 50  0001 C CNN
 F 4 "VISHAY" H 1475 3975 60  0001 L CNN "Manufacturer"
 F 5 "CRCW08050000Z0EA" H 1475 3875 60  0001 L CNN "MPN"
@@ -1686,7 +1686,7 @@ Wire Wire Line
 Wire Wire Line
 	1950 2375 1800 2375
 $Comp
-L antartix-arty-controller:GND #PWR?
+L scalenode-adapter:GND #PWR?
 U 1 1 60939192
 P 2800 1975
 AR Path="/60939192" Ref="#PWR?"  Part="1" 
@@ -1752,14 +1752,14 @@ Wire Wire Line
 Wire Wire Line
 	15175 1650 15200 1650
 $Comp
-L antartix-arty-controller:R_470R_0402 R?
+L scalenode-adapter:R_470R_0402 R?
 U 1 1 609391BF
 P 1525 10200
 AR Path="/609391BF" Ref="R?"  Part="1" 
 AR Path="/60924187/609391BF" Ref="R8"  Part="1" 
 F 0 "R8" H 1325 10250 60  0000 C CNN
 F 1 "R_470R_0402" H 1525 10050 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-res" H 1725 10400 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0402-res" H 1725 10400 60  0001 L CNN
 F 3 "" H 1525 10200 50  0001 C CNN
 F 4 "VISHAY" H 1725 10600 60  0001 L CNN "Manufacturer"
 F 5 "CRCW0402470RFKED" H 1725 10500 60  0001 L CNN "MPN"
@@ -1768,7 +1768,7 @@ F 6 "470R" H 1525 10100 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antartix-arty-controller:GND #PWR?
+L scalenode-adapter:GND #PWR?
 U 1 1 609391C5
 P 1175 10200
 AR Path="/609391C5" Ref="#PWR?"  Part="1" 
@@ -1785,14 +1785,14 @@ Wire Wire Line
 Wire Wire Line
 	1675 10200 1725 10200
 $Comp
-L antartix-arty-controller:LG_L29K-G2J1-24-Z D?
+L scalenode-adapter:LG_L29K-G2J1-24-Z D?
 U 1 1 609391CF
 P 1825 10200
 AR Path="/609391CF" Ref="D?"  Part="1" 
 AR Path="/60924187/609391CF" Ref="D6"  Part="1" 
 F 0 "D6" H 1875 10100 60  0000 C CNN
 F 1 "LG_L29K-G2J1-24-Z" H 1225 10375 60  0000 C CNN
-F 2 "antartix-arty-controller-footprints:LED_0603" H 2025 10400 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:LED_0603" H 2025 10400 60  0001 L CNN
 F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 2025 10500 60  0001 L CNN
 F 4 "LG L29K-G2J1-24-Z" H 2025 10700 60  0001 L CNN "MPN"
 F 5 "OSRAM Opto Semiconductors Inc." H 2025 11300 60  0001 L CNN "Manufacturer"
@@ -1800,14 +1800,14 @@ F 5 "OSRAM Opto Semiconductors Inc." H 2025 11300 60  0001 L CNN "Manufacturer"
 	-1   0    0    1   
 $EndComp
 $Comp
-L antartix-arty-controller:R_470R_0402 R?
+L scalenode-adapter:R_470R_0402 R?
 U 1 1 609391D8
 P 1525 9725
 AR Path="/609391D8" Ref="R?"  Part="1" 
 AR Path="/60924187/609391D8" Ref="R7"  Part="1" 
 F 0 "R7" H 1325 9775 60  0000 C CNN
 F 1 "R_470R_0402" H 1525 9575 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-res" H 1725 9925 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0402-res" H 1725 9925 60  0001 L CNN
 F 3 "" H 1525 9725 50  0001 C CNN
 F 4 "VISHAY" H 1725 10125 60  0001 L CNN "Manufacturer"
 F 5 "CRCW0402470RFKED" H 1725 10025 60  0001 L CNN "MPN"
@@ -1816,7 +1816,7 @@ F 6 "470R" H 1525 9625 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antartix-arty-controller:GND #PWR?
+L scalenode-adapter:GND #PWR?
 U 1 1 609391DE
 P 1175 9725
 AR Path="/609391DE" Ref="#PWR?"  Part="1" 
@@ -1833,14 +1833,14 @@ Wire Wire Line
 Wire Wire Line
 	1675 9725 1725 9725
 $Comp
-L antartix-arty-controller:LG_L29K-G2J1-24-Z D?
+L scalenode-adapter:LG_L29K-G2J1-24-Z D?
 U 1 1 609391E8
 P 1825 9725
 AR Path="/609391E8" Ref="D?"  Part="1" 
 AR Path="/60924187/609391E8" Ref="D5"  Part="1" 
 F 0 "D5" H 1875 9625 60  0000 C CNN
 F 1 "LG_L29K-G2J1-24-Z" H 1225 9900 60  0000 C CNN
-F 2 "antartix-arty-controller-footprints:LED_0603" H 2025 9925 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:LED_0603" H 2025 9925 60  0001 L CNN
 F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 2025 10025 60  0001 L CNN
 F 4 "LG L29K-G2J1-24-Z" H 2025 10225 60  0001 L CNN "MPN"
 F 5 "OSRAM Opto Semiconductors Inc." H 2025 10825 60  0001 L CNN "Manufacturer"
@@ -1848,14 +1848,14 @@ F 5 "OSRAM Opto Semiconductors Inc." H 2025 10825 60  0001 L CNN "Manufacturer"
 	-1   0    0    1   
 $EndComp
 $Comp
-L antartix-arty-controller:R_470R_0402 R?
+L scalenode-adapter:R_470R_0402 R?
 U 1 1 609391F1
 P 1525 9300
 AR Path="/609391F1" Ref="R?"  Part="1" 
 AR Path="/60924187/609391F1" Ref="R6"  Part="1" 
 F 0 "R6" H 1325 9350 60  0000 C CNN
 F 1 "R_470R_0402" H 1525 9150 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-res" H 1725 9500 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0402-res" H 1725 9500 60  0001 L CNN
 F 3 "" H 1525 9300 50  0001 C CNN
 F 4 "VISHAY" H 1725 9700 60  0001 L CNN "Manufacturer"
 F 5 "CRCW0402470RFKED" H 1725 9600 60  0001 L CNN "MPN"
@@ -1864,7 +1864,7 @@ F 6 "470R" H 1525 9200 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antartix-arty-controller:GND #PWR?
+L scalenode-adapter:GND #PWR?
 U 1 1 609391F7
 P 1175 9300
 AR Path="/609391F7" Ref="#PWR?"  Part="1" 
@@ -1881,14 +1881,14 @@ Wire Wire Line
 Wire Wire Line
 	1675 9300 1725 9300
 $Comp
-L antartix-arty-controller:LG_L29K-G2J1-24-Z D?
+L scalenode-adapter:LG_L29K-G2J1-24-Z D?
 U 1 1 60939201
 P 1825 9300
 AR Path="/60939201" Ref="D?"  Part="1" 
 AR Path="/60924187/60939201" Ref="D4"  Part="1" 
 F 0 "D4" H 1875 9200 60  0000 C CNN
 F 1 "LG_L29K-G2J1-24-Z" H 1225 9475 60  0000 C CNN
-F 2 "antartix-arty-controller-footprints:LED_0603" H 2025 9500 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:LED_0603" H 2025 9500 60  0001 L CNN
 F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 2025 9600 60  0001 L CNN
 F 4 "LG L29K-G2J1-24-Z" H 2025 9800 60  0001 L CNN "MPN"
 F 5 "OSRAM Opto Semiconductors Inc." H 2025 10400 60  0001 L CNN "Manufacturer"
@@ -1904,40 +1904,40 @@ VBUS2
 Text GLabel 2050 8900 2    50   Input ~ 0
 VBUS1
 $Comp
-L antartix-arty-controller:TP_SMD1MM 3V?
+L scalenode-adapter:TP_SMD1MM 3V?
 U 1 1 6093920B
 P 725 3275
 AR Path="/6093920B" Ref="3V?"  Part="1" 
 AR Path="/60924187/6093920B" Ref="3V1"  Part="1" 
 F 0 "3V1" H 675 3322 50  0000 R CNN
 F 1 "TP_SMD1MM" H 725 3175 50  0001 C CNN
-F 2 "antartix-arty-controller-footprints:Testpoint_smd_1mm" H 925 3475 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:Testpoint_smd_1mm" H 925 3475 60  0001 L CNN
 F 3 "" H 925 3575 60  0001 L CNN
 	1    725  3275
 	0    1    1    0   
 $EndComp
 $Comp
-L antartix-arty-controller:TP_SMD1MM 5V?
+L scalenode-adapter:TP_SMD1MM 5V?
 U 1 1 60939211
 P 1625 1750
 AR Path="/60939211" Ref="5V?"  Part="1" 
 AR Path="/60924187/60939211" Ref="5V1"  Part="1" 
 F 0 "5V1" H 1575 1797 50  0000 R CNN
 F 1 "TP_SMD1MM" H 1625 1650 50  0001 C CNN
-F 2 "antartix-arty-controller-footprints:Testpoint_smd_1mm" H 1825 1950 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:Testpoint_smd_1mm" H 1825 1950 60  0001 L CNN
 F 3 "" H 1825 2050 60  0001 L CNN
 	1    1625 1750
 	-1   0    0    1   
 $EndComp
 $Comp
-L antartix-arty-controller:R_470R_0402 R?
+L scalenode-adapter:R_470R_0402 R?
 U 1 1 6093921A
 P 1525 8900
 AR Path="/6093921A" Ref="R?"  Part="1" 
 AR Path="/60924187/6093921A" Ref="R5"  Part="1" 
 F 0 "R5" H 1325 8950 60  0000 C CNN
 F 1 "R_470R_0402" H 1525 8750 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-res" H 1725 9100 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0402-res" H 1725 9100 60  0001 L CNN
 F 3 "" H 1525 8900 50  0001 C CNN
 F 4 "VISHAY" H 1725 9300 60  0001 L CNN "Manufacturer"
 F 5 "CRCW0402470RFKED" H 1725 9200 60  0001 L CNN "MPN"
@@ -1946,7 +1946,7 @@ F 6 "470R" H 1525 8800 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antartix-arty-controller:GND #PWR?
+L scalenode-adapter:GND #PWR?
 U 1 1 60939220
 P 1175 8900
 AR Path="/60939220" Ref="#PWR?"  Part="1" 
@@ -1965,14 +1965,14 @@ Wire Wire Line
 Wire Wire Line
 	1675 8900 1725 8900
 $Comp
-L antartix-arty-controller:LG_L29K-G2J1-24-Z D?
+L scalenode-adapter:LG_L29K-G2J1-24-Z D?
 U 1 1 6093922B
 P 1825 8900
 AR Path="/6093922B" Ref="D?"  Part="1" 
 AR Path="/60924187/6093922B" Ref="D3"  Part="1" 
 F 0 "D3" H 1875 8800 60  0000 C CNN
 F 1 "LG_L29K-G2J1-24-Z" H 1225 9075 60  0000 C CNN
-F 2 "antartix-arty-controller-footprints:LED_0603" H 2025 9100 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:LED_0603" H 2025 9100 60  0001 L CNN
 F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 2025 9200 60  0001 L CNN
 F 4 "LG L29K-G2J1-24-Z" H 2025 9400 60  0001 L CNN "MPN"
 F 5 "OSRAM Opto Semiconductors Inc." H 2025 10000 60  0001 L CNN "Manufacturer"
@@ -1991,14 +1991,14 @@ Wire Wire Line
 Wire Wire Line
 	15250 5950 14775 5950
 $Comp
-L antartix-arty-controller:R_0R_0402 R?
+L scalenode-adapter:R_0R_0402 R?
 U 1 1 60939243
 P 15400 5950
 AR Path="/60939243" Ref="R?"  Part="1" 
 AR Path="/60924187/60939243" Ref="R36"  Part="1" 
 F 0 "R36" H 15600 5900 60  0000 C CNN
 F 1 "R_0R_0402" H 15400 5800 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-res" H 15600 6150 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0402-res" H 15600 6150 60  0001 L CNN
 F 3 "" H 15400 5950 50  0001 C CNN
 F 4 "PANASONIC" H 15600 6350 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 15600 6250 60  0001 L CNN "MPN"
@@ -2009,14 +2009,14 @@ $EndComp
 Wire Wire Line
 	15250 5850 14775 5850
 $Comp
-L antartix-arty-controller:R_0R_0402 R?
+L scalenode-adapter:R_0R_0402 R?
 U 1 1 6093924D
 P 15400 5850
 AR Path="/6093924D" Ref="R?"  Part="1" 
 AR Path="/60924187/6093924D" Ref="R35"  Part="1" 
 F 0 "R35" H 15600 5800 60  0000 C CNN
 F 1 "R_0R_0402" H 15400 5700 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-res" H 15600 6050 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0402-res" H 15600 6050 60  0001 L CNN
 F 3 "" H 15400 5850 50  0001 C CNN
 F 4 "PANASONIC" H 15600 6250 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 15600 6150 60  0001 L CNN "MPN"
@@ -2045,7 +2045,7 @@ Wire Notes Line
 Text GLabel 15800 1925 1    50   Input ~ 0
 VBUS1
 $Comp
-L antartix-arty-controller:GND #PWR?
+L scalenode-adapter:GND #PWR?
 U 1 1 6093925D
 P 15800 2450
 AR Path="/6093925D" Ref="#PWR?"  Part="1" 
@@ -2060,14 +2060,14 @@ $EndComp
 Wire Wire Line
 	15800 2050 15800 1925
 $Comp
-L antartix-arty-controller:C_100n_0402 C?
+L scalenode-adapter:C_100n_0402 C?
 U 1 1 60939267
 P 15800 2200
 AR Path="/60939267" Ref="C?"  Part="1" 
 AR Path="/60924187/60939267" Ref="C48"  Part="1" 
 F 0 "C48" H 15825 2300 60  0000 L CNN
 F 1 "C_100n_0402" H 15800 2050 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-cap" H 16000 2400 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0402-cap" H 16000 2400 60  0001 L CNN
 F 3 "" H 15800 2200 50  0001 C CNN
 F 4 "Walsin" H 16000 2600 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 16000 2500 60  0001 L CNN "MPN"
@@ -2080,7 +2080,7 @@ Wire Wire Line
 Wire Wire Line
 	12225 4500 12225 4600
 $Comp
-L antartix-arty-controller:GND #PWR?
+L scalenode-adapter:GND #PWR?
 U 1 1 6093926F
 P 12225 4600
 AR Path="/6093926F" Ref="#PWR?"  Part="1" 
@@ -2097,7 +2097,7 @@ Wire Wire Line
 Wire Wire Line
 	12750 4100 12750 4200
 $Comp
-L antartix-arty-controller:GND #PWR?
+L scalenode-adapter:GND #PWR?
 U 1 1 60939277
 P 12750 4200
 AR Path="/60939277" Ref="#PWR?"  Part="1" 
@@ -2114,7 +2114,7 @@ Wire Wire Line
 Wire Wire Line
 	13075 4375 13025 4375
 $Comp
-L antartix-arty-controller:GND #PWR?
+L scalenode-adapter:GND #PWR?
 U 1 1 6093927F
 P 13025 4475
 AR Path="/6093927F" Ref="#PWR?"  Part="1" 
@@ -2135,14 +2135,14 @@ Wire Wire Line
 Wire Wire Line
 	13075 4175 13000 4175
 $Comp
-L antartix-arty-controller:TPD2E009 D?
+L scalenode-adapter:TPD2E009 D?
 U 1 1 6093928B
 P 13275 4175
 AR Path="/6093928B" Ref="D?"  Part="1" 
 AR Path="/60924187/6093928B" Ref="D7"  Part="1" 
 F 0 "D7" H 13705 4128 60  0000 L CNN
 F 1 "TPD2E009" H 13705 4022 60  0000 L CNN
-F 2 "antartix-arty-controller-footprints:SOT-3" H 13325 4375 60  0001 C CNN
+F 2 "scalenode-adapter-footprints:SOT-3" H 13325 4375 60  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/tpd2e009.pdf?ts=1597910439511&ref_url=https%253A%252F%252Fwww.google.com%252F" H 13275 4175 60  0001 C CNN
 F 4 "TPD2E009DRTR" H 12975 4475 50  0001 C CNN "MPN"
 F 5 "Texas Instruments" H 12975 4575 50  0001 C CNN "Manufacturer"
@@ -2157,14 +2157,14 @@ Wire Wire Line
 Text GLabel 14550 3700 2    50   Input ~ 0
 VBUS4
 $Comp
-L antartix-arty-controller:WE_629105150521 J?
+L scalenode-adapter:WE_629105150521 J?
 U 1 1 60939297
 P 12325 3900
 AR Path="/60939297" Ref="J?"  Part="1" 
 AR Path="/60924187/60939297" Ref="J4"  Part="1" 
 F 0 "J4" H 12389 4645 60  0000 C CNN
 F 1 "WE_629105150521" H 12389 4539 60  0000 C CNN
-F 2 "antartix-arty-controller-footprints:USB_Micro_B_Female_629105150521" H 12525 4100 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:USB_Micro_B_Female_629105150521" H 12525 4100 60  0001 L CNN
 F 3 "" H 12525 4200 60  0001 L CNN
 F 4 "629105150521" H 12525 4400 60  0001 L CNN "MPN"
 F 5 "Wurth_Elektronik" H 12525 5000 60  0001 L CNN "Manufacturer"
@@ -2182,14 +2182,14 @@ VCC3V3
 Wire Wire Line
 	15250 9150 15250 8975
 $Comp
-L antartix-arty-controller:R_0R_0402 R?
+L scalenode-adapter:R_0R_0402 R?
 U 1 1 609392A5
 P 15050 9150
 AR Path="/609392A5" Ref="R?"  Part="1" 
 AR Path="/60924187/609392A5" Ref="R32"  Part="1" 
 F 0 "R32" H 14825 9200 60  0000 C CNN
 F 1 "R_0R_0402" H 15050 9000 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-res" H 15250 9350 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0402-res" H 15250 9350 60  0001 L CNN
 F 3 "" H 15050 9150 50  0001 C CNN
 F 4 "PANASONIC" H 15250 9550 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 15250 9450 60  0001 L CNN "MPN"
@@ -2202,7 +2202,7 @@ Wire Wire Line
 Text GLabel 9450 9225 1    50   Input ~ 0
 VCC3V3
 $Comp
-L antartix-arty-controller:GND #PWR?
+L scalenode-adapter:GND #PWR?
 U 1 1 609392AD
 P 9450 9750
 AR Path="/609392AD" Ref="#PWR?"  Part="1" 
@@ -2217,14 +2217,14 @@ $EndComp
 Wire Wire Line
 	9450 9350 9450 9225
 $Comp
-L antartix-arty-controller:C_100n_0402 C?
+L scalenode-adapter:C_100n_0402 C?
 U 1 1 609392B7
 P 9450 9500
 AR Path="/609392B7" Ref="C?"  Part="1" 
 AR Path="/60924187/609392B7" Ref="C17"  Part="1" 
 F 0 "C17" H 9475 9600 60  0000 L CNN
 F 1 "C_100n_0402" H 9450 9350 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-cap" H 9650 9700 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0402-cap" H 9650 9700 60  0001 L CNN
 F 3 "" H 9450 9500 50  0001 C CNN
 F 4 "Walsin" H 9650 9900 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 9650 9800 60  0001 L CNN "MPN"
@@ -2237,7 +2237,7 @@ Wire Wire Line
 Text GLabel 9175 9225 1    50   Input ~ 0
 VCC3V3
 $Comp
-L antartix-arty-controller:GND #PWR?
+L scalenode-adapter:GND #PWR?
 U 1 1 609392BF
 P 9175 9750
 AR Path="/609392BF" Ref="#PWR?"  Part="1" 
@@ -2252,14 +2252,14 @@ $EndComp
 Wire Wire Line
 	9175 9350 9175 9225
 $Comp
-L antartix-arty-controller:C_100n_0402 C?
+L scalenode-adapter:C_100n_0402 C?
 U 1 1 609392C9
 P 9175 9500
 AR Path="/609392C9" Ref="C?"  Part="1" 
 AR Path="/60924187/609392C9" Ref="C15"  Part="1" 
 F 0 "C15" H 9200 9600 60  0000 L CNN
 F 1 "C_100n_0402" H 9175 9350 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-cap" H 9375 9700 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0402-cap" H 9375 9700 60  0001 L CNN
 F 3 "" H 9175 9500 50  0001 C CNN
 F 4 "Walsin" H 9375 9900 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 9375 9800 60  0001 L CNN "MPN"
@@ -2280,7 +2280,7 @@ VCC5V0
 Text GLabel 9825 10400 1    50   Input ~ 0
 VCC5V0
 $Comp
-L antartix-arty-controller:GND #PWR?
+L scalenode-adapter:GND #PWR?
 U 1 1 609392D5
 P 10775 10925
 AR Path="/609392D5" Ref="#PWR?"  Part="1" 
@@ -2295,14 +2295,14 @@ $EndComp
 Wire Wire Line
 	10775 10525 10775 10400
 $Comp
-L antartix-arty-controller:C_100n_0402 C?
+L scalenode-adapter:C_100n_0402 C?
 U 1 1 609392DF
 P 10775 10675
 AR Path="/609392DF" Ref="C?"  Part="1" 
 AR Path="/60924187/609392DF" Ref="C36"  Part="1" 
 F 0 "C36" H 10800 10775 60  0000 L CNN
 F 1 "C_100n_0402" H 10775 10525 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-cap" H 10975 10875 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0402-cap" H 10975 10875 60  0001 L CNN
 F 3 "" H 10775 10675 50  0001 C CNN
 F 4 "Walsin" H 10975 11075 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 10975 10975 60  0001 L CNN "MPN"
@@ -2313,7 +2313,7 @@ $EndComp
 Wire Wire Line
 	10775 10925 10775 10825
 $Comp
-L antartix-arty-controller:GND #PWR?
+L scalenode-adapter:GND #PWR?
 U 1 1 609392E6
 P 10500 10925
 AR Path="/609392E6" Ref="#PWR?"  Part="1" 
@@ -2328,14 +2328,14 @@ $EndComp
 Wire Wire Line
 	10500 10525 10500 10400
 $Comp
-L antartix-arty-controller:C_100n_0402 C?
+L scalenode-adapter:C_100n_0402 C?
 U 1 1 609392F0
 P 10500 10675
 AR Path="/609392F0" Ref="C?"  Part="1" 
 AR Path="/60924187/609392F0" Ref="C29"  Part="1" 
 F 0 "C29" H 10525 10775 60  0000 L CNN
 F 1 "C_100n_0402" H 10500 10525 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-cap" H 10700 10875 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0402-cap" H 10700 10875 60  0001 L CNN
 F 3 "" H 10500 10675 50  0001 C CNN
 F 4 "Walsin" H 10700 11075 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 10700 10975 60  0001 L CNN "MPN"
@@ -2346,7 +2346,7 @@ $EndComp
 Wire Wire Line
 	10500 10925 10500 10825
 $Comp
-L antartix-arty-controller:GND #PWR?
+L scalenode-adapter:GND #PWR?
 U 1 1 609392F7
 P 10100 10925
 AR Path="/609392F7" Ref="#PWR?"  Part="1" 
@@ -2361,14 +2361,14 @@ $EndComp
 Wire Wire Line
 	10100 10525 10100 10400
 $Comp
-L antartix-arty-controller:C_100n_0402 C?
+L scalenode-adapter:C_100n_0402 C?
 U 1 1 60939301
 P 10100 10675
 AR Path="/60939301" Ref="C?"  Part="1" 
 AR Path="/60924187/60939301" Ref="C25"  Part="1" 
 F 0 "C25" H 10125 10775 60  0000 L CNN
 F 1 "C_100n_0402" H 10100 10525 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-cap" H 10300 10875 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0402-cap" H 10300 10875 60  0001 L CNN
 F 3 "" H 10100 10675 50  0001 C CNN
 F 4 "Walsin" H 10300 11075 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 10300 10975 60  0001 L CNN "MPN"
@@ -2379,7 +2379,7 @@ $EndComp
 Wire Wire Line
 	10100 10925 10100 10825
 $Comp
-L antartix-arty-controller:GND #PWR?
+L scalenode-adapter:GND #PWR?
 U 1 1 60939308
 P 9825 10925
 AR Path="/60939308" Ref="#PWR?"  Part="1" 
@@ -2394,14 +2394,14 @@ $EndComp
 Wire Wire Line
 	9825 10525 9825 10400
 $Comp
-L antartix-arty-controller:C_100n_0402 C?
+L scalenode-adapter:C_100n_0402 C?
 U 1 1 60939312
 P 9825 10675
 AR Path="/60939312" Ref="C?"  Part="1" 
 AR Path="/60924187/60939312" Ref="C21"  Part="1" 
 F 0 "C21" H 9850 10775 60  0000 L CNN
 F 1 "C_100n_0402" H 9825 10525 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-cap" H 10025 10875 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0402-cap" H 10025 10875 60  0001 L CNN
 F 3 "" H 9825 10675 50  0001 C CNN
 F 4 "Walsin" H 10025 11075 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 10025 10975 60  0001 L CNN "MPN"
@@ -2414,7 +2414,7 @@ Wire Wire Line
 Text GLabel 10775 9225 1    50   Input ~ 0
 VCC3V3
 $Comp
-L antartix-arty-controller:GND #PWR?
+L scalenode-adapter:GND #PWR?
 U 1 1 6093931A
 P 10775 9750
 AR Path="/6093931A" Ref="#PWR?"  Part="1" 
@@ -2429,14 +2429,14 @@ $EndComp
 Wire Wire Line
 	10775 9350 10775 9225
 $Comp
-L antartix-arty-controller:C_100n_0402 C?
+L scalenode-adapter:C_100n_0402 C?
 U 1 1 60939324
 P 10775 9500
 AR Path="/60939324" Ref="C?"  Part="1" 
 AR Path="/60924187/60939324" Ref="C35"  Part="1" 
 F 0 "C35" H 10800 9600 60  0000 L CNN
 F 1 "C_100n_0402" H 10775 9350 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-cap" H 10975 9700 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0402-cap" H 10975 9700 60  0001 L CNN
 F 3 "" H 10775 9500 50  0001 C CNN
 F 4 "Walsin" H 10975 9900 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 10975 9800 60  0001 L CNN "MPN"
@@ -2449,7 +2449,7 @@ Wire Wire Line
 Text GLabel 10500 9225 1    50   Input ~ 0
 VCC3V3
 $Comp
-L antartix-arty-controller:GND #PWR?
+L scalenode-adapter:GND #PWR?
 U 1 1 6093932C
 P 10500 9750
 AR Path="/6093932C" Ref="#PWR?"  Part="1" 
@@ -2464,14 +2464,14 @@ $EndComp
 Wire Wire Line
 	10500 9350 10500 9225
 $Comp
-L antartix-arty-controller:C_100n_0402 C?
+L scalenode-adapter:C_100n_0402 C?
 U 1 1 60939336
 P 10500 9500
 AR Path="/60939336" Ref="C?"  Part="1" 
 AR Path="/60924187/60939336" Ref="C28"  Part="1" 
 F 0 "C28" H 10525 9600 60  0000 L CNN
 F 1 "C_100n_0402" H 10500 9350 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-cap" H 10700 9700 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0402-cap" H 10700 9700 60  0001 L CNN
 F 3 "" H 10500 9500 50  0001 C CNN
 F 4 "Walsin" H 10700 9900 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 10700 9800 60  0001 L CNN "MPN"
@@ -2484,7 +2484,7 @@ Wire Wire Line
 Text GLabel 10100 9225 1    50   Input ~ 0
 VCC3V3
 $Comp
-L antartix-arty-controller:GND #PWR?
+L scalenode-adapter:GND #PWR?
 U 1 1 6093933E
 P 10100 9750
 AR Path="/6093933E" Ref="#PWR?"  Part="1" 
@@ -2499,14 +2499,14 @@ $EndComp
 Wire Wire Line
 	10100 9350 10100 9225
 $Comp
-L antartix-arty-controller:C_100n_0402 C?
+L scalenode-adapter:C_100n_0402 C?
 U 1 1 60939348
 P 10100 9500
 AR Path="/60939348" Ref="C?"  Part="1" 
 AR Path="/60924187/60939348" Ref="C24"  Part="1" 
 F 0 "C24" H 10125 9600 60  0000 L CNN
 F 1 "C_100n_0402" H 10100 9350 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-cap" H 10300 9700 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0402-cap" H 10300 9700 60  0001 L CNN
 F 3 "" H 10100 9500 50  0001 C CNN
 F 4 "Walsin" H 10300 9900 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 10300 9800 60  0001 L CNN "MPN"
@@ -2519,7 +2519,7 @@ Wire Wire Line
 Text GLabel 9825 9225 1    50   Input ~ 0
 VCC3V3
 $Comp
-L antartix-arty-controller:GND #PWR?
+L scalenode-adapter:GND #PWR?
 U 1 1 60939350
 P 9825 9750
 AR Path="/60939350" Ref="#PWR?"  Part="1" 
@@ -2548,14 +2548,14 @@ Wire Wire Line
 Wire Wire Line
 	7700 2950 8250 2950
 $Comp
-L antartix-arty-controller:R_0R_0402 R?
+L scalenode-adapter:R_0R_0402 R?
 U 1 1 60939361
 P 1275 2225
 AR Path="/60939361" Ref="R?"  Part="1" 
 AR Path="/60924187/60939361" Ref="R2"  Part="1" 
 F 0 "R2" H 1075 2175 60  0000 C CNN
 F 1 "R_0R_0402" H 1275 2075 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-res" H 1475 2425 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0402-res" H 1475 2425 60  0001 L CNN
 F 3 "" H 1275 2225 50  0001 C CNN
 F 4 "PANASONIC" H 1475 2625 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 1475 2525 60  0001 L CNN "MPN"
@@ -2564,14 +2564,14 @@ F 6 "0R" H 925 2175 50  0000 C CNN "Val"
 	-1   0    0    1   
 $EndComp
 $Comp
-L antartix-arty-controller:R_0R_0402 R?
+L scalenode-adapter:R_0R_0402 R?
 U 1 1 6093936A
 P 1275 2125
 AR Path="/6093936A" Ref="R?"  Part="1" 
 AR Path="/60924187/6093936A" Ref="R1"  Part="1" 
 F 0 "R1" H 1075 2075 60  0000 C CNN
 F 1 "R_0R_0402" H 1275 1975 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-res" H 1475 2325 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0402-res" H 1475 2325 60  0001 L CNN
 F 3 "" H 1275 2125 50  0001 C CNN
 F 4 "PANASONIC" H 1475 2525 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 1475 2425 60  0001 L CNN "MPN"
@@ -2592,14 +2592,14 @@ FTDI USB->I2C
 Wire Wire Line
 	9825 9350 9825 9225
 $Comp
-L antartix-arty-controller:C_100n_0402 C?
+L scalenode-adapter:C_100n_0402 C?
 U 1 1 60939379
 P 9825 9500
 AR Path="/60939379" Ref="C?"  Part="1" 
 AR Path="/60924187/60939379" Ref="C20"  Part="1" 
 F 0 "C20" H 9850 9600 60  0000 L CNN
 F 1 "C_100n_0402" H 9825 9350 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-cap" H 10025 9700 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0402-cap" H 10025 9700 60  0001 L CNN
 F 3 "" H 9825 9500 50  0001 C CNN
 F 4 "Walsin" H 10025 9900 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 10025 9800 60  0001 L CNN "MPN"
@@ -2610,7 +2610,7 @@ $EndComp
 Wire Wire Line
 	9825 9750 9825 9650
 $Comp
-L antartix-arty-controller:GND #PWR?
+L scalenode-adapter:GND #PWR?
 U 1 1 60939380
 P 13075 9500
 AR Path="/60939380" Ref="#PWR?"  Part="1" 
@@ -2630,14 +2630,14 @@ Wire Wire Line
 Wire Wire Line
 	12650 8050 12650 8750
 $Comp
-L antartix-arty-controller:MQ-6.000-12-30_30_ Y?
+L scalenode-adapter:MQ-6.000-12-30_30_ Y?
 U 1 1 6093938C
 P 12300 8650
 AR Path="/6093938C" Ref="Y?"  Part="1" 
 AR Path="/60924187/6093938C" Ref="Y2"  Part="1" 
 F 0 "Y2" H 12275 8625 60  0000 C CNN
 F 1 "MQ-6.000-12-30_30_" V 12375 7875 60  0000 C CNN
-F 2 "antartix-arty-controller-footprints:Crystal_5x7mm" H 12300 8650 60  0001 C CNN
+F 2 "scalenode-adapter-footprints:Crystal_5x7mm" H 12300 8650 60  0001 C CNN
 F 3 "" H 12300 8650 60  0001 C CNN
 F 4 "MQ-6.000-12-30/30/-40+85 " H 12300 8650 50  0001 C CNN "MPN"
 F 5 "MERCURY UNITED ELECTRONICS" H 12300 8650 50  0001 C CNN "Manufacturer"
@@ -2645,7 +2645,7 @@ F 5 "MERCURY UNITED ELECTRONICS" H 12300 8650 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antartix-arty-controller:GND #PWR?
+L scalenode-adapter:GND #PWR?
 U 1 1 60939392
 P 12650 9500
 AR Path="/60939392" Ref="#PWR?"  Part="1" 
@@ -2658,7 +2658,7 @@ F 3 "" H 12650 9500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antartix-arty-controller:GND #PWR?
+L scalenode-adapter:GND #PWR?
 U 1 1 60939398
 P 12125 9550
 AR Path="/60939398" Ref="#PWR?"  Part="1" 
@@ -2671,7 +2671,7 @@ F 3 "" H 12125 9550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antartix-arty-controller:GND #PWR?
+L scalenode-adapter:GND #PWR?
 U 1 1 6093939E
 P 11875 8325
 AR Path="/6093939E" Ref="#PWR?"  Part="1" 
@@ -2688,7 +2688,7 @@ VCC5V0
 Text GLabel 11850 6225 1    50   Input ~ 0
 VCC5V0
 $Comp
-L antartix-arty-controller:GND #PWR?
+L scalenode-adapter:GND #PWR?
 U 1 1 609393A6
 P 12675 7150
 AR Path="/609393A6" Ref="#PWR?"  Part="1" 
@@ -2701,7 +2701,7 @@ F 3 "" H 12675 7150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L antartix-arty-controller:GND #PWR?
+L scalenode-adapter:GND #PWR?
 U 1 1 609393AC
 P 12300 6850
 AR Path="/609393AC" Ref="#PWR?"  Part="1" 
@@ -2720,7 +2720,7 @@ VCC5V0
 Text GLabel 15650 7650 2    50   Input ~ 0
 VCC3V3
 $Comp
-L antartix-arty-controller:GND #PWR?
+L scalenode-adapter:GND #PWR?
 U 1 1 609393B5
 P 15375 7050
 AR Path="/609393B5" Ref="#PWR?"  Part="1" 
@@ -2764,14 +2764,14 @@ Wire Wire Line
 Wire Wire Line
 	12650 9225 12650 9500
 $Comp
-L antartix-arty-controller:C_22p_0402 C?
+L scalenode-adapter:C_22p_0402 C?
 U 1 1 609393D0
 P 12650 9075
 AR Path="/609393D0" Ref="C?"  Part="1" 
 AR Path="/60924187/609393D0" Ref="C43"  Part="1" 
 F 0 "C43" H 12675 9175 60  0000 L CNN
 F 1 "C_22p_0402" H 12650 8925 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-cap" H 12850 9275 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0402-cap" H 12850 9275 60  0001 L CNN
 F 3 "" H 12650 9075 50  0001 C CNN
 F 4 "YAGEO" H 12850 9475 60  0001 L CNN "Manufacturer"
 F 5 "CC0402JRNPO9BN220" H 12850 9375 60  0001 L CNN "MPN"
@@ -2793,14 +2793,14 @@ Wire Wire Line
 Wire Wire Line
 	13225 7950 12125 7950
 $Comp
-L antartix-arty-controller:C_22p_0402 C?
+L scalenode-adapter:C_22p_0402 C?
 U 1 1 609393E0
 P 12125 9075
 AR Path="/609393E0" Ref="C?"  Part="1" 
 AR Path="/60924187/609393E0" Ref="C41"  Part="1" 
 F 0 "C41" H 12150 9175 60  0000 L CNN
 F 1 "C_22p_0402" H 12125 8925 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-cap" H 12325 9275 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0402-cap" H 12325 9275 60  0001 L CNN
 F 3 "" H 12125 9075 50  0001 C CNN
 F 4 "YAGEO" H 12325 9475 60  0001 L CNN "Manufacturer"
 F 5 "CC0402JRNPO9BN220" H 12325 9375 60  0001 L CNN "MPN"
@@ -2818,14 +2818,14 @@ Wire Wire Line
 Wire Wire Line
 	11875 7750 11875 7525
 $Comp
-L antartix-arty-controller:R_10k_0402 R?
+L scalenode-adapter:R_10k_0402 R?
 U 1 1 609393EE
 P 11875 8025
 AR Path="/609393EE" Ref="R?"  Part="1" 
 AR Path="/60924187/609393EE" Ref="R27"  Part="1" 
 F 0 "R27" V 11725 8050 60  0000 L CNN
 F 1 "R_10k_0402" H 11875 7875 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-res" H 12075 8225 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0402-res" H 12075 8225 60  0001 L CNN
 F 3 "" H 11875 8025 50  0001 C CNN
 F 4 "VISHAY" H 12075 8425 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 12075 8325 60  0001 L CNN "MPN"
@@ -2836,14 +2836,14 @@ $EndComp
 Wire Wire Line
 	11875 7750 13225 7750
 $Comp
-L antartix-arty-controller:R_4k7_0402 R?
+L scalenode-adapter:R_4k7_0402 R?
 U 1 1 609393F8
 P 11875 7375
 AR Path="/609393F8" Ref="R?"  Part="1" 
 AR Path="/60924187/609393F8" Ref="R26"  Part="1" 
 F 0 "R26" V 11725 7400 60  0000 L CNN
 F 1 "R_4k7_0402" H 11875 7225 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-res" H 12075 7575 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0402-res" H 12075 7575 60  0001 L CNN
 F 3 "" H 11875 7375 50  0001 C CNN
 F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 12075 7775 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GEJ472X" H 12075 7675 60  0001 L CNN "MPN"
@@ -2854,14 +2854,14 @@ $EndComp
 Wire Wire Line
 	13225 7650 13200 7650
 $Comp
-L antartix-arty-controller:R_1k54_0402 R?
+L scalenode-adapter:R_1k54_0402 R?
 U 1 1 60939406
 P 13050 7650
 AR Path="/60939406" Ref="R?"  Part="1" 
 AR Path="/60924187/60939406" Ref="R29"  Part="1" 
 F 0 "R29" H 12775 7700 60  0000 C CNN
 F 1 "R_1k54_0402" H 13050 7500 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-res" H 13250 7850 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0402-res" H 13250 7850 60  0001 L CNN
 F 3 "" H 13050 7650 50  0001 C CNN
 F 4 "VISHAY" H 13250 8050 60  0001 L CNN "Manufacturer"
 F 5 "CRCW04021K54FKED." H 13250 7950 60  0001 L CNN "MPN"
@@ -2872,14 +2872,14 @@ $EndComp
 Wire Wire Line
 	12800 7150 12675 7150
 $Comp
-L antartix-arty-controller:C_100n_0402 C?
+L scalenode-adapter:C_100n_0402 C?
 U 1 1 60939410
 P 12950 7150
 AR Path="/60939410" Ref="C?"  Part="1" 
 AR Path="/60924187/60939410" Ref="C45"  Part="1" 
 F 0 "C45" V 12875 6900 60  0000 L CNN
 F 1 "C_100n_0402" H 12950 7000 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-cap" H 13150 7350 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0402-cap" H 13150 7350 60  0001 L CNN
 F 3 "" H 12950 7150 50  0001 C CNN
 F 4 "Walsin" H 13150 7550 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 13150 7450 60  0001 L CNN "MPN"
@@ -2897,14 +2897,14 @@ Connection ~ 12300 6350
 Wire Wire Line
 	12300 6350 12300 6450
 $Comp
-L antartix-arty-controller:C_100n_0402 C?
+L scalenode-adapter:C_100n_0402 C?
 U 1 1 6093941E
 P 12300 6600
 AR Path="/6093941E" Ref="C?"  Part="1" 
 AR Path="/60924187/6093941E" Ref="C42"  Part="1" 
 F 0 "C42" H 12325 6700 60  0000 L CNN
 F 1 "C_100n_0402" H 12300 6450 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-cap" H 12500 6800 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0402-cap" H 12500 6800 60  0001 L CNN
 F 3 "" H 12300 6600 50  0001 C CNN
 F 4 "Walsin" H 12500 7000 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 12500 6900 60  0001 L CNN "MPN"
@@ -2915,14 +2915,14 @@ $EndComp
 Wire Wire Line
 	11925 6350 11850 6350
 $Comp
-L antartix-arty-controller:R_470R_0402 R?
+L scalenode-adapter:R_470R_0402 R?
 U 1 1 60939428
 P 12075 6350
 AR Path="/60939428" Ref="R?"  Part="1" 
 AR Path="/60924187/60939428" Ref="R28"  Part="1" 
 F 0 "R28" H 12075 6450 60  0000 C CNN
 F 1 "R_470R_0402" H 12075 6200 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-res" H 12275 6550 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0402-res" H 12275 6550 60  0001 L CNN
 F 3 "" H 12075 6350 50  0001 C CNN
 F 4 "VISHAY" H 12275 6750 60  0001 L CNN "Manufacturer"
 F 5 "CRCW0402470RFKED" H 12275 6650 60  0001 L CNN "MPN"
@@ -2955,14 +2955,14 @@ Wire Wire Line
 Wire Wire Line
 	15250 7650 15650 7650
 $Comp
-L antartix-arty-controller:R_0R_0402 R?
+L scalenode-adapter:R_0R_0402 R?
 U 1 1 6093943E
 P 15100 7650
 AR Path="/6093943E" Ref="R?"  Part="1" 
 AR Path="/60924187/6093943E" Ref="R33"  Part="1" 
 F 0 "R33" H 14900 7700 60  0000 C CNN
 F 1 "R_0R_0402" H 15100 7500 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-res" H 15300 7850 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0402-res" H 15300 7850 60  0001 L CNN
 F 3 "" H 15100 7650 50  0001 C CNN
 F 4 "PANASONIC" H 15300 8050 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 15300 7950 60  0001 L CNN "MPN"
@@ -2980,14 +2980,14 @@ Connection ~ 15375 6650
 Wire Wire Line
 	15375 6725 15375 6650
 $Comp
-L antartix-arty-controller:R_220R_0402 R?
+L scalenode-adapter:R_220R_0402 R?
 U 1 1 6093944C
 P 15375 6875
 AR Path="/6093944C" Ref="R?"  Part="1" 
 AR Path="/60924187/6093944C" Ref="R34"  Part="1" 
 F 0 "R34" V 15330 6945 60  0000 L CNN
 F 1 "R_220R_0402" H 15375 6725 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-res" H 15575 7075 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0402-res" H 15575 7075 60  0001 L CNN
 F 3 "" H 15375 6875 50  0001 C CNN
 F 4 "Panasonic" H 15575 7275 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GEJ221X" H 15575 7175 60  0001 L CNN "MPN"
@@ -2998,14 +2998,14 @@ $EndComp
 Wire Wire Line
 	15125 6650 15375 6650
 $Comp
-L antartix-arty-controller:R_0R_0402 R?
+L scalenode-adapter:R_0R_0402 R?
 U 1 1 60939456
 P 14975 6650
 AR Path="/60939456" Ref="R?"  Part="1" 
 AR Path="/60924187/60939456" Ref="R31"  Part="1" 
 F 0 "R31" H 14800 6675 60  0000 C CNN
 F 1 "R_0R_0402" H 14975 6500 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-res" H 15175 6850 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0402-res" H 15175 6850 60  0001 L CNN
 F 3 "" H 14975 6650 50  0001 C CNN
 F 4 "PANASONIC" H 15175 7050 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 15175 6950 60  0001 L CNN "MPN"
@@ -3036,14 +3036,14 @@ SCL_FTDI
 Text Notes 12875 1075 0    118  ~ 0
 USB A connectors
 $Comp
-L antartix-arty-controller:R_0R01_1206 R?
+L scalenode-adapter:R_0R01_1206 R?
 U 1 1 60939472
 P 4075 9600
 AR Path="/60939472" Ref="R?"  Part="1" 
 AR Path="/60924187/60939472" Ref="R21"  Part="1" 
 F 0 "R21" H 4075 9387 60  0000 C CNN
 F 1 "R_0R01_1206" H 4075 9450 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:1206-res" H 4275 9800 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:1206-res" H 4275 9800 60  0001 L CNN
 F 3 "" H 4075 9600 50  0001 C CNN
 F 4 "PANASONIC" H 4275 10000 60  0001 L CNN "Manufacturer"
 F 5 "ERJMP2KF10MU" H 4275 9900 60  0001 L CNN "MPN"
@@ -3052,14 +3052,14 @@ F 6 "0R01" H 4075 9485 50  0000 C CNN "Val"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antartix-arty-controller:R_0R01_1206 R?
+L scalenode-adapter:R_0R01_1206 R?
 U 1 1 6093947B
 P 4050 8975
 AR Path="/6093947B" Ref="R?"  Part="1" 
 AR Path="/60924187/6093947B" Ref="R15"  Part="1" 
 F 0 "R15" H 4050 8762 60  0000 C CNN
 F 1 "R_0R01_1206" H 4050 8825 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:1206-res" H 4250 9175 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:1206-res" H 4250 9175 60  0001 L CNN
 F 3 "" H 4050 8975 50  0001 C CNN
 F 4 "PANASONIC" H 4250 9375 60  0001 L CNN "Manufacturer"
 F 5 "ERJMP2KF10MU" H 4250 9275 60  0001 L CNN "MPN"
@@ -3084,14 +3084,14 @@ Wire Wire Line
 Wire Wire Line
 	1425 7425 1425 7775
 $Comp
-L antartix-arty-controller:LG_L29K-G2J1-24-Z D?
+L scalenode-adapter:LG_L29K-G2J1-24-Z D?
 U 1 1 60939494
 P 1650 7425
 AR Path="/60939494" Ref="D?"  Part="1" 
 AR Path="/60924187/60939494" Ref="D1"  Part="1" 
 F 0 "D1" H 1375 7375 60  0000 L CNN
 F 1 "LG_L29K-G2J1-24-Z" H 1525 7275 60  0000 L CNN
-F 2 "antartix-arty-controller-footprints:LED_0603" H 1850 7625 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:LED_0603" H 1850 7625 60  0001 L CNN
 F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 1850 7725 60  0001 L CNN
 F 4 "LG L29K-G2J1-24-Z" H 1850 7925 60  0001 L CNN "MPN"
 F 5 "OSRAM Opto Semiconductors Inc." H 1850 8525 60  0001 L CNN "Manufacturer"
@@ -3101,14 +3101,14 @@ $EndComp
 Wire Wire Line
 	1425 7775 1775 7775
 $Comp
-L antartix-arty-controller:R_47k_0402 R?
+L scalenode-adapter:R_47k_0402 R?
 U 1 1 6093949E
 P 1925 7775
 AR Path="/6093949E" Ref="R?"  Part="1" 
 AR Path="/60924187/6093949E" Ref="R9"  Part="1" 
 F 0 "R9" H 1875 7675 60  0000 L CNN
 F 1 "R_47k_0402" H 1925 7625 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-res" H 2125 7975 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0402-res" H 2125 7975 60  0001 L CNN
 F 3 "" H 1925 7775 50  0001 C CNN
 F 4 "MULTICOMP" H 2125 8175 60  0001 L CNN "Manufacturer"
 F 5 "MCMR04X4702FTL" H 2125 8075 60  0001 L CNN "MPN"
@@ -3131,14 +3131,14 @@ USB1_EN
 Text GLabel 3250 3475 1    50   Input ~ 0
 VCC3V3
 $Comp
-L antartix-arty-controller:R_10k_0402 R?
+L scalenode-adapter:R_10k_0402 R?
 U 1 1 609394AE
 P 3400 3825
 AR Path="/609394AE" Ref="R?"  Part="1" 
 AR Path="/60924187/609394AE" Ref="R14"  Part="1" 
 F 0 "R14" V 3250 3850 60  0000 L CNN
 F 1 "R_10k_0402" H 3400 3675 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-res" H 3600 4025 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0402-res" H 3600 4025 60  0001 L CNN
 F 3 "" H 3400 3825 50  0001 C CNN
 F 4 "VISHAY" H 3600 4225 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 3600 4125 60  0001 L CNN "MPN"
@@ -3147,14 +3147,14 @@ F 6 "10k" V 3550 3850 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antartix-arty-controller:R_10k_0402 R?
+L scalenode-adapter:R_10k_0402 R?
 U 1 1 609394B7
 P 3250 3725
 AR Path="/609394B7" Ref="R?"  Part="1" 
 AR Path="/60924187/609394B7" Ref="R13"  Part="1" 
 F 0 "R13" V 3100 3750 60  0000 L CNN
 F 1 "R_10k_0402" H 3250 3575 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-res" H 3450 3925 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0402-res" H 3450 3925 60  0001 L CNN
 F 3 "" H 3250 3725 50  0001 C CNN
 F 4 "VISHAY" H 3450 4125 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 3450 4025 60  0001 L CNN "MPN"
@@ -3165,7 +3165,7 @@ $EndComp
 Wire Wire Line
 	4225 2300 4225 2200
 $Comp
-L antartix-arty-controller:GND #PWR?
+L scalenode-adapter:GND #PWR?
 U 1 1 609394BE
 P 4225 2300
 AR Path="/609394BE" Ref="#PWR?"  Part="1" 
@@ -3183,14 +3183,14 @@ Wire Wire Line
 Wire Wire Line
 	4225 1850 4225 1775
 $Comp
-L antartix-arty-controller:R_100k_0402 R?
+L scalenode-adapter:R_100k_0402 R?
 U 1 1 609394CA
 P 4225 2050
 AR Path="/609394CA" Ref="R?"  Part="1" 
 AR Path="/60924187/609394CA" Ref="R18"  Part="1" 
 F 0 "R18" V 4180 2120 60  0000 L CNN
 F 1 "R_100k_0402" H 4225 1900 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-res" H 4425 2250 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0402-res" H 4425 2250 60  0001 L CNN
 F 3 "" H 4225 2050 50  0001 C CNN
 F 4 "VISHAY" H 4425 2450 60  0001 L CNN "Manufacturer"
 F 5 "CRCW0402100KFKEDHP" H 4425 2350 60  0001 L CNN "MPN"
@@ -3201,14 +3201,14 @@ $EndComp
 Wire Wire Line
 	4225 1850 5650 1850
 $Comp
-L antartix-arty-controller:R_100k_0402 R?
+L scalenode-adapter:R_100k_0402 R?
 U 1 1 609394D4
 P 4225 1625
 AR Path="/609394D4" Ref="R?"  Part="1" 
 AR Path="/60924187/609394D4" Ref="R17"  Part="1" 
 F 0 "R17" V 4180 1695 60  0000 L CNN
 F 1 "R_100k_0402" H 4225 1475 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-res" H 4425 1825 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0402-res" H 4425 1825 60  0001 L CNN
 F 3 "" H 4225 1625 50  0001 C CNN
 F 4 "VISHAY" H 4425 2025 60  0001 L CNN "Manufacturer"
 F 5 "CRCW0402100KFKEDHP" H 4425 1925 60  0001 L CNN "MPN"
@@ -3223,7 +3223,7 @@ SLOW_~ALERT
 Wire Wire Line
 	15175 2050 15250 2050
 $Comp
-L antartix-arty-controller:GND #PWR?
+L scalenode-adapter:GND #PWR?
 U 1 1 609394DD
 P 15200 2500
 AR Path="/609394DD" Ref="#PWR?"  Part="1" 
@@ -3250,7 +3250,7 @@ RESET_N
 Text GLabel 7000 8800 1    50   Input ~ 0
 VCC5V0
 $Comp
-L antartix-arty-controller:GND #PWR?
+L scalenode-adapter:GND #PWR?
 U 1 1 609394EA
 P 7275 9100
 AR Path="/609394EA" Ref="#PWR?"  Part="1" 
@@ -3265,14 +3265,14 @@ $EndComp
 Text GLabel 7275 8800 1    50   Input ~ 0
 VCC5V0
 $Comp
-L antartix-arty-controller:C_100n_0402 C?
+L scalenode-adapter:C_100n_0402 C?
 U 1 1 609394F4
 P 7275 8950
 AR Path="/609394F4" Ref="C?"  Part="1" 
 AR Path="/60924187/609394F4" Ref="C9"  Part="1" 
 F 0 "C9" H 7390 8995 60  0000 L CNN
 F 1 "C_100n_0402" H 7275 8800 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-cap" H 7475 9150 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0402-cap" H 7475 9150 60  0001 L CNN
 F 3 "" H 7275 8950 50  0001 C CNN
 F 4 "Walsin" H 7475 9350 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 7475 9250 60  0001 L CNN "MPN"
@@ -3283,7 +3283,7 @@ $EndComp
 Wire Wire Line
 	6900 10675 6900 10900
 $Comp
-L antartix-arty-controller:GND #PWR?
+L scalenode-adapter:GND #PWR?
 U 1 1 609394FB
 P 6900 10900
 AR Path="/609394FB" Ref="#PWR?"  Part="1" 
@@ -3298,7 +3298,7 @@ $EndComp
 Wire Wire Line
 	7150 9475 6900 9475
 $Comp
-L antartix-arty-controller:GND #PWR?
+L scalenode-adapter:GND #PWR?
 U 1 1 60939502
 P 7150 9475
 AR Path="/60939502" Ref="#PWR?"  Part="1" 
@@ -3323,14 +3323,14 @@ Power switches
 Text Notes 5325 8675 0    118  ~ 0
 Current monitor
 $Comp
-L antartix-arty-controller:PAC1934T-I_JQ U?
+L scalenode-adapter:PAC1934T-I_JQ U?
 U 1 1 60939511
 P 6100 9975
 AR Path="/60939511" Ref="U?"  Part="1" 
 AR Path="/60924187/60939511" Ref="U2"  Part="1" 
 F 0 "U2" H 6100 11045 50  0000 C CNN
 F 1 "PAC1934T-I_JQ" H 6100 10954 50  0000 C CNN
-F 2 "antartix-arty-controller-footprints:QFN65P400X400X55-17N" H 5500 8975 50  0001 L BNN
+F 2 "scalenode-adapter-footprints:QFN65P400X400X55-17N" H 5500 8975 50  0001 L BNN
 F 3 "" H 6100 9975 50  0001 L BNN
 F 4 "Microchip" H 6250 9075 50  0001 L BNN "Manufacturer"
 	1    6100 9975
@@ -3351,7 +3351,7 @@ Wire Wire Line
 Wire Wire Line
 	4850 3650 4850 3750
 $Comp
-L antartix-arty-controller:GND #PWR?
+L scalenode-adapter:GND #PWR?
 U 1 1 6093951F
 P 4850 3975
 AR Path="/6093951F" Ref="#PWR?"  Part="1" 
@@ -3368,14 +3368,14 @@ Wire Wire Line
 Wire Wire Line
 	5600 3650 5650 3650
 $Comp
-L antartix-arty-controller:C_100n_0402 C?
+L scalenode-adapter:C_100n_0402 C?
 U 1 1 6093952A
 P 5175 3750
 AR Path="/6093952A" Ref="C?"  Part="1" 
 AR Path="/60924187/6093952A" Ref="C3"  Part="1" 
 F 0 "C3" V 4917 3750 60  0000 C CNN
 F 1 "C_100n_0402" H 5175 3600 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-cap" H 5375 3950 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0402-cap" H 5375 3950 60  0001 L CNN
 F 3 "" H 5175 3750 50  0001 C CNN
 F 4 "Walsin" H 5375 4150 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 5375 4050 60  0001 L CNN "MPN"
@@ -3384,14 +3384,14 @@ F 6 "100n" V 5015 3750 50  0000 C CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antartix-arty-controller:C_100n_0402 C?
+L scalenode-adapter:C_100n_0402 C?
 U 1 1 60939533
 P 5450 3650
 AR Path="/60939533" Ref="C?"  Part="1" 
 AR Path="/60924187/60939533" Ref="C4"  Part="1" 
 F 0 "C4" V 5192 3650 60  0000 C CNN
 F 1 "C_100n_0402" H 5450 3500 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-cap" H 5650 3850 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0402-cap" H 5650 3850 60  0001 L CNN
 F 3 "" H 5450 3650 50  0001 C CNN
 F 4 "Walsin" H 5650 4050 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 5650 3950 60  0001 L CNN "MPN"
@@ -3401,7 +3401,7 @@ F 6 "100n" V 5290 3650 50  0000 C CNN "Val"
 $EndComp
 NoConn ~ 7700 3650
 $Comp
-L antartix-arty-controller:GND #PWR?
+L scalenode-adapter:GND #PWR?
 U 1 1 6093953A
 P 7700 4100
 AR Path="/6093953A" Ref="#PWR?"  Part="1" 
@@ -3416,7 +3416,7 @@ $EndComp
 Text Notes 6250 1175 0    118  ~ 0
 USB hub
 $Comp
-L antartix-arty-controller:GND #PWR?
+L scalenode-adapter:GND #PWR?
 U 1 1 60939541
 P 5500 5950
 AR Path="/60939541" Ref="#PWR?"  Part="1" 
@@ -3431,14 +3431,14 @@ $EndComp
 Text GLabel 5500 5650 1    50   Input ~ 0
 VCC3V3
 $Comp
-L antartix-arty-controller:C_47p_0402 C?
+L scalenode-adapter:C_47p_0402 C?
 U 1 1 6093954B
 P 5500 5800
 AR Path="/6093954B" Ref="C?"  Part="1" 
 AR Path="/60924187/6093954B" Ref="C5"  Part="1" 
 F 0 "C5" H 5615 5845 60  0000 L CNN
 F 1 "C_47p_0402" H 5500 5650 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-cap" H 5700 6000 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0402-cap" H 5700 6000 60  0001 L CNN
 F 3 "" H 5500 5800 50  0001 C CNN
 F 4 "KEMET" H 5700 6200 60  0001 L CNN "Manufacturer"
 F 5 "C0402C470J5GACTU" H 5700 6100 60  0001 L CNN "MPN"
@@ -3447,7 +3447,7 @@ F 6 "47p" H 5615 5747 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antartix-arty-controller:GND #PWR?
+L scalenode-adapter:GND #PWR?
 U 1 1 60939551
 P 5800 5950
 AR Path="/60939551" Ref="#PWR?"  Part="1" 
@@ -3462,14 +3462,14 @@ $EndComp
 Text GLabel 5800 5650 1    50   Input ~ 0
 VCC3V3
 $Comp
-L antartix-arty-controller:C_100n_0402 C?
+L scalenode-adapter:C_100n_0402 C?
 U 1 1 6093955B
 P 5800 5800
 AR Path="/6093955B" Ref="C?"  Part="1" 
 AR Path="/60924187/6093955B" Ref="C6"  Part="1" 
 F 0 "C6" H 5915 5845 60  0000 L CNN
 F 1 "C_100n_0402" H 5800 5650 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-cap" H 6000 6000 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0402-cap" H 6000 6000 60  0001 L CNN
 F 3 "" H 5800 5800 50  0001 C CNN
 F 4 "Walsin" H 6000 6200 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 6000 6100 60  0001 L CNN "MPN"
@@ -3491,7 +3491,7 @@ Wire Wire Line
 Wire Wire Line
 	7800 5775 7800 5750
 $Comp
-L antartix-arty-controller:GND #PWR?
+L scalenode-adapter:GND #PWR?
 U 1 1 60939568
 P 7800 6075
 AR Path="/60939568" Ref="#PWR?"  Part="1" 
@@ -3504,14 +3504,14 @@ F 3 "" H 7800 6075 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antartix-arty-controller:C_47p_0402 C?
+L scalenode-adapter:C_47p_0402 C?
 U 1 1 60939571
 P 7800 5925
 AR Path="/60939571" Ref="C?"  Part="1" 
 AR Path="/60924187/60939571" Ref="C8"  Part="1" 
 F 0 "C8" H 7915 5970 60  0000 L CNN
 F 1 "C_47p_0402" H 7800 5775 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-cap" H 8000 6125 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0402-cap" H 8000 6125 60  0001 L CNN
 F 3 "" H 7800 5925 50  0001 C CNN
 F 4 "KEMET" H 8000 6325 60  0001 L CNN "Manufacturer"
 F 5 "C0402C470J5GACTU" H 8000 6225 60  0001 L CNN "MPN"
@@ -3520,7 +3520,7 @@ F 6 "47p" H 7915 5872 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antartix-arty-controller:GND #PWR?
+L scalenode-adapter:GND #PWR?
 U 1 1 60939577
 P 7200 6075
 AR Path="/60939577" Ref="#PWR?"  Part="1" 
@@ -3538,14 +3538,14 @@ Connection ~ 7200 5750
 Wire Wire Line
 	7200 5775 7200 5750
 $Comp
-L antartix-arty-controller:C_47p_0402 C?
+L scalenode-adapter:C_47p_0402 C?
 U 1 1 60939583
 P 7200 5925
 AR Path="/60939583" Ref="C?"  Part="1" 
 AR Path="/60924187/60939583" Ref="C7"  Part="1" 
 F 0 "C7" H 7315 5970 60  0000 L CNN
 F 1 "C_47p_0402" H 7200 5775 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-cap" H 7400 6125 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0402-cap" H 7400 6125 60  0001 L CNN
 F 3 "" H 7200 5925 50  0001 C CNN
 F 4 "KEMET" H 7400 6325 60  0001 L CNN "Manufacturer"
 F 5 "C0402C470J5GACTU" H 7400 6225 60  0001 L CNN "MPN"
@@ -3556,14 +3556,14 @@ $EndComp
 Wire Wire Line
 	6925 5750 7200 5750
 $Comp
-L antartix-arty-controller:R_22R_0402 R?
+L scalenode-adapter:R_22R_0402 R?
 U 1 1 6093958D
 P 7500 5750
 AR Path="/6093958D" Ref="R?"  Part="1" 
 AR Path="/60924187/6093958D" Ref="R24"  Part="1" 
 F 0 "R24" H 7500 5963 60  0000 C CNN
 F 1 "R_22R_0402" H 7500 5600 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-res" H 7700 5950 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0402-res" H 7700 5950 60  0001 L CNN
 F 3 "" H 7500 5750 50  0001 C CNN
 F 4 "VISHAY" H 7700 6150 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040222R0FKED" H 7700 6050 60  0001 L CNN "MPN"
@@ -3572,7 +3572,7 @@ F 6 "22R" H 7500 5865 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antartix-arty-controller:GND #PWR?
+L scalenode-adapter:GND #PWR?
 U 1 1 60939593
 P 6100 6075
 AR Path="/60939593" Ref="#PWR?"  Part="1" 
@@ -3601,14 +3601,14 @@ Wire Wire Line
 Wire Wire Line
 	6225 5750 6100 5750
 $Comp
-L antartix-arty-controller:7C-24.000MBB-T Y?
+L scalenode-adapter:7C-24.000MBB-T Y?
 U 1 1 609395A3
 P 6575 5800
 AR Path="/609395A3" Ref="Y?"  Part="1" 
 AR Path="/60924187/609395A3" Ref="Y1"  Part="1" 
 F 0 "Y1" H 6575 6115 50  0000 C CNN
 F 1 "7C-24.000MBB-T" H 6575 6024 50  0000 C CNN
-F 2 "antartix-arty-controller-footprints:7C-24.000MBB-T" H 6975 5500 50  0001 C CNN
+F 2 "scalenode-adapter-footprints:7C-24.000MBB-T" H 6975 5500 50  0001 C CNN
 F 3 "" H 6675 6300 50  0001 C CNN
 F 4 "7C-24.000MBB-T" H 6625 6100 50  0001 C CNN "MPN"
 F 5 "TXC" H 6575 6200 50  0001 C CNN "Manufacturer"
@@ -3676,7 +3676,7 @@ Temperature sensor
 Text Notes 1650 1200 0    118  ~ 0
 B2B connector
 $Comp
-L antartix-arty-controller:GND #PWR?
+L scalenode-adapter:GND #PWR?
 U 1 1 609395C7
 P 1325 6050
 AR Path="/609395C7" Ref="#PWR?"  Part="1" 
@@ -3691,14 +3691,14 @@ $EndComp
 Text GLabel 1325 5750 1    50   Input ~ 0
 VCC5V0
 $Comp
-L antartix-arty-controller:C_100n_0402 C?
+L scalenode-adapter:C_100n_0402 C?
 U 1 1 609395D1
 P 1325 5900
 AR Path="/609395D1" Ref="C?"  Part="1" 
 AR Path="/60924187/609395D1" Ref="C2"  Part="1" 
 F 0 "C2" H 1440 5945 60  0000 L CNN
 F 1 "C_100n_0402" H 1325 5750 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-cap" H 1525 6100 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0402-cap" H 1525 6100 60  0001 L CNN
 F 3 "" H 1325 5900 50  0001 C CNN
 F 4 "Walsin" H 1525 6300 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 1525 6200 60  0001 L CNN "MPN"
@@ -3716,7 +3716,7 @@ Wire Wire Line
 Wire Wire Line
 	1875 5925 1725 5925
 $Comp
-L antartix-arty-controller:GND #PWR?
+L scalenode-adapter:GND #PWR?
 U 1 1 609395DC
 P 1725 6325
 AR Path="/609395DC" Ref="#PWR?"  Part="1" 
@@ -3749,7 +3749,7 @@ Wire Wire Line
 Wire Wire Line
 	2200 4025 2200 3900
 $Comp
-L antartix-arty-controller:GND #PWR?
+L scalenode-adapter:GND #PWR?
 U 1 1 609395F2
 P 2200 4025
 AR Path="/609395F2" Ref="#PWR?"  Part="1" 
@@ -3772,14 +3772,14 @@ RP_USB_N
 Text GLabel 1650 2375 0    50   Input ~ 0
 RP_USB_P
 $Comp
-L antartix-arty-controller:QTE-020-04-L-D-A J?
+L scalenode-adapter:QTE-020-04-L-D-A J?
 U 1 1 609395FF
 P 2050 1725
 AR Path="/609395FF" Ref="J?"  Part="1" 
 AR Path="/60924187/609395FF" Ref="J1"  Part="1" 
 F 0 "J1" H 2200 1900 50  0000 C CNN
 F 1 "QTE-020-04-L-D-A" H 2200 1809 50  0000 C CNN
-F 2 "antartix-arty-controller-footprints:QTE-020-04-L-D-A" H 2200 -625 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:QTE-020-04-L-D-A" H 2200 -625 60  0001 L CNN
 F 3 "" H 3050 975 60  0001 L CNN
 F 4 "QTE-020-04-L-D-A" H 1750 -775 60  0001 L CNN "MPN"
 F 5 "SAMTEC" H 2050 -475 60  0001 L CNN "Manufacturer"
@@ -3793,14 +3793,14 @@ USB2_EN
 Text GLabel 3200 2575 2    50   Input ~ 0
 USB3_EN
 $Comp
-L antartix-arty-controller:R_0R_0805 R?
+L scalenode-adapter:R_0R_0805 R?
 U 1 1 6093915F
 P 1275 3275
 AR Path="/6093915F" Ref="R?"  Part="1" 
 AR Path="/60924187/6093915F" Ref="R3"  Part="1" 
 F 0 "R3" H 1150 3375 60  0000 C CNN
 F 1 "R_0R_0805" H 1275 3125 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0805-res" H 1475 3475 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0805-res" H 1475 3475 60  0001 L CNN
 F 3 "" H 1275 3275 50  0001 C CNN
 F 4 "VISHAY" H 1475 3675 60  0001 L CNN "Manufacturer"
 F 5 "CRCW08050000Z0EA" H 1475 3575 60  0001 L CNN "MPN"
@@ -3820,14 +3820,14 @@ LED1
 Text Notes 1175 4300 0    50   ~ 0
 Pins LED0, LED1\ncan be used as \n#PWRDN, SLOW
 $Comp
-L antartix-arty-controller:R_0R01_1206 R?
+L scalenode-adapter:R_0R01_1206 R?
 U 1 1 60939484
 P 4075 10225
 AR Path="/60939484" Ref="R?"  Part="1" 
 AR Path="/60924187/60939484" Ref="R16"  Part="1" 
 F 0 "R16" H 4075 10012 60  0000 C CNN
 F 1 "R_0R01_1206" H 4075 10075 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:1206-res" H 4275 10425 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:1206-res" H 4275 10425 60  0001 L CNN
 F 3 "" H 4075 10225 50  0001 C CNN
 F 4 "PANASONIC" H 4275 10625 60  0001 L CNN "Manufacturer"
 F 5 "ERJMP2KF10MU" H 4275 10525 60  0001 L CNN "MPN"
@@ -3836,14 +3836,14 @@ F 6 "0R01" H 4075 10110 50  0000 C CNN "Val"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antartix-arty-controller:R_0R01_1206 R?
+L scalenode-adapter:R_0R01_1206 R?
 U 1 1 60939234
 P 4075 10850
 AR Path="/60939234" Ref="R?"  Part="1" 
 AR Path="/60924187/60939234" Ref="R22"  Part="1" 
 F 0 "R22" H 4075 10637 60  0000 C CNN
 F 1 "R_0R01_1206" H 4075 10700 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:1206-res" H 4275 11050 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:1206-res" H 4275 11050 60  0001 L CNN
 F 3 "" H 4075 10850 50  0001 C CNN
 F 4 "PANASONIC" H 4275 11250 60  0001 L CNN "Manufacturer"
 F 5 "ERJMP2KF10MU" H 4275 11150 60  0001 L CNN "MPN"
@@ -3914,14 +3914,14 @@ Wire Wire Line
 Wire Wire Line
 	4050 8825 4725 8825
 $Comp
-L antartix-arty-controller:R_47k_0402 R?
+L scalenode-adapter:R_47k_0402 R?
 U 1 1 60F36AEC
 P 7325 10400
 AR Path="/60F36AEC" Ref="R?"  Part="1" 
 AR Path="/60924187/60F36AEC" Ref="R50"  Part="1" 
 F 0 "R50" V 7375 10525 60  0000 L CNN
 F 1 "R_47k_0402" H 7325 10250 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-res" H 7525 10600 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0402-res" H 7525 10600 60  0001 L CNN
 F 3 "" H 7325 10400 50  0001 C CNN
 F 4 "MULTICOMP" H 7525 10800 60  0001 L CNN "Manufacturer"
 F 5 "MCMR04X4702FTL" H 7525 10700 60  0001 L CNN "MPN"
@@ -3936,14 +3936,14 @@ Wire Wire Line
 Wire Wire Line
 	8000 9975 8050 9975
 $Comp
-L antartix-arty-controller:R_47k_0402 R?
+L scalenode-adapter:R_47k_0402 R?
 U 1 1 610F9DE3
 P 7575 10400
 AR Path="/610F9DE3" Ref="R?"  Part="1" 
 AR Path="/60924187/610F9DE3" Ref="R51"  Part="1" 
 F 0 "R51" V 7625 10525 60  0000 L CNN
 F 1 "R_47k_0402" H 7575 10250 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-res" H 7775 10600 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0402-res" H 7775 10600 60  0001 L CNN
 F 3 "" H 7575 10400 50  0001 C CNN
 F 4 "MULTICOMP" H 7775 10800 60  0001 L CNN "Manufacturer"
 F 5 "MCMR04X4702FTL" H 7775 10700 60  0001 L CNN "MPN"
@@ -3952,7 +3952,7 @@ F 6 "47k" V 7550 10500 50  0000 L CNN "Val"
 	0    1    -1   0   
 $EndComp
 $Comp
-L antartix-arty-controller:GND #PWR?
+L scalenode-adapter:GND #PWR?
 U 1 1 6113774D
 P 7325 10900
 AR Path="/6113774D" Ref="#PWR?"  Part="1" 
@@ -3985,12 +3985,12 @@ Wire Wire Line
 Wire Wire Line
 	7575 10675 7575 10550
 $Comp
-L antartix-arty-controller:R_0R_0402 R53
+L scalenode-adapter:R_0R_0402 R53
 U 1 1 605F3D48
 P 7850 9975
 F 0 "R53" H 7750 9875 60  0000 C CNN
 F 1 "R_0R_0402" H 7850 9825 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-res" H 8050 10175 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0402-res" H 8050 10175 60  0001 L CNN
 F 3 "" H 7850 9975 50  0001 C CNN
 F 4 "PANASONIC" H 8050 10375 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 8050 10275 60  0001 L CNN "MPN"
@@ -4000,12 +4000,12 @@ F 7 "DNP" H 7850 9975 50  0000 C CNN "DNP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antartix-arty-controller:R_0R_0402 R52
+L scalenode-adapter:R_0R_0402 R52
 U 1 1 605F4EE6
 P 7850 9875
 F 0 "R52" H 7750 9975 60  0000 C CNN
 F 1 "R_0R_0402" H 7850 9725 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-res" H 8050 10075 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0402-res" H 8050 10075 60  0001 L CNN
 F 3 "" H 7850 9875 50  0001 C CNN
 F 4 "PANASONIC" H 8050 10275 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 8050 10175 60  0001 L CNN "MPN"
@@ -4015,7 +4015,7 @@ F 7 "DNP" H 7850 9875 50  0000 C CNN "DNP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antartix-arty-controller:GND #PWR?
+L scalenode-adapter:GND #PWR?
 U 1 1 6060A8DF
 P 7700 9100
 AR Path="/6060A8DF" Ref="#PWR?"  Part="1" 
@@ -4030,14 +4030,14 @@ $EndComp
 Text GLabel 7700 8800 1    50   Input ~ 0
 VCC5V0
 $Comp
-L antartix-arty-controller:C_100n_0402 C?
+L scalenode-adapter:C_100n_0402 C?
 U 1 1 6060A8E9
 P 7700 8950
 AR Path="/6060A8E9" Ref="C?"  Part="1" 
 AR Path="/60924187/6060A8E9" Ref="C58"  Part="1" 
 F 0 "C58" H 7815 8995 60  0000 L CNN
 F 1 "C_100n_0402" H 7700 8800 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-cap" H 7900 9150 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0402-cap" H 7900 9150 60  0001 L CNN
 F 3 "" H 7700 8950 50  0001 C CNN
 F 4 "Walsin" H 7900 9350 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 7900 9250 60  0001 L CNN "MPN"
@@ -4046,14 +4046,14 @@ F 6 "100n" H 7815 8897 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antartix-arty-controller:R_22R_0402 R?
+L scalenode-adapter:R_22R_0402 R?
 U 1 1 605E94E5
 P 12700 7350
 AR Path="/604C47E1/605E94E5" Ref="R?"  Part="1" 
 AR Path="/60924187/605E94E5" Ref="R56"  Part="1" 
 F 0 "R56" H 12875 7400 60  0000 C CNN
 F 1 "R_22R_0402" H 12700 7200 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-res" H 12900 7550 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0402-res" H 12900 7550 60  0001 L CNN
 F 3 "" H 12700 7350 50  0001 C CNN
 F 4 "VISHAY" H 12900 7750 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040222R0FKED" H 12900 7650 60  0001 L CNN "MPN"
@@ -4064,14 +4064,14 @@ $EndComp
 Wire Wire Line
 	12850 7450 12900 7450
 $Comp
-L antartix-arty-controller:R_22R_0402 R?
+L scalenode-adapter:R_22R_0402 R?
 U 1 1 605E94EE
 P 12700 7450
 AR Path="/604C47E1/605E94EE" Ref="R?"  Part="1" 
 AR Path="/60924187/605E94EE" Ref="R57"  Part="1" 
 F 0 "R57" H 12875 7500 60  0000 C CNN
 F 1 "R_22R_0402" H 12700 7300 60  0001 C CNN
-F 2 "antartix-arty-controller-footprints:0402-res" H 12900 7650 60  0001 L CNN
+F 2 "scalenode-adapter-footprints:0402-res" H 12900 7650 60  0001 L CNN
 F 3 "" H 12700 7450 50  0001 C CNN
 F 4 "VISHAY" H 12900 7850 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040222R0FKED" H 12900 7750 60  0001 L CNN "MPN"
@@ -4091,12 +4091,12 @@ Wire Wire Line
 Wire Wire Line
 	12550 7450 12025 7450
 $Comp
-L antartix-arty-controller:8-188275-2 J20
+L scalenode-adapter:8-188275-2 J20
 U 1 1 6058E829
 P 15475 7850
 F 0 "J20" H 15675 6575 60  0000 L CNN
 F 1 "8-188275-2" H 15375 6475 60  0000 L CNN
-F 2 "antartix-arty-controller-footprints:8-188275-2" H 15875 7190 60  0001 C CNN
+F 2 "scalenode-adapter-footprints:8-188275-2" H 15875 7190 60  0001 C CNN
 F 3 "" H 15475 7850 60  0000 C CNN
 F 4 "8-188275-2" H 15850 8075 50  0001 C CNN "MPN"
 F 5 "TE Connectivity" H 15825 8000 50  0001 C CNN "Manufacturer"
@@ -4129,7 +4129,7 @@ Connection ~ 15375 8750
 Wire Wire Line
 	15375 8750 15375 9500
 $Comp
-L antartix-arty-controller:GND #PWR?
+L scalenode-adapter:GND #PWR?
 U 1 1 6084ADBB
 P 15375 9500
 AR Path="/6084ADBB" Ref="#PWR?"  Part="1" 
@@ -4146,14 +4146,14 @@ Wire Wire Line
 Text Notes 15950 8575 1    50   ~ 0
 PMOD GPIO
 $Comp
-L antartix-arty-controller:PCT2075GVX U?
+L scalenode-adapter:PCT2075GVX U?
 U 1 1 609395EB
 P 2225 6025
 AR Path="/609395EB" Ref="U?"  Part="1" 
 AR Path="/60924187/609395EB" Ref="U1"  Part="1" 
 F 0 "U1" H 2200 6350 50  0000 C CNN
 F 1 "PCT2075GVX" H 2200 6259 50  0000 C CNN
-F 2 "antartix-arty-controller-footprints:SOT95P275X110-6N" H 1925 6325 50  0001 C CNN
+F 2 "scalenode-adapter-footprints:SOT95P275X110-6N" H 1925 6325 50  0001 C CNN
 F 3 "" H 1925 6325 50  0001 C CNN
 F 4 "PCT2075GVX" H 2225 6025 50  0001 C CNN "MPN"
 F 5 "NXP" H 2225 6025 50  0001 C CNN "Manufacturer"
@@ -4161,7 +4161,7 @@ F 5 "NXP" H 2225 6025 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antartix-arty-controller:614004185023 J?
+L scalenode-adapter:614004185023 J?
 U 1 1 609390AE
 P 11825 1925
 AR Path="/609390AE" Ref="J?"  Part="1" 
@@ -4176,7 +4176,7 @@ F 5 "WURTH ELEKTRONIK" H 11825 1925 50  0001 C CNN "Manufacturer"
 	-1   0    0    1   
 $EndComp
 $Comp
-L antartix-arty-controller:614004185023 J?
+L scalenode-adapter:614004185023 J?
 U 1 1 609390E8
 P 13325 1950
 AR Path="/609390E8" Ref="J?"  Part="1" 
@@ -4191,7 +4191,7 @@ F 5 "WURTH ELEKTRONIK" H 13325 1950 50  0001 C CNN "Manufacturer"
 	-1   0    0    1   
 $EndComp
 $Comp
-L antartix-arty-controller:614004185023 J?
+L scalenode-adapter:614004185023 J?
 U 1 1 609391B6
 P 14775 1950
 AR Path="/609391B6" Ref="J?"  Part="1" 
@@ -4206,14 +4206,14 @@ F 5 "WURTH ELEKTRONIK" H 14775 1950 50  0001 C CNN "Manufacturer"
 	-1   0    0    1   
 $EndComp
 $Comp
-L antartix-arty-controller:FT2232D IC?
+L scalenode-adapter:FT2232D IC?
 U 1 1 60939468
 P 13925 8150
 AR Path="/60939468" Ref="IC?"  Part="1" 
 AR Path="/60924187/60939468" Ref="IC1"  Part="1" 
 F 0 "IC1" H 13950 10225 60  0000 C CNN
 F 1 "FT2232D" H 13975 10125 60  0000 C CNN
-F 2 "antartix-arty-controller-footprints:LQFP-48_7x7mm" H 13975 10133 60  0001 C CNN
+F 2 "scalenode-adapter-footprints:LQFP-48_7x7mm" H 13975 10133 60  0001 C CNN
 F 3 "" H 13925 8150 60  0001 C CNN
 F 4 "FT2232D-REEL" H 13925 8150 50  0001 C CNN "MPN"
 F 5 "FTDI" H 13925 8150 50  0001 C CNN "Manufacturer"
