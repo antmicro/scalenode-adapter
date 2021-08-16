@@ -4,23 +4,23 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 3
-Title ""
-Date ""
+Title "Scalenode Adapter"
+Date "2021-08-16"
 Rev "1.2.0"
 Comp ""
-Comment1 ""
-Comment2 ""
+Comment1 "www.antmicro.com"
+Comment2 "Antmicro Ltd."
 Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 5450 6750 1150 800 
+S 6250 6700 1150 800 
 U 604C47E1
 F0 "HDMI Adapter" 50
 F1 "hdmi-adapter.sch" 50
 $EndSheet
 $Sheet
-S 8950 6700 1375 950 
+S 8950 6700 1150 800 
 U 60924187
 F0 "USB Adapter" 50
 F1 "usb-adapter.sch" 50

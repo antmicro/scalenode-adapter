@@ -4,12 +4,12 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 3 3
-Title ""
-Date ""
+Title "Scalenode Adapter"
+Date "2021-08-16"
 Rev "1.2.0"
 Comp ""
-Comment1 ""
-Comment2 ""
+Comment1 "www.antmicro.com"
+Comment2 "Antmicro Ltd."
 Comment3 ""
 Comment4 ""
 $EndDescr
