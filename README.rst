@@ -9,9 +9,9 @@ Copyright (c) 2021 `Antmicro <https://www.antmicro.com>`_
 Overview
 --------
 
-This repository contains design files of the expansion card for the Antmicro Scalenode platform.
+This repository contains design files of the expansion card for the Antmicro's `Scalenode <https://github.com/antmicro/scalenode>`_ platform.
 This expansion card exposes three USB host ports with independent supply current monitoring for each port.
-This allows for using the Scalenode to interact with external, FPGA-driven evaluation boards such as the Digilent Arty boards.
+This allows for using the Scalenode to interact with external, FPGA-driven evaluation boards such as the Digilent `Arty A7 <https://reference.digilentinc.com/programmable-logic/arty/start>`_ boards.
 The design files were prepared in KiCad.
 An initial production release for the design was fabricated as prototypes and these are now being tested.
 
