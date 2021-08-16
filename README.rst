@@ -1,19 +1,34 @@
 =================
-Scalenode adapter
+Scalenode Adapter
 =================
 
 Copyright (c) 2021 `Antmicro <https://www.antmicro.com>`_
 
+.. figure:: img/scalenode-adapter.png
+
 Overview
-========
+--------
 
-This repository contains the PCB design files for an adapter board allowing to connect Digilent Arty Evaluation boards to the `Scalenode <https://github.com/antmicro/scalenode>`_ units.
+This repository contains design files of the expansion card for the Antmicro Scalenode platform.
+This expansion card exposes three USB host ports with independent supply current monitoring for each port.
+This allows for using the Scalenode to interact with external, FPGA-driven evaluation boards such as the Digilent Arty boards.
+The design files were prepared in KiCad.
+An initial production release for the design was fabricated as prototypes and these are now being tested.
 
-Design status
-=============
+Repository structure
+--------------------
+The main repository directory contains KiCad PCB project files, a LICENSE and README.
+The remaining files are stored in the following directories:
 
-The PCB design files were prepared in KiCad.
-Prototypes of revision 1.2.0 are now being manufactured.
+* ``lib`` - contains the component libraries
+* ``img`` - contains graphics for this README
+
+Key Features
+------------
+
+* Expansion board for the Scalenode module
+* Supports up to three Digilet Arty boards
+* On-board current measurement circuitry
 
 License
 =======
